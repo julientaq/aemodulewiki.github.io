@@ -1,0 +1,57 @@
+{% extends "base.njk" %}
+{% block content %}
+    <main>
+        <header>
+            <ul class="tags-list">
+                {% for tag in tags  %}
+                    <li>
+                        <a href="/tags/{{ tag }}">{{ tag }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <h1>{{ title }}</h1>
+            <p class="subtitle">{{ subtitle }}</p>
+        </header>
+        <section class="catalog-index">
+            {% include "./modules/itemlist-link.njk" %}
+        </section>
+        <section class="metadata">
+            {{ content | safe }}
+        </section>
+        <section class="in">
+            <h3>inputs</h3>
+            <ul>
+                {% for input in inputs  %}
+                    <li>
+                        <span class="input-name">{{ input.name }}</span>
+                        <span class="input-description">{{ input.description }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section class="out">
+            <h3>outputs</h3>
+            <ul class="output">
+                {% for output in outputs  %}
+                    <li>
+                        <span class="output-name">{{ output.name }}</span>
+                        <span class="output-description">{{ output.description }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section class="controls">
+            <h3>Controls</h3>
+            <ul class="controls">
+                {% for control in controls %}
+                    <li>
+                        <span class="control-name">{{ control.name }}</span>
+                        <span class="control-type">{{ control.type }}</span>
+                        <span class="control-description">{{ control.description }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+    <p>the list for the catalog</p>
+{% endblock content %}

@@ -1,0 +1,7 @@
+<a href="/" class="logo">
+    {% if site.sitelogo %}
+    <img src="/images/{{ site.sitelogo }}" alt="Logo for {{site.title}}">
+    {% else %}
+        <h1>{{ site.title }}</h1>
+    {% endif %}
+</a>

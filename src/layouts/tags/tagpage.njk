@@ -1,0 +1,21 @@
+{% extends "base.njk" %}
+{% block content %}
+    <main>
+        <h1>{{ tag }}</h1>
+        <p class="subtitle">
+            Content tagged <strong class="tagitem">{{ tag }}</strong>
+        </p>
+        <ul class="tag-list">
+            {% set taglist = collections[ tag ] %}
+            {% for item in taglist | reverse %}
+                <li>
+                    <h3>
+                        <a href="{{ item.url }}">{{ item.data.title }}</a>
+                    </h3>
+                    {% if item.data.introduction %}{{ item.data.introduction | markdownify | safe }}{% endif %}
+                    <a href="{{ item.url }}">see more</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+{% endblock content %}

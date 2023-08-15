@@ -1,0 +1,6 @@
+{# the basic footer, includes the copyright, and the date
+you can have custom copyright by using the site.copyright in the site.yaml 
+#}
+<footer>
+  <p>{{site.copyright | markdownifyInline | safe}}  — {% getYear site.date %}-{% getYear %} </p>
+</footer>

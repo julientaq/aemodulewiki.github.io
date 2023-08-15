@@ -1,0 +1,8 @@
+title: "AE Modular Knowledge base"
+sitecover: ""
+sitelogo: ""
+theme: "aemod" #the theme chosen for the site 
+lang: "en" #the language for the site. Each page can override this setting
+date: "12-02-2023" #the date the site was started
+copyright: "[Creative Common | CC-by-SA](https://creativecommons.org/licenses/by/4.0/)" #the copyright added in the footer
+

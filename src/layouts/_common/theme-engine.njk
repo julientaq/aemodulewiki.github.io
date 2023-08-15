@@ -1,0 +1,15 @@
+{# this snippet will check if the page contains a theme meta data, #}
+{# if not, it will check if the theme includes a theme meta #}
+{# otherwise, it will render it blank #}
+
+{% block styles %}
+    {% if theme %}
+        {# if the page has a theme meta data #}
+        <link rel="stylesheet"
+              href="/css/{{ theme }}/main.css?v={{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}">
+    {% else %}
+        {# otherwise, use the theme from the site itself #}
+        <link rel="stylesheet"
+              href="/css/{{ site.theme }}/main.css?v={{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}{{ [1,2,3,4,5,6,7,8,9] | random }}">
+    {% endif %}
+{% endblock %}

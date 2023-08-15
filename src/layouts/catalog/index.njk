@@ -1,0 +1,14 @@
+{% extends "base.njk" %}
+{% block content %}
+    <main>
+        <header>
+            <h1>{{ title }}</h1>
+            <p class="subtitle">{{ subtitle }}</p>
+        </header>
+        <p>your now checking the {{ catalog }} catalog</p>
+        {{ content | safe }}
+        <section class="catalog-index">
+            {% include "./modules/itemlist.njk" %}
+        </section>
+    </main>
+{% endblock content %}

@@ -1,0 +1,9 @@
+<ul class="catalog-entries-toc">
+    {% for item in collections[catalog] | orderBy("data.title", "asc") %}
+        {% if catalog == item.data.catalog and item.data.type == "entry" %}
+            <li class="{{ item.data.type }}">
+                <a href="{{ item.url }}">{{ item.data.title }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

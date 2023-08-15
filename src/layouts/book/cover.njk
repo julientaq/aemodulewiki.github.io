@@ -1,0 +1,18 @@
+{% extends "base.njk" %}
+
+{% block bodyclass %}book-index{% endblock %}
+
+
+{% block content %}
+    <main>
+        <header>
+            <h1>{{ title }}</h1>
+            {% if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
+        </header>
+        <article>{{ content | markdownify | safe }}</article>
+        <section class="toc">
+            <h2>Table of contents</h2>
+            {% include "./modules/book-toc.njk" %}
+        </section>
+    </main>
+{% endblock content %}

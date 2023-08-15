@@ -1,0 +1,27 @@
+{% extends "base.njk" %}
+{% block content %}
+    <main>
+        <div class="intro">
+            <h1 class="booktitle">{{ title }}</h1>
+            <section class="intro">
+                {{ content | safe }}
+            </section>
+        </div>
+        <article>
+            {% for item in collections[book] %}
+                {% if book == item.data.book and item.data.chapternumber != 0 %}
+                    <section class="{{ item.data.type }}">
+                        <header>
+                            <h1>
+                                <span class="number">{{ item.data.chapternumber }}.</span>
+                                <span class="title">{{ item.data.title }}</span>
+                                <span class="subtitles">{{ item.data.subtitle }}</span>
+                            </h1>
+                        </header>
+                        {{ item.templateContent | safe }}
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </article>
+    </main>
+{% endblock %}

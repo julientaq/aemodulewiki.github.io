@@ -1,0 +1,26 @@
+{# the topbar #}
+<aside class="topbar">
+    {% include "./modules/logo.njk" %}
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            {% for item in collections.menuitems  %}
+                <li>
+                    <a href="{{ item.url }}">
+                        {% if item.data.menutitle %}
+                            {{ item.data.menutitle }}
+                        {% else %}
+                            {{ item.data.title }}
+                        {% endif %}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>

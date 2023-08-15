@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+    <head>
+        <title>{{ site.title }}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {#  the themes #}
+        {% include "_common/theme-engine.njk" %}
+        {% block headscripts %}
+        {% endblock headscripts %}
+    </head>
+    <body class="{{ classes }}{% block bodyclass %}{% endblock bodyclass %}">
+        {% block topbar %}
+            
+        {% include "./_common/topbar/topbar.njk" %}
+        {% endblock topbar %}
+        {% block content %}
+            <main>
+                <header>
+                    <h1>{{ title }}</h1>
+                    {% if intro %}<p class="intro">{{ intro }}</p>{% endif %}
+                </header>
+                <article>{{ content | safe }}</article>
+            </main>
+        {% endblock content %}
+
+        {% block supContent %}
+            {# nothing, but you can add yours #}
+        {% endblock supContent %}
+        {% block scripts %}
+            {# nothing, but you can add yours #}
+            {# add some scripts there #}
+        {% endblock scripts %}
+        {% block footer %}
+            {% include "_common/footer.njk" %}
+        {% endblock footer %}
+    </body>
+</html>

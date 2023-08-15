@@ -1,0 +1,66 @@
+{% extends "base.njk" %}
+{% block class %}
+    search
+{% endblock class %}
+{% block content %}
+    <main>
+        <h1>
+            <small>{{ title }}</small> {{ booktitle }}
+        </h1>
+        <article class="field">
+            {# <label for="searchField">Search</label> #}
+            <input type="search"
+                   placeholder="Something i look for  ..."
+                   id="searchField" />
+        </article>
+        <ul id="searchResults">
+        </ul>
+        <div id="noResultsFound" style="display: none">
+            <p>No results found.</p>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+    <script>
+
+(function (window, document) {
+  "use strict";
+
+  const search = (e) => {
+    const results = window.searchIndex.search(e.target.value, {
+      bool: "OR",
+      expand: true,
+    });
+
+    const resEl = document.getElementById("searchResults");
+    const noResultsEl = document.getElementById("noResultsFound");
+
+    resEl.innerHTML = "";
+    if (results) {
+      noResultsEl.style.display = "none";
+      results.map((r) => {
+        const { id, title, chapnum} = r.doc;
+        const el = document.createElement("li");
+        resEl.appendChild(el);
+
+        const h3 = document.createElement("h3");
+        el.appendChild(h3);
+
+        const a = document.createElement("a");
+        a.setAttribute("href", id);
+        a.innerHTML = `<span class="chapnum">chapter ${chapnum}.</span> ${title}`;
+        h3.appendChild(a);
+      });
+    } else {
+      noResultsEl.style.display = "block";
+    }
+  };
+
+  fetch("/search-{{book}}.json").then((response) =>
+    response.json().then((rawIndex) => {
+      window.searchIndex = elasticlunr.Index.load(rawIndex);
+      document.getElementById("searchField").addEventListener("input", search);
+    })
+  );
+})(window, document);
+    </script>
+{% endblock %}

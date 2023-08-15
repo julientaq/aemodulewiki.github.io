@@ -1,0 +1,16 @@
+{# previous and next stuff #}
+{# get the previous and next from the collections #}
+{% set previousItem = collections[book] | getPreviousCollectionItem %}
+{% set nextItem = collections[book] | getNextCollectionItem %}
+{% if previousItem and previousItem.data.chapternumber != 0 %}
+    <span class="previous">
+        <span class="arrow">←</span>
+        <a href="{{ previousItem.url }}"><span class="number">{{ previousItem.data.chapternumber }}.</span>{{ previousItem.data.title }}</a>
+    </span>
+{% endif %}
+{% if nextItem and nextItem.data.chapternumber != 0 %}
+    <span class="next">
+        <a href="{{ nextItem.url }}"><span class="number">{{ nextItem.data.chapternumber }}.</span>{{ nextItem.data.title }}</a>
+        <span class="arrow">→</span>
+    </span>
+{% endif %}

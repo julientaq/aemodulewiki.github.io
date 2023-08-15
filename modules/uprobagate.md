@@ -7,7 +7,7 @@ imglink: uPROBAGATE.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p181/uPROBAGATE.html)
+
 
 This 1/3 height micro module routes an incoming gate signal to one of 3 outputs based on chance via a probability function. This is very similar to the Bernoulli Gate from Mutable Instruments.
 
@@ -35,8 +35,7 @@ This module is perfect for generative patches where events are driven by chance.
 
 The gate can also be used as a clock for 3 different sequencers which move forward based on the probability function and create not completely random melodies, but at least random sequences in which the programmed melody is played.
 
-[![](/images/th00---uPROBAGATE.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/UPROBAGATE/uPROBAGATE.png "uPROBAGATE")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

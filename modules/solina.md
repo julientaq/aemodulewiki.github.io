@@ -7,13 +7,13 @@ imglink: SOLINA.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p88/SOLINA.html)
+
 
 The SOLINA String Machine is a digital string synthesizer module for lush pad sounds, based on Jan Ostman's DSP code. It features extensive chord generation options and offers various adjustable sound shaping parameters, like oscillator detuning and vibrato.
 
 Module power consumption: 11 mA
 
-[![](/images/th00---SOLINA.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/SOLINA/SOLINA.png "SOLINA")
+
 
 ### Inputs
 
@@ -68,6 +68,5 @@ An excellent video guide to the Solina by The Tuesday Night Machines: [https://y
 
 Superbooth 2019 prototype sound demo video by The Tuesday Night Machines: [https://youtu.be/OGV4r7Wq6B8](https://youtu.be/OGV4r7Wq6B8)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

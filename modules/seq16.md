@@ -7,13 +7,13 @@ imglink: seq16.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p41/SEQ16.html)
+
 
 There is a user guide for this module on the Tangible Waves shop SEQ16 page which contains some of the information as found here. This is a complex module; if an explanation here isn't working for you, it is worth giving it a try.
 
 A 16 step sequence suits many styles of music, and is needed for "Berlin School " EM. If you only need 8 steps usually, you can consider the SEQ16's little brother, the SEQ8. There are slight differences too, in general the SEQ16 has more possibilities. There could be reasons to have both in a larger AE system!
 
-[![](/images/th00---seq16.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/SEQ16/seq16.png "seq16")
+
 
 You can download a printable manual for offline reading: [seq16\_manual.pdf](https://wiki.aemodular.com/uploads/AeManual/SEQ16/seq16_manual.pdf)
 
@@ -88,6 +88,5 @@ For the more experimental among you, using a [LOGIC](https://wiki.aemodular.com/
 
 Here is a tutorial video made by The 5th Volt: [https://youtu.be/xK-1NDD-RyQ](https://youtu.be/xK-1NDD-RyQ)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

@@ -7,7 +7,7 @@ imglink: QUANTIZER.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p99/QUANTIZER.html)
+
 
 The QUANTIZER takes four different CV inputs and processes them in a way that the CV values "snap" to the exact values so that oscillators controlled by the outputs of the module play the notes of a selected musical scale. With an encoder one of 16 scales can be selected and is displayed in a text display,
 
@@ -82,8 +82,7 @@ Using the QUANTIZER as a rhythm generator:
 
 [https://www.youtube.com/watch?v=PI7t-gcR15w](https://www.youtube.com/watch?v=PI7t-gcR15w)
 
-[![](/images/th00---QUANTIZER.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/QUANTIZER/QUANTIZER.png "QUANTIZER")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

@@ -49,6 +49,5 @@ Switches -
 *   You can make a live/controlled stereo panner in conjunction with the [Mixconsole](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE) module by panning 2 channels hard left and right ands then controlling their levels with the 2Auto. There are several options here, using section A on one channels and section B on the other is the easiest, but you could use the [2CVTool](https://wiki.aemodular.com/pmwiki.php/AeManual/2CVTOOL) for instance to provide the "reverse" signal to supply the other channel from one section's output.
 *   It can be a fun sequencer in one shot or loop mode, put the output through the [Quantizer](https://wiki.aemodular.com/pmwiki.php/AeManual/QUANTIZER) module to be tuneful (if you want to be!).
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

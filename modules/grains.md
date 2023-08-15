@@ -7,7 +7,7 @@ imglink: GRAINS_V2.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p86/GRAINS.html)
+
 
 GRAINS is a programmable multipurpose module that has first been developed by [Ginkosynthese](https://www.ginkosynthese.com/) for Eurorack. The AE Modular version is 100% compatible with the source code for the original, but there are a few added features. It is based on the Atmega 328 micro controller, well known as the core of the Arduino Uno, Nano and other boards, and can act as a granular sound player as well as different other functions depending on the firmware. It can be programmed directly by the Arduino IDE via the integrated USB socket on the front side of the module via the included USB cable.
 
@@ -132,8 +132,7 @@ Another cool firmware is the Poly Ramp drone oscillator which you can find here:
 
 [https://github.com/wonkystuff/grains\_polyramp](https://github.com/wonkystuff/grains_polyramp)
 
-[![](/images/th00---GRAINS_V2.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/GRAINS/GRAINS_V2.png "GRAINS V2")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

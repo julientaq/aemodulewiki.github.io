@@ -7,7 +7,7 @@ imglink: filterwasp.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p9/FILTER_%28wasp_type%29.html)
+
 
 This filter module is a variant of the Wasp filter, a quite strange circuit used first in the EDP Wasp synth end of the seventies, which abuses digital chips in an analog way leading to the characteristic sound of this filter type. In this module, vactrols are used for controlling the filter frequency.​
 
@@ -54,8 +54,7 @@ This video below shows a comparison between the AE Modular WASP filter and the o
 
 AE Modular filter comparison: [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 
-[![](/images/th00---filterwasp.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/FILTERWASP/filterwasp.png "filterwasp")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

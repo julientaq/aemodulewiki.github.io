@@ -7,7 +7,7 @@ imglink: 2LFO.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p89/2LFO.html)
+
 
 The 2LFO module has two LFO units with different features and generates modulation voltages mostly below the audio range.
 
@@ -56,8 +56,3 @@ When cranked up to audio range (RANGE knob all the way to the right in FAST mode
 
 This module is very similar to the [single LFO module.](https://wiki.aemodular.com/pmwiki.php/AeManual/LFO) Please see a video for further info about LFOs on that page.
 
-[![](/images/th00---2LFO.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/2LFO/2LFO.png "2LFO")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

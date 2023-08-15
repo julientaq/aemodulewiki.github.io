@@ -7,7 +7,7 @@ imglink: FMOS.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p97/FMOS.html)
+
 
 The FMOS brings FM synthesis to the AE modular. It offers the basic FM synthesis with one oscillator and one modulator, which can be either sine wave or triangle wave independently. The modulation depth and frequency ratio of the modulator can be set with a knob and additionally by CV control. It can also produce a sine wave if needed.
 
@@ -52,8 +52,7 @@ Here is a video by The 5th Volt which features this module.
 
 [https://youtu.be/J5syne2sP6I](https://youtu.be/J5syne2sP6I)
 
-[![](/images/th00---FMOS.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/FMOS/FMOS.png "FMOS")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

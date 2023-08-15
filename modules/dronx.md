@@ -7,7 +7,7 @@ imglink: DRONX.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p120/DRONX.html)
+
 
 This is a 6 channel mixer, with tone controls and built in delay FX. It is optimised for use with the [Drone38 module](https://wiki.aemodular.com/pmwiki.php/AeManual/DRONE38) but is useful for larger AE systems regardless.
 
@@ -15,7 +15,7 @@ Another possible mixer is the [Mixconsole](https://wiki.aemodular.com/pmwiki.php
 
 Module power consumption: 42 mA
 
-[![](/images/th00---DRONX.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/DRONX/DRONX.png "DRONX")
+
 
 ### Inputs
 
@@ -68,6 +68,5 @@ It is useful to combine external sources (via [4I/O module](https://wiki.aemodul
 
 Here is a video made by The 5th Volt about the DRONE38 and DRONX modules: [https://youtu.be/bkpZkUtRAy4](https://youtu.be/bkpZkUtRAy4)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

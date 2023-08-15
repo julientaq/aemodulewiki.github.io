@@ -13,7 +13,7 @@ Please note that this module must have a separate 9V power supply to the rest of
 
 A brilliant module for people who use their AE live.
 
-[![](/images/th00---TUBE-VU.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/TUBEVU/TUBE-VU.png "TUBE-VU")
+
 
 ### Input
 
@@ -48,6 +48,5 @@ The brighter the tube the louder the signal...
 
 The main reason for 2 circuits in this module is so you can do stereo, but it can be really good to have 2 different sounds so the Tubes vary individually.
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

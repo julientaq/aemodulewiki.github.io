@@ -7,7 +7,7 @@ imglink: noise.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p7/NOISE.html)
+
 
 The NOISE module generates ... yes ... noise!
 
@@ -42,8 +42,7 @@ When used as audio, CR OUT gives a nice vinyl-like crackle sound.
 
 If used through an attenuator (e.g. [2ATTCV](https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV)) it can be nice as a random modulation source on things like filter cut off.
 
-[![](/images/th00---noise.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/NOISE/noise.png "noise")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

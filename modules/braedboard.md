@@ -7,13 +7,13 @@ imglink: BRAEDBOARD.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p92/BRAEDBOARD.html)
+
 
 The BRAEDBOARD module contains a breadboard area for solderless electronics prototyping so you can experiment with any kind of analog or digital electronics and make your first steps into electronics, starting with simple circuits for beginners to developing your own module.
 
 It is supplied complete with some electronic components to get you started, these are listed on the Tangible Waves product page.
 
-[![](/images/th00---BRAEDBOARD.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/BRAEDBOARD/BRAEDBOARD.png "BRAEDBOARD")
+
 
 ### Inputs
 
@@ -57,6 +57,5 @@ There are no controls per default on this module, but it comes with a pre-solder
 
 Please see a (growing) number of projects in the [DIY section of the Wiki](https://wiki.aemodular.com/pmwiki.php/AeDiy/EasyProjectsForTheBRAEDBOARDModule).
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

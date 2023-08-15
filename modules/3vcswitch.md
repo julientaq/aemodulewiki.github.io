@@ -7,7 +7,7 @@ imglink: 3vcswitch.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p42/3VCSWITCH.html)
+
 
 This module gives you 3 separate switches, controllable from the buttons on the front panel or via the gate inputs. Each circuit can be used bidirectionally; i.e a signal can be sent to one of two destinations or one of two signals can be selected to go to the output.
 
@@ -58,8 +58,3 @@ This video is for a Eurorack module similar to the 3VCSWITCH, and so gives some 
 
 [https://www.youtube.com/watch?v=bfir-EnTCaw](https://www.youtube.com/watch?v=bfir-EnTCaw)
 
-[![](/images/th00---3vcswitch.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/3VCSWITCH/3vcswitch.png "3vcswitch")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). You can find the status of each page on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

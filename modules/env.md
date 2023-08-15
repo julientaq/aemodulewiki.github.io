@@ -7,7 +7,7 @@ imglink: env.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p10/ENV.html)
+
 
 This module is discontinued, replaced by the 2ENV module.
 
@@ -46,8 +46,7 @@ The main reason to replace this module with a 2ENV would be space; you get 2 sep
 
 This video by Synths & Things explains the ins and outs of this module really well: [https://youtu.be/CfxyHNwQUkc](https://youtu.be/CfxyHNwQUkc)
 
-[![](/images/th00---env.png.jpg)](http://wiki.aemodular.com/uploads/AeManual/ENV/env.png "env")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

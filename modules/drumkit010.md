@@ -7,7 +7,7 @@ imglink: drumkit010.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p75/DRUMKIT_010.html)
+
 
 The DRUMKIT 010 consists of 11 8-bit drum sound samples; 6 of them can be triggered in parallel in any combination by the trigger inputs.Don't expect high quality from this module - it's by design a nasty, lo-fi drum sound source, but definitely with its own character. Works great together with the [analog KICK module](https://wiki.aemodular.com/pmwiki.php/AeManual/KICK).
 
@@ -46,8 +46,7 @@ One of the great things you can do within modular is combine sounds; this module
 
 The drum sounds from this module can, of course, be processed by the rest of your AE system; [Lo-fi delay](https://wiki.aemodular.com/pmwiki.php/AeManual/DELAY), Filters and [Kurt's Deadband](https://wiki.aemodular.com/pmwiki.php/AeManual/KeuerslagerkurtDeadBand) are highly recommended.
 
-[![](/images/th00---drumkit010.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/DRUMKIT010/drumkit010.png "drumkit010")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

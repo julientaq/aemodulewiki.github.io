@@ -7,7 +7,7 @@ imglink: POLAMIX.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p94/POLAMIX.html)
+
 
 The POLAMIX is similar to the [2CVTOOL](https://wiki.aemodular.com/pmwiki.php/AeManual/2CVTOOL) in that you can offset, attenuate and invert signals, but it also acts as a 3 channel mixer. Try to use this with 3 LFOs for modulation mayhem!
 
@@ -43,8 +43,7 @@ Overview video by The Tuesday Night Machines:
 
 [https://youtu.be/otmA2-36ZSw](https://youtu.be/otmA2-36ZSw)
 
-[![](/images/th00---POLAMIX.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/POLAMIX/POLAMIX.png "POLAMIX")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

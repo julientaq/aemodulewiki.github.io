@@ -7,7 +7,7 @@ imglink: lopag.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p62/LOPAG_%28lowpass_gate%29.html)
+
 
 This is a fairly subtle module filter wise, and certainly shouldn't be a first filter purchase as there is no direct control of the filter itself other than on/off.
 
@@ -52,8 +52,7 @@ This module does not have CV control of resonance, but it can be created by putt
 
 AE Modular filter comparison: [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 
-[![](/images/th00---lopag.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/LOPAG/lopag.png "lopag")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

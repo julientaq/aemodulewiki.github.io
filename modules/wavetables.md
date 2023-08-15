@@ -7,13 +7,13 @@ imglink: wavetables.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p105/WAVETABLES.html)
+
 
 The WAVETABLES module is a sound module based on the wavetable technology first heard on the PPG range of synthesisers. It has been developed in close collaboration with Paula Maddox from [DOVE Audio](http://dove-audio.com/) who is also the designer of such classic synths as the Modal 002, Modal 001 and Modal 008 from Modal Electronics.
 
 There are 7 different tables each with their own unique sound, from very gentle, though vocal sounds, into rich bell like tones to harsh digital tones. Each table has a number of waveforms that can be morphed into each other as you scan through them with either a potentiometer or CV control.
 
-[![](/images/th00---wavetables.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/WAVETABLES/wavetables.png "wavetables")
+
 
 Module power consumption: 40 mA
 
@@ -56,6 +56,5 @@ Thanks to Felix from The Tuesday Night Machines for this excellent demo video:
 
 [https://www.youtube.com/watch?v=XcHaxjhjuIY](https://www.youtube.com/watch?v=XcHaxjhjuIY)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

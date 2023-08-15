@@ -4,16 +4,15 @@ id: 4vca
 title: "4VCA"
 link: "https://www.tangiblewaves.com/store/p136/4VCA.html"
 imglink: 4VCA.png
+powerconsumption: 8 mA
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p136/4VCA.html)
 
 The 4VCA has four separate Amplifier circuits within; all switchable DC/CV and audio, and a mix output. It is therefore also a **4-channel CV controllable mixer** for audio or CV signals.
 
 There is also a 2VCA module available, but this does not have the mix output..
 
-Module power consumption: 8 mA
 
 ### Inputs
 
@@ -37,8 +36,3 @@ This module is really handy for combining CVs to go to a module with one CV inpu
 
 This module is also useful to have CV control over another CV, e.g. if you want to fade in an LFO providing vibrato to an oscillator using an envelope. This in combination with the previous patch suggestion is a really powerful modulation patching ability for the AE system.
 
-[![](/images/th00---4VCA.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/4VCA/4VCA.png "4VCA")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

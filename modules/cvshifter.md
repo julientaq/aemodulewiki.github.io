@@ -7,7 +7,7 @@ imglink: CVSHIFTER.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p148/CVSHIFTER.html)
+
 
 The CVSHIFTER module controls 4 outputs from one CV input; what the outputs do depend on the mode the user chooses.
 
@@ -51,8 +51,7 @@ Compared to the "classic" circuits, this module is digital based and therefore d
 
 This module can be excellent for producing CVs that are used to modulate a sequence; you can run the triggers so that they are triggered every step of the sequence (e.g. using the out on the [SEQ8](https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ8)), a specific step using the numbered outs or, where it can get really interesting, is using one of the 4 sequences in the [TRIQ164](https://wiki.aemodular.com/pmwiki.php/AeManual/TRIQ164) or [Euclid Grid](https://wiki.aemodular.com/pmwiki.php/AeManual/KyaaEuclid)....
 
-[![](/images/th00---CVSHIFTER.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/CVSHIFTER/CVSHIFTER.png "CVSHIFTER")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

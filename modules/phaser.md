@@ -7,11 +7,11 @@ imglink: PHASER.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p111/PHASER.html)
+
 
 The PHASER module runs the signal through a chain of all pass filters, which brings a very distinctive sound when the filter stages are modulated. Well known is this sound by many pieces of electronic music in the 70's and 80's; especially with the SOLINA as audio source you get this unique spacey sound known from these days. With a switch you can select 4 or 8 stages; more stages make the modulation more deep and intense.
 
-[![](/images/th00---PHASER.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/PHASER/PHASER.png "PHASER")
+
 
 Module power consumption: 4 mA
 
@@ -56,6 +56,5 @@ The internal LFO is perfect for livening up the sound but CV1 with its accompany
 
 CV2 has no level control but, of course, this can be done outside this module by the CV going through an attenuator before the input - this could be a VCA with a knob or CV controlling the level. If you just want a knob to control the level the [2ATTCV](https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV) module can do this perfectly.
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

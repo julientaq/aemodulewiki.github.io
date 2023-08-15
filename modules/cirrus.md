@@ -15,7 +15,7 @@ This module uses the extended firmware of the Eurorack Supercell module; meaning
 
 This module has been discontinued due to the Chip Shortage
 
-[![](/images/th00---CIRRUS.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/CIRRUS/CIRRUS.png "CIRRUS")
+
 
 ### Pitch Tracking Modes
 
@@ -350,6 +350,6 @@ _[Back to top of page](#top)_
 You can also **download** this guide as a PDF for printing and offline reading:  
 [CIRRUS-manualBYmattwand.pdf](https://wiki.aemodular.com/uploads/AeManual/CIRRUS/CIRRUS-manualBYmattwand.pdf)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com).
+
+Forum](http://forum.aemodular.com).

@@ -7,7 +7,7 @@ imglink: 2vca.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p11/2VCA_.html)
+
 
 2VCA contains two separate VCA (voltage controlled amplifiers); the classic module to shape the volume of a sound that is fed to IN by a control voltage, e.g. from an ENV to the CV input. If zero voltage is provided, the VCA stays closed and the IN signal doesn't go through. As the CV rises so does the signal strength going through to the output.
 
@@ -55,8 +55,3 @@ But VCAs may be used for an infinite number of purposes. They can be used to mod
 
 VCAs are simple and absolutely versatile. That's why "you can never have too many VCAs".
 
-[![](/images/th00---2vca.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/2VCA/2vca.png "2vca")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

@@ -7,7 +7,7 @@ imglink: JOYSTICK.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p130/joystick.html)
+
 
 The JOYSTICK module can mix up to 4 CVs, these are provided at its inputs. It can also generate its own CVs so can easily provide basic mod wheel type control of pitch (vibrato) through to complex, live mixing of audio (with other modules).
 
@@ -48,8 +48,7 @@ You can do this with the side to side movement (x axis) as well, controlling 2 p
 
 The trigger can be used for a modulation envelope (e.g. pressing the button triggers a slow ENV which varies the filter cutoff), can be good for the [Algodrone](https://wiki.aemodular.com/pmwiki.php/AeManual/ALGODRONE) module and for manual triggering of percussion sounds.
 
-[![](/images/th00---JOYSTICK.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/JOYSTICK/JOYSTICK.png "JOYSTICK")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

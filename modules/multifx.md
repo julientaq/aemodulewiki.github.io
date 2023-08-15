@@ -7,7 +7,7 @@ imglink: multifx.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p51/MULTIFX.html)
+
 
 A digital multi-FX unit which can be mono or stereo. There are 15 different programmes, each with 3 parameters that can be adjusted via the front panel knobs or CV. The programmes are listed on the display on the lower right hand side of the module, with the current selection being lit up.
 
@@ -15,7 +15,7 @@ Module power consumption: 64 mA
 
 The video at the bottom of this page gives an excellent demo of what this module can do.
 
-[![](/images/th00---multifx.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MULTIFX/multifx.png "multifx")
+
 
 ### Inputs
 
@@ -186,6 +186,5 @@ A slow attack envelope can increase one or more of the parameters which, usually
 
 This video by TheTuesdayNightMachines is a great demo of the different modes and effects of this module [https://youtu.be/TW\_Qw\_0zdlM](https://youtu.be/TW_Qw_0zdlM)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

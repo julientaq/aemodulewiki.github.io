@@ -7,11 +7,11 @@ imglink: COMPACTMIXER_VMIX10.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p156/COMPACTMIXER.html)
+
 
 A useful 10/2 mixer with FX send/return. With both AE and 3.5mm jacks for most connections it is very useful for connecting your AE to other studio gear. The built in Headphone amp could make it useful for live work too.
 
-[![](/images/th00---COMPACTMIXER_VMIX10.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/COMPACTMIXER/COMPACTMIXER_VMIX10.png "COMPACTMIXER VMIX10")
+
 
 *   Power Consumption: 18mA
 *   Module Width: 8U
@@ -97,6 +97,5 @@ If you wanted more than one main out to go further within the AE, you could conn
 
 You can purchase, or make, splitter cables where you have 2 mono jacks ar one end, and a stereo jack at the other - this may be useful to bring in more external gear, and when connecting the mixer outputs to external gear.
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

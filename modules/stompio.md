@@ -7,7 +7,7 @@ imglink: STOMP-IO.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p140/STOMP-IO.html)
+
 
 With the STOMP-IO module, you can integrate guitar effect pedals and similar devices into your AE modular system! For output (send) and input (return) return there is a mono minijack socket; two minijack to 1/4" socket adapters are included as effect pedals usually work with the latter ones. Send and return levels can be controlled with separate knobs.
 
@@ -38,8 +38,7 @@ One immediate use found was the use of a bass synth pedal to boost the low end o
 
 If you plug the 2 3.5mm sockets straight to each other, (lead not supplied), this module can be an attenuator, freeing up more complex modules for other duties.
 
-[![](/images/th00---STOMP-IO.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/STOMPIO/STOMP-IO.png "STOMP-IO")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

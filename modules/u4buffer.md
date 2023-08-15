@@ -7,7 +7,7 @@ imglink: u4BUFFER.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p175/u4BUFFER.html)
+
 
 This 1/3 height micro module provides a buffered 4 channel multiple. This can be used for multiplying cv, trigger and gate signals without voltage loss. One input signal will be routed to two duplicate outputs.
 
@@ -33,8 +33,7 @@ While this module seems to provide similar functionality as the [4BUFFER](https:
 
 Now you have 4 outgoing copies of the incoming signal from OUT2 and OUT3.
 
-[![](/images/th00---u4BUFFER.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/U4BUFFER/u4BUFFER.png "u4BUFFER")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

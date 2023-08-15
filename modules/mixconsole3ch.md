@@ -10,7 +10,7 @@ imglink: mixconsole3ch.png
 MIXCONSOLE/3CH
 ==============
 
-[View Product Page](https://www.tangiblewaves.com/store/p109/MIXCONSOLE_-_3CH.html)
+
 
 This module is not a freestanding design, it needs the [MIXCONSOLE](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE) to work and attaches to it via a special flat cable at the back.
 
@@ -20,7 +20,7 @@ The great thing is that you can chain as many of the 3CH modules as you like so 
 
 Module power consumption: 15mA
 
-[![](/images/th00---mixconsole3ch.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MIXCONSOLE3CH/mixconsole3ch.png "mixconsole3ch")
+
 
 Inputs
 ======
@@ -45,6 +45,5 @@ Patch Suggestions
 
 Please see the [MIXCONSOLE](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE) page for further reading.
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

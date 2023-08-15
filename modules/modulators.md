@@ -7,7 +7,7 @@ imglink: MODULATORS.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p152/MODULATORS.html)
+
 
 MODULATORS is a multifunctional 1U module. It is designed especially with very small AE systems in mind.
 
@@ -60,8 +60,7 @@ If you want more than one input to the VCA, you will need to use a mixer module 
 
 If you want a smooth(er) transition between the CVs of the Random CV generator, this can be done with the [SLEW/EDGE](https://wiki.aemodular.com/pmwiki.php/AeManual/SLEWEDGE) module.
 
-[![](/images/th00---MODULATORS.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MODULATORS/MODULATORS.png "MODULATORS")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

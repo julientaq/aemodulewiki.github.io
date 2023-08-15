@@ -7,7 +7,7 @@ imglink: usbpower.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p44/USBPOWER.html)
+
 
 This module provides 3 standard USB connections for powering external equipment. Take care not to draw more power than your AE Modular power supply offers. Check the milliampere (mA) value on the power supply and your attached devices.
 
@@ -31,8 +31,7 @@ The +5 volt out can be used as a modulation source, although other modules provi
 
 This module comes with a USB light so mount the module so it shines down over your patching/playing area, or at least not into your eyes....
 
-[![](/images/th00---usbpower.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/USBPOWER/usbpower.png "usbpower")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

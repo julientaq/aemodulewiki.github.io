@@ -7,13 +7,13 @@ imglink: SWITCHMATRIX4x4.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p135/SWITCHMATRIX_4x4.html)
+
 
 The SWITCHMATRIX 4x4 has four inputs and four outputs; via dedicated, iluminated buttons you can make freely every connection between these, no matter if CV or audio signals. Each routing / connection setting can be stored in one of 64 preset memories. Selecting the presets is possible by up/down triggers, CV, and of course by two up/down buttons.
 
 A performance mode makes it possible to switch between 16 presets by simply pressing one of the matrix buttons - quite handy for live use!
 
-[![](/images/th00---SWITCHMATRIX4x4.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/SWITCHMATRIX4x4/SWITCHMATRIX4x4.png "SWITCHMATRIX4x4")
+
 
 ### Inputs
 
@@ -55,6 +55,5 @@ This idea also works for extending sequences by running 2 sequencer modules, the
 
 [https://forum.aemodular.com/thread/1775/4x4-matrix-gives-bigger-sequencer](https://forum.aemodular.com/thread/1775/4x4-matrix-gives-bigger-sequencer)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

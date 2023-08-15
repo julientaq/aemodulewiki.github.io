@@ -10,7 +10,7 @@ imglink: TRIP.png
 TRIP
 ====
 
-[View Product Page](https://www.tangiblewaves.com/store/p121/TRIP.html)
+
 
 **TRIP** is a **TRI**gger **P**rocessor module; it takes incoming triggers and repeats them - you can think of it as a delay module for triggers. The delay time and the number of repeats can be set with a knob and additionally be CV controlled. Beyond a static delay, the delays of one input trigger can be accelerated or decelerated, leading to the rhythm of a bouncing ball for instance. In another mode, the probability of the output triggers can be chosen.
 
@@ -86,8 +86,7 @@ An excellent module for helping produce sound FX, try [NOISE](https://wiki.aemod
 
 Most people run this module from an LFO to provide the initial trigger, but there's no reason it can't be one of the AE modular's sequencer clocks or trigger outs... This can be excellent to then provide a modulation source that (sort of) works with the tempo.
 
-[![](/images/th00---TRIP.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/TRIP/TRIP.png "TRIP")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

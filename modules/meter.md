@@ -7,11 +7,11 @@ imglink: METER.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p106/meter.html)
+
 
 This is a multi-functional module for visualizing and measuring signals.
 
-[![](/images/th00---METER.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/METER/METER.png "METER")
+
 
 ### Inputs
 
@@ -63,6 +63,5 @@ Put the Meter module in Osc. Calib mode and follow the instructions on the scree
 
 It can be useful for helping set the gate length on triggers from LFOs etc.
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

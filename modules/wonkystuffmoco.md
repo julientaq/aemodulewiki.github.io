@@ -7,7 +7,7 @@ imglink: moco.png
 ---
 
 
-[View Product Page](https://wonkystuff.net/product/moco-1st-edition/)
+
 
 The concept behind the morph controller is that a series of 4 overlapping triangular envelopes are generated from an input CV (plus manual offset), meaning that it can be used with a quad vca (such as the qvca) to fade across four audio sources. As it was originally thought of as a companion to the qvca, the moco also has a simple 4:1 audio mixer for recombining the four outputs, saving the use of a separate mixer module.
 
@@ -50,8 +50,7 @@ As almost demonstrated in the video, you can produce a 2, 3 or 4 step beat/pulse
 
 For randomness, try the [Wonkystuff rbss](https://wiki.aemodular.com/pmwiki.php/AeManual/WonkyStuffRBSS) as the CV in, or could use [sample and hold](https://wiki.aemodular.com/pmwiki.php/AeManual/SAMPLEHOLD).
 
-[![](/images/th00---moco.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/WonkyStuffMoco/moco.png "moco")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

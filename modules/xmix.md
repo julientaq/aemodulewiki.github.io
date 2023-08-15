@@ -7,7 +7,7 @@ imglink: XMIX.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p153/XMIX.html)
+
 
 XMIX offers 4 mixers and 2 attenuators in a 1U package, ideal for small systems but also useful for larger systems where users are wanting attenuators, and to to combine CVs etc.
 
@@ -66,8 +66,7 @@ This module is useful for combining CVs, especially where you have a lot availab
 
 The attenuators can be useful for releasing modules with level controls so they can be used for something that needs more precision or you wish to alter the level of attenuation as the sound plays. An example of this is [LFO](https://wiki.aemodular.com/pmwiki.php/AeManual/2LFO) level control for most patches, (some modules have CV input level control); if you are not varying the LFO modulation amount then an attenuator should be able to do the job.
 
-[![](/images/th00---XMIX.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/XMIX/XMIX.png "XMIX")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

@@ -1,13 +1,9 @@
 ---
-
 id: adsr
 title: "ADSR"
 link: "https://www.tangiblewaves.com/store/p96/ADSR.html"
-imglink: ADSR.png
+imglink: adsr.png
 ---
-
-
-[View Product Page](https://www.tangiblewaves.com/store/p96/ADSR.html)
 
 The ADSR module offers the classic four-stage envelope (Attack, Decay, Sustain, Release) which accepts CV control over each of the stages. For the time values (A, D, R) the value set by the knob can be increased to five times the duration by the corresponding CV value. For the Sustain value the knob and CV value are simply added.
 
@@ -54,8 +50,3 @@ The ADSR can also trigger itself when the output END is patched into the GATE in
 
 For more details, explained with the similar 2ENV please refer to: [https://wiki.aemodular.com/pmwiki.php/AeManual/2ENV](https://wiki.aemodular.com/pmwiki.php/AeManual/2ENV)
 
-[![](/images/th00---ADSR.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/ADSR/ADSR.png "ADSR")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

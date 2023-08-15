@@ -42,8 +42,7 @@ This video demonstrates how to use the audio output of the RBSS. [https://youtu.
 
 Here is an ambient patch that uses 3x RBSS modules. [https://youtu.be/T-sKgZNlKrM](https://youtu.be/T-sKgZNlKrM)
 
-[![](/images/th00---RBSS.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/WonkyStuffRBSS/RBSS.png "RBSS")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

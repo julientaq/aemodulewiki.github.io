@@ -7,7 +7,7 @@ imglink: ENVFOLLOWER.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p147/ENVFOLLOWER%2FEXT.IN.html)
+
 
 The ENVFOLLOWER/EXT.IN module brings external sound sources into your AE modular; it does this in different aspects:
 
@@ -46,8 +46,7 @@ Power Consumption: 7 mA
 
 ### Patch Suggestions
 
-[![](/images/th00---ENVFOLLOWER.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/ENVFOLLOWER/ENVFOLLOWER.png "ENVFOLLOWER")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

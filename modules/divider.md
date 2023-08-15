@@ -7,7 +7,7 @@ imglink: divider.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p37/DIVIDER.html)
+
 
 This module is discontinued. The Beat Divider does a similar role. The MM Divider is its more versatile direct replacement in a lot of ways, but this divider is well worth keeping, as it is a simpler device for beats, and also can be used on audio signals with great results.
 
@@ -46,8 +46,7 @@ The most obvious is to reduce the 24 pulses per quarter note of the midi clock s
 
 Please see the other divider modules for further ideas
 
-[![](/images/th00---divider.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/DIVIDER/divider.png "divider")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

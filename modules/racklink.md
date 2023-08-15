@@ -7,7 +7,7 @@ imglink: racklink.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p63/RACKLINK_kit_%282_modules___cable%29.html)
+
 
 This is actually 2 modules with a connecting cable. This is for joining 2 of the original AE Modular racks together - these modules are not needed for the current racks. The Racklink is also used by many users making their own cases.
 
@@ -38,8 +38,7 @@ The Racklink is useful to give you more bus CV/clock outs but owners of newer AE
 
 The sockets labelled 1 to 8 mean you do not have to have patch wires trailing across from one case to the other; this can be really helpful to reduce clutter, and creates less need for longer cables.
 
-[![](/images/th00---racklink.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/RACKLINK/racklink.png "racklink")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

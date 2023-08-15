@@ -7,7 +7,7 @@ imglink: nylefilter.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p47/NYLE_FILTER_%28Steiner_type%29.html)
+
 
 The NYLE FILTER is an adaptation of the Steiner Filter for the AE modular system. It contains the classic filter types lowpass, highpass and bandpass with adjustable filter frequency and resonance. The unique feature of this filter type is that there are separate inputs for the different filter types (not separate outputs as with other filters). Each input has its own attenuator. This allows quite unusual sounds, if different signals are fed into the different inputs.
 
@@ -58,8 +58,7 @@ Here is a video by [The 5th Volt](https://wiki.aemodular.com/pmwiki.php/User/The
 
 AE Modular filter comparison: [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 
-[![](/images/th00---nylefilter.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/NYLEFILTER/nylefilter.png "nylefilter")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

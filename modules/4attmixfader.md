@@ -1,5 +1,4 @@
 ---
-
 id: 4attmixfader
 title: "4ATTMIX FADER"
 link: "https://www.tangiblewaves.com/store/p107/4ATTMIX_FADER.html"
@@ -7,13 +6,11 @@ imglink: 4ATTMIXFDR.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p107/4ATTMIX_FADER.html)
-
 4ATTMIX FADER is functionally identical with the [4ATTMIX module](https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX), but instead of potentiometers there are faders which are convenient in certain situations where values are to be changed simultaneously, It is also easier to see the current levels at a glance, excellent for VCO mixing.
 
 Module power consumption: 2 mA
 
-[![](/images/th00---4ATTMIXFDR.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/4ATTMIXFADER/4ATTMIXFDR.png "4ATTMIXFDR")
+
 
 ### Inputs
 
@@ -37,6 +34,3 @@ Module power consumption: 2 mA
 
 Please see the [4ATTMIX module](https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX) page.
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

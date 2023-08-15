@@ -7,7 +7,7 @@ imglink: 2CVTOOL.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p93/2CVTOOL.html)
+
 
 The 2CVTOOL offers two separate units for offset, attenuation and inversion of signals, also known as "attenuverter". This can be useful for all kinds of purposes.
 
@@ -45,8 +45,3 @@ It can also be good with the Joystick module, for instance if you want a CV bein
 
 Currently only the [Mixconsole](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE) has CV control of the channel input levels on a mixer; you can use the 2CVTOOL to set a minimum level with the offset, and then the modulation amount (i.e. volume) is controlled by this module's level knob. Excellent with Envelopes but works with LFOs as well....
 
-[![](/images/th00---2CVTOOL.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/2CVTOOL/2CVTOOL.png "2CVTOOL")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

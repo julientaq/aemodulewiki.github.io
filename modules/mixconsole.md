@@ -7,13 +7,13 @@ imglink: MIXCONSOLE.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p108/mixconsole.html)
+
 
 The MIXCONSOLE is a "proper" mixer with FX sends, and stereo out with AE and 3.5mm jack outputs. It comes with 4 channels but is infinitely expandable with the [MIXCONSOLE - 3CH](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE3CH). Each channel has CV control of it's level available.
 
 Module power consumption: 28mA
 
-[![](/images/th00---MIXCONSOLE.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MIXCONSOLE/MIXCONSOLE.png "MIXCONSOLE")
+
 
 Inputs
 ======
@@ -91,6 +91,5 @@ The Stereo 3.5mm FX returns can be rather handy for bringing in external signals
 
 The Mixconsole is great for doing sub-mixing of oscillator outputs where you want them to vary over time; each oscillator output goes to a different channel and then the levels can be controlled by LFOs, ENVs and even the [JOYSTICK](https://wiki.aemodular.com/pmwiki.php/AeManual/JOYSTICK) module.
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

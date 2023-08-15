@@ -56,8 +56,7 @@ Zeno (Keuerlagerkurt) has done an introductory video:-
 
 [https://www.youtube.com/watch?v=RtrSgU\_20dU](https://www.youtube.com/watch?v=RtrSgU_20dU)
 
-[![](/images/th00---KK5steps.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/KeuerslagerkurtFivesteps/KK5steps.png "KK5steps")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

@@ -7,7 +7,7 @@ imglink: 2attcv2.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p15/2ATT%2FCV_.html)
+
 
 2ATT/CV contains two units of a simple level attenuator for any kind of signal. You can also switch to voltage mode and get a manually controllable CV on the output(s).
 
@@ -40,8 +40,3 @@ This video describes how to use the [SAMPLE&HOLD](https://wiki.aemodular.com/pmw
 
 [https://youtu.be/NZVme2SNxXU](https://youtu.be/NZVme2SNxXU)
 
-[![](/images/th00---2attcv2.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/2ATTCV/2attcv2.png "2attcv2")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

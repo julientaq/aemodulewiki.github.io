@@ -7,7 +7,7 @@ imglink: coreae.png
 ---
 
 
-[View Product Page](https://wonkystuff.net/product/core1-ae-v1-2-black/)
+
 
 This is a programmable sound generator from Wonkystuff. The Core series are small, reprogrammable devices, based around a particularly limited microprocessor (as used by Bastl in their Kastle) having a mere 8kB of code space and 512 bytes of RAM! We find that with these limitations, some interesting algorithms can still be programmed and new and interesting sound generators and modulators can be constructed.
 
@@ -74,8 +74,7 @@ There is a section on the AE Modular forum to discuss programming this module:
 
 [https://forum.aemodular.com/board/25/programming-core1-ae](https://forum.aemodular.com/board/25/programming-core1-ae)
 
-[![](/images/th00---coreae.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/WonkyStuffCore1ae/coreae.png "coreae")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

@@ -7,7 +7,7 @@ imglink: master.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p4/MASTER.html)
+
 
 This Master module description is for the one supplied until December 2019, the replacement is the same, except for having an extra switch to change the midi channel from 1 or Omni to some of the others available.
 
@@ -105,8 +105,7 @@ This video shows a very basic patch that makes use of the MIDI connectivity of t
 
 This very short video shows how you can sync and connect a Korg Volca with the AE Modular via the Audio and CTRL inputs on the MASTER module: [https://youtu.be/VB3sRZlU1wE](https://youtu.be/VB3sRZlU1wE)
 
-[![](/images/th00---master.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MASTER/master.png "master")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

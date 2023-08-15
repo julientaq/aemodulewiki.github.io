@@ -7,7 +7,7 @@ imglink: step10.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p14/STEP10_.html)
+
 
 This is a discontinued module and is no longer in production. It was replaced with the TRIQ164 Trigger Sequencer module.
 
@@ -43,8 +43,7 @@ This seems untidy on paper, but works well as bottom 2 switches are ignored in a
 
 As a 10 step sequence it is useful to provide variation to the usual 8 or 16 step sequences, whether triggering percussion, providing volume or filter modulation (direct or by triggering an envelope module), or even another sound/pitch. Its set output can be varied via attenuation in the 4ATT/Mix, 2ATT/CV modules etc.
 
-[![](/images/th00---step10.png.jpg)](http://wiki.aemodular.com/uploads/AeManual/STEP10/step10.png "step10")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

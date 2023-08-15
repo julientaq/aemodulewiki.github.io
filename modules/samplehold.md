@@ -7,7 +7,7 @@ imglink: samplehold.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p18/SAMPLE%26HOLD.html)
+
 
 A module whose output voltage is set by "sampling" the input voltage when triggered. This is usually for producing random notes/modulation in conjunction with the [NOISE](https://wiki.aemodular.com/pmwiki.php/AeManual/NOISE) module.
 
@@ -48,8 +48,7 @@ With attenuation, this module can be really good to give a bit of variation to a
 
 It can produce bit crusher style results when used to sample audio signals.
 
-[![](/images/th00---samplehold.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/SAMPLEHOLD/samplehold.png "samplehold")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

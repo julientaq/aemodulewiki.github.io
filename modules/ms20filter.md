@@ -7,7 +7,7 @@ imglink: MS20FILTER_v2.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p87/MS20_FILTER.html)
+
 
 This filter module is a variant of the Korg MS20 filter. With a switch it can be turned into either lowpass or highpass filter mode, but not both at the same time.
 
@@ -48,8 +48,7 @@ AE Modular filter comparison:
 
 [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 
-[![](/images/th00---MS20FILTER_v2.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MS20FILTER/MS20FILTER_v2.png "MS20FILTER v2")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

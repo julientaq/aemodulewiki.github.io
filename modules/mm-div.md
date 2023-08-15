@@ -7,7 +7,7 @@ imglink: mmdiv.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p83/MM-DIVIDER_.html)
+
 
 A multi-mode divider for clock and audio signals.
 
@@ -58,8 +58,7 @@ Here is a very quick demonstration by The 5th Volt on how to use the rotating pa
 
 [https://youtu.be/pXVyXn8TV8c](https://youtu.be/pXVyXn8TV8c)
 
-[![](/images/th00---mmdiv.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MM-DIV/mmdiv.png "mmdiv")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

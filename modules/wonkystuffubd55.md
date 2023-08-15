@@ -11,4 +11,3 @@ This 1/3 height micro module is a Bass Drum cloned from the Boss DR-55. Decay an
 
 This module needs to be installed on the [µBASE](https://wiki.aemodular.com/pmwiki.php/AeManual/UBASE) module!
 
-[View Product Page](https://wonkystuff.net/product/bd55-micromodule/)

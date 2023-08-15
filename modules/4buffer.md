@@ -1,13 +1,9 @@
 ---
-
 id: 4buffer
 title: "4BUFFER"
 link: "https://www.tangiblewaves.com/store/p95/4BUFFER.html"
 imglink: 4BUFFER.png
 ---
-
-
-[View Product Page](https://www.tangiblewaves.com/store/p95/4BUFFER.html)
 
 Many AE modules have **Mult** sockets where you can combine or split signals. This isn't always reliable in terms of what the end result is, especially if you are wanting the output CV for pitch control. This is where the 4Buffer Module comes in.
 
@@ -54,8 +50,3 @@ It can be used to mix any CVs together, saving your [4ATTMIX](https://wiki.aemod
 
 This module combines with other CV manipulation modules, e.g. [2CVTOOL](https://wiki.aemodular.com/pmwiki.php/AeManual/2CVTOOL) and [SLEW/EDGE](https://wiki.aemodular.com/pmwiki.php/AeManual/SLEWEDGE).
 
-[![](/images/th00---4BUFFER.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/4BUFFER/4BUFFER.png "4BUFFER")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

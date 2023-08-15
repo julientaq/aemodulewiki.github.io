@@ -7,7 +7,7 @@ imglink: vco.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p6/VCO_.html)
+
 
 The voltage-controlled oscillator (VCO) is a typical analog audio oscillator with 1V/Oct pitch tracking for musical purposes. VCOs are one of the most basic audio sources in a synthesizer. Their sound is usually further shaped and refined by filters, wavefolders, voltage-controlled amplifiers (VCAs) and other audio effects.
 
@@ -42,8 +42,7 @@ This video by Synths & Things explains the ins and outs of this module really we
 
 This video by The Tuesday Night Machines demonstrates frequency modulation sounds: [https://www.youtube.com/watch?v=jVtANkhEBGY](https://www.youtube.com/watch?v=jVtANkhEBGY)
 
-[![](/images/th00---vco.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/VCO/vco.png "vco")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

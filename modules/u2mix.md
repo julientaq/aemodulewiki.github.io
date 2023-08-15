@@ -7,7 +7,7 @@ imglink: u2MIX.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p172/u2MIX.html)
+
 
 This 1/2 height micro module provides a tiny mixer with 3 attenuated channels and 4 fixed channels.
 
@@ -35,8 +35,7 @@ Module power consumption: ? mA
 
 This can be used for Audio or CV mixing of signals and is very similar to the [MIXER 4-4](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXER44) module.
 
-[![](/images/th00---u2MIX.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/U2MIX/u2MIX.png "u2MIX")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

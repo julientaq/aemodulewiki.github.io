@@ -6,9 +6,6 @@ link: "https://www.tangiblewaves.com/store/p133/2TONE.html"
 imglink: 2TONE.png
 ---
 
-
-[View Product Page](https://www.tangiblewaves.com/store/p133/2TONE.html)
-
 2TONE is a dual bass-treble tone control, that is a quite useful companion for the [MIXCONSOLE](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE), to shape the overall spectrum of individual signal paths.
 
 Module power consumption: 4 mA
@@ -38,8 +35,3 @@ It can be useful to free up a [filter module](https://wiki.aemodular.com/pmwiki.
 
 If you want to risk your speakers/headphones, you can feed one channel's output into the input of the other channel so you boost the signal twice.
 
-[![](/images/th00---2TONE.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/2TONE/2TONE.png "2TONE")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

@@ -23,7 +23,7 @@ The outputs are buffered and have a small amount of gain. Each output has multip
 
 Module power consumption: <1 mA
 
-[![](/images/th00---wsmm33.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/WonkyStuffmm33/wsmm33.png "wsmm33")
+
 
 ### Inputs
 
@@ -68,6 +68,5 @@ Matrix mixers are great tools for all kinds of experimental music and are especi
 
 [https://www.youtube.com/watch?v=dUKBGUdF1So](https://www.youtube.com/watch?v=dUKBGUdF1So)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

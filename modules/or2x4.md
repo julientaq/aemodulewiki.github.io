@@ -7,7 +7,7 @@ imglink: or2x4.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p70/OR2x4.html)
+
 
 This module provides an OR logic, where if a signal is at least one of the inputs, it/they will be sent to the output, this is useful for some mixing requirements and combining CVs. The output can also be synced to tempo via the gate in.
 
@@ -45,8 +45,7 @@ It works well to combine triggers from the various [SEQ16](https://wiki.aemodula
 
 You may find this link useful. [https://doudoroff.com/logic/](https://doudoroff.com/logic/)
 
-[![](/images/th00---or2x4.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/OR2x4/or2x4.png "or2x4")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

@@ -7,7 +7,7 @@ imglink: 2env.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p59/2ENV.html)
+
 
 2ENV is a dual attack - decay envelope. It can be switched between full sustain (the output remains at full level as long as the GATE input is on) and zero sustain (for percussive envelopes). Another switch (SLOW/FAST) allows selecting the time range.​ For manual triggering there is a button for each envelope. CV control: Both attack and decay time can be CV controlled; the CV "multiplies" the time by 1...approx. 8 times.
 
@@ -58,8 +58,3 @@ Patching a swinging rhythm with the 2ENV as a trigger delay:
 
 [https://www.youtube.com/watch?v=LH610hDpp\_Y](https://www.youtube.com/watch?v=LH610hDpp_Y)
 
-[![](/images/th00---2env.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/2ENV/2env.png "2env")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

@@ -7,7 +7,7 @@ imglink: DRONE38.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p119/DRONE38.html)
+
 
 DRONE38 is a sound generator with 18 oscillators in total, organized in six groups of three oscillators each. 12 of them can be switched between sawtooth and triangle waves, 6 are fixed sawtooth oscillators.
 
@@ -19,7 +19,7 @@ Additionally, 6 oscillators can be synced to other ones for extending the sonic 
 
 Module power consumption: 6 mA
 
-[![](/images/th00---DRONE38.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/DRONE38/DRONE38.png "DRONE38")
+
 
 ### Inputs
 
@@ -46,6 +46,5 @@ There is a video by the 5th Volt...
 
 [https://www.youtube.com/watch?v=bkpZkUtRAy4](https://www.youtube.com/watch?v=bkpZkUtRAy4) %
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+

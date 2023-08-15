@@ -7,7 +7,7 @@ imglink: 2signalamp.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p43/2SIGNALAMP.html)
+
 
 A signal amplifier module, i.e. you can make a signal louder/stronger. There are 2 separate circuits in this module, with a maximum gain of 15-1.
 
@@ -42,8 +42,3 @@ It can also be used as a simple mixer by putting the 2 outs into a Mult with ano
 
 It can be overdriven to creating signal alteration/distortion.....
 
-[![](/images/th00---2signalamp.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/2SIGNALAMP/2signalamp.png "2signalamp")
-
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

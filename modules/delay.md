@@ -7,7 +7,7 @@ imglink: delay.png
 ---
 
 
-[View Product Page](https://www.tangiblewaves.com/store/p17/DELAY_%28LoFi%29_.html)
+
 
 Lo-Fi Delay is a analogue, old fashioned bucket brigade style of delay
 
@@ -45,8 +45,7 @@ Module power consumption: 18 mA
 
 **Controlling Feedback** The wet signal output and the three mixed inputs makes adding CV control over feedback straightforward. Simply run the wet output to the signal input of a VCA, and run the VCA output to one of the delay inputs. The VCA CV input now controls the amount of feedback. Use a module like the CV Tool to add an offset and attenuate a CV from an LFO or envelope in order to more precisely control the feedback.
 
-[![](/images/th00---delay.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/DELAY/delay.png "delay")
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
 
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)
+
+

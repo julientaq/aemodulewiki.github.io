@@ -3,7 +3,7 @@ html {
   scrollbar-gutter: stable;
 }
 body {
-  font-family: var(--font-serif);
+  font-family: var(--font-body);
   color: var(--color-body);
   font-weight: 400;
   background: var(--color-background);
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-sans);
+  font-family: var(--font-title);
   font-weight: 600;
   line-height: 1.3;
 }

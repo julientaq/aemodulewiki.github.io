@@ -7,12 +7,19 @@ main {
   margin-top: 10em;
 }
 
+.background {
+  position: fixed;
+  background-color: var(--color-background);
+  inset: 0;
+  z-index: -300;
+}
+
 footer {
   /* border-top: 2px solid var(--color-meta); */
   margin-top: 10em;
   padding-top: 3em;
-
-  background: orange;
+  text-align: center;
+  border-top: 1px solid grey;
   font-family: var(--font-meta);
 }
 
@@ -21,8 +28,6 @@ footer .footer-text {
   margin-left: auto;
 }
 
-footer p {
-}
 
 footer #footer-partners ul {
   border-top: 1px solid var(--color-meta);

@@ -1,7 +1,11 @@
 @font-face {
   font-family: "jost";
   src: url("/fonts/jost-vf.ttf");
-  src: url("/fonts/jost-vf.ttf") format("embedded-opentype");
+  src: url("/fonts/jost-vf.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal italic;
 }
+
+/* // font for the body,  */
+/* // font for the title */
+/* // font for all the modules in/out */

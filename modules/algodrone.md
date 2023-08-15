@@ -1,13 +1,34 @@
 ---
-
 id: algodrone
 title: "ALGODRONE"
 link: "https://www.tangiblewaves.com/store/p90/ALGODRONE.html"
 imglink: ALGODRONE.png
+powerconsuption: 14 mA
+inputs:
+  - name: CV
+    description: Base frequency for the algorithm
+  - name: GATE
+    description: Resets the current algorithm run to the start, this is useful for "one-shots"
+  - name: PAR1
+    description: CV input for Parameter 1 of the algorithm
+  - name: PAR2
+    description: CV input for Parameter 2 of the algorithm
+  - name: PAR3
+    description: CV input for Parameter 3 of the algorithm
+  - name: GRAIN SIZE
+    description: CV input for Grain Size
+  - name: POS
+    description: CV input for position of the grain within the loop
+outputs:
+- name: BUS CV
+  description: (positioned on the left side) Pitch signal from the MIDI bus
+- name: OUT 
+  description: Output of the algorithm
+- name: CYCLE 
+  description: trigger output when a cyclic algorithm (loop) has reached its end before repeating
+- name: MULT 
+  description: unbuffered multiple
 ---
-
-
-[View Product Page](https://www.tangiblewaves.com/store/p90/ALGODRONE.html)
 
 The ALGODRONE module is a sound and CV source based on the so-called bytebeat algorithms. These are simple formulas, usually expressed as one line of program code, that spit out a wide variety of interesting tonal to rhythmical patterns, regardless of their simplicity.
 
@@ -15,28 +36,9 @@ The ALGODRONE module contains a number of these algorithms plus three parameter 
 
 Some algorithms create sound loops, to use these more flexible the ALGODRONE can work in a kind of "granular" mode where a smaller part of the entire loop is repeated and with the POSITION knob you can move through the entire output loop.
 
-Module power consumption: 14 mA
 
-[![](/images/th00---ALGODRONE.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/ALGODRONE/ALGODRONE.png "ALGODRONE")
 
-### Inputs
-
-*   **CV** - Base frequency for the algorithm
-*   **GATE** - Resets the current algorithm run to the start, this is useful for "one-shots"
-*   **PAR1** - CV input for Parameter 1 of the algorithm
-*   **PAR2** - CV input for Parameter 2 of the algorithm
-*   **PAR3** - CV input for Parameter 3 of the algorithm
-*   **GRAIN SIZE** - CV input for Grain Size
-*   **POS** - CV input for position of the grain within the loop
-
-### Outputs
-
-*   **BUS CV** - (positioned on the left side) Pitch signal from the MIDI bus
-*   **OUT** - Output of the algorithm
-*   **CYCLE** - trigger output when a cyclic algorithm (loop) has reached its end before repeating
-*   **MULT** - unbuffered multiple
-
-### Controls
+## Controls
 
 *   **ALGORITHM** knob - selects the current algorithm, 67 factory and 30 user presets are available, the selected algorithm will be displayed in the small display to the right of this knob
 *   **COARSE FREQ** knob - coarse selection of base frequency. Although a higher frequency often leads to a higher pitched sound, each algorithm reacts differently to this and there can be drastic changes to the behaviour of the sound when the frequency changes.
@@ -57,7 +59,7 @@ The ALGODRONE can also produce random algorithms which can be slightly mutated a
 *   **RND** push button - creates a completely new randomised algorithm
 *   **MUTATE** - when creating a random algorithm, this changes one item in the random algorithm, like the operator (e.g. "+" -> "\*") or a constant value
 
-### Patch Suggestions
+## Patch Suggestions
 
 Bytebeat has been first explored by Viznut with a series of videos on YouTube and a very detailed analysis of the code on his blog: [http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html](http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html)
 
@@ -79,6 +81,3 @@ Overview video by The Tuesday Night Machines: [https://youtu.be/Q6Mz9qpbUwo](htt
 
 This is a great exploration of the module's sonic landscapes by Max Richardson: [https://youtu.be/eJLnuI2EC9U](https://youtu.be/eJLnuI2EC9U)
 
-[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
-
-This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

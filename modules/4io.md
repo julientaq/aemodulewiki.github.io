@@ -1,10 +1,9 @@
 ---
-
 id: 4io
 title: "4I/O"
 link: "https://www.tangiblewaves.com/store/p46/4I%2FO.html"
 imglink: 4io.png
-powerconsumption: 0.2 mA
+power: 0.2 mA
 ---
 
 An extremely useful module to have if you want to interface other equipment with your AE modular. The most important job is to prevent a CV outside the 0 to +5 volts range from entering the AE system as this would damage it.

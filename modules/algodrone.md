@@ -3,7 +3,7 @@ id: algodrone
 title: "Algodrone"
 link: "https://www.tangiblewaves.com/store/p90/ALGODRONE.html"
 imglink: algodrone.png
-powerconsumption: 14 mA
+power: 14 mA
 ---
 
 The ALGODRONE module is a sound and CV source based on the so-called bytebeat algorithms. These are simple formulas, usually expressed as one line of program code, that spit out a wide variety of interesting tonal to rhythmical patterns, regardless of their simplicity.

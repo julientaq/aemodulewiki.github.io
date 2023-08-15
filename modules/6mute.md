@@ -3,7 +3,6 @@ id: 6mute
 title: "6MUTE"
 link: "https://www.tangiblewaves.com/store/p139/6MUTE%2FCV_.html"
 imglink: 6MUTE.png
-powerconsumption
 ---
 
 This module allows you to mute up to a maximum of 6 independent channels via the press of a button. It will not put any clicks or noise in an audio signal.
@@ -27,4 +26,3 @@ The most obvious use is for dropping in and out separate parts of your AE audio 
 It can be excellent used in conjunction with a rhythm patch to drop a percussion sound in/out which can totally change the feel of the groove. This could be one sound from the [Drum Kit Module](https://wiki.aemodular.com/pmwiki.php/AeManual/DRUMKIT010), one from the [Kick Module](https://wiki.aemodular.com/pmwiki.php/AeManual/KICK) and sounds from the [Algodrone Module](https://wiki.aemodular.com/pmwiki.php/AeManual/ALGODRONE) amongst others
 
 Muting any sort of CV signal can be useful; a good example is pitch modulation (vibrato) on/off. Another is an offset voltage which opens or closes the filter depending on the mute switch position. There are many, many others...
-

@@ -1,5 +1,4 @@
 ---
-
 id: 2cvadd-hq
 title: "2CVADD-HQ"
 link: "https://www.tangiblewaves.com/store/p138/2CVADD-HQ.html"

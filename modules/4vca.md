@@ -4,7 +4,7 @@ id: 4vca
 title: "4VCA"
 link: "https://www.tangiblewaves.com/store/p136/4VCA.html"
 imglink: 4VCA.png
-powerconsumption: 8 mA
+power: 8 mA
 ---
 
 

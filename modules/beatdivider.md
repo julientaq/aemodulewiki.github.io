@@ -3,7 +3,7 @@ id: beatdivider
 title: "BEAT DIVIDER/ (Midiclock Divider)"
 link: "https://www.tangiblewaves.com/store/p12/BEAT_DIVIDER.html"
 imglink: beatdivider.png
-powerconsumption: 6 mA
+power: 6 mA
 ---
 
 This module is designed to break the 24 pulses per quarter note from Midi into more musically useful intervals for the modular synthesist. The Midi usually comes via the master module on the **Bus CLK** output on the module.

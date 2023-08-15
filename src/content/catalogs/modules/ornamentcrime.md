@@ -1,7 +1,6 @@
 ---
-
 id: ornamentcrime
-title: "ORNAMENT &amp; CRIME"
+title: "ORNAMENT & CRIME"
 link: "https://www.tangiblewaves.com/store/p154/ORNAMENT_%26_CRIME.html"
 imglink: ORNAMENT_CRIME.png
 ---

@@ -1,0 +1,6 @@
+
+a:hover {
+  color: var(--color-main); 
+  text-decoration-thickness: 2px;
+  text-decoration: underline;
+}

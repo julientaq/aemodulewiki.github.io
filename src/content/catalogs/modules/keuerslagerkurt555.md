@@ -1,7 +1,7 @@
 ---
-
-id: keuerslagerkurt555
-title: "keuerslagerkurt555"
+manufacturer: keuerslagerkurt
+id: keuerslagerkurt555 
+title: "555"
 link: "http://forum.aemodular.com/"
 
 ---

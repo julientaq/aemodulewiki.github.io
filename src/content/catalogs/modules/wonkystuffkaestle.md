@@ -1,7 +1,7 @@
 ---
-
+manufacturer: Wonkystuff
 id: wonkystuffkaestle
-title: "Wonkystuff Kaestle"
+title: "Kaestle"
 link: "https://wonkystuff.net/product/kaestle/"
 
 ---

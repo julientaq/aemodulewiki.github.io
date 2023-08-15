@@ -1,0 +1,30 @@
+{% extends "base.njk" %}
+{% block content %}
+    <main>
+        <header>
+            <h1>{{ title }}</h1>
+            <p class="manufacturer">{{ manufacturer }}</p>
+            <p class="subtitle">{{ subtitle }}</p>
+        </header>
+        {{ content | safe }}
+        <section class="catalog-index">
+            <ul class="catalog-entries">
+                {% for item in collections[catalog] | orderBy("data.title", "asc") %}
+                    {% if catalog == item.data.catalog and item.data.type == "entry" %}
+                        <li class="{{ item.data.type }}">
+
+                            <h3>{{ item.data.title }}
+{% if replacedby %}
+discontinued {{replacedby}}
+{% endif %}
+                            </h3>
+                            {% if item.data.manufacturer %}<p>{{ item.data.manufacturer | markdownifyInline }}</p>{% endif %}
+                            {% if item.data.introduction %}<p>{{ item.data.introduction | markdownifyInline }}</p>{% endif %}
+                            <a href="{{ item.url }}">see more</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+{% endblock content %}

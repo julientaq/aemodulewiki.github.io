@@ -1,14 +1,11 @@
 ---
 
 id: wonkystuffqvca
-title: "wonkystuffqvca"
+title: "qvca"
+builder: "Wonkystuff"
 link: "https://wonkystuff.net/product/qvca/"
 
 ---
-
-
-Wonkystuff qvca
-===============
 
 This is quad VCA which is designed only for audio use (unlike the standard Tangible Waves [2VCA](https://wiki.aemodular.com/pmwiki.php/AeManual/2VCA) which can be applied to both audio and CV signals).
 

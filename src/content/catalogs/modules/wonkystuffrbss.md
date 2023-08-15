@@ -1,7 +1,8 @@
 ---
 
+manufacturer: Wonkystuff
 id: wonkystuffrbss
-title: "Wonkystuff RBSS"
+title: "RBSS"
 link: "https://wonkystuff.net/product/rbss/"
 imglink: RBSS.png
 ---

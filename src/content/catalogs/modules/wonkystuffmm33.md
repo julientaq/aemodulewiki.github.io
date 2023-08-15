@@ -1,7 +1,8 @@
 ---
 
+manufacturer: Wonkystuff
 id: wonkystuffmm33
-title: "Wonkystuff mm33"
+title: "mm33"
 link: "https://wonkystuff.net/product/mm33/"
 imglink: wsmm33.png
 ---

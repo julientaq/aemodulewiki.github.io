@@ -1,9 +1,12 @@
 ---
-
+manufacturer: Wonkystuff
 id: wonkystuffurs55
-title: "WonkyStuff uRS55"
+title: "µRS55"
 link: "https://wonkystuff.net/product/rs55-micromodule/"
-
+tags:
+  - micro
+  - sound generator
+  - drum
 ---
 
 

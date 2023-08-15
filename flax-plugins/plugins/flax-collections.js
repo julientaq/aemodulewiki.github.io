@@ -1,3 +1,4 @@
+
 //
 // this file manage the possible collections for eleventy
 // this include the menu system
@@ -9,9 +10,6 @@ const path = require("path");
 module.exports = function(eleventyConfig) {
   //eleventy sortBy, ascender / descender
   eleventyConfig.addFilter("orderBy", function(collection, meta, order) {
-    console.log("data", collection);
-    console.log("meta", meta);
-    console.log("order", order);
     switch (order) {
       case "asc":
         return collection.sort((a, b) => {
@@ -38,9 +36,7 @@ module.exports = function(eleventyConfig) {
 
     let collection = collectionApi
 
-      .getFilteredByGlob(
-        "./src/content/**/*.md",
-      )
+      .getFilteredByGlob("./src/content/**/*.md")
       .filter(function(item) {
         if (item.data.menutitle) {
           return item;
@@ -69,64 +65,77 @@ module.exports = function(eleventyConfig) {
 
   //create a ccollection dynamically from the books folders
   //
-  const subfolderNames = fs
-    .readdirSync("./src/content/books/", { withFileTypes: true })
-    .filter((dirent) => dirent.isDirectory())
-    .map((dirent) => dirent.name);
 
-  subfolderNames.forEach((subfolderName) => {
-    eleventyConfig.addCollection(subfolderName, function(collectionApi) {
-      return collectionApi
-        .getAll()
-        .sort(function(a, b) {
-          return a.data.chapternumber - b.data.chapternumber;
-        })
-        .filter((item) => {
-          return item.inputPath.includes(`/${subfolderName}/`);
-        });
+  try {
+    const subfolderNames = fs
+      .readdirSync("./src/content/books/", { withFileTypes: true })
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => dirent.name);
+
+    subfolderNames.forEach((subfolderName) => {
+      eleventyConfig.addCollection(subfolderName, function(collectionApi) {
+        return collectionApi
+          .getAll()
+          .sort(function(a, b) {
+            return a.data.chapternumber - b.data.chapternumber;
+          })
+          .filter((item) => {
+            return item.inputPath.includes(`/${subfolderName}/`);
+          });
+      });
     });
-  });
+  } catch {
+    console.log("this flax setup has no books");
+  }
 
   //create a ccollection dynamically from the books folders
   //
-  const journalSubFolder = fs
-    .readdirSync("./src/content/journals/", { withFileTypes: true })
-    .filter((dirent) => dirent.isDirectory())
-    .map((dirent) => dirent.name);
+  try {
+    const journalSubFolder = fs
+      .readdirSync("./src/content/journals/", { withFileTypes: true })
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => dirent.name);
 
-  journalSubFolder.forEach((subfolderName) => {
-    eleventyConfig.addCollection(subfolderName, function(collectionApi) {
-      return collectionApi
-        .getAll()
-        .sort(function(a, b) {
-          return a.data.chapternumber - b.data.chapternumber;
-        })
-        .filter((item) => {
-          return item.inputPath.includes(`/${subfolderName}/`);
-        });
+    journalSubFolder.forEach((subfolderName) => {
+      eleventyConfig.addCollection(subfolderName, function(collectionApi) {
+        return collectionApi
+          .getAll()
+          .sort(function(a, b) {
+            return a.data.chapternumber - b.data.chapternumber;
+          })
+          .filter((item) => {
+            return item.inputPath.includes(`/${subfolderName}/`);
+          });
+      });
     });
-  });
+  } catch (error) {
+    console.log("this flax setup has no journal");
+  }
 
   //create a ccollection dynamically from the books folders
   //
-  const catalogsFolder = fs
-    .readdirSync("./src/content/catalogs/", { withFileTypes: true })
-    .filter((dirent) => dirent.isDirectory())
-    .map((dirent) => dirent.name);
+  try {
+    const catalogsFolder = fs
+      .readdirSync("./src/content/catalogs/", { withFileTypes: true })
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => dirent.name);
 
-  catalogsFolder.forEach((subfolderName) => {
-    eleventyConfig.addCollection(subfolderName, function(collectionApi) {
-      return collectionApi
-        .getAll()
-        .filter((item) => {
-          if (item.inputPath.includes(`/${subfolderName}/`)) {
-            return item;
-          }
-          // return item.inputPath.includes(`/${subfolderName}/`);
-        })
-        .sort(function(a, b) {
-          return a.data.itemnumber - b.data.itemnumber;
-        });
+    catalogsFolder.forEach((subfolderName) => {
+      eleventyConfig.addCollection(subfolderName, function(collectionApi) {
+        return collectionApi
+          .getAll()
+          .filter((item) => {
+            if (item.inputPath.includes(`/${subfolderName}/`)) {
+              return item;
+            }
+            // return item.inputPath.includes(`/${subfolderName}/`);
+          })
+          .sort(function(a, b) {
+            return a.data.itemnumber - b.data.itemnumber;
+          });
+      });
     });
-  });
+  } catch (error) {
+    console.log("this flax setup has no catalog");
+  }
 };

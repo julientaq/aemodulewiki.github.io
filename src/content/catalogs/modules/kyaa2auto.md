@@ -1,9 +1,8 @@
 ---
-
+manufacturer: Kyaa
 id: kyaa2auto
 title: "2AUTO"
 link: "https://kyaa.co/product/2auto"
-
 ---
 
 

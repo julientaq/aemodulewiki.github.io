@@ -1,7 +1,8 @@
 ---
 
+manufacturer: Wonkystuff
 id: wonkystuffubd55
-title: "WonkyStuff uBD55"
+title: "µBD55"
 link: "https://wonkystuff.net/product/bd55-micromodule/"
 
 ---

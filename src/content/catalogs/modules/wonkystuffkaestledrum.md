@@ -1,9 +1,8 @@
 ---
-
+manufacturer: Wonkystuff
 id: wonkystuffkaestledrum
-title: "Wonkystuff Kaestle Drum"
+title: "Kaestle Drum"
 link: "https://wonkystuff.net/product/kaestledrum/"
-
 ---
 
 

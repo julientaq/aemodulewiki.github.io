@@ -2,5 +2,9 @@
 you can have custom copyright by using the site.copyright in the site.yaml 
 #}
 <footer>
+  {% if site.copyright %}
   <p>{{site.copyright | markdownifyInline | safe}}  — {% getYear site.date %}-{% getYear %} </p>
+  {% else %}
+  <p>{% getYear site.date %}-{% getYear %} </p>
+  {% endif %}
 </footer>

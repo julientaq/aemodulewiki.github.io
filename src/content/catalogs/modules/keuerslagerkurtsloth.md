@@ -1,13 +1,9 @@
 ---
-
+manufacturer: keuerslagerkurt
 id: keuerslagerkurtsloth
 title: "Kurt's Sloth"
 link: "https://www.tindie.com/products/keurslagerkurt/kurts-sloth-nlc-single-sloth-adaptation-for-ae/"
-
 ---
-
-
-
 
 Kurt's Sloth is a slow, chaotic modulation/CV source for the AE Modular format. It is an adaptation of the legendary Eurorack "Sloth" circuit from Non Linear Circuits.
 
@@ -34,8 +30,6 @@ There are three, slowly moving outputs which are perfect for modulating paramete
 Great on filter cutoff and resonance (via attentuators). The [Nyle Filter](https://wiki.aemodular.com/pmwiki.php/AeManual/NYLEFILTER) is the only AE filter with CV control of resonance.
 
 Using to create a gentle variation on LFO frequency can be very nice, especially on vibrato.
-
-Mini:
 
 
 

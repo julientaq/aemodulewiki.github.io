@@ -1,0 +1,122 @@
+:root {
+  /* set usable color names */
+  --color-black: #223;
+  --color-white: #fff;
+  --color-blue: #087acc;
+  --color-blue-light: #d0ebff;
+  --color-blue-lighter: #eef8ff;
+  --color-grey: #ddd;
+  --color-grey-text: #888;
+  --color-grey-lighter: #f7f7f7;
+
+  /* set usable fonts names */
+  --font-sans: "jost", sans-serif;
+  --font-module: "jost", sans-serif;
+  --font-serif: "Inria Serif", serif;
+
+  /* set semantic variables */
+  --color-main: var(--color-blue);
+  --color-main-lighter: var(--color-blue-lighter);
+  --color-sub: var(--color-grey);
+  --color-body: var(--color-black);
+  --color-reverse: var(--color-white);
+  --color-meta: var(--color-grey);
+  --color-meta-text: var(--color-grey-text);
+  --color-meta-light: var(--color-grey-lighter);
+  --color-background: var(--color-white);
+
+  /* set semantic fonts */
+  --font-title: var(--font-sans);
+  --font-body: var(--font-serif);
+  --font-meta: var(--font-sans);
+}
+
+
+.green {
+  /* set usable color names */
+  --color-black: #fff;
+  --color-white: #232;
+  --color-blue: gold;
+  --color-blue-lighter: #7dbf7d;
+  --color-blue-light: #e4ffe4;
+  --color-grey: #ddd;
+  --color-grey-text: #888;
+  --color-grey-lighter: #f7f7f7;
+
+  /* set usable fonts names */
+  --font-sans:  sans-serif;
+  --font-serif:  serif;
+
+  /* set semantic variables */
+  --color-background: var(--color-blue-lighter);
+  --color-main: var(--color-blue);
+  --color-main-lighter: var(--color-blue-lighter);
+  --color-sub: var(--color-grey);
+  --color-body: var(--color-black);
+  --color-reverse: var(--color-white);
+  --color-meta: var(--color-grey);
+  --color-meta-text: var(--color-grey-text);
+  --color-meta-light: var(--color-grey-lighter);
+  --color-background: var(--color-white);
+
+  /* set semantic fonts */
+  --font-title: var(--font-sans);
+  --font-body: var(--font-serif);
+  --font-meta: var(--font-sans);
+}
+
+.orange {
+  /* set usable color names */
+  --color-black: #223;
+  --color-white: #fff;
+  --color-blue: orange;
+  --color-blue-light: gold;
+  --color-blue-lighter: lightblue;
+  --color-grey: #ddd;
+  --color-grey-text: #888;
+  --color-grey-lighter: #f7f7f7;
+
+  /* set usable fonts names */
+  --font-sans:  sans-serif;
+  --font-serif:  serif;
+
+  /* set semantic variables */
+  --color-main: var(--color-blue);
+  --color-main-lighter: var(--color-blue-lighter);
+  --color-sub: var(--color-grey);
+  --color-body: var(--color-black);
+  --color-reverse: var(--color-white);
+  --color-meta: var(--color-grey);
+  --color-meta-text: var(--color-grey-text);
+  --color-meta-light: var(--color-grey-lighter);
+  --color-background: var(--color-white);
+
+  /* set semantic fonts */
+  --font-title: var(--font-sans);
+  --font-body: var(--font-serif);
+  --font-meta: var(--font-sans);
+}
+
+
+
+.themechanger {
+  position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+
+.themechanger button {
+  border: none;
+  background: var(--color-background);
+  color:var(--color-body);
+  text-transform: uppercase;
+  font-family:sans-serif;
+
+}
+.themechanger .active {
+  color: var(--color-main)
+}

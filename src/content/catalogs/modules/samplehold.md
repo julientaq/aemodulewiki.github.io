@@ -1,7 +1,7 @@
 ---
 
 id: samplehold
-title: "SAMPLE &amp; HOLD"
+title: "SAMPLE & HOLD"
 link: "https://www.tangiblewaves.com/store/p18/SAMPLE%26HOLD.html"
 imglink: samplehold.png
 ---

@@ -1,7 +1,7 @@
 ---
-
+manufacturer: keuerslagerkurt
 id: keuerslagerkurtquadboost
-title: "Inputs"
+title: "Quad boost"
 link: "https://www.instagram.com/keurslager_kurt/"
 
 ---

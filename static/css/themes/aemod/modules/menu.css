@@ -1,0 +1,79 @@
+/* /top bar */
+
+.topbar button {
+  border: 0;
+  background: unset;
+  border-bottom: 1px solid var(--color-main);
+}
+.topbar {
+  display: flex;
+  gap: 5ch;
+  justify-content: space-between;
+  position: sticky;
+  /* top: 0; */
+  /* margin-bottom: 6em; */
+}
+
+.topbar .logo {
+  width: 100px;
+  background: orange;
+} 
+
+
+
+
+.topbar nav ul {
+  align-items: last-baseline;
+  justify-content: flex-end;
+  list-style-type: none;
+  font-style: italic;
+  display: flex;
+  gap: 5ch;
+}
+
+nav a:hover {
+  color: var(--color-main);
+}
+
+/* interaction */
+
+.menu-call {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-call {
+    display: block;
+  }
+  .topbar nav {
+    display: none;
+  }
+  .topbar nav.shown {
+    display: flex;
+  }
+  .topbar nav ul {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+.background {
+  position: relative;
+}
+
+.site-title {
+  position: absolute;
+  left: 0;
+  line-height:1;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  padding-left:.3ch;
+  /* background: url(/assets/images/neuroscience.jpg); */
+  background-size: cover;
+  color: var(--color-reverse);
+  font-size: calc(2em + 2vw);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+}

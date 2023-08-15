@@ -4,14 +4,15 @@
         <title>{{ site.title }}</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         {#  the themes #}
         {% include "_common/theme-engine.njk" %}
         {% block headscripts %}
         {% endblock headscripts %}
     </head>
     <body class="{{ classes }}{% block bodyclass %}{% endblock bodyclass %}">
+
         {% block topbar %}
-            
         {% include "./_common/topbar/topbar.njk" %}
         {% endblock topbar %}
         {% block content %}

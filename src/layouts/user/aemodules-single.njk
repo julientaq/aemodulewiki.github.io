@@ -1,0 +1,23 @@
+{% extends "base.njk" %}
+{% block content %}
+    <main>
+        <header>
+            <ul class="tags-list">
+                {% for tag in tags  %}
+                    <li>
+                        <a href="/tags/{{ tag }}">{{ tag }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <h1>{{ title }}</h1>
+            <p class="subtitle">{{ subtitle }}</p>
+        </header>
+        <section class="catalog-index">
+            {% include "./modules/itemlist-link.njk" %}
+        </section>
+        <section class="catalog-content">
+            {{ content | safe }}
+        </section>
+    </main>
+    <p>the list for the catalog</p>
+{% endblock content %}

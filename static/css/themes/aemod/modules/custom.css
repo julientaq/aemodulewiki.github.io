@@ -1,0 +1,14 @@
+.site-title {
+  /* background: var(--color-main); */
+  /* color: var(--color-reverse); */
+  /* padding: 0.5em 2ch 0.3em; */
+  /* overflow:hidden; */
+}
+
+.site-title span {
+  /* color: var(--color-reverse); */
+  /* display: block; */
+  /* transform: scale(1.2) rotate(-4deg); */
+}
+
+

@@ -1,9 +1,8 @@
 ---
-
+manufacturer: m4verick
 id: m4vricklemodule
 title: "Le Module."
 link: "https://forum.aemodular.com/thread/2593/french-home-vco-module-le"
-
 ---
 
 

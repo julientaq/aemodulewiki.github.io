@@ -1,5 +1,6 @@
 ---
 
+manufacturer: Wonkystuff
 id: wonkystuffmoco
 title: "Moco"
 link: "https://wonkystuff.net/product/moco-1st-edition/"

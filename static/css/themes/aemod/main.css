@@ -1,0 +1,14 @@
+@import url("./modules/reset.css");
+@import url("./modules/fonts.css");
+@import url("./modules/variables.css");
+@import url("./modules/layout.css");
+@import url("./modules/menu.css");
+@import url("./modules/singlepage.css");
+@import url("./modules/texts.css");
+@import url("./modules/content.css");
+@import url("./modules/images.css");
+@import url("./modules/tables.css");
+@import url("./modules/custom.css");
+@import url("./modules/article.css");
+@import url("./modules/crossref.css");
+@import url("./modules/catalog.css");

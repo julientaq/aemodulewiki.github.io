@@ -1,5 +1,5 @@
 ---
-
+manufacturer: WonkyStuff
 id: wonkystuffcore1ae
 title: "Core1.ae"
 link: "https://wonkystuff.net/product/core1-ae-v1-2-black/"

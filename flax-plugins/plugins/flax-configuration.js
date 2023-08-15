@@ -7,7 +7,7 @@ const PORT = 8100; // use a port you are reasonably sure is not in use elsewhere
 module.exports = function(eleventyConfig) {
   // accept data as yaml
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
-  //
+  eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
 
   console.log(process.env.ELEVENTY_RUN_MODE);
   // quiet

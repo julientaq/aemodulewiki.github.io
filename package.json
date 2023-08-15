@@ -1,5 +1,5 @@
 {
-  "name": "ae modular wiki",
+  "name": "ae-modular-wiki",
   "version": "0.0.1",
   "description": "Flax in use for the AE modular system",
   "main": "eleventy.config.js",

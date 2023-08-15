@@ -1,33 +1,9 @@
 ---
 id: algodrone
-title: "ALGODRONE"
+title: "Algodrone"
 link: "https://www.tangiblewaves.com/store/p90/ALGODRONE.html"
-imglink: ALGODRONE.png
-powerconsuption: 14 mA
-inputs:
-  - name: CV
-    description: Base frequency for the algorithm
-  - name: GATE
-    description: Resets the current algorithm run to the start, this is useful for "one-shots"
-  - name: PAR1
-    description: CV input for Parameter 1 of the algorithm
-  - name: PAR2
-    description: CV input for Parameter 2 of the algorithm
-  - name: PAR3
-    description: CV input for Parameter 3 of the algorithm
-  - name: GRAIN SIZE
-    description: CV input for Grain Size
-  - name: POS
-    description: CV input for position of the grain within the loop
-outputs:
-- name: BUS CV
-  description: (positioned on the left side) Pitch signal from the MIDI bus
-- name: OUT 
-  description: Output of the algorithm
-- name: CYCLE 
-  description: trigger output when a cyclic algorithm (loop) has reached its end before repeating
-- name: MULT 
-  description: unbuffered multiple
+imglink: algodrone.png
+powerconsumption: 14 mA
 ---
 
 The ALGODRONE module is a sound and CV source based on the so-called bytebeat algorithms. These are simple formulas, usually expressed as one line of program code, that spit out a wide variety of interesting tonal to rhythmical patterns, regardless of their simplicity.
@@ -36,7 +12,22 @@ The ALGODRONE module contains a number of these algorithms plus three parameter 
 
 Some algorithms create sound loops, to use these more flexible the ALGODRONE can work in a kind of "granular" mode where a smaller part of the entire loop is repeated and with the POSITION knob you can move through the entire output loop.
 
+## Inputs
 
+*   **CV** - Base frequency for the algorithm
+*   **GATE** - Resets the current algorithm run to the start, this is useful for "one-shots"
+*   **PAR1** - CV input for Parameter 1 of the algorithm
+*   **PAR2** - CV input for Parameter 2 of the algorithm
+*   **PAR3** - CV input for Parameter 3 of the algorithm
+*   **GRAIN SIZE** - CV input for Grain Size
+*   **POS** - CV input for position of the grain within the loop
+
+## Outputs
+
+*   **BUS CV** - (positioned on the left side) Pitch signal from the MIDI bus
+*   **OUT** - Output of the algorithm
+*   **CYCLE** - trigger output when a cyclic algorithm (loop) has reached its end before repeating
+*   **MULT** - unbuffered multiple
 
 ## Controls
 

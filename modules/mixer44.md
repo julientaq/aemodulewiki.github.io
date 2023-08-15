@@ -1,0 +1,49 @@
+---
+
+id: mixer44
+title: "MIXER 4-4"
+link: "https://www.tangiblewaves.com/store/p13/MIXER_4-4.html"
+imglink: mixer44.png
+---
+
+
+[View Product Page](https://www.tangiblewaves.com/store/p13/MIXER_4-4.html)
+
+A 4 input, 1 output audio mono mixer (i.e. not stereo), with individual channel knob for levels. There is also a 4 channel mixer (B1 – B4) without control which can be used for mixing CVs.
+
+Module power consumption: 5 mA
+
+### Inputs
+
+*   **A1** - Channel 1 of the A mixer.
+*   **A2** - Channel 2 of the A mixer.
+*   **A3** - Channel 3 of the A mixer.
+*   **A4** - Channel 4 of the A mixer.
+*   **B1** - **B4** - 4 inputs for the mixer without any level control within the module.
+
+### Outputs
+
+*   **A** (2x) - Output of Mixer A.
+*   **B** (2x) - Output of mixer B
+*   **Mult** - labelled **Thru** on some modules. A passive mixer/ splitter not connected to the module circuits.
+
+### Controls
+
+*   **Level 1** knob - The level of input A1 in output A.
+*   **Level 2** knob - The level of input A2 in output A.
+*   **Level 3** knob - The level of input A3 in output A.
+*   **Level 4** knob - The level of input A4 in output A.
+
+### Patch Suggestions
+
+The most obvious use is to patch the [oscillator(s)](https://wiki.aemodular.com/pmwiki.php/AeManual/2OSCD) and [noise module](https://wiki.aemodular.com/pmwiki.php/AeManual/NOISE) to the Mixer 4/4 to have a complex sound before it even gets to the Filter etc.
+
+If you want a "chiff" of white noise at the beginning of the sound, put the Noise thru a VCA controlled by an [Envelope](https://wiki.aemodular.com/pmwiki.php/AeManual/ADSR) before it goes to the mixer. The same applies if you want a higher pitched oscillator to fade in over a held note, use use a VCA and an envelope with a slow attack before the mixer and voila!
+
+The B mixer is the best way of combining CVs, it can be done via the Mult/Thru on various modules, but that is less reliable. An LFO and Envelope combined before going to the filter can be really useful. Combining CVs is helpful for any module that only has one CV input, or where you want more than one sort of modulation on a specific item, e.g. Filter cutoff Frequency.
+
+[![](/images/th00---mixer44.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/MIXER44/mixer44.png "mixer44")
+
+[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
+
+This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

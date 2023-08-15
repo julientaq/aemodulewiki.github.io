@@ -1,0 +1,51 @@
+---
+
+id: drone38
+title: "DRONE38"
+link: "https://www.tangiblewaves.com/store/p119/DRONE38.html"
+imglink: DRONE38.png
+---
+
+
+[View Product Page](https://www.tangiblewaves.com/store/p119/DRONE38.html)
+
+DRONE38 is a sound generator with 18 oscillators in total, organized in six groups of three oscillators each. 12 of them can be switched between sawtooth and triangle waves, 6 are fixed sawtooth oscillators.
+
+The groups can be mixed individually with 3 mixer knobs, where each 2 groups can be assigned to the level. Additionally, each group can be activated / “played” with buttons near the group.
+
+The oscillators are not meant to be controlled by CVs, but only set static with a knob. By mixing them, very dense drones and clusters can be created.
+
+Additionally, 6 oscillators can be synced to other ones for extending the sonic palette.
+
+Module power consumption: 6 mA
+
+[![](/images/th00---DRONE38.png.jpg)](https://wiki.aemodular.com/uploads/AeManual/DRONE38/DRONE38.png "DRONE38")
+
+### Inputs
+
+*   **A1 - A6 SYNC** - You can patch from the outputs B1 to B6 into these to synchronise A and B banks.
+
+### Outputs
+
+*   **OUT** - The mix of all banks, taking into account the section on/off switches and bank level knobs.
+*   **SUM A** - the mix of all oscillators in bank A, taking into account the section on/off switch, but not affected by the bank A level knob
+*   **SUM B** - same for bank B
+*   **SUM C** - same for bank C
+*   **Pulse Outputs B1 - B6** - Patch these into the inputs A1- A6 to sync the A and B oscillators
+
+### Controls
+
+*   **PITCH A1-A6, B1-B6, C1-C6** - these control the individual pitches of the oscillators
+*   **Trigger Button A1-3,A4-6, B1-3, B4-6, C1-3, C4-6** - when pressed these momentarily activate the respective section even when it is switched off with the section on/off switch
+
+### Patch Examples
+
+It is designed to be used with the [Dronx Mixer/FX module](https://wiki.aemodular.com/pmwiki.php/AeManual/DRONX) but does not have to be. The [Mixconsole](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE) is also an option, or a [4VCA module](https://wiki.aemodular.com/pmwiki.php/AeManual/4VCA) or two...
+
+There is a video by the 5th Volt...
+
+[https://www.youtube.com/watch?v=bkpZkUtRAy4](https://www.youtube.com/watch?v=bkpZkUtRAy4) %
+
+[<-- Back to the Module Index](https://wiki.aemodular.com/pmwiki.php/AeManual/Modules)
+
+This manual is a community work in progress. If you would like to help out with completing this manual please send a PM to @admin at the [AE Modular Forum](http://forum.aemodular.com). The status of each page can be seen on the Trello board at [https://trello.com/b/HNd0dBt7/ae-manuals](https://trello.com/b/HNd0dBt7/ae-manuals)

@@ -8,5 +8,8 @@
     "localcms": "npx @staticcms/proxy-server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "browsersync": "^0.0.1-security"
+  }
 }

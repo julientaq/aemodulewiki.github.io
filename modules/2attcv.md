@@ -8,8 +8,7 @@ width: "1"
 intro: >
   2ATT/CV contains two units of a simple level attenuator for any kind of signal.
 tags:
-  - cv tool
-  - ""
+  - cv manipulation
 image: /static/images/2attcv2.png
 ---
 You can also switch to voltage mode and get a manually controllable CV on the output(s).

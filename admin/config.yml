@@ -37,10 +37,7 @@ collections:
       - label: "tags"
         name: "tags"
         widget: "list"
-        fields: 
-          - name: "tag"
-            label: "tag"
-            widget: "string"
+        delimiter: ","
       - label: "picture"
         required: false
         name: "image"

@@ -12,9 +12,16 @@
     </head>
     <body class="{{ classes }}{% block bodyclass %}{% endblock bodyclass %}">
 
+        {% block background %}
+            
+        <div class="background"></div>
+
+        {% endblock background %}
+
         {% block topbar %}
         {% include "./_common/topbar/topbar.njk" %}
         {% endblock topbar %}
+
         {% block content %}
             <main>
                 <header>

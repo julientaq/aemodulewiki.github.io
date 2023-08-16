@@ -12,9 +12,9 @@
             <h1>{{ title }}</h1>
             <p class="subtitle">{{ subtitle }}</p>
         </header>
-        <section class="catalog-index">
+        <aside class="catalog-index">
             {% include "./modules/itemlist-link.njk" %}
-        </section>
+        </aside>
         <section class="metadata">
             {{ content | safe }}
         </section>
@@ -53,5 +53,4 @@
             </ul>
         </section>
     </main>
-    <p>the list for the catalog</p>
 {% endblock content %}

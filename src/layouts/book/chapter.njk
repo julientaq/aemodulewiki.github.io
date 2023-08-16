@@ -1,14 +1,12 @@
 {% extends "../base.njk" %}
-
 {% block bodyclass %}book-single{% endblock %}
-
 {% block content %}
     <section class="next-and-previous">
         {% include "./modules/book-nextandprevious.njk" %}
     </section>
     <main>
         <header>
-            <p class="chap-number">number {{ chapternumber }}</p>
+            {% if chapternumber  %}<p class="chap-number">{{ chapternumber }}</p>{% endif %}
             <h1>{{ title }}</h1>
         </header>
         <section class="chap-content">

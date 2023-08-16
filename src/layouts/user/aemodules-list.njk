@@ -12,12 +12,7 @@
                 {% for item in collections[catalog] | orderBy("data.title", "asc") %}
                     {% if catalog == item.data.catalog and item.data.type == "entry" %}
                         <li class="{{ item.data.type }}">
-
-                            <h3>{{ item.data.title }}
-{% if replacedby %}
-discontinued {{replacedby}}
-{% endif %}
-                            </h3>
+                            <h3>{{ item.data.title }} {% if item.data.replacedby %} (discontinued replaced by {{replacedby}}) {% endif %} </h3>
                             {% if item.data.manufacturer %}<p>{{ item.data.manufacturer | markdownifyInline }}</p>{% endif %}
                             {% if item.data.introduction %}<p>{{ item.data.introduction | markdownifyInline }}</p>{% endif %}
                             <a href="{{ item.url }}">see more</a>

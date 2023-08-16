@@ -1,0 +1,5 @@
+{
+  "permalink": "aemod/{{chapternumber}}/{{title | slugify }}",
+  "layout": "book/chapter.njk",
+  "book": "aemodular"
+}

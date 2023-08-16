@@ -46,4 +46,10 @@ module.exports = function(eleventyConfig) {
       expand: true,
     }
   );
+  eleventyConfig.addPassthroughCopy(
+    { "static/fonts": "/fonts" },
+    {
+      expand: true,
+    }
+  );
 };

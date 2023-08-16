@@ -5,14 +5,14 @@
   display: flex;
   gap: 10ch 5ch;
   flex-wrap: wrap;
-  li {
+  & li {
     display: block;
     width: 400px;
   }
-  h3 {
+  & h3 {
     margin-bottom: 0.3em;
   }
-  a {
+  & a {
     font-variant-caps: all-small-caps;
     color: var(--color-main);
     margin-left: auto;

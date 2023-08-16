@@ -11,11 +11,18 @@ const markdownifying = require("./plugins/markdownify.js");
 const reorderBlock = require("./plugins/reorderBlock.js");
 const dejats = require("./plugins/dejats.js");
 const groupby = require("./plugins/groupby.js");
-
 const dev = require("./plugins/flax-dev-tools.js");
 const allmeta = require("./plugins/flax-get-all-meta.js");
 
+const lightningCSS = require("@11tyrocks/eleventy-plugin-lightningcss");
+
+
 module.exports = function(eleventyConfig, options) {
+
+
+  // experimenting some new css way
+  eleventyConfig.addPlugin(lightningCSS);
+
   //dev tools
   eleventyConfig.addPlugin(dev);
 
@@ -29,7 +36,7 @@ module.exports = function(eleventyConfig, options) {
   eleventyConfig.addPlugin(config);
 
   //css
-  eleventyConfig.addPlugin(flaxcss);
+  // eleventyConfig.addPlugin(flaxcss);
 
   // add the date plugins
   eleventyConfig.addPlugin(parseDate);

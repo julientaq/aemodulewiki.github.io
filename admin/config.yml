@@ -1,9 +1,6 @@
 backend:
   name: github
   repo: julientaq/aemodulewiki.github.io
-  site_domain: "https://aemodularwiki.lesvoisinsdustudio.ch/admin/"
-  base_url: "aemodularwiki.netlify.app"
-  branch: main
 # local_backend:
 #   url: http://localhost:8082/api/v1
 #   allowed_hosts: ['192.168.0.1']

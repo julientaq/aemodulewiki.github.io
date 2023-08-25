@@ -1,4 +1,7 @@
 {% extends "base.njk" %}
+{% block bodyclass %}
+home
+{% endblock bodyclass %}
 {% block content %}
     <main>
         <header>
@@ -7,15 +10,17 @@
         </header>
         <article>{{ content | safe }}</article>
         {% for item in collections.menuitems  %}
-            <section>
+            <ul>
                 <a href="{{ item.url }}">
+                    <li>
                     {% if item.data.menutitle %}
                         {{ item.data.menutitle }}
                     {% else %}
                         {{ item.data.title }}
                     {% endif %}
+                    </li>
                 </a>
-            </section>
+            </ul>
         {% endfor %}
     </main>
 {% endblock content %}

@@ -1,6 +1,6 @@
 ---
 title: Modules
-permalinks: /modules/
+permalink: /modules/
 menutitle: Modules
 catalog: modules
 layout: user/aemodules-list.njk

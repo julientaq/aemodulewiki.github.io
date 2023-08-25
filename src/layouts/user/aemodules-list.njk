@@ -11,7 +11,7 @@
         </header>
         <section class="menu">
             <label for="searchFilter">Search:</label>
-            <input name="searchFilter">
+            <input id="searchbox" name="searchFilter">
         </section>
         <div id="imgtemp">
             {% for item in collections[catalog] | orderBy("data.title", "asc") %}
@@ -33,29 +33,17 @@
                 {% for item in collections[catalog] | orderBy("data.title", "asc") %}
                     {% if catalog == item.data.catalog and item.data.type == "entry" %}
                         <li class="catalog-{{ item.data.type }}">
-                            {# move figures to the previous block #}
-                            {# <figure class="picture"> #}
-                            {#     {% if picture %} #}
-                            {#         <img loading="lazy"  src="/images/{{ item.data.picture }}" alt=""> #}
-                            {#     {% else %} #}
-                            {#         <img loading="lazy" src="/images/{{ item.data.id }}.png" alt=""> #}
-                            {#     {% endif %} #}
-                            {# </figure> #}
-                            {# <div class="content"> #}
-                            <h3>
-                                <a data-img="#img-{{ item.data.id }}"
-                                   class="module"
-                                   href="{{ item.url }}">
-                                    {% if item.data.manufacturer %}
-                                        <span class="module-manufacturer">{{ item.data.manufacturer | markdownifyInline }}</span>
-                                    {% endif %}
-                                    <span class="module-title">{{ item.data.title }}</span>
-                                    {% if item.data.replacedby %}
-                                        <span>(discontinued <a href="/modules/{{ replacedby }}/">replaced by {{ replacedby }})</a></span>
-                                    {% endif %}
-                                </a>
-                            </h3>
-                            {# </div> #}
+                            <a data-img="#img-{{ item.data.id }}"
+                               class="module"
+                               href="{{ item.url }}">
+                                <span class="module-title">{{ item.data.title }}</span>
+                                {% if item.data.manufacturer %}
+                                    <span class="module-manufacturer">{{ item.data.manufacturer | markdownifyInline }}</span>
+                                {% endif %}
+                                {% if item.data.replacedby %}
+                                    <span>(discontinued replaced by  <a href="/modules/{{ replacedby }}/">{{ replacedby }})</a></span>
+                                {% endif %}
+                            </a>
                         </li>
                     {% endif %}
                 {% endfor %}
@@ -64,16 +52,44 @@
     </main>
 {% endblock content %}
 {% block endscripts %}
+    {# script for showing/hiding the images #}
     <script>
-document.querySelectorAll(".module").forEach(module => {
-    module.addEventListener("mouseover", function (event) {
-        console.log(module.dataset.img)
-        console.log(document.querySelector("#module-show"))
-        console.log(document.querySelector(`#img-${module.dataset.img}`))
-        document.querySelector("#module-show").innerHTML = document.querySelector(module.dataset.img).outerHTML;
-  })
-})
+    document.querySelectorAll(".module").forEach(module => {
+        module.addEventListener("mouseover", function (event) {
+            document.querySelector("#module-show").innerHTML = document.querySelector(module.dataset.img).outerHTML;
+      })
+    })
     </script>
-    {# console.log(event) #}
-    {# console.log(document.querySelector(`#${module.dataset.img}`)); #}
+    {# script for the search/filter #}
+    <script>
+let cards = document.querySelectorAll('.catalog-entry')
+    
+function liveSearch() {
+    let search_query = document.querySelector("#searchbox").value;
+    
+    //Use innerText if all contents are visible
+    //Use textContent for including hidden elements
+    for (var i = 0; i < cards.length; i++) {
+        if(cards[i].textContent.toLowerCase()
+                .includes(search_query.toLowerCase())) {
+            cards[i].classList.remove("is-hidden");
+        } else {
+            cards[i].classList.add("is-hidden");
+        }
+    }
+}
+
+//A little delay
+let typingTimer;               
+let typeInterval = 100;  
+let searchInput = document.querySelector('#searchbox');
+
+searchInput.addEventListener('keyup', () => {
+    console.log("letter")
+    clearTimeout(typingTimer);
+    typingTimer = setTimeout(liveSearch, typeInterval);
+});
+
+
+    </script>
 {% endblock endscripts %}

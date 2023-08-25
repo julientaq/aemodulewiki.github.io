@@ -19,10 +19,13 @@
         {#     </ul> #}
         {# </nav> #}
         {% if picture %}
-            <img src="/images/{{ picture }}" alt="" class="picture">
+            <img src="/images/{{ picture }}" alt="" class="module-picture">
         {% else %}
-            <img src="/images/{{id}}.png" alt="" class="picture">
+            <img src="/images/{{id}}.png" alt="" class="module-picture">
         {% endif %}
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
         <article>
             <header>
                 <ul class="tags-list">

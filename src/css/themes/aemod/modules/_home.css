@@ -1,0 +1,19 @@
+.home {
+  & main {
+    max-width: 70ch;
+    background: var(--color-background);
+    padding: 1em 2ch;
+  }
+  & .background {
+    background: url("/images/cover.webp");
+    /* height: 100vh; */
+    /* width:100vh; */
+    inset: 0;
+    /* background: orange; */
+    position: fixed;
+    background-size: cover;
+    background-position: center center; 
+    opacity: .2;
+    filter: grayscale();
+  }
+}

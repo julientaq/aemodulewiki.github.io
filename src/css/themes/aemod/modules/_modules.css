@@ -1,77 +1,114 @@
-.menu {
-  grid-columns: 1 / -1;
-}
-.module-single {
-  background: white;
-}
-
-/* .module-index  {} */
-
-.module-single main {
-  display: grid;
-  grid-template-columns: 300px minmax(auto, 60ch);
-}
-
-.module-single main {
-  margin: auto;
-  margin-top: 10em;
-  max-width: 1000px;
-}
-
-.module-single main article {
-}
-
-.module-single main img {
-  margin: 0 auto;
-  position: sticky;
-  top: 3em;
-  width: auto;
-  max-height: 80vh;
-}
-
 .module-index main {
   display: grid;
   grid-template-columns: 300px minmax(auto, 60ch);
   gap: 1em 4ch;
   max-width: 1000px;
+
   & header {
     grid-column: 2;
   }
 
   & .menu {
     z-index: 3000;
-    grid-column: 2;
+    grid-column: 1 / -1;
     position: sticky;
     top: 1.5em;
     z-index: 3;
     background: var(--color-background);
-    padding: 0.3em 0 1em
+    padding: 3em 0 1em;
+    
+
+    & label {
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 0.3ch;
+    }
+
+    & input {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      border-bottom: 1px solid var(--color-grey);
+      font-size: 1.3em;
+    }
   }
+
   & #module-show {
     grid-row: 3;
     margin: 0 auto;
     max-width: 80vh;
-    top: 3em;
-    /* background: var(--color-grey); */
+    top: 8em;
     width: 100%;
     padding: 0;
     margin: 0;
     height: 100%;
-    /* display: block; */
+
     & img {
-      width: 100%;
       max-height: 80vh;
       object-fit: contain;
+      margin: 0 auto;
       position: sticky;
       top: 4em;
     }
   }
   & .catalog-index .catalog-entries {
+    display: block;
+    display: inline-block;
     list-style-type: none;
     padding: 0;
     margin: 0;
+
+    & li {
+      margin-bottom: 1em;
+    }
   }
   & #imgtemp {
     display: none;
   }
+}
+
+/*module single*/
+
+.module-single {
+  background: var(--color-background);
+
+  & main {
+    /* display: grid; */
+    /* grid-template-columns: 300px minmax(auto, 60ch); */
+    margin: auto;
+    margin-top: 10em;
+    max-width: 1000px;
+    & .module-picture {
+      /* float: left;  */
+
+      margin: 0 auto;
+      width: auto;
+      max-height: 80vh;
+    }
+    & ul {
+      padding-left: 1ch;
+      margin: 0;
+      border-left: 1px solid var(--color-body);
+    }
+  }
+}
+
+/* .module-index  {} */
+
+@media screen and (max-width: 800px) {
+  .module-index main {
+    display: block;
+  }
+  #module-show {
+    display: none;
+  }
+}
+
+.module-manufacturer {
+  color: var(--color-main);
+}
+
+.is-hidden {
+  display: none;
 }

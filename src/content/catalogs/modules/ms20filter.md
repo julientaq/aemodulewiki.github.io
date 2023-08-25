@@ -49,7 +49,3 @@ AE Modular filter comparison:
 [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 
 
-
-
-
-jk

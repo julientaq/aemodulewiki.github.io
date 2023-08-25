@@ -2,7 +2,7 @@
     {% for item in collections[book] %}
         {% if book == item.data.book and item.data.chapternumber != 0 %}
             <li class="{{ item.data.type }}">
-                <a href="{{ item.url }}">
+                <a href="{{ item.url }}/">
                     <span class="number">{{ item.data.chapternumber }}.</span>
                     <span class="subtoc-item-title">{{ item.data.title }}</span>
                 </a>

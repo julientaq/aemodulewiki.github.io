@@ -1,11 +1,14 @@
 backend:
   name: github
   repo: julientaq/aemodulewiki.github.io
-  site_domain: "https://bright-tulumba-b5e29e.netlify.app"
+  site_domain: "aemodularwiki.lesvoisinsdustudio.ch"
+  branch: main
+  auth_endpoint: api/auth
+
 # local_backend:
 #   url: http://localhost:8082/api/v1
 #   allowed_hosts: ['192.168.0.1']
-editor: 
+editor:
   preview: true
 media_folder: "static/images/" # Media files will be stored in the repo under images/uploads
 collections:
@@ -14,12 +17,12 @@ collections:
     folder: "modules/" # The path to the folder where the documents are stored
     slug: "{{slug}}"
     create: true
-    sortable_fields: 
+    sortable_fields:
       fields: ["title"]
-      default: 
-        field: title 
+      default:
+        field: title
         direction: Ascending
-    fields:    
+    fields:
       - label: "Title"
         name: "title"
         widget: "string"

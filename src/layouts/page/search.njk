@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+{% block styles %}
+    <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+    <script type="module" src="/_pagefind/pagefind-ui.js"
+            onload="new PagefindUI({ element: '#search', showImages: false });"></script>
+{% endblock styles %}
+{% block content %}
+    <main>
+        <header>
+            <h1>{{ title }}</h1>
+        </header>
+        <article>
+            <div id="search" class="search"></div>
+        </article>
+    </main>
+{% endblock content %}

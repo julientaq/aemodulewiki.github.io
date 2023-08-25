@@ -1,7 +1,6 @@
 {# page chosen for the menu have a menu meta data with a name #}
 {# - menu: true #}
 {# - menutitle: title in the menu so you can have a shorter title: Previous journal issues, can become `archives` #}
-
 <button class="menu-call">MENU</button>
 <nav class="hide">
     <ul>
@@ -18,3 +17,8 @@
         {% endfor %}
     </ul>
 </nav>
+<script>
+  document.querySelector(".menu-call").addEventListener("click", function () {
+    document.querySelector(".menu").classList.toggle("hide");
+  });
+</script>

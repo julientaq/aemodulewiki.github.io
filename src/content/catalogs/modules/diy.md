@@ -3,13 +3,12 @@
 id: diy
 title: "DIY Kit"
 link: "https://www.tangiblewaves.com/store/p91/DIY_kit.html"
-
+picture: diy.jpg
 ---
 
 
 
 
-![](/images/DIY-Kit-320.jpg)
 
 There are no boundaries with this module! You decide what inputs, outputs and controls it has. You also design the circuit for what you want the module to do. There are ideas and some circuits designs on the forum, see the DIY section
 

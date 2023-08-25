@@ -1,31 +1,28 @@
 ---
 
+manufacturer: Kurt
 id: keuerslagerkurtdeadband
-title: "Inputs"
+title: "Kurt’s Dead Band"
 link: "https://www.tindie.com/products/keurslagerkurt/kurts-dead-band/"
-
+power: unknown
 ---
-
-
-Kurt's Dead Band
-================
 
 Kurt's Dead Band module is a unique waveshaper, it is able to shape both audio and CV/DC inputs. It will introduce a so-called 'Dead Band': a portion of your input wave will be snapped to one voltage of your choice. In this way, you can introduce a 'pause' in your waveform. On audio it can give phaser-like effects, but depending on the complexity of the input waveform, it can also sound like a unique kind of filter. On CV you can introduce a steady 'pause' in your CV signal, or you can introduce a sudden vertical 'bump' if you use the vertical dead band setting. You can determine the location of the Dead Band (eg at 2V), and also the size around that voltage that gets snapped to the preset voltage. The location can be controlled with CV input.
 
 You can purchase the module here: [https://www.tindie.com/products/keurslagerkurt/kurts-dead-band/](https://www.tindie.com/products/keurslagerkurt/kurts-dead-band/)
 
+## Inputs
+
 *   **In**: Four inputs that get actively mixed together before they enter the waveshaper circuit, much like the B section of the 4-4 Mixer. Input can be both audio or CV/DC.
 *   **CV**: Four CV inputs that get actively mixed together before they enter the waveshaper circuit. CV is used to control the location parameter of the dead band.
 
-Outputs
--------
+## Outputs
 
 *   **Out**: The inputs with an introduced dead band.
 *   **CV Mix**: The four CV inputs that are mixed together, useful as an additional mixer or to use further on with other modules.
 *   **Mult**: 6 passive mult patchpoints that are connected.
 
-Controls
---------
+## Controls
 
 *   **Location**: The location of the dead band, ranging from 0V to 5V. Any input CV amount gets 'added' to this fixed voltage.
 *   **Size**: The range or width of this dead band, centered around the location. If you turn it full left, there should be barely any effect. Fully to the right, audio should be gone or almost gone, depending on the input volume.
@@ -34,8 +31,7 @@ Controls
     
 *   The switch allows you to change the dead band from a horizontal to a vertical dead band. A horizontal dead band introduces a horizontal 'pause' in the waveform, while a vertical dead band introduces a sudden 'bump' in voltage.
 
-Patch Suggestions
------------------
+## Patch Suggestions
 
 The Dead Band module is very much a 'building block' module. Depending on what you feed it, it can give very different results, so experimenting and trying different out of the box stuff is the way to go! But some basic ideas to get you going:
 

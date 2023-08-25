@@ -1,5 +1,4 @@
 ---
-
 id: biot
 title: "BioT"
 link: "https://smallrocks.bandcamp.com/album/biot-touch-plate-demonstration-record"

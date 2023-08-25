@@ -29,12 +29,3 @@ The AE Modular can be completely self contained, but has a MIDI input on the Mas
 
 Please follow the links below for more in depth information on how to connect your AE modular to power, audio and external devices and to record your performance!
 
-**[Step 1: Connect Power](https://wiki.aemodular.com/pmwiki.php/AeManual/Step1ConnectPower)**
-
-**[Step 2: Connect Audio](https://wiki.aemodular.com/pmwiki.php/AeManual/Step2ConnectAudio)**
-
-**[Step 3: Connect Keyboards or Sequencers](https://wiki.aemodular.com/pmwiki.php/AeManual/Step3ConnectKeyboardsOrSequencers)**
-
-**[Step 4: First basic patch](https://wiki.aemodular.com/pmwiki.php/AeManual/Step4FirstBasicPatch)**
-
-**[Step 5: Record Your Performance](https://wiki.aemodular.com/pmwiki.php/AeManual/Step5RecordYourPerformance)** - also see the [AE Music section](https://wiki.aemodular.com/pmwiki.php/AeMusic/AeMusic) of the Wiki

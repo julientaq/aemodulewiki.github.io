@@ -1,11 +1,11 @@
 {% extends "base.njk" %}
 {% block content %}
-    <main>
+    <main >
         <header>
             <ul class="tags-list">
                 {% for tag in tags  %}
                     <li>
-                        <a href="/tags/{{ tag }}">{{ tag }}</a>
+                        <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
                     </li>
                 {% endfor %}
             </ul>

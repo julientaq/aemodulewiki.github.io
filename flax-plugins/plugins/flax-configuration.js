@@ -18,6 +18,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
   eleventyConfig.setServerOptions({
+    domDiff: false,
     // to auto reload when css change
     watch: ["public/**/*.css", "static/**/*.css"],
   });

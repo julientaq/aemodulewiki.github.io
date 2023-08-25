@@ -24,7 +24,7 @@
   --color-meta: var(--color-grey);
   --color-meta-text: var(--color-grey-text);
   --color-meta-light: var(--color-grey-lighter);
-  --color-background: var(--color-grey);
+  --color-background: var(--color-white);
 
   /* set semantic fonts */
   --font-title: var(--font-sans);

@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "local:cms": "npx @staticcms/proxy-server",
     "local:serve": "eleventy --serve",
+    "build": "eleventy",
     "start": "npm-run-all --parallel local:cms local:serve"
   },
   "author": "julientaq",
@@ -18,7 +19,9 @@
     "axios": "^1.4.0",
     "browser-sync": "^2.29.3",
     "browsersync": "^0.0.1-security",
+    "child-process": "^1.0.2",
     "dotenv": "^16.3.1",
+    "eleventy-plugin-embed-everything": "^1.16.0",
     "js-yaml": "^4.1.0",
     "jsdom": "^22.1.0",
     "katex": "^0.16.8",
@@ -43,5 +46,8 @@
     "postcss": "^8.4.27",
     "postcss-import": "^15.1.0",
     "postcss-nested": "^6.0.1"
+  },
+  "devDependencies": {
+    "pagefind": "^0.12.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "catalog": "modules",
-  "permalinks": "/modules/{{id}}",
-  "layout": "user/aemodules-list.njk",
+  "permalink": "/modules/{{id}}/",
+    "layout": "user/aemodules-module.njk",
   "type": "entry"
 }

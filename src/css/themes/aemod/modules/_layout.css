@@ -2,9 +2,12 @@ body {
   padding: 3em 5vw;
 }
 
+
 main {
-  /* border: 2px solid red; */
+
+  margin: auto;
   margin-top: 10em;
+
 }
 
 .background {
@@ -27,7 +30,6 @@ footer .footer-text {
   width: clamp(200px, 50%, 500px);
   margin-left: auto;
 }
-
 
 footer #footer-partners ul {
   border-top: 1px solid var(--color-meta);

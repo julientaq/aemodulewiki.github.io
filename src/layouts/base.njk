@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
     <head>
-        <title>{{ site.title }}</title>
+        <title>{{ title }}</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         {#  the themes #}
         {% include "_common/theme-engine.njk" %}
         {% block headscripts %}
         {% endblock headscripts %}
+        {% block styles %}
+            {# /nothing in base/ #}
+        {% endblock styles %}
     </head>
     <body class="{{ classes }}{% block bodyclass %}{% endblock bodyclass %}">
-
         {% block background %}
-            
-        <div class="background"></div>
-
+            <div class="background"></div>
         {% endblock background %}
-
         {% block topbar %}
-        {% include "./_common/topbar/topbar.njk" %}
+            {% include "./_common/topbar/topbar.njk" %}
         {% endblock topbar %}
-
         {% block content %}
             <main>
                 <header>
@@ -31,16 +28,15 @@
                 <article>{{ content | safe }}</article>
             </main>
         {% endblock content %}
-
         {% block supContent %}
             {# nothing, but you can add yours #}
         {% endblock supContent %}
-        {% block scripts %}
-            {# nothing, but you can add yours #}
-            {# add some scripts there #}
-        {% endblock scripts %}
         {% block footer %}
             {% include "_common/footer.njk" %}
         {% endblock footer %}
+        {% block endscripts %}
+            {# nothing, but you can add yours #}
+            {# add some scripts there #}
+        {% endblock endscripts %}
     </body>
 </html>

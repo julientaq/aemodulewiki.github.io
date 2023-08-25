@@ -1,4 +1,7 @@
 {% extends "base.njk" %}
+{% block bodyclass %}
+    module-index
+{% endblock bodyclass %}
 {% block content %}
     <main>
         <header>
@@ -6,16 +9,53 @@
             <p class="manufacturer">{{ manufacturer }}</p>
             <p class="subtitle">{{ subtitle }}</p>
         </header>
-        {{ content | safe }}
+        <section class="menu">
+            <label for="searchFilter">Search:</label>
+            <input name="searchFilter">
+        </section>
+        <div id="imgtemp">
+            {% for item in collections[catalog] | orderBy("data.title", "asc") %}
+                {% if picture %}
+                    <img id="img-{{ item.data.id }}"
+                         src="/images/{{ item.data.picture }}"
+                         alt="">
+                {% else %}
+                    <img id="img-{{ item.data.id }}"
+                         src="/images/{{ item.data.id }}.png"
+                         alt="">
+                {% endif %}
+            {% endfor %}
+        </div>
+        <figure id="module-show">
+        </figure>
         <section class="catalog-index">
             <ul class="catalog-entries">
                 {% for item in collections[catalog] | orderBy("data.title", "asc") %}
                     {% if catalog == item.data.catalog and item.data.type == "entry" %}
-                        <li class="{{ item.data.type }}">
-                            <h3>{{ item.data.title }} {% if item.data.replacedby %} (discontinued replaced by {{replacedby}}) {% endif %} </h3>
-                            {% if item.data.manufacturer %}<p>{{ item.data.manufacturer | markdownifyInline }}</p>{% endif %}
-                            {% if item.data.introduction %}<p>{{ item.data.introduction | markdownifyInline }}</p>{% endif %}
-                            <a href="{{ item.url }}">see more</a>
+                        <li class="catalog-{{ item.data.type }}">
+                            {# move figures to the previous block #}
+                            {# <figure class="picture"> #}
+                            {#     {% if picture %} #}
+                            {#         <img loading="lazy"  src="/images/{{ item.data.picture }}" alt=""> #}
+                            {#     {% else %} #}
+                            {#         <img loading="lazy" src="/images/{{ item.data.id }}.png" alt=""> #}
+                            {#     {% endif %} #}
+                            {# </figure> #}
+                            {# <div class="content"> #}
+                            <h3>
+                                <a data-img="#img-{{ item.data.id }}"
+                                   class="module"
+                                   href="{{ item.url }}">
+                                    {% if item.data.manufacturer %}
+                                        <span class="module-manufacturer">{{ item.data.manufacturer | markdownifyInline }}</span>
+                                    {% endif %}
+                                    <span class="module-title">{{ item.data.title }}</span>
+                                    {% if item.data.replacedby %}
+                                        <span>(discontinued <a href="/modules/{{ replacedby }}/">replaced by {{ replacedby }})</a></span>
+                                    {% endif %}
+                                </a>
+                            </h3>
+                            {# </div> #}
                         </li>
                     {% endif %}
                 {% endfor %}
@@ -23,3 +63,17 @@
         </section>
     </main>
 {% endblock content %}
+{% block endscripts %}
+    <script>
+document.querySelectorAll(".module").forEach(module => {
+    module.addEventListener("mouseover", function (event) {
+        console.log(module.dataset.img)
+        console.log(document.querySelector("#module-show"))
+        console.log(document.querySelector(`#img-${module.dataset.img}`))
+        document.querySelector("#module-show").innerHTML = document.querySelector(module.dataset.img).outerHTML;
+  })
+})
+    </script>
+    {# console.log(event) #}
+    {# console.log(document.querySelector(`#${module.dataset.img}`)); #}
+{% endblock endscripts %}

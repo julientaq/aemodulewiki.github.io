@@ -3,7 +3,7 @@ manufacturer: Wonkystuff
 id: wonkystuffkaestle
 title: "Kaestle"
 link: "https://wonkystuff.net/product/kaestle/"
-
+power: 
 ---
 
 
@@ -11,11 +11,7 @@ link: "https://wonkystuff.net/product/kaestle/"
 
 This is Wonkystuff's take on the Bastl Instruments reknown [Kastle minisynth](https://bastl-instruments.com/instruments/kastle/), re-engineered to fit the AE modular format. Although set up as as a 2 operator FM synth, It offers several sorts of synthesis within its confines.
 
-Module power consumption:
-
-Mini:
-
-### Inputs
+## Inputs
 
 The WS Kaestle's inputs are located mostly on the left hand side of the module. They are 4 sets of 3 by each knob those inputs affect, a group of 4 on the lower right, and the top 2 of the other square of sockets.
 
@@ -33,7 +29,7 @@ The WS Kaestle's inputs are located mostly on the left hand side of the module. 
 *   A high signal (e.g. th **+** output) is attached, the pulse output is random.
 *   **LFO RST** - Bottom 2 of 4 sockets square in lower right corner - This resets the LFO to the high point of the triangle waveform. This means any modulation will be at its maximum and then descend. Also useful for syncing the LFO with your main clock pulse etc.
 
-### Outputs
+## Outputs
 
 The WS Kaestle's outputs are not all located in the usual, top right hand side of the module. **They are all marked by having a white outline around them.**
 
@@ -55,7 +51,7 @@ Square of 9 sockets right side of module, **all are from the LFO**:-
 *   **Triangle** - middle row of 3 sockets - the main LFO output. For modulation etc.
 *   **\-n** - Bottom row of 3 - the pulse wave output of the LFO, good for triggers etc.
 
-### Controls
+## Controls
 
 There are 2 knobs for each parameter; left and right. The Left knob controls the amount of modulation etc from the relevant input(s)
 
@@ -66,11 +62,11 @@ The parameter value associated with the label, (Pitch/Timbre/Waveshape/LFO Rate)
 *   **Waveshape** - This has two functions; the simple one is that it sets the pulse width of the **\-n** out. The main purpose is to add/remove harmonics by changing the waveform of the main oscillator. This can vary from subtle to manic....
 *   **LFO RATE** - controls the speed of the Low Frequency Oscillator, which is great for varying vibrato, (pitch modulation), and many other parameters to make the sound more interesting, even bonkers!
 
-### Display
+## Display
 
 The LED shows the clock or tempo of the LFO
 
-### Patch Suggestions
+## Patch Suggestions
 
 This is a deceptively powerful module, you may find the original's user manual helpful, and has a useful tips and tricks section as well. There is also a brief explnation of the various synthesis types available on this module, basically it is a must read!
 

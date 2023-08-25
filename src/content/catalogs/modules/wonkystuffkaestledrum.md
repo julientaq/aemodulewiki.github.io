@@ -10,11 +10,7 @@ link: "https://wonkystuff.net/product/kaestledrum/"
 
 This is Wonkystuff's take on the Bastl Instruments [Kastle Drum](https://bastl-instruments.com/instruments/kastle-drum/), re-engineered to fit the AE modular format.
 
-Module power consumption:
-
-Mini:
-
-### Inputs
+## Inputs
 
 The WS Kaestledrum's inputs are located mostly on the left hand side of the module. They are 4 sets of 3 sockets by each knob those inputs affect, a group of 4 on the lower right, and the top 2 of the other square of sockets.
 
@@ -28,7 +24,7 @@ The WS Kaestledrum's inputs are located mostly on the left hand side of the modu
 *   **Feed** - Top 2 of 4 sockets square in lower right corner - This input controls the **Pattern** output of the LFO as shown below.
 *   **CLK IN** - Bottom 2 of 4 sockets square in lower right corner - A trigger pulse here resets the LFO to the highest point of the triangle wave so you can, in effect, create different LFO waveshapes. This also means any modulation the LFO is doing will be at the highest level and descend.
 
-### Outputs
+## Outputs
 
 The WS Kaestledrum's outputs are not all located in the usual, top right hand side of the module. **They are all marked by having a white outline around them.**
 
@@ -73,9 +69,7 @@ There is also an excellent video by RSKT:-
 
 This module screams more than most to be patched with the rest of the AE; an external envelope on the tempo has been mentioned, the trigger could be manual, the Kaestle Drum's LFO or anything else. Use of LFOs to vary the sound can bring great rewards for instance, the attenuator Knobs on the left side of the module being really useful here. Very easy to descend into chaos however, ![](/images/happy.gif)
 
-If Wonkystuff ever upgrade the firmware, or provide different programming for the module, you will be able to find it here:-
-
-[https://github.com/wonkystuff/kastle](https://github.com/wonkystuff/kastle)
+If Wonkystuff ever upgrade the firmware, or provide different programming for the module, you will be able to find it on [https://github.com/wonkystuff/kastle](https://github.com/wonkystuff/kastle)
 
 
 

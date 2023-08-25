@@ -8,7 +8,7 @@
     "local:cms": "npx @staticcms/proxy-server",
     "local:serve": "eleventy --serve",
     "build": "eleventy",
-    "githubbuild": "eleventy --pathprefix=aemodulewiki.github.io/",
+    "githubbuild": "eleventy",
     "start": "npm-run-all --parallel local:cms local:serve"
   },
   "author": "julientaq",

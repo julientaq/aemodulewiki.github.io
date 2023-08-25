@@ -1,9 +1,8 @@
 backend:
   name: github
   repo: julientaq/aemodulewiki.github.io
-  site_domain: "aemodularwiki.lesvoisinsdustudio.ch"
+  site_domain: "bright-tulumba-b5e29e.netlify.app"
   branch: main
-
 # local_backend:
 #   url: http://localhost:8082/api/v1
 #   allowed_hosts: ['192.168.0.1']

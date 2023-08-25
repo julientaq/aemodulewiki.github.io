@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: julientaq/aemodulewiki.github.io
-  base_url: "https://api.netlify.com"
+  base_url: "https//aemodularwiki.netlify.app"
   auth_endpoint: "auth/api"
 # local_backend:
 #   url: http://localhost:8082/api/v1

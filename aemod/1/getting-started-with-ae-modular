@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Getting Started with AE Modular</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=32146">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="book-single">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <section class="next-and-previous">
+        
+
+
+
+
+
+    <span class="next">
+        <a href="/aemod/2/connect-the-rack"><span class="number">2.</span>Connect the rack</a>
+        <span class="arrow">→</span>
+    </span>
+
+
+    </section>
+    <main >
+        <header>
+            <p class="chap-number">1</p>
+            <h1>Getting Started with AE Modular</h1>
+        </header>
+        <section class="chap-content">
+            <p>If you are new to synthesisers, or just modular synths, this section is well worth reading. It will also be helpful if you are trying to decide what AE modules to buy.</p>
+<p>The easiest way to start is to purchase one of the <a href="https://www.tangiblewaves.com/store/c2/AE_modular%3A_complete_systems.html">2 starter systems on the tangible waves website</a>, or local distributors/shops in your country. Both these systems will get you started with minimal technical knowledge required.</p>
+<p>On the TW website there is a quick start guide which is very useful:-</p>
+<p><a href="https://www.tangiblewaves.com/downloads.html">https://www.tangiblewaves.com/downloads.html</a></p>
+<p>Additionally, <a href="https://www.youtube.com/watch?v=AQcVaYV32Ws">you can watch this introduction to the Starter rack 2 on YouTube</a>.</p>
+<p>And for useful AE resources online, (inc. this Wiki!):- <a href="https://www.youtube.com/watch?v=8a7KQeLBVUk">The 5th Volt covers AE online</a></p>
+<p>There is a lot of discussion / advice / knowledge available on the <a href="http://forum.aemodular.com">AE modular forum</a>, if you get stuck, don't be afraid to ask, we don't bite! We are also mercifully free of internet trolls. Click on the AE Modular talk button to the left.</p>
+<p>There is also an AE modular discord group if you more immediate conversation, the link and more information is in this thread on the forum. <a href="https://forum.aemodular.com/thread/752/discord-chat-aem-community">https://forum.aemodular.com/thread/752/discord-chat-aem-community</a></p>
+<p>If you want to spec your own system, you need to decide what it is for, if you want it to be a self contained noise machine, then you need all the usual synth parts - Oscillators, VCAs, Filters etc.</p>
+<p>The AE is a cheap way to expand many commercial synths, especially semi-modulars like the Arturia Minibrute, Behringer Neutron, etc. The ones mentioned even share the 3.5mm mini jack size with the 4 I/O module so the leads are easy to connect. It is <strong>highly recommended</strong> that all external inputs to the AE go through the 4 I/O module to protect the circuits from voltages outside the 0-5V range it uses.</p>
+<p>The AE Modular can be completely self contained, but has a MIDI input on the Master module so you can sync (or play) from external equipment. This is, by far, the best way to have a keyboard connected to the AE; many users on the forum use the Arturia Keystep but any keyboard/synth with a MIDI output can be used. There are quite a few synths / modules these days which have a gate / CV available but the warning regarding voltage range in the previous paragraph applies again.</p>
+<p>Please follow the links below for more in depth information on how to connect your AE modular to power, audio and external devices and to record your performance!</p>
+
+        </section>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

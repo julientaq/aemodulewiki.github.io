@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ENV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=27265">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/env.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>ENV</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>This module is discontinued, replaced by the 2ENV module.</p>
+<p>An attack/decay envelope generator with a sustain on/off switch.</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>GT1</strong> - Main trigger input, +5V pulse will trigger the Envelope cycle.</li>
+<li><strong>GT2</strong> - Secondary trigger input, +5V pulse will trigger the envelope cycle.</li>
+</ul>
+<h3>Outputs</h3>
+<p>The first two are on the usual input side of an AE module.</p>
+<ul>
+<li>
+<p><strong>Bus Gate</strong> - Gate is on when a midi note is held, via Master module.</p>
+</li>
+<li>
+<p><strong>Bus Ctrl</strong> - Value of Midi CC20 controller via Master Module.</p>
+</li>
+<li>
+<p><strong>OUT</strong> (4) - the Envelope CV value.</p>
+</li>
+<li>
+<p><strong>Mult</strong> (4) - a passive mixer/splitter with no connection to the module's circuits.</p>
+</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>Gate Hold</strong> On/Off switch - when on, +5V will be at the output until the trigger is released. When off the envelope will go through its attack/decay cycle without pause, holding a trigger will not affect the envelope.</li>
+<li><strong>Fast/Slow</strong> switch - Affects the rate at which the envelope changes over time, fast is best for percussion.</li>
+<li><strong>Attack</strong> knob - sets the rate at which the CV rises from zero when the module is triggered.</li>
+<li><strong>Decay</strong> - sets the rate at which the CV drops to zero when the trigger stops, would be called release on a standard ADSR tyre envelope.</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>Though the new 2ENV module is superior, this is still a useful module. It is very good for percussion, or putting a &quot;brightness&quot; on a sound when triggered (by modulating the filter in addition to whatever modulation you are using).</p>
+<p>It provides an non-LFO modulation source which can be inverted with use of the Logic module (so you have a dropping voltage with attack, and rising with decay), this can be good on pitch modulation (subtly!) to sound more like an acoustic instrument.</p>
+<p>The main reason to replace this module with a 2ENV would be space; you get 2 separate envelope circuits in the same module. The 2ENV also has CV control inputs for Attack/Decay, trigger buttons and, best bit, an LED that lights up when the envelope circuit is triggered.</p>
+<p>This video by Synths &amp; Things explains the ins and outs of this module really well: <a href="https://youtu.be/CfxyHNwQUkc">https://youtu.be/CfxyHNwQUkc</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

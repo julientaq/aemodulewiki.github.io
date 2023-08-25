@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Connect keyboard and sequencers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=44267">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="book-single">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <section class="next-and-previous">
+        
+
+
+
+
+    <span class="previous">
+        <span class="arrow">←</span>
+        <a href="/aemod/3/your-first-patch"><span class="number">3.</span>Your first patch</a>
+    </span>
+
+
+    <span class="next">
+        <a href="/aemod/5/recording-a-performance"><span class="number">5.</span>Recording a performance</a>
+        <span class="arrow">→</span>
+    </span>
+
+
+    </section>
+    <main >
+        <header>
+            <p class="chap-number">4</p>
+            <h1>Connect keyboard and sequencers</h1>
+        </header>
+        <section class="chap-content">
+            <p>The usual way of controlling the AE modular is via midi and the Master module. Take a midi lead from the out of your external device, plug the other end into the breakout cable provided with your system, which then plugs into the 3.5mm socket labelled midi on the front of the Master module.</p>
+<p>The Master module makes various midi signals available, what is available depends on the module you are looking at. Any socket labelled bus the signal is derived from midi, e.g. bus gate gives a +5V signal when a key/pad is pressed on the connected equipment. This would normally be used to either trigger an envelope module, or the VCA direct. It can be deduced that bus CV and bus gate together means you can play the AE modular from the keyboard. the bus CV needing to go to the VCO module CV in. More on basic patching in the previous section.</p>
+<p>There are sequencers available that give out CV/Gate rather than midi, Korg SQ1, Arturia Beatstep and many more. These CVs/Gate can be input to the AE via the 4 I/O module. Direct connection to other modules is not recommended.</p>
+
+        </section>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

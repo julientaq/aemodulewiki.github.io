@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TBD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=66425">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/tbd.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>TBD</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>The TBD module is a multifunctional DSP (digital signal processing) module that includes more than 30 different synthesis and audio processing plugins. It is a collaboration project between CTAG Kiel (an academic working group of Kiel University of Applied Sciences), <a href="https://instrumentsofthings.com/">Instruments of Things</a> (who produce this module for Eurorack) and <a href="https://tangiblewaves.com">tangiblewaves</a>.</p>
+<p>Module power consumption: 80 mA</p>
+<h3>Plugin Documentation</h3>
+<p>There are over 30 plugins built in, these are effects, simple and complex sound generators. Some of these have over 20 parameters which you can control via the web interface. Here are the two main sources of documentation for these:</p>
+<ul>
+<li><a href="https://tinyurl.com/tbd-overview">Quick overview page with links to sections in the full documentation</a></li>
+<li><a href="https://tinyurl.com/tbd-full-documentation">Full documentation of all included plugins</a></li>
+</ul>
+<h3>Inputs</h3>
+<ul>
+<li><strong>IN1, IN2, IN3</strong> - All three inputs are being mixed together before passed into to the currently active plugin. This is used for audio input for FX plugins.</li>
+<li><strong>CV IN 0, 1</strong> - first and second CV input. These can be freely assigned to any plugin parameter via the web interface.</li>
+<li><strong>TRIG IN 0, 1</strong> - first and second trigger inputs. These can also be freely assigned to plugin triggers.</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>OUT</strong> - Audio output of the currently active plugin</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>GAIN</strong> - Control the gain that is added to the incoming signal</li>
+<li><strong>PAR 0, 1</strong> - Potentiometer which can be freely assigned to any parameter of the currently active plugin via the web interface. These are independent from the incoming CV parameters.</li>
+<li><strong>TRIG 0,1</strong> - Trigger buttons which can be assigned to events of the currently active plugin via the web interface. These are independent from the other trigger inputs.</li>
+<li><strong>CONFIG</strong> - allows the selection of a stored plugin. These are stored as &quot;favorites&quot; via the web interface and persist in the module even without a connection to a PC.</li>
+</ul>
+<h3>The Web Interface</h3>
+<p>You will need a computer (or Android device) which is connected to the TBD via USB to make the most of this module. The connection is made via a &quot;terminal application&quot;-program which you run on your computer and which opens a web interface on your default web browser. You can then control the TBD via this web interface.</p>
+<p>The web interface runs on your PC as a local server and you open a web browser to &quot;localhost:&lt;port&gt;&quot; with port being any number greater than 3000. Commonly used ports are 3030 or 8080. Once you've opened the browser you see the start screen which shows you the currently active plugin(s) on the TBD which is connected to your PC. Downloading samples currently is not supported directly via the Webinterface, please use the &quot;terminal application&quot; for this instead.</p>
+<p><strong>If you run into issues compiling &amp; updating samples, you may find this forum-thread helpful:</strong></p>
+<ul>
+<li><a href="https://forum.aemodular.com/thread/2198/error-erase-failure-trying-audiofile?page=1&amp;scrollTo=18955">Using the &quot;terminal application&quot; to send samples to the TBD</a></li>
+</ul>
+<p><img src="/images/TBD%20Browser%20Start.png" alt=""></p>
+<p><strong>You can download the newest version of the &quot;terminal application&quot; here:</strong></p>
+<ul>
+<li><a href="https://wiki.aemodular.com/uploads/Binaries/TBDConnect/">For Windows</a></li>
+<li><a href="https://github.com/aemodular/ctag-tbd/releases/tag/win-tapp-GUI-20211224">For Windows (Legacy Version)</a></li>
+<li><a href="https://github.com/aemodular/ctag-tbd/releases/tag/macos-tapp-gui-20220125">For MacOS</a></li>
+<li><a href="https://github.com/aemodular/ctag-tbd/releases/tag/linux-tapp-20220119">For Linux</a></li>
+</ul>
+<p>The Official Version for Windows already supports Windows 11 / The Legacy Version for Windows uses the same GUI as the one for MacOS</p>
+<p><strong>NEW: Android version</strong></p>
+<p>User @betaboon has kindly developed an Android application which works mostly like the above terminal application and can be installed on your Android phone or tablet. The connection is the same - just plug in a USB cable between the TBD module and your phone (you may need a USB-A to Micro-USB or USB-C adapter). Enable and serial connection and debugging when this question come up and then start the TBD app.</p>
+<p>You can download the app from Google Play Store here: <a href="https://play.google.com/store/apps/details?id=com.aemodular.tbd">https://play.google.com/store/apps/details?id=com.aemodular.tbd</a></p>
+<h3>Patch Ideas</h3>
+<p>The 5th Volt has made this introductory video which will help you to get started with this complex module: <a href="https://youtu.be/tEKvm1mL8Fc">https://youtu.be/tEKvm1mL8Fc</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

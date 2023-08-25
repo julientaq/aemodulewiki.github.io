@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Euclid Grid</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=92956">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/kyaaeuclid.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>Euclid Grid</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>This is a 4 channel Euclidean step sequencer with a colourful animated display and hands on performance controls.</p>
+<p><a href="https://kyaa.co/product/euclid-grid">View Kyaa's Shop Page</a></p>
+<p><a href="https://kyaa.co/wp-content/uploads/2021/11/Euclid-Grid-Manual-v1.0.html">Module Manual</a></p>
+<table>
+<thead>
+<tr>
+<th>sequence</th>
+<th>display colour</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Cyan</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Magenta</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Yellow</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Green</td>
+</tr>
+</tbody>
+</table>
+<h3>Inputs</h3>
+<ul>
+<li><strong>Clk</strong> - External clock input</li>
+<li><strong>Rst</strong> - When you apply a high level signal it pauses all signals for as long as the level is high</li>
+<li><strong>A | B | C | D</strong> - Applying a high level signal to any of these inputs will activate the additional fill steps for the respective sequence for as long as the signal level is high</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>B. Clk</strong> - On the left hand side - outputs the bus MIDI clock signal</li>
+<li><strong>B. Stop</strong> - On the left hand side - outputs the bus MIDI stop signal</li>
+<li><strong>A | B | C | D</strong> - On the right hand side - (x2 each), outputs the triggers for each respective sequence</li>
+<li>&quot;Column&quot; <strong>Sockets</strong> (x8) - above the display. These will produce a trigger when a step of <strong>any</strong> sequence is in that output's column on the display, as marked by the lines below the sockets.</li>
+</ul>
+<h3>Controls</h3>
+<p>In this section the use of the encoder, (select knob) is designated by the ↻ symbol.</p>
+<ul>
+<li><strong>Select</strong> knob. used to select the active sequence, the one the controls will affect. The selected sequence will flash until another button is pressed, or a few moments have passed before coming active.</li>
+</ul>
+<p><strong>How to move a sequence.</strong></p>
+<ul>
+<li><strong>↔ + ↻</strong> Moves the selected sequence left or right.</li>
+<li><strong>↕ + ↻</strong> Moves the selected sequence up or down.</li>
+</ul>
+<p>This can be for convenience, but moving the sequence side to side will affect the triggers produced by the sockets above the display....</p>
+<p><strong>How to modify a sequence.</strong></p>
+<ul>
+<li><strong>Steps + ↻</strong> Changes the number of steps in the active sequence.</li>
+<li><strong>Offset + ↻</strong> Nudges the steps in the active sequence to the left or right.</li>
+<li><strong>↔ + Shift ↻</strong> Changes the width of the sequence.</li>
+<li><strong>↕ + Shift ↻</strong> Changes the height of the sequence.</li>
+<li><strong>Steps + Shift ↻</strong> Changes the length of the sequence.</li>
+<li><strong>Shift ↻</strong> Changes the step mode of the sequence,</li>
+</ul>
+<p>Step modes determine how the sequence plays. These are the available modes:-</p>
+<ul>
+<li>Horizontal</li>
+<li>Horizontal Reverse</li>
+<li>Horizontal PingPong</li>
+<li>Vertical</li>
+<li>Random</li>
+</ul>
+<p><strong>How to perform a sequence.</strong></p>
+<ul>
+<li><strong>Mute</strong> Stops the active sequence from playing. Can be a toggle switch, or muted as the button is held down.</li>
+<li><strong>Fill</strong> Adds additional notes to the active sequence. Can be a toggle switch, or the fill plays whilst the button is held down. If you want to trigger fills on the other sequences, you need to use the lettered inputs; in this way it is possible to have fills triggered on all 4 sequences simultaneously. The Gate output on the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/JOYSTICK">JOYSTICK</a> module could be used, or the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/6MUTE">6MUTE</a> controlling +5V CVs from, for example, the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV">2ATTCV</a> module.</li>
+</ul>
+<p><strong>What is a Fill?</strong> On Euclid Grid, a Fill is a secondary Euclidean sequence that is overlaid over the first. They are represented with the color white.</p>
+<p><strong>How to modify Fill parameters.</strong> Fills can be modified much like normal sequences via the following methods.</p>
+<ul>
+<li><strong>Fill + ↻</strong> Changes the number of steps in the selected fill.</li>
+<li><strong>Fill + Steps + ↻</strong> as per Fill + ↻.</li>
+<li><strong>Fill + Offset + ↻</strong> Nudges the steps in the selected fill to the left or right.</li>
+</ul>
+<p><strong>How to change the Internal clock.</strong></p>
+<ul>
+<li><strong>Clock</strong> Starts or stops the internal clock depending on state.</li>
+<li><strong>Clock + ↻</strong> Increases or decreases the tempo of the internal clock by 10.</li>
+<li><strong>Clock + Shift ↻</strong> Increases or decreases the tempo of the internal clock by 1.</li>
+</ul>
+<p>All sequences will reset after three seconds of no clock being applied (internally or externally).</p>
+<p><strong>How to save and load a performance.</strong></p>
+<ul>
+<li><strong>Mem</strong> Loads the last saved state from memory.</li>
+<li><strong>Mem + Shift</strong> Saves the current state to memory.</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>Combining different sequences of different lengths can result in polymeter, (polyrhythms) especially odd and prime numbers (i.e. 5/8, 4/13). Highly recommended!</p>
+<p>A Euclid sequence will always try to evenly space the triggers as much as possible, so <strong>X X X X o o o o o o o o o o o o</strong> would be impossible. If you make the right shape on the Grid display however, you can do this:-</p>
+<p><strong>X o o o X o o o X o o o X o o o</strong> is the sequence you would use, but display it as</p>
+<ul>
+<li><strong>X o o o</strong></li>
+<li><strong>X o o o</strong></li>
+<li><strong>X o o o</strong></li>
+<li><strong>X o o o</strong></li>
+</ul>
+<p>and the key here is to then <strong>run the sequence in vertical mode</strong>. Variations on this idea are myriad....</p>
+<p>The individual trigger outs can also be used to vary your sequence, by using an attenuator if needed to give you control over the amount. The <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV">2ATTCV</a> and <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX">4ATTMIX</a> give you the attenuation/ control required. Might also be good with the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/ADSR">ADSR</a>....</p>
+<p>As this module can produce 4 independent patterns of triggers, plus the individual column outs, module like the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/LOGIC">LOGIC</a>, <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/3VCSWITCH">3VCSWITCH</a> and <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/OR2x4">OR2x4</a> may well be interesting...</p>
+<p>Here is an introductory video by the 5th Volt...</p>
+<div id="0CO4U355-Og" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/0CO4U355-Og" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>and this one with some amazing patches towards the end by RSKT...</p>
+<div id="jHgDWFarmVM" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/jHgDWFarmVM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

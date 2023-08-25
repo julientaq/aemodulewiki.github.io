@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>trip</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=66215">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/trip.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>trip</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <h1>TRIP</h1>
+<p><strong>TRIP</strong> is a <strong>TRI</strong>gger <strong>P</strong>rocessor module; it takes incoming triggers and repeats them - you can think of it as a delay module for triggers. The delay time and the number of repeats can be set with a knob and additionally be CV controlled. Beyond a static delay, the delays of one input trigger can be accelerated or decelerated, leading to the rhythm of a bouncing ball for instance. In another mode, the probability of the output triggers can be chosen.</p>
+<p>Different output modes change the assignment of the delays to the eight outputs; either, all delayed triggers for one input trigger are on one output, or the delays go through the outputs 1...8. By this, complex events can be triggered.</p>
+<p>Finally, the acceleration and the gate time can be CV controlled as well.</p>
+<p>The module is &quot;polyphonic&quot; in a sense, that consecutive triggers at the input don't stop currently running trigger outputs from a previous trigger, but mixing them all. Together with variable delay times and acceleration, highly complex trigger patterns can appear on each of the eight outputs.</p>
+<p>Module power consumption: 8 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>TR IN</strong> - trigger input</li>
+<li><strong>DELAY</strong> - accept CV for the delay time (value from knob DELAY TIME will be added)</li>
+<li><strong>RPTS</strong> - accept CV for number of repeats (value from knob REPEATS will be added)</li>
+<li><strong>ACCEL</strong> - accept CV for acceleration (value from knob ACCELERTN will be added)</li>
+<li><strong>GATE</strong> - accept CV for gate time (value from knob GATETIME will be added)</li>
+<li><strong>MUTE</strong> - silences all outputs</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>1...8</strong> - trigger outputs;depending of seleted operation mode</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>DELAY TIME</strong> Knob - change the delay time from 0.02 to either 1 or 5 seconds depending on FAST/SLOW operation mode</li>
+<li><strong>REPEATS</strong> Knob - change the number of trigger repeats from 1 to 32</li>
+<li><strong>ACCELERTN</strong> Knob - change the acceleration (center to right) / deceleration (center to left) of the delayed triggers</li>
+<li><strong>GATE TIME</strong> Knob - change the gate time of the output triggers</li>
+<li><strong>PROBABL./ACCEL.</strong> Switch - switch between PROBABILITY or ACCELERATION mode. When in ACCELERATION mode, the outputput triggers will fire faster / slower with every step; when in PROBABILITY mode the output triggers are fired/supressed randomly.</li>
+<li><strong>MAN TRIG</strong> Button - sends a trigger signal to start the triggers manually, additionally to the TR IN.</li>
+</ul>
+<h3>Configuration</h3>
+<p>Pressing the MAN TRIG button for one second enters the configuration mode; here:</p>
+<ul>
+<li>the LEDs 1..3 show the output mode; change with knob DELAY TIME</li>
+<li>the LED 5 shows the dry+wet mode; change with knob REPEATS</li>
+<li>the LED 6 shows the delay time range; change with knob ACCEL</li>
+<li>the LED 7 shows the overflow mode; change with knob GATE TIME.</li>
+</ul>
+<p><strong>Output modes:</strong></p>
+<p><strong>Mode 1</strong> is a combined mode; output 1 has all delayed triggers, outputs 2-8 have only the delayed trigger of the according delay counter. If REPEATS is greater than 7, then the outputs 2-8 remain silent for later delays.</p>
+<p><strong>Mode 2</strong> is similar to Mode 1, except that the combined triggers at output 1 don't exist, therefore you have 8 separate outputs for the delays 1 to 8.</p>
+<p><strong>Mode 3</strong> works as following: The delays of the first input trigger appear at output 1; if a new input trigger signal comes in before the first delayed trigger sequence is finished, then it's delays are sent to output 2. Same for subsequent trigger inputs up to eight. For further trigger inputs it is checked which output is free (no more current triggers running) and this one is used for the delays of the incoming trigger.</p>
+<p><strong>Dry+Wet mode:</strong></p>
+<p>When Dry+Wet mode is activated (LED 6 in Configuration mode), then the input trigger is also sent to the output, so original trigger and it's delays are combined.</p>
+<p><strong>Delay time range:</strong></p>
+<p>When the time range is set to on (LED 7 in Configuration mode), then, the maximum delay time range is eight times longer compared to time range &quot;off&quot;. The maximum delay time is approx. 20 seconds, and even longer with negative acceleration.</p>
+<p><strong>Overflow loop:</strong></p>
+<p>When the overflow loop is set to on (LED 8 in Configuration mode), repeats that exceed the count of 8 are started again within the output range of eight outputs. If set to off, then repeats (except output 1 in Mode 1) beyond the 8th are discarded. This setting has no effect in Mode 3.</p>
+<p><strong>Quit the configuration:</strong> Short pressing the MAN TRIG button exits the Configuration mode and returns to regular operation.</p>
+<h1>Patch Suggestions</h1>
+<p>The most obvious use for this module is &quot;echo&quot; type FX, repeating a sound as set by the module controls.</p>
+<p>It can be good on CVs, try it off an <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2LFO">LFO</a> going to filter cutoff....</p>
+<p>An excellent module for helping produce sound FX, try <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/NOISE">NOISE</a> through a VCA controlled by this module as a starting point.</p>
+<p>Most people run this module from an LFO to provide the initial trigger, but there's no reason it can't be one of the AE modular's sequencer clocks or trigger outs... This can be excellent to then provide a modulation source that (sort of) works with the tempo.</p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

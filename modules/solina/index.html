@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SOLINA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=19632">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/solina.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>SOLINA</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>The SOLINA String Machine is a digital string synthesizer module for lush pad sounds, based on Jan Ostman's DSP code. It features extensive chord generation options and offers various adjustable sound shaping parameters, like oscillator detuning and vibrato.</p>
+<p>Module power consumption: 11 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>CV</strong> - CV input for chord selection</li>
+<li><strong>CH. VAR CV</strong> - CV input to select the chord variants (inversions, raised thirds, etc.)</li>
+<li><strong>CHORD +</strong> - Trigger input to play the next chord in the progression preset</li>
+<li><strong>CHORD -</strong> - Trigger input to play the previous chord in the progression preset</li>
+<li><strong>4th GATE</strong> - Gate input. switching the 4th note on (high) or off (low)</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>BUS CV</strong> - (positioned on the left side) Pitch signal from the MIDI bus</li>
+<li><strong>BUS GATE</strong> - (positioned on the left side) Gate signal from the MIDI bus</li>
+<li><strong>OUT</strong> - Audio output</li>
+<li><strong>MULT</strong> - Unbuffered multiple</li>
+</ul>
+<h3>Controls</h3>
+<p>Chord generation and playback:</p>
+<ul>
+<li><strong>COARSE FREQ</strong> knob - tunes the root note of the chord (quantized to semi tones)</li>
+<li><strong>FINE FREQ</strong> knob - tunes the root note of the chord (unquantized)</li>
+<li><strong>+1 OCT</strong> switch - transposes the chords up by one octave</li>
+<li><strong>CHORD</strong> knob - selects the chord to be played</li>
+<li><strong>CHORD + / -</strong> buttons - step through a preset chord progression (1-4-5, etc.), if the CHORD knob is set all the way counterclockwise</li>
+<li><strong>CHORD VAR</strong> knob - selects different chord variants. Middle position is the standard position for regular chords. In the left half there are inversions and in the right half there are variants with raised or lowered 3rds or 5ths, as well as 5ths-only at the full clockwise position.</li>
+<li><strong>MAJ/MIN SCALE</strong> switch - switches between major or minor scale</li>
+<li><strong>4TH NOTE ON</strong> switch - adds a fourth note to the chord</li>
+<li><strong>7th / BASS</strong> switch - selects the 7th or the Bass note as 4th note</li>
+</ul>
+<p>Sound shaping:</p>
+<ul>
+<li><strong>OSC SPREAD</strong> knob - slightly detunes the individual notes for a wider, moving sound</li>
+<li><strong>TONE</strong> knob - blends between a lo-fi digital low pass and high pass filter effect</li>
+<li><strong>LFO RATE</strong> knob - adjusts the vibrato speed</li>
+<li><strong>PITCH MOD</strong> knob - adjusts the vibrato amount</li>
+<li><strong>ENSEMBLE MIX</strong> knob - blends in a phaser effect</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>For authentic 70s strings, (or just great sound sin general), the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/PHASER">PHASER</a> module is a great partner for the Solina.</p>
+<p>Chord generation and playback is actually quite easily done, even though it can seem very complex, especially if you're not well versed in music theory. Start with all knobs turned fully counter clockwise, except for the CHORD VAR knob, which should be at its middle position. Then tweak the COARSE and FINE FREQ knobs to tune the root note chord to your liking or to other sounds in your patch. After that, choose MAJOR or MINOR as a scale and turn the CHORD knob to hear which of the available chords fit your music piece. You may sequence them then via the CV input. For more interesting chords, set the CHOR VAR knob to a different position and listen to the chords again (not all will necessarily change). Also switch on a 4th note if you like.</p>
+<p>Usage of the CHORD + / - buttons and trigger inputs to step through common chord progression presets (1-4-5, etc.) requires the CHORD knob to be fully counterclockwise and no voltage present at the CV input. The chord progressions let you instantly play pleasing chords to your tuned root note and set scale. This is practical if you just want to create a quick backing chord track to your patch. In case you want to sequence the chord changes with triggers from a sequencer, it is helpful to do so via a <a href="http://wiki.aemodular.com/pmwiki.php/AeManual/3VCSWITCH">3VCSWITCH</a> module together with a <a href="http://wiki.aemodular.com/pmwiki.php/AeManual/DIVIDER">DIVIDER</a> or <a href="http://wiki.aemodular.com/pmwiki.php/AeManual/MM-DIV">MM-DIV</a> module. This combination will allow you to route your sequencer triggers to either the CHORD + or CHORD - input, to play up and down a chord progression. The chords in the progression presets do not wrap around, so there will be a point when + or - won't step any further and you have to use the opposite button/trigger input to play the progression backwards again.</p>
+<p>As with any modular synth oscillator, go ahead and route the SOLINA's audio through other modules, like filters, VCAs, a <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/WAVEFOLDER">WAVEFOLDER</a> and <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/MULTIFX">MULTIFX</a> to further shape its sound and apply rhythm to the strings.</p>
+<p>Don't Forget the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/PHASER">PHASER</a> module....</p>
+<p>An excellent video guide to the Solina by The Tuesday Night Machines: <a href="https://youtu.be/R3lDrnbjHHQ">https://youtu.be/R3lDrnbjHHQ</a></p>
+<p>Superbooth 2019 prototype sound demo video by The Tuesday Night Machines: <a href="https://youtu.be/OGV4r7Wq6B8">https://youtu.be/OGV4r7Wq6B8</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

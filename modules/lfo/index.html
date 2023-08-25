@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LFO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=41566">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/lfo.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>LFO</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>This module is discontinued, replaced by the 2LFO module</p>
+<p>The low frequency oscillator (LFO) module generates modulation voltages mostly below the audio range.</p>
+<p>Module power consumption: 3 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>SYNC</strong> - resets the LFO waveform when a trigger pulse is received</li>
+<li><strong>PWM</strong> - control voltage input for pulse width modulation of PULSE wave output</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>SQUARE</strong> - low frequency square wave with fixed width (half cycle)</li>
+<li><strong>TRIANGLE / SAWTOOTH</strong> - low frequency triangle or sawtooth wave</li>
+<li><strong>PULSE</strong> (L) - low frequency pulse where pulse length is set by the PULSEWIDTH knob</li>
+<li><strong>BUS CV</strong> - control voltage signal from MIDI</li>
+<li><strong>BUS CTRL</strong> - CTRL signal from MIDI (CH1 - CC20)</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>RATE knob</strong> - frequency control</li>
+<li><strong>PULSEWIDTH knob</strong> - set the pulse width of the output</li>
+<li><strong>SLOW / FAST switch</strong> - switch between two frequency ranges</li>
+<li><strong>TRIANGLE / SAWTOOTH switch</strong> - choose the waveform of the TRIANGLE / SAWTOOTH output</li>
+<li><strong>TRIANGLE LED</strong> - visual reference for the TRIANGLE / SAWTOOTH output</li>
+<li><strong>PULSE LED</strong> - visual reference for the PULSE output</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>LFO can be used for modulating other oscillators (FM), VCAs (AM), filters, etc. But may also be used as clock or gate.</p>
+<p>Patching two unsynched LFOs through a logic module then to a sequencer creates interesting uneven rhythms. Changing their pulsewidth creates new rhythms.</p>
+<p>Combined LFOs connected to CV switches or a multiplexer results in a simple and versatile trigger sequencer.</p>
+<p>When cranked up to audio range (RANGE knob all the way to the right in FAST mode) may be used as audio oscillator.</p>
+<p>This video by Synths &amp; Things explains the ins and outs of this module really well: <a href="https://youtu.be/T87dYf1YIeU">https://youtu.be/T87dYf1YIeU</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

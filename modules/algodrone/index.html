@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Algodrone</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=71878">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/algodrone.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>Algodrone</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>The ALGODRONE module is a sound and CV source based on the so-called bytebeat algorithms. These are simple formulas, usually expressed as one line of program code, that spit out a wide variety of interesting tonal to rhythmical patterns, regardless of their simplicity.</p>
+<p>The ALGODRONE module contains a number of these algorithms plus three parameter knobs that change values within the current algorithm. These changes vary from subtle to dramatic, even with small changes, depending on the algorithm and the setting of the other parameters.</p>
+<p>Some algorithms create sound loops, to use these more flexible the ALGODRONE can work in a kind of &quot;granular&quot; mode where a smaller part of the entire loop is repeated and with the POSITION knob you can move through the entire output loop.</p>
+<h2>Inputs</h2>
+<ul>
+<li><strong>CV</strong> - Base frequency for the algorithm</li>
+<li><strong>GATE</strong> - Resets the current algorithm run to the start, this is useful for &quot;one-shots&quot;</li>
+<li><strong>PAR1</strong> - CV input for Parameter 1 of the algorithm</li>
+<li><strong>PAR2</strong> - CV input for Parameter 2 of the algorithm</li>
+<li><strong>PAR3</strong> - CV input for Parameter 3 of the algorithm</li>
+<li><strong>GRAIN SIZE</strong> - CV input for Grain Size</li>
+<li><strong>POS</strong> - CV input for position of the grain within the loop</li>
+</ul>
+<h2>Outputs</h2>
+<ul>
+<li><strong>BUS CV</strong> - (positioned on the left side) Pitch signal from the MIDI bus</li>
+<li><strong>OUT</strong> - Output of the algorithm</li>
+<li><strong>CYCLE</strong> - trigger output when a cyclic algorithm (loop) has reached its end before repeating</li>
+<li><strong>MULT</strong> - unbuffered multiple</li>
+</ul>
+<h2>Controls</h2>
+<ul>
+<li><strong>ALGORITHM</strong> knob - selects the current algorithm, 67 factory and 30 user presets are available, the selected algorithm will be displayed in the small display to the right of this knob</li>
+<li><strong>COARSE FREQ</strong> knob - coarse selection of base frequency. Although a higher frequency often leads to a higher pitched sound, each algorithm reacts differently to this and there can be drastic changes to the behaviour of the sound when the frequency changes.</li>
+<li><strong>FINE FREQ</strong> knob - fine control of the base frequency</li>
+<li><strong>PAR 1</strong> knob - controls the value of parameter 1 of the selected algorithm. Each algorithm uses these parameters differently and not every algorithm uses all three or even any of the parameter. It is up to the user to explore how changes in parameters affect the sound.</li>
+<li><strong>PAR 2</strong> knob - value of parameter 2</li>
+<li><strong>PAR 3</strong> knob - value of parameter 3</li>
+</ul>
+<p>Some of the algorithms produce sound loops which can be &quot;frozen&quot; and only a tiny fraction of the loop played at a time. This is called Granular Synthesis and the following three knobs control the &quot;grain mode&quot;.</p>
+<ul>
+<li><strong>GRAIN SIZE</strong> knob - only a tiny fraction of the complete sound loop the algorithm creates is played. The size knob controls how large the area is. When the knob is turned all the way to the left, then the grain encompasses the complete loop which means grain mode is OFF. Turning the knob gradually to the right increases the area of the grain, starting with a very short loop to a larger one.</li>
+<li><strong>POSITION</strong> knob - when in grain mode this knob controls where in the complete sound loop the grain is playing. The position starts at the beginning of the loop with the knob all the way to the left and by turning the knob to the right the grain is shifted towards the end of the loop.</li>
+<li><strong>MOTION</strong> - controls the way the grain plays within a frozen loop. Fully to the left, the grain played completely static. Turning to the right until the middle position, an increased triangle LFO modulation is applied to the grain position, adding some liveliness and smooth movement to the sound. When set to the right half of the knob (random) the grain is shifted randomly across the loop.</li>
+</ul>
+<p>The ALGODRONE can also produce random algorithms which can be slightly mutated and then stored for later use. The three push buttons at the top are used for this.</p>
+<ul>
+<li><strong>SAVE</strong> push button - store the current algorithm in a user location between 68 and 96. When the SAVE button is pressed, the numbers will flash and the ALGORITHM knob can be used to select the target slot number, the current algorithm in that slot will play. Once the desired slot has been found, press SAVE again to store the current random algorithm in that slot.</li>
+<li><strong>RND</strong> push button - creates a completely new randomised algorithm</li>
+<li><strong>MUTATE</strong> - when creating a random algorithm, this changes one item in the random algorithm, like the operator (e.g. &quot;+&quot; -&gt; &quot;*&quot;) or a constant value</li>
+</ul>
+<h2>Patch Suggestions</h2>
+<p>Bytebeat has been first explored by Viznut with a series of videos on YouTube and a very detailed analysis of the code on his blog: <a href="http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html">http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html</a></p>
+<p>When the Algodrone module was first announced there was quite a lively discussion on the AE Forum: <a href="http://forum.aemodular.com/thread/49/bytebeats-beginners-guide">http://forum.aemodular.com/thread/49/bytebeats-beginners-guide</a></p>
+<p>This resulted in the very first beginners guide prepared by The Tuesday Night Machines which you can download here: <a href="http://nightmachines.tv/the-absolute-beginners-guide-to-coding-bytebeats.html">http://nightmachines.tv/the-absolute-beginners-guide-to-coding-bytebeats.html</a></p>
+<p>The Algodrone module does not really let you program your own algorithms, rather it contains a selection of 67 different built in algorithms with different uses of the parameter values and which react differently to the base frequency. Some are looping and can be used in granular mode, some aren't. Currently there is no list of what each algorithm does, so experimentation and patience is required to explore the sonic variety of each algorithm.</p>
+<p>In addition to the builtin algorithms new ones can be &quot;found&quot; by repeatedly pressing the RND and MUTATE buttons which create random algorithms which can be saved into one of 30 user assignable slots (68 - 97).</p>
+<p>Here is a very short video on how the Algodrone can sound like. <a href="https://youtu.be/-B2jgMYxYU8">https://youtu.be/-B2jgMYxYU8</a></p>
+<p>Here is a video by Matt Wand (who has actually contributed a number of algorithms for this module) showing off the various ways in which this module can be used.</p>
+<div id="vimeo-392829975" class="eleventy-plugin-vimeo-embed" style="position:relative;width:100%;padding-top:56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" frameborder="0" src="https://player.vimeo.com/video/392829975?dnt=1" allowfullscreen></iframe></div>
+<p>Overview video by The Tuesday Night Machines: <a href="https://youtu.be/Q6Mz9qpbUwo">https://youtu.be/Q6Mz9qpbUwo</a></p>
+<p>This is a great exploration of the module's sonic landscapes by Max Richardson: <a href="https://youtu.be/eJLnuI2EC9U">https://youtu.be/eJLnuI2EC9U</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

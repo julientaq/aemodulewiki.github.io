@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ressources for electronic music</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=93113">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="book-single">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <section class="next-and-previous">
+        
+
+
+
+
+    <span class="previous">
+        <span class="arrow">←</span>
+        <a href="/aemod/13/on-filters"><span class="number">13.</span>On filters</a>
+    </span>
+
+
+
+    </section>
+    <main >
+        <header>
+            <p class="chap-number">300</p>
+            <h1>Ressources for electronic music</h1>
+        </header>
+        <section class="chap-content">
+            <h2>Free Books</h2>
+<ul>
+<li><a href="http://stoney.sb.org/eno/oblique.html">Brian Eno's oblique Strategies</a> - for when you're stuck in a rut</li>
+<li><a href="https://www.tips.modularparts.net/book-bad-ideas-v2-pdf/">The Book of bad Ideas</a> - a compilation of Synthesizer tricks from the <a href="https://muffwiggler.com">Muffwiggler Forum</a></li>
+<li><a href="http://msp.ucsd.edu/techniques.htm">The Theory and Technique of Electronic Music</a> - This book by Miller Puckette, the inventor of Pure Data and later Max/MSP, is full of important theory and ideas for sound design, even though it's targeted at the computer program Pd.</li>
+<li><a href="https://cs.gmu.edu/~sean/book/synthesis/">Computational Music Synthesis</a> - is another deep dive into the theory and mathematics of sound and synthesis.</li>
+<li><a href="http://sites.music.columbia.edu/cmc/courses/g6610/fall2016/week8/Musical_Applications_of_Microprocessors-Charmberlin.pdf">Musical Applications of Microprocessors</a> - a work from 1985 by Hal Chamberlin,</li>
+<li><a href="http://thesnowfields.com/manuals/LearnMusicWithSynths1974.pdf">Learn Music with Synthesizers</a> - although from 1974, this book is a great resource for beginners and more advanced synthesists.</li>
+<li><a href="https://unipress.hud.ac.uk/plugins/books/19/">Music beyond Airports - appraising ambient music</a> - a collection of articles about ambient music, what it is, who's doing it and how to do it &quot;right&quot;(?)</li>
+<li><a href="https://monoskop.org/images/b/b3/Dwyer_Terence_Composing_with_Tape_Recorders_Musique_Concrete_for_Beginners.pdf">Composing with Tape Recorders</a> - a book about Musique Concrete by Terence Dwyer</li>
+</ul>
+<h2>Other Books</h2>
+<ul>
+<li><a href="http://patchandtweak.com/">Patch &amp; Tweak</a> - a very nice &quot;coffee table&quot; book chock full of tips and ideas mostly on how to create sound with various Eurorack modules</li>
+<li><a href="https://global.oup.com/academic/product/arduino-for-musicians-9780199309320">Arduino for Musicians</a> - exploring the world of DSP programming on the Arduino</li>
+<li>Charles Platt is an author to look into if you are wanting to get into electronics and make your own modules:- <a href="https://www.amazon.co.uk/Charles-Platt/e/B000APYAR4/ref=dp_byline_cont_pop_book_1">Amazon UK Author Page</a> : <a href="https://www.amazon.com/Charles-Platt/e/B000APYAR4/ref=dp_byline_cont_pop_book_1">Amazon USA Author Page</a></li>
+</ul>
+<h2>Music News/Advice Websites</h2>
+<ul>
+<li><a href="https://www.soundonsound.com/series/synth-secrets-sound-sound">Sound On Sound Synth Secrets</a> - a 63 part series of articles that explore sound and synthesis in great detail. This is a must read! Sound on sound is a great Music Tech/Recording magazine &amp; webite.</li>
+<li><a href="http://www.modular-planet.de/modular-planet-survey.html">Patch Ideas for Doepfer Systems</a> - while not in book or article format, this website has so many interesting patch ideas that it makes it an invaluable resource.</li>
+<li><a href="https://forum.aemodular.com/thread/686/12k-principles-minimal-ambient-music">12k principles for minimal, ambient music</a> - 12 short principles that are worth meditating over to maybe incorporating into your approach to making music</li>
+<li><a href="https://www.tangiblewaves.com/news">Latest AE News, usually on the forum first though!</a></li>
+<li><a href="https://wiki.aemodular.com/pmwiki.php/AeDiy/UsefulResources">Wiki Page for DIY Info</a></li>
+<li><a href="https://noiseengineering.us/blogs/loquelic-literitas-the-blog/tagged/cat_getting-started">Useful guide to synthesis focussing on Eurorack modular but applies to all</a></li>
+<li><a href="https://www.musicradar.com/">Muisc Radar, genral music news site</a></li>
+<li><a href="https://futuremusic.com/">Music Tech &amp; Recording based Magazine/website</a></li>
+<li><a href="https://learningmusic.ableton.com/">Ableton - General music theory / composition knowledge</a></li>
+<li><a href="https://www.audiblegenius.com/buildingblocks">Paysite for general music theory and compostion training</a></li>
+<li><a href="https://www.syntorial.com/">Free demo worth a try, then pay for synth/music courses you feel you need if you like it, includes a plug in synth...</a></li>
+<li><a href="http://www.tips.modularparts.net">modular advice/tips, inc the following.....</a></li>
+<li><a href="http://www.tips.modularparts.net/wp-content/uploads/2017/09/The-book-of-bad-ideas-V2.pdf">pdf on patching hints, tips and ideas</a></li>
+</ul>
+<h2>YouTube Channels</h2>
+<ul>
+<li><a href="https://www.youtube.com/c/loopop">Loopop - Excellent Equipment Reviewer with good hints and tips.</a></li>
+<li><a href="https://www.youtube.com/channel/UCY6VM5UK3YbRR7i9WZIT3Rg">Had to do Tangible Waves!</a></li>
+<li><a href="https://www.youtube.com/c/sonicstate">SonicState - Very good news channel/webite with reviews.</a></li>
+<li><a href="https://www.youtube.com/c/The5thVolt">Carsten is the Admin of the Forum, and produces many videos about the AE Modular</a> as well as producing music (as the 5th Volt). Several of his videos are included on relevant pages in the Wiki.</li>
+<li><a href="https://www.youtube.com/c/flx04">Felix does mostly his own music videos (as Tuesday Night Machines)</a> but has done a series of useful videos on synthesis as well. A couple of his videos are in the Wiki too.</li>
+<li><a href="https://www.youtube.com/watch?v=kCFWDU6OVj0">Synth etc News/Review Youtube channel, better than most... This is his AE Modular Review from 2020.</a></li>
+<li><a href="https://www.youtube.com/c/mylarmelodies">Excellent Modular Synthesis guidance/info and music,</a> especially... <a href="https://www.youtube.com/watch?v=JKqcQxLjno0">You Can't Have Too Many VCAs</a></li>
+<li><a href="https://www.youtube.com/watch?v=mKT5MAW1RlA">interesting live modular (Eurorack) patching demo (over an hour!)</a></li>
+<li><a href="https://www.youtube.com/c/DivKidVideo">DivKid Mostly modular but some general music stuff too.</a> He was at Superbooth 2019 looking at the AE... <a href="https://www.youtube.com/watch?v=FtBfgBeTiPQ">https://www.youtube.com/watch?v=FtBfgBeTiPQ</a></li>
+<li><a href="https://www.youtube.com/user/raulsworldofsynths">Raul's World of Synths - mostly Doepfer Eurorack modules</a></li>
+<li><a href="https://www.youtube.com/user/rskt">Rskt (with AE Modular inside)</a></li>
+</ul>
+
+        </section>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

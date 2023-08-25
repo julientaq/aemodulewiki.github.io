@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>XMIX</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=41458">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/xmix.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>XMIX</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>XMIX offers 4 mixers and 2 attenuators in a 1U package, ideal for small systems but also useful for larger systems where users are wanting attenuators, and to to combine CVs etc.</p>
+<p>One 3 channel mixer has level controls, the others are passive mixers but two of the mixers can combine up to 8 signals (some with attenuation).</p>
+<p>Module power consumption: 5 mA</p>
+<h3>Inputs</h3>
+<p><strong>(Top left)</strong></p>
+<ul>
+<li><strong>A 1, 2, 3</strong> - The 3 inputs for mixer A, their level can be individually controlled using the knobs below.</li>
+<li><strong>B 1, 2, 3, 4</strong> - The 4 inputs for mixer B, their level must be controlled earlier in the signal chain. The B mixer is meant for CVs only, and is ideal for that purpose.</li>
+</ul>
+<p><strong>(Center right)</strong></p>
+<ul>
+<li><strong>C In</strong> (x8) - the left side 4 inputs are full volume/level, the right side 4 inputs are 1/3 volume/level; other than this the respective levels must be controlled at the source.</li>
+<li><strong>D In</strong> (x8) - the left side 4 inputs are full volume/level, the right side 4 inputs are 1/3 volume/level; other than this the respective levels must be controlled at the source.</li>
+</ul>
+<p><strong>( Bottom right)</strong> - Each column is the same, so there are 2 separate attentuators</p>
+<ul>
+<li><strong>1.00, 0.8, ... 0.05</strong> (x7) - The inputs for the Attentuator from no effect (1.0) to almost silent/stopped (5% of the input volume/signal). The bottom socket is the output. Do try using more than one input at once...</li>
+</ul>
+<h3>Outputs</h3>
+<p><strong>(Top right)</strong></p>
+<ul>
+<li><strong>OUT A</strong> (x2) - The combined signals from inputs A1, A2 and A3, their level controlled by the knobs below.</li>
+<li><strong>OUT B</strong> (x2) - The combined signals from inputs B1 to B4 inclusive.</li>
+<li><strong>OUT C</strong> (x2) - The combined signals from all the C inputs.</li>
+<li><strong>OUT D</strong> (x2) - The combined signals from all the D inputs.</li>
+</ul>
+<p><strong>(Bottom right)</strong></p>
+<p>Each column is a separate attenuator, and are identical.</p>
+<ul>
+<li><strong>Out</strong> - The output from any of the 7 inputs used in the column above, their level depending on which input(s) are used.</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li>
+<p><strong>A1</strong> (knob) - controls the level of input A1 in the A outputs.</p>
+</li>
+<li>
+<p><strong>A2</strong> (knob) - controls the level of input A2 in the A outputs.</p>
+</li>
+<li>
+<p><strong>A3</strong> (knob) - controls the level of input A3 in the A outputs.</p>
+</li>
+<li>
+<p><strong>Audio/DC</strong> (switch) - there are 3 of these, Mixer A's is at the bottom of the module, Mixers C &amp; Ds' are in their respective sections. This switch optimises the circuit for use with either audio (rotates around 2.5V) or CVs (0-5 volts); this is generally to get the best audio quality but you may prefer the switch in the &quot;wrong&quot; position sometimes!</p>
+</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>You can use the 2 attenuators to help set the level(s) in the B, C &amp; D mixers.</p>
+<p>Mixers can be combined, e.g you may feed the C mixer out into one of the A mixer ins, in effect sub mixing.</p>
+<p>There are no CV controls of signal level, but this can be done before or after mixing with a <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/4VCA">VCA</a> and whatever you wish to use to control the level. The VCA control is only needed on the input(s) you wish to evolve/change from a CV control, e.g. allowing a burst of noise on a snare sound but let the tuned element(s) go on longer by a VCA after the mixer.</p>
+<p>This module is useful for combining CVs, especially where you have a lot available like, for example, the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/JOYSTICK">JOYSTICK</a> module.</p>
+<p>The attenuators can be useful for releasing modules with level controls so they can be used for something that needs more precision or you wish to alter the level of attenuation as the sound plays. An example of this is <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2LFO">LFO</a> level control for most patches, (some modules have CV input level control); if you are not varying the LFO modulation amount then an attenuator should be able to do the job.</p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>On filters</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=26337">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="book-single">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <section class="next-and-previous">
+        
+
+
+
+
+    <span class="previous">
+        <span class="arrow">←</span>
+        <a href="/aemod/5/recording-a-performance"><span class="number">5.</span>Recording a performance</a>
+    </span>
+
+
+    <span class="next">
+        <a href="/aemod/300/ressources-for-electronic-music"><span class="number">300.</span>Ressources for electronic music</a>
+        <span class="arrow">→</span>
+    </span>
+
+
+    </section>
+    <main >
+        <header>
+            <p class="chap-number">13</p>
+            <h1>On filters</h1>
+        </header>
+        <section class="chap-content">
+            <h2>Filter Module Comparison Table (august 22)</h2>
+<p>Filter Types normally refers to high, low and bandpass but a couple of modules offer more.</p>
+<p>An attenuator controlled input means there is a knob on the module to control the level of that input.</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Cost (march 2022)</th>
+<th>Rack Space</th>
+<th>Inputs</th>
+<th>Outputs</th>
+<th>Available Filter Types</th>
+<th>Simultaneous Filter Types</th>
+<th>Self Resonance</th>
+<th>Attenuator Controlled Inputs</th>
+<th>Other CV in</th>
+<th>Wiki Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MS20</td>
+<td>€35.00</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>Y</td>
+<td>1</td>
+<td>1</td>
+<td>MS20 Filter</td>
+</tr>
+<tr>
+<td>Nyle</td>
+<td>€47.00</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>A</td>
+<td>2</td>
+<td>1</td>
+<td>Nyle Filter</td>
+</tr>
+<tr>
+<td>State Variable</td>
+<td>€32.00</td>
+<td>1</td>
+<td>2</td>
+<td>8$</td>
+<td>3</td>
+<td>3</td>
+<td>Y</td>
+<td>1</td>
+<td>1</td>
+<td>State Variable Filter</td>
+</tr>
+<tr>
+<td>Wasp</td>
+<td>€33.00</td>
+<td>1</td>
+<td>2</td>
+<td>8$</td>
+<td>3</td>
+<td>3</td>
+<td>A</td>
+<td>1</td>
+<td>1</td>
+<td>Wasp Filter</td>
+</tr>
+<tr>
+<td>Diode</td>
+<td>€36.00</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>N</td>
+<td>1</td>
+<td>1</td>
+<td>Diode Filter</td>
+</tr>
+<tr>
+<td>Grunge*</td>
+<td>€43.00</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>N</td>
+<td>1</td>
+<td>1</td>
+<td>Grunge Filter</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The grunge filter was previously named the Kuzmin filter</li>
+</ul>
+<ul>
+<li>$ = See below.</li>
+<li>A = Almost, but not self resonant.</li>
+<li>N = little/no self resonance</li>
+<li>Y = Will self resonate.</li>
+</ul>
+<p>There should also be a honourable mention to the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/KeuerslagerkurtDeadBand">Dead Band</a> module, by Keurslager Kurt. This could be considered a notch filter, but you look at the Wiki page and decide for yourself.....</p>
+<h2>Notes</h2>
+<ul>
+<li>The <strong>MS20 Filter</strong> is excellent for Kick/bass drum sounds, toms etc. Turn the resonance up!</li>
+<li>The <strong>Nyle (Steiner type) Filter</strong> is the only AE filter with a CV input for resonance level. It also can mix up to 3 different filters on one output.</li>
+<li>The <strong>State Variable Filter</strong> has 3 outs for the low and bandpass filters, and 2 for the highpass filter. It also has excellent self resonance.</li>
+<li>The <strong>Wasp Filter</strong> has 3 outs for the low and bandpass filters, and 2 for the highpass filter. It is a characterful filter.</li>
+<li>The <strong>Diode Filter</strong> is obviously great for TB303 impressions/baselines etc. Two of the CV ins are for &quot;Accent&quot;, i.e. lift cutoff freq &amp;/or volume.</li>
+<li>The <strong>Grunge Filter</strong> is the most characterful AE filter, and can be really grungy/dirty. It has a built in distortion circuit you can turn on/off. It also has Frequency Modulation of the cutoff point (on/off via a switch), and another switch which can make the resonance &quot;hard&quot; or &quot;soft&quot;.</li>
+</ul>
+
+        </section>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

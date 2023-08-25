@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>3VCSWITCH</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=87783">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/3vcswitch.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>3VCSWITCH</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>This module gives you 3 separate switches, controllable from the buttons on the front panel or via the gate inputs. Each circuit can be used bidirectionally; i.e a signal can be sent to one of two destinations or one of two signals can be selected to go to the output.</p>
+<p>Module power consumption: 4 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>IO1</strong> - Circuit 1's in/out going to/from 1A or 1B</li>
+<li><strong>Gate1</strong> - a +5V pulse here switches from 1A to 1B or from 1B to 1A</li>
+<li><strong>IO2</strong> - Circuit 2's in/out going to/from 2A or 2B</li>
+<li><strong>Gate2</strong> - a +5V pulse here switches from 2A to 2B or from 2B to 2A</li>
+<li><strong>IO3</strong> - Circuit 3's in/out going to/from 3A or 3B</li>
+<li><strong>Gate3</strong> - a +5V pulse here switches from 3A to 3B or from 3B to 3A</li>
+<li><strong>+5V</strong> - actually an output giving +5V, the maximum the AE Modular can deal with. Very useful for further processing via this module or others for modulation.</li>
+<li><strong>Bus Gate</strong> - This output gives a +5V signal whilst an external midi device key on is pressed, via the Master module.</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>1A</strong> - Circuit 1's A in/out</li>
+<li><strong>1B</strong> - Circuit 1's B in/out</li>
+<li><strong>2A</strong> - Circuit 2's A in/out</li>
+<li><strong>2B</strong> - Circuit 2's B in/out</li>
+<li><strong>3A</strong> - Circuit 3's A in/out</li>
+<li><strong>3B</strong> - Circuit 3's B in/out</li>
+</ul>
+<h3>Controls</h3>
+<p>The panel is marked 1,2 and 3 for each circuit, the controls are the same for each.</p>
+<ul>
+<li><strong>Latch</strong> button. - When this button is pressed it moves the connection from A to B or B to A.</li>
+<li><strong>MMT</strong> button. - When this button is pressed output/input on A is switched to B, or vice versa, but only whilst the switch is pressed, i.e. it is a momentary button.</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>There is a patch challenge for this module on the forum. Here you can find more interesting uses of this module: <a href="http://forum.aemodular.com/thread/313/patch-challenge-pulling-old-switcheroo">http://forum.aemodular.com/thread/313/patch-challenge-pulling-old-switcheroo</a></p>
+<p>This module is excellent for providing variation in rhythms/ sequences by cutting a trigger in or out via the buttons if &quot;playing&quot; the AE modular, or the gate inputs - the latter can be done with an LFO, envelope or one of the sequencer modules. It works really well with the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/TRIQ164">TRIQ164</a> and the (discontinued) <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/STEP10">Step 10</a> modules. The <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ16">SEQ16</a> module main out can work with a bit of care, but it works really well using of one of the various gate outputs to the 3VCSwitch, especially combined with the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/LOGIC">Logic module</a> to vary things further.</p>
+<p>It is useful where you want to automate switching between 2 audio paths, (e.g. 2 different filters) as part of a patch.</p>
+<p>It can be used to create Stereo from mono by going 1 in to 2 out, (thanks to <a href="https://wiki.aemodular.com/pmwiki.php/AeMusic/TheTuesdayNightMachines">Tuesday Night Machines</a> for this one). He suggests &quot;now use a square VCO to quickly switch that audio signal between the ears for crazy effects&quot;.</p>
+<p>Other trigger/ trigger variation modules, like the Divider (discontinued), <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/TRIP">Trip</a>, <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/MM-DIV">MM Divider</a> and, particularly the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/TOPOGRAF">Topograf</a> combine with the 3VCSwitch for endless possibilities.</p>
+<p>Below is a video by <a href="https://wiki.aemodular.com/pmwiki.php/Profiles/The5thvolt">the5thvolt</a> a with various patch ideas: <a href="https://youtu.be/ddANhDYMVh0">https://youtu.be/ddANhDYMVh0</a></p>
+<p>This video is for a Eurorack module similar to the 3VCSWITCH, and so gives some more ideas you may want to explore.</p>
+<div id="bfir-EnTCaw" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/bfir-EnTCaw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

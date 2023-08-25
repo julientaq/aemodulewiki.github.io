@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MODULATORS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=47856">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/modulators.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>MODULATORS</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>MODULATORS is a multifunctional 1U module. It is designed especially with very small AE systems in mind.</p>
+<p>It includes a simple EG, an LFO, a random CV generator and a VCA.</p>
+<p>Module power consumption: 13 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>ENV GT</strong> - The trigger input for the Envelope section.</li>
+<li><strong>VCA IN</strong> - For the audio/CV that you want to control with the VCA</li>
+<li><strong>VCA MOD</strong> - For the CV which controls the level of the VCA output.</li>
+<li><strong>LFO PWM</strong> - CV input to change the shape of the LFO waveform, this could affect gate time (triggering envelopes), complexity of filter modulation amongst many other things.</li>
+<li><strong>LFO SYNC</strong> - a CV pulse here will reset the LFO waveform to the beginning of the cycle; this is most useful where you want the sound to be the same for each key press/sequencer note.</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>ENV</strong> (x2) - CV output from the envelope section</li>
+<li><strong>VCA</strong> (x2) - Audio/CV output from the VCA</li>
+<li><strong>LFO Triangle/sawtooth</strong> - output from the LFO for these wave shapes</li>
+<li><strong>LFO Square/PWM</strong> - output from the LFO for these wave shapes.</li>
+<li>This means the LFO can modulate 2 things separately without the use of a <strong>MULT</strong>.</li>
+<li><strong>RND</strong> (x2) - CV output from the random section</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li>
+<p><strong>ENV | ATTACK</strong> (knob) - Controls how quickly the CV rises when triggered. Please note that, in trigger mode, a slow attack could mean the envelope will not &quot;play&quot;; this is usually when the knob is over the 8 o'cock position.</p>
+</li>
+<li>
+<p><strong>ENV | RELEASE</strong> (knob) - Controls how quickly the CV descends when the attack or sustain ends.</p>
+</li>
+<li>
+<p><strong>ENV | Gate/Trig</strong> (switch) - This switch means you can either have just the A/D envelope (great for percussion) or sustain as well. This means the CV stays high until the trigger stops, e.g. when the key is released on a keyboard.</p>
+</li>
+<li>
+<p><strong>LFO | RATE</strong> (knob) - This sets the frequency of the LFO</p>
+</li>
+<li>
+<p><strong>LFO | PW</strong> (knob) - This sets the waveshape around a squarewave, moving this knob whilst playing is the same as applying a CV to the <strong>LFO PWM</strong> input.</p>
+</li>
+<li>
+<p><strong>LFO | Triangle/Saw</strong> (switch) - This selects which waveform you would prefer at the <strong>LFO Triangle/sawtooth</strong> input.</p>
+</li>
+<li>
+<p><strong>RND | MODE</strong> (button) -</p>
+<p><strong>Press and release of this button</strong> will mean the random CV will change in sync with the LFO; this means, in effect, it can be triggered via the LFO Sync input. Be aware that PWM in particular can cause there to be no triggers, due to zero pulsewidth (so no rise from zero volts). There is a three second delay for this sync to take effect due to the following use:-</p>
+<p><strong>Press and release the button multiple times</strong> sets the tempo of the CV changes, the faster you tap.... The longest gap between presses is 3 seconds.</p>
+<p><strong>Press and hold this button</strong></p>
+</li>
+</ul>
+<p>The LED in the random section will then flash. You select between the three modes by releasing the button when it is on the one you desire. The mode the random section is currently in is shown by the number of flashes.</p>
+<ul>
+<li><strong>1 flash</strong> Quantized - the CV is in a minor scale from 0 to 2 volts. Useful for Oscilator &amp; <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SOLINA">SOLINA</a> pitch</li>
+<li><strong>2 flashes</strong> Random (stepped) - CV between 0 and 4 volts.</li>
+<li><strong>3 flashes</strong> Smoothed - As random, but the voltage changes more slowly between CVs.</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>If you want more than one input to the VCA, you will need to use a mixer module such as the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV">2ATTCV</a>. You can use a <strong>MULT</strong> if necessary however.</p>
+<p>If you want a smooth(er) transition between the CVs of the Random CV generator, this can be done with the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SLEWEDGE">SLEW/EDGE</a> module.</p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

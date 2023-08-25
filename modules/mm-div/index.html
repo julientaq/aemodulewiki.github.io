@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MM-DIV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=35579">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/mm-div.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>MM-DIV</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>A multi-mode divider for clock and audio signals.</p>
+<p>It can be used either for dividing clock signals (e.g. from an LFO, BEATDIVIDER) for rhythmical purposes but also for audio signals - in this case you get subharmonics / lower octaves squarewaves at the outputs, which can be mixed or used separately.</p>
+<p>The module has eight outputs which - depending on the selected division mode - provide different division factors of the input signal:</p>
+<ul>
+<li>Beat: musical/rhythmical clocks are generated as 1/1, 1/2, 1/4... 1/16 and triplets</li>
+<li>Binary: the outputs work as binary counter (same as the predecessor module DIVIDER)</li>
+<li>Decimal: The outputs have decimal divisions of the input, meaning half, third, quarter, fifth... of the input clock</li>
+<li>Prime: The outputs use the prime numbers as division factors</li>
+<li>Fibonacci: The outputs use the numbers of the fibonacci row as division factors</li>
+</ul>
+<p>Module power consumption: 10 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>CLK</strong> - clock input either triggers,square waves or audio signals</li>
+<li><strong>RESET</strong> - CV gate or trigger to reset all output signals; in case of audio signals this can get quite unique, ringmodulator-like sounds.</li>
+<li><strong>SHIFT</strong> - CV gate or trigger to shift/rotate the outputs; usually, the fastest output is on output 1, but with shift the entire output pattern is shifted so the fastest output can be set to any position 1...8.</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>1..8</strong> - 8 trigger out puts for the different clock divisions</li>
+<li><strong>BUS GATE</strong> - MIDI Gate signal from the internal bus</li>
+<li><strong>BUS CLK</strong> - The MIDI clock signal from the internal bus. Please note that the actual clock resolution depends on your MIDI clock source. The MIDI standard is 24ppqn (Pulses per Quarter Note)</li>
+<li><strong>BUS START</strong> - sends a trigger when the MIDI start message is sent from a connected MIDI device</li>
+<li><strong>BUS STOP</strong> - sends a trigger when the MIDI stop message is sent from a connected MIDI device</li>
+</ul>
+<h3>LED Indicators</h3>
+<ul>
+<li><strong>1..8</strong> - each of the 8 LEDs will light up when the associated trigger is active</li>
+<li><strong>MODE</strong> - LED lights to the left of the selected division mode</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>RESET</strong> - resets all output signals; in case of audio signals this can get quite unique, ringmodulator-like sounds.</li>
+<li><strong>MODE</strong> - select the division mode.</li>
+<li><strong>SHIFT</strong> - shifts/rotates the outputs; usually, the fastest output is on output 1, but with shift the entire output pattern is shifted so the fastest output can be set to any position 1...8.</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>A clock divider can be used in many different ways. The most common use is to use it for rhythmical applications to trigger percussive sounds or advance the clock of a <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ8">step sequencer</a>. The different division modes can lead to interesting and uncommon rhythmical patterns. Using the shift knob, the pattern can be varied for dramatic effect.</p>
+<p>The MM-DIV also accepts input in audio range. If you patch in a saw or triangle wave from an oscillator you can get sub oscillators out of the various outputs.</p>
+<p>Here is a very quick demonstration by The 5th Volt on how to use the rotating patterns to play with drum sequences:</p>
+<div id="pXVyXn8TV8c" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/pXVyXn8TV8c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

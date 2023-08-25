@@ -1,0 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
+  repo: julientaq/aemodule-content
+local_backend:
+  url: http://localhost:8082/api/v1
+  allowed_hosts: ['192.168.0.1']
+editor: 
+  preview: true
+media_folder: "static/images/" # Media files will be stored in the repo under images/uploads
+collections:
+  - name: "modules"
+    label: "modules" # Used in the UI
+    folder: "modules/" # The path to the folder where the documents are stored
+    slug: "{{slug}}"
+    create: true
+    sortable_fields: 
+      fields: ["title"]
+      default: 
+        field: title 
+        direction: Ascending
+    fields:    
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "power consumption"
+        name: "power"
+        type: "string"
+      - label: "module width"
+        name: "width"
+        type: "string"
+      - label: "Intro"
+        required: false
+        name: "intro"
+        widget: "markdown"
+      - label: "The content"
+        name: "body"
+        widget: "markdown"
+      - label: "tags"
+        name: "tags"
+        widget: "list"
+        delimiter: ","
+      - label: "picture"
+        required: false
+        name: "image"
+        widget: "file"

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SAMPLYR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=81567">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/samplyr.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>SAMPLYR</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>This module plays back audio files from an SD card.</p>
+<p>Module power consumption: 25 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>CV</strong> - Control Voltage for the pitch</li>
+<li><strong>GATE</strong> - Gate control for the length of the sample playback when in loop mode, trigger when in one-shot mode. In loop mode the sample will only play while the gate is high.</li>
+<li><strong>START</strong> - Voltage determining at which position the sample will start playing. 0V will play at the start and ~5V will be the end of the sample. If the sample is very long (SAMPLYR can play samples which are hours long) the accuracy of this will degrade.</li>
+<li><strong>LP STRT</strong> - Voltage determining where the loop will start, independently from any per sample settings.</li>
+<li><strong>LP LEN</strong> - Voltage determining the length of the loop, independently from any per sample settings.</li>
+<li><strong>REVRSE</strong> - Gate control for playing the sample backwards. As long as the gate is high the sample will play in reverse.</li>
+<li><strong>LP ON</strong> - Gate control for playing the looping part of the sample, independently from any per sample settings. As long as the Gate is high the loop will play.</li>
+<li><strong>SMP SEL</strong> - Voltage to select a sample from the current folder, eg. if the currently playing sample is in folder D then this voltage will select any of the 10 samples in folder D.</li>
+</ul>
+<h3>Outputs (on the left)</h3>
+<ul>
+<li><strong>B. CV</strong> - MIDI pitch as transported through the bus.</li>
+<li><strong>B. GATE</strong> - MIDI gate as transported through the bus.</li>
+</ul>
+<h3>Outputs (on the right)</h3>
+<ul>
+<li><strong>OUT</strong> - The audio of the sample playback</li>
+<li><strong>LP STRT</strong> - A trigger signal when the loop starts (Please note: this mainly is intended to detect the very first loop-start, for continuous looping it will typically trigger at the same time as LP END)</li>
+<li><strong>LP END</strong> - A trigger signal when the loop ends (this repeats for as long as the loop repeats)</li>
+<li><strong>SMP END</strong> - A trigger when the sample playback ends</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>FREQ</strong> Knob - Changes the pitch of the sample playback in addition to the CV control. Pitching of a sample is achieved by changing the sample playback speed, so the higher the pitch, the shorter the playback and vice versa for lower pitch.</li>
+<li><strong>SELECT/EDIT</strong> Knob/Button - Multi function select knob and push button. When in playback mode, turning the knob will select the next/previous sample. Pushing the button opens a menu on the display (more info below).</li>
+<li><strong>0</strong> / <strong>START</strong> - When in playback mode this button will select any sample which was assigned to this bank of presets (Within a range of names from '0' to '5'). In edit mode this is a shortcut to change the sample playback starting position.</li>
+<li><strong>1</strong> / <strong>LP STRT</strong> - In playback as above. In edit mode shortcut to loop starting position.</li>
+<li><strong>2</strong> / <strong>XFADE</strong> - As above. In edit mode shortcut to the cross fade menu</li>
+<li><strong>3</strong> / <strong>END</strong> - As above. In edit mode shortcut to change the sample playback end position.</li>
+<li><strong>4</strong> / <strong>LP LEN</strong> - As above. In edit mode shortcut to change the loop length</li>
+<li><strong>5</strong> / <strong>LP MODE</strong> - As above. In edit mode shortcut to change the looping mode (loop or one-shot)</li>
+</ul>
+<h3>Display</h3>
+<p>The display shows the folder and file number of the currently selected sample at the top. Below it shows the waveform of the sample (amplitude over time) rotated 270 degrees into vertical and the following markers:</p>
+<ul>
+<li>Sample start - this is marked as the beginning of the filled waveform</li>
+<li>Loop start - this is marked as a horizontal line to the left of the loop range</li>
+<li>Loop end - this is marked by a horizontal line at the end of a dotted vertical line which marks the extent of the loop</li>
+<li>Depending on the loop mode, a triangle at the beginning/end of the loop range indicates the playback direction.</li>
+<li>Sample End - this is the bottom of the fille waveform</li>
+</ul>
+<p>When in Edit mode, the display can also display information about the currently selected sample, such as filename, size, length and other info. It will also show the parameter which is currently editable, eg.</p>
+<ul>
+<li>sample start</li>
+<li>sample end</li>
+<li>loop start</li>
+<li>loop end</li>
+<li>cross fade (xfade)</li>
+<li>loop mode</li>
+</ul>
+<h3>Edit Mode</h3>
+<p>To enter the edit mode, click the encoder; then, the program number is replaced with the menu options. Turning the encoder scrolls through the menu options; a further click selects the editing of the according value, like start/endpoints, loop points etc. Turning the encoder changes the value, another click on the encoder returns to menu selection. The leftmost menu option is &quot;Save&quot;; clicking here stores the defined settings. The menu item WAVEFRM rebuilds the waveform graphics; this is useful when the actual WAV file on the card has been replaced. (The graphics is only generated once and stored then.) The menu item WAV INFO shows the full filename and other file related info.</p>
+<h3>Global settings</h3>
+<p>In the menu, the rightmost menu items are stored globally:</p>
+<ul>
+<li>CV tracking calibration</li>
+<li>Hot change mode - When ON then on a sample change the playback will start roughly where the other sample was when the change was initiated, or if this doesn't work at the loop start. This makes the module behave like a radio when scanning through the stations.</li>
+</ul>
+<h3>Micro SD Slot</h3>
+<p>You can insert any Micro SD card which is formatted with FAT32.</p>
+<p>In principle the following cards could be supported:</p>
+<ul>
+<li>SD: Up to 2 GB</li>
+<li>SDHC: over 2 GB to 32 GB</li>
+<li>SDXC: over 32 GB to 2 TB</li>
+</ul>
+<p>FAT32 only supports a maximum partition size of up to 2TB and individual file size of up to 4GB.</p>
+<p>This gives us the following maximum length of an individual sample (WAV 8bit uncompressed, mu-law or alpha-law):</p>
+<ul>
+<li>4GB/32khz: <strong>34 Hours</strong> : 43 Minutes : 20 Seconds</li>
+<li>4GB/16khz: <strong>69 Hours</strong> : 26 Minutes : 40 Seconds</li>
+</ul>
+<p>HOWEVER: When loading a sample for the first time its waveform is calculating for the display and then stored along with the sample. As this is a very tiny processor it can take a long time for very long samples ... maybe even hours!</p>
+<p><strong>SD Card file fragmentation</strong> - SAMPLYR plays samples directly from the SD card and expects all files in byte order. If you encounter issues with playback this could be the result of a fragmented file system. It would be best if you copied all files from the SD card to your computer and then format the SD card (<strong>not</strong> quick formatting) and then transfer the files back onto the card. This will ensure that the files are stored in order and can be read from the SAMPLYR software.</p>
+<h3>How to organize Samples on the SD Card</h3>
+<p>To keep things simple, the files on the SD card are organized in a fixed structure:</p>
+<ul>
+<li>The card can contain in its root a number of folders, named with exactly one letter, from &quot;A&quot; to &quot;Z&quot;</li>
+<li>The files are named beginning with a number from &quot;0&quot; to &quot;9&quot;; the full filename can be longer and be descriptive, but the SAMPLYR only checks for the first letter. Only 10 files per folder are allowed.</li>
+<li>The extension is always &quot;.WAV&quot;.</li>
+</ul>
+<h3>How to prepare Samples</h3>
+<p>The samples must be WAV files, with a resolution of 8 bits and mono. The encoding can be either PCM (simple, straight 8bit audio), or being encoded as uLaw or aLaw. These are encodings that allow a little higher bit depth, in case of the SAMPLYR this is 10 bits effectively.</p>
+<p>The preparing/converting of samples for he SAMPLYR can be done e.g. with the open-source audio editor software Audacity (see <a href="https://www.audacityteam.org/">https://www.audacityteam.org/</a> ).</p>
+<p>The basic steps for converting an existing sample for SAMPLYR are the following:</p>
+<ul>
+<li>Open the audio file in Audacity</li>
+<li>In case it's a stereo sample: Click menu Tracks &gt; Mix &gt; Mix Stereo Down to mono...</li>
+<li>Amplify the sample to use the full volume resolution (bit-depth): Click Effect &gt; Volume and Compression &gt; Amplify... , then New Peak Amplitude (db) to &quot;0&quot; (Make sure to select the complete sample for this operation, typically by clicking on it and applying CTRL-a / CMD-a)</li>
+<li>First of all make sure to set the &quot;Project Rate (Hz)&quot; at the left bottom corner to your preferred Samplerate, up to 32000</li>
+<li>Set the sample rate for export: Go to menu Edit &gt; Preferences, Audio settings, (or Tracks &gt; Samplerate in some versions of Audacity) set &quot;Default Sample Rate&quot; to the identical rate as the Project Rate.</li>
+<li>Click File &gt; Export &gt; Export as WAV... and set encoding to Unsigned 8-bit PCM, or U-Law or A-Law</li>
+<li>... DONE!</li>
+</ul>
+<p>Samplerates of 16000, 22050 or 32000 are recommended (and are usually stored for future sessions). Please note: when 32khz is used you get the best results, but you then can pitch the sample only about one note upwards, so in that case please make sure your material is optimized to be played with lower notes/CVs from 0 to (slightly above) 4V (given that the source-material is tuned/should be set to C). As explained above, the relative adjustment in terms of which note/CV will result in what playback speed/frequency for this can be done with the FREQ Knob.</p>
+<p>Especially when using samples with low volumes / higher dynamic-ranges the usage of U-Law (or A-Law) is recommended, U-Law typically also was used with vintage samplers from the early 80th. U-Law has a higher dynamic range (14 bit), but more distortion with low volumes than A-Law (12 bit). Because of the 10bit DAC of SAMPLYR, thus you may find A-Law preferrable. Experimentation may be needed to find the best possible results! Also compression/limiting of the material prior to exporting for a specific format can increase the quality. Of course, you can apply all the processing methods Audacity offers (which is quite a lot!); check the documentation for this. In any case, it's recommended to do all processing on a file with the highest resolution and sample rate, and reduce it to the 8-bit WAV only as the last step.</p>
+<h3>Patch Suggestions</h3>
+<p>This video shows some demo sounds and rough overview of the module's features:</p>
+<div id="35FNO5ygnP4" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/35FNO5ygnP4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

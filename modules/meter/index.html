@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>METER</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=87775">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/meter.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>METER</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>This is a multi-functional module for visualizing and measuring signals.</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>IN</strong> - Signal to be displayed/analysed</li>
+<li><strong>Mult</strong> - this can be a simple mixer (only really worth it for CVs) or a way of splitting a signal to several outputs, e.g. a trigger for Envelopes for the filter and VCA at the same time. You can plug anything (in/out) into any mult socket.,</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li>
+<p><strong>+5V</strong> - A steady 5 volt signal.</p>
+</li>
+<li>
+<p><strong>B.CV</strong> - The bus voltage derived from the midi note number via the Master module. The higher the note number the higher the voltage</p>
+</li>
+<li>
+<p><strong>Midi Out</strong> - Midi CV from bus via Master module, defaults to A for tuning purposes. See Oscillator calibration later.</p>
+</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>Timebase</strong> - this lets you zoom in to see a waveform (or part of), or see several waveforms at once.</li>
+<li><strong>Mode</strong> - selects modes as below</li>
+</ul>
+<p>There are 5 different display modes for the input signal, and a 6th mode for calibrating oscillators using the midi out socket on this module.</p>
+<p>The 5 modes are</p>
+<ul>
+<li>
+<p><strong>oscilloscope AC</strong> - for displaying alternating current signals</p>
+</li>
+<li>
+<p><strong>oscilloscope DC</strong> - for displaying direct current signals</p>
+</li>
+<li>
+<p><strong>spectrum analyzer</strong> - display the frequency spectrum of the input signal, lowest frequency to left, higher to right, the taller the graph spike the louder that frequency is.</p>
+</li>
+<li>
+<p><strong>voltmeter</strong> displays the voltage of input signals</p>
+</li>
+<li>
+<p><strong>frequency meter</strong> displays the frequency of the input signal; displayed as hertz and as musical note with +/- 100 cent difference. <em>(The frequency of the root &quot;A&quot; can be adjusted) how</em></p>
+</li>
+<li>
+<p><strong>Threshold</strong> - this sets the level at which the display will start displaying the signal.</p>
+</li>
+<li>
+<p><strong>AC Mult</strong> switch - this is usually set on x1; this is the module using the signal as it is. the x2.5 position increases the height of the display to increase visuals and can help with fine tuning the signal.</p>
+</li>
+</ul>
+<h3>Display</h3>
+<p>The reason for buying this module!</p>
+<h3>Patch Suggestions</h3>
+<p><strong>Calibration of an OSC</strong> This module can be used for <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2OSCD">oscillator</a> calibration. Take the Midi out CV to your oscillator CV in, Pick a simple waveform out and put that into the Meter module in.</p>
+<p>For calibrating the VCO with the METER module, you use best the square wave output with a medium pulse width of the VCO, connected to the METER input. Additionally, you connect:</p>
+<ul>
+<li>BUS-CV with CV in on the VCO, and</li>
+<li>via a stereo minijack cable the MIDI out from METER with MIDI IN on the MASTER</li>
+</ul>
+<p>Put the Meter module in Osc. Calib mode and follow the instructions on the screen.</p>
+<p><strong>Other uses</strong> This module is great for adding activity for a video, or low light level playing!</p>
+<p>It can be useful for helping set the gate length on triggers from LFOs etc.</p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

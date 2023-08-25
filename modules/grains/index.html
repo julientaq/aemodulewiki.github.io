@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GRAINS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=59452">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/grains.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>GRAINS</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>GRAINS is a programmable multipurpose module that has first been developed by <a href="https://www.ginkosynthese.com/">Ginkosynthese</a> for Eurorack. The AE Modular version is 100% compatible with the source code for the original, but there are a few added features. It is based on the Atmega 328 micro controller, well known as the core of the Arduino Uno, Nano and other boards, and can act as a granular sound player as well as different other functions depending on the firmware. It can be programmed directly by the Arduino IDE via the integrated USB socket on the front side of the module via the included USB cable.</p>
+<p>The newer revision of this module has a switch to enable the use of the open source <a href="https://sensorium.github.io/Mozzi/">Mozzi Library</a> which makes programming much easier.</p>
+<p>The module comes with the WAVEGRAINS firmware pre-installed which is a wavetable oscillator that is immediately useful. However you can install other firmware quite easily as described below.</p>
+<p>Module power consumption: 12 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>IN1</strong> - accepts a CV signal</li>
+<li><strong>2</strong> - accepts a CV signal</li>
+<li><strong>3</strong> - accepts a CV signal</li>
+<li><strong>A</strong> - accepts an audio signal (this is a new feature of the AE Grains and isn't available on the original Eurorack module)</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>OUT</strong> - This is an audio signal direct from the PWM output pin of the Atmega chip running through a lowpass filter</li>
+<li><strong>D</strong> - This is a digital signal that can be used for triggers, etc. (this is also a new feature and does not exist on the original Eurorack module)</li>
+<li><strong>MULT</strong> - unbuffered multiple, unconnected from the module's circuitry</li>
+</ul>
+<p>Bus outputs on the left hand bank of sockets.</p>
+<ul>
+<li><strong>Bus CV</strong> - CV signal from MIDI</li>
+<li><strong>Bus CTRL</strong> - Gate signal from MIDI</li>
+<li><strong>Bus Gate</strong> - Gate signal from MIDI</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>Pot Level 1</strong> - depending on switch 1 attenuate signal from IN1 or select CV level between 0-5V</li>
+<li><strong>Switch IN1/MAN</strong> - switch between attenuating signal from IN1 or issue CV between 0-5V (the original Eurorack module does not have this switch)</li>
+<li><strong>Pot Level 2</strong> - depending on switch 2 attenuate signal from IN2 or select CV level between 0-5V</li>
+<li><strong>Switch IN2/MAN</strong> - switch between attenuating signal from IN2 or issue CV between 0-5V (the original Eurorack module does not have this switch)</li>
+<li><strong>Pot Level 3</strong> - select CV level between 0-5V</li>
+</ul>
+<p><strong>Please note: IN 3 and Pot 3 are not related to each other, they are completely independent!</strong></p>
+<h3>Mode-Switch</h3>
+<ul>
+<li><strong>Switch M/G</strong> - Selects the internal audio-out pin, use 'M' for 'Mozzi mode' or 'G' for 'Ginkosynthese / original Grains mode' - Depending on the Firmware used, GRAINS may use the one or the other output option! (If you should experience silence at the output, when not expecting it, please make sure to try out the other option as well.)</li>
+</ul>
+<p><strong>Please note: With the first revision of GRAINS this switch is missing, the setting there is equivalent to 'G'!</strong></p>
+<h3>How to install other Firmwares</h3>
+<p>You can easily install different firmwares on to the GRAINS module or even develop your own programs!</p>
+<p>The following firmwares are currently available from the <a href="https://www.ginkosynthese.com/grains-codes">Ginkosynthese website</a>:</p>
+<ul>
+<li><strong>GRAINS</strong> - The first code written for the GRAINS, an FOF synthesis oscillator</li>
+<li><strong>ROUNDHOUSE</strong> - Kick drum based on the 909 with some tweaks</li>
+<li><strong>FRAMEN</strong> - A cut up amen break</li>
+<li><strong>TALKO-COUNTER</strong> - Let your GRAINS count like a Speak&amp;math</li>
+<li><strong>TRI-SHAPE</strong> - An oscillator based on the supersaw</li>
+<li><strong>RZ1</strong> - Crazy lo-fi drums based on the Casio RZ1</li>
+<li><strong>EURO PWM SAW</strong> - A supersaw oscillator to bring you back to the 90's</li>
+<li><strong>FRESH</strong> - A sample used in many classics, your GRAINS will say FRESH!</li>
+<li><strong>FALAFEL RAPS</strong> - A famous rap sample to mangle into crazy glitch-hop</li>
+<li><strong>WAVEGRAINS</strong> - A wavetable oscillator</li>
+</ul>
+<p><strong>IMPORTANT</strong> Those firmwares only work in the &quot;GRAINS&quot; mode, so the top right switch needs to be on &quot;G&quot;.</p>
+<p>To install those firmwares on the module you need to follow these steps:</p>
+<ul>
+<li>Download and install the <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a></li>
+<li>Download and install the <a href="https://sparks.gogo.co.nz/ch340.html">driver software for the CH340 USB chip</a> (you may not need it if you are running the latest version of OSX)</li>
+<li>Open the Arduino IDE and make sure that under Tools/Board you have selected Arduino Nano</li>
+<li>Make sure under Tools/Processor you have selected &quot;ATmega328P&quot;</li>
+<li>Download a firmware from the <a href="https://www.ginkosynthese.com/grains-codes">Ginkosynthese website</a></li>
+<li>Connect the included USB cable between the GRAINS module and your PC</li>
+</ul>
+<p><img src="/images/grains_schematics_v2.png" alt=""></p>
+<p>The firmware codes from the Ginkosynthese website are mostly single files with the ending .ino which means that they are Arduino sketches. You can open them in the Arduino IDE by double clicking on the filename.</p>
+<p>Once you have the file open in the Arduino IDE you can upload them to the GRAINS module by clicking the Upload icon (depicted as an arrow pointing right).</p>
+<p>Once the IDE shows that upload is complete you can disconnect the USB cable and use the GRAINS module with the new firmware.</p>
+<h3>Developing your own Firmware</h3>
+<p>Using the existing codes as example you can either make changes to them or develop your own firmware from scratch. The following diagram shows how you can access the various inputs, outputs and controls from within your code:</p>
+<p><img src="/images/ide-board.png" alt=""></p>
+<p><strong>WARNING</strong> It is possible to &quot;brick&quot; your GRAINS with certain operations when you develop and test your own firmware programs! This has happened once and you can find how that happened and how it was resolved in this <a href="https://forum.aemodular.com/thread/1858/serialport-show-anymore-brick-grains">thread on the forum</a>.</p>
+<h3>Patch examples</h3>
+<p>This video explains the module in more detail and has some patch examples for various firmwares. <a href="https://youtu.be/qpniMuq--M8">https://youtu.be/qpniMuq--M8</a></p>
+<p>There is a section on the forum dedicated to discussing programming this module:-</p>
+<p><a href="https://forum.aemodular.com/board/24/programming-grains">https://forum.aemodular.com/board/24/programming-grains</a></p>
+<h2>Community Firmwares</h2>
+<p>This code repository contains various firmwares that have been developed specifically for the AE Modular GRAINS module. This has started with the work by German author and software developer Mathias aka @visuellemusik. We encourage you to analyse the code and post your own firmware which we would add to this growing repository. With V2 of GRAINS building your own firmware using the Mozzi Library is possible now, too. With such a firmware the Mode-Switch as explained above and also symbolized in the schematics has to be set to 'M'. Please be aware that some versions of the Mozzi-Library did not work as expected in combination with certain versions of the Arduino IDE. An overview of recommended combinations of the two environments, including prereleases of Mozzi can be found here: <a href="https://github.com/sensorium/Mozzi/releases">https://github.com/sensorium/Mozzi/releases</a></p>
+<p><a href="https://github.com/aemodular/GRAINS">https://github.com/aemodular/GRAINS</a></p>
+<p>You can download each firmware as an individual zip file or the whole lot from the <a href="https://github.com/aemodular/GRAINS/releases">Release Page</a>.</p>
+<p>This video explains how the <a href="https://github.com/aemodular/GRAINS/tree/master/ByteBeat-Xfade">ByteBeat-Xfade</a> firmware works followed by a little improvised jam. <a href="https://youtu.be/Wokre1i8Trg">https://youtu.be/Wokre1i8Trg</a></p>
+<p>And this video explains the workings of the SpellOrSpeak firmware, also developed by Mathias. <a href="https://youtu.be/a1aS6E0b0Fk">https://youtu.be/a1aS6E0b0Fk</a></p>
+<h2>Wonkystuff</h2>
+<p>This is a new firmware developed by Wonkystuff which brings a Karplus Strong algorithm to the GRAINS module. You can find the code here on Github:</p>
+<p><a href="https://github.com/wonkystuff/ks_grains">https://github.com/wonkystuff/ks_grains</a></p>
+<p>And this was discussed on the forum here:</p>
+<p><a href="https://forum.aemodular.com/thread/1608/karplus-strong-synthesis">https://forum.aemodular.com/thread/1608/karplus-strong-synthesis</a></p>
+<p>Another cool firmware is the Poly Ramp drone oscillator which you can find here:</p>
+<p><a href="https://github.com/wonkystuff/grains_polyramp">https://github.com/wonkystuff/grains_polyramp</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RBSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=83727">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/wonkystuffrbss.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>RBSS</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>The rbss (random bit-shift sequencer) module is inspired by the famous &quot;Turing Machine&quot; Eurorack module by Music Thing Modular which in turn was inspired by many previous shift-register sequence generators.</p>
+<p>When it is in stock, you can buy this module at <a href="https://wonkystuff.net/product/rbss/">Wonkystuff</a>.</p>
+<p><strong>NOTE</strong>: if you have an older rbss module of serial number lower than 130, then you might have issues using it with the QUANTIZER module from tangible waves. This is due to some noise that is output by the module which the digital QUANTIZER module can't quite process. If you have this problem, then you can easily fix this yourself if you know how to use a soldering iron. Please follow the instructions on this page: <a href="https://wonkystuff.net/rbss-quantizer-issue/">https://wonkystuff.net/rbss-quantizer-issue/</a></p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>clk in</strong> - Every time there is a rising edge on the voltage in this input, the sequence shifts one step. This can be driven up to audio rates for some interesting noises!</li>
+<li><strong>len cv</strong> - The control voltage on this input is added to the control voltage from the front panel length control (so if the knob is fully clockwise, this voltage will have no effect)</li>
+<li><strong>chance cv</strong> - The control voltage on this input is added to the control voltage from the front panel chance control (so if the knob is fully clockwise, this voltage will have no effect)</li>
+<li><strong>bus clk</strong> - MIDI clock signal, via the master module.</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>a out</strong> (x3) - an audio-coupled output which will generate a pulse proportional to the difference in voltage between adjacent sequence steps;</li>
+<li><strong>cv out</strong> (x3) - a control voltage representing the current bit-shifted binary pattern;</li>
+<li><strong>clk out</strong> - a simple square clock signal</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>rate</strong> - This changes the frequency of the clock pulse appearing at the clk out pin. (In order to trigger the rbss, the clk out must be connected to the clk in).</li>
+<li><strong>chance</strong> - this specifies the probability that the next step in the sequence will change voltage, from 0 (never) to 1 (always).</li>
+<li><strong>length</strong> - this is the number of steps that will be present in the sequence, from 1 to 16.</li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>You the clk out to trigger other modules, e.g. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ8">SEQ8</a> or <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/TRIP">TRIP</a> modules).</p>
+<p>This video shows how you can use the RBSS together with the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ16">SEQ16</a> to create long evolving sequences. <a href="https://youtu.be/lQotLnLqgHA">https://youtu.be/lQotLnLqgHA</a></p>
+<p>This video demonstrates how to use the audio output of the RBSS. <a href="https://youtu.be/apqzOGBofuc">https://youtu.be/apqzOGBofuc</a></p>
+<p>Here is an ambient patch that uses 3x RBSS modules. <a href="https://youtu.be/T-sKgZNlKrM">https://youtu.be/T-sKgZNlKrM</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

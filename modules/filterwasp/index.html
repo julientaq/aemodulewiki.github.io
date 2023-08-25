@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FILTER (WASP TYPE)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=88941">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/filterwasp.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>FILTER (WASP TYPE)</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>This filter module is a variant of the Wasp filter, a quite strange circuit used first in the EDP Wasp synth end of the seventies, which abuses digital chips in an analog way leading to the characteristic sound of this filter type. In this module, vactrols are used for controlling the filter frequency.​</p>
+<p><em>NOTE: This module has been upgraded. Version 1 has only one signal input (IN), while version 2 has two signal inputs for high-pass and low-pass. See <strong>inputs</strong>.</em></p>
+<p>Module power consumption: 3 mA</p>
+<h3>Inputs</h3>
+<ul>
+<li><strong>IN</strong> - (v1 only) audio signal going through the filter</li>
+<li><strong>IN H</strong> (v2 Only) - this input is for higher level signals.</li>
+<li><strong>IN L</strong> (v2 Only) - this input adds some gain to give a higher signal level of the module circuitry, (i.e. low input signals).</li>
+<li><strong>CV 1</strong> - accepts CV control for cutoff frequency, this will affect all three filter curves</li>
+<li><strong>CV 2</strong> - additional CV control for cutoff frequency, this will also affect all three filter curves</li>
+</ul>
+<h3>Outputs</h3>
+<ul>
+<li><strong>LP</strong> - low pass filter output</li>
+<li><strong>BP</strong> - band pass filter output</li>
+<li><strong>HP</strong> - high pass filter output</li>
+<li><strong>BUS CV</strong> - this sits below the input jacks on the left side and will output CV pitch from a connected MIDI device</li>
+<li><strong>BUS CTRL</strong> - this sits below the input jacks on the left side and will output the MIDI control message from a connected MIDI device.</li>
+</ul>
+<h3>Controls</h3>
+<ul>
+<li><strong>FREQ Knob</strong> - cuttoff frequency</li>
+<li><strong>CV 1 Knob</strong> - control voltage attenuator</li>
+<li><strong>RESONANCE Knob</strong></li>
+</ul>
+<h3>Patch Suggestions</h3>
+<p>Here's a patch for a low pass gate:</p>
+<ul>
+<li>Any signal -&gt; WASP (IN L)</li>
+<li>WASP (LP) -&gt; VCA (IN1)</li>
+<li>ENV (OUT) -&gt; WASP (CV1)</li>
+<li>ENV (OUT) -&gt; VCA (CV1)</li>
+</ul>
+<p>This module does not have CV control of resonance, but it can be created by putting one of the filter outputs through a <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2VCA">VCA</a> whose level is controlled by the CV modulation source (e.g. LFO or <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2ENV">envelope</a>), then feeding the VCA output back into the same filter module - you will need a mixer module, (e.g. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX">4ATTMIX</a>), or use a <strong>mult</strong> if necessary as there is only one input.</p>
+<h3>Sound Examples</h3>
+<p>This video below shows a comparison between the AE Modular WASP filter and the original. <a href="https://youtu.be/kGIT-D9sueo">https://youtu.be/kGIT-D9sueo</a></p>
+<p>AE Modular filter comparison: <a href="https://www.youtube.com/watch?v=ZY9VkSyMrik">https://www.youtube.com/watch?v=ZY9VkSyMrik</a></p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

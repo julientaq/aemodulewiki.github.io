@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kurt’s Dead Band</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+
+
+
+
+    
+        
+        <link rel="stylesheet"
+              href="/css/themes/aemod/main.css?v=91824">
+    
+
+
+        
+        
+        
+            
+        
+    </head>
+    <body class="
+    module-single
+">
+        
+            <div class="background"></div>
+        
+        
+            
+<aside class="topbar">
+    <a href="/" class="logo">
+    
+        <p>AE Modular Knowledge base</p>
+    
+</a>
+
+    <button class="menu-call">MENU</button>
+    <nav class="hide">
+        <ul>
+            
+                <li>
+                    <a href="/content/books/aemodular/aemodular-manual/">
+                        
+                            Manual
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/modules/">
+                        
+                            Modules
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/search/">
+                        
+                            Search
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+</aside>
+<script>
+    document.querySelector(".menu-call").addEventListener("click", function() {
+        document.querySelector('.topbar nav').classList.toggle('hide');
+    })
+    
+</script>
+
+        
+        
+    <main>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <img src="/images/keuerslagerkurtdeadband.png" alt="" class="module-picture">
+        
+        <section class="backlink">
+            Back to <a href="/modules/">modules</a>
+        </section>
+        <article>
+            <header>
+                <ul class="tags-list">
+                    
+                </ul>
+                <h1>Kurt’s Dead Band</h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="catalog-content">
+                <p>Kurt's Dead Band module is a unique waveshaper, it is able to shape both audio and CV/DC inputs. It will introduce a so-called 'Dead Band': a portion of your input wave will be snapped to one voltage of your choice. In this way, you can introduce a 'pause' in your waveform. On audio it can give phaser-like effects, but depending on the complexity of the input waveform, it can also sound like a unique kind of filter. On CV you can introduce a steady 'pause' in your CV signal, or you can introduce a sudden vertical 'bump' if you use the vertical dead band setting. You can determine the location of the Dead Band (eg at 2V), and also the size around that voltage that gets snapped to the preset voltage. The location can be controlled with CV input.</p>
+<p>You can purchase the module here: <a href="https://www.tindie.com/products/keurslagerkurt/kurts-dead-band/">https://www.tindie.com/products/keurslagerkurt/kurts-dead-band/</a></p>
+<h2>Inputs</h2>
+<ul>
+<li><strong>In</strong>: Four inputs that get actively mixed together before they enter the waveshaper circuit, much like the B section of the 4-4 Mixer. Input can be both audio or CV/DC.</li>
+<li><strong>CV</strong>: Four CV inputs that get actively mixed together before they enter the waveshaper circuit. CV is used to control the location parameter of the dead band.</li>
+</ul>
+<h2>Outputs</h2>
+<ul>
+<li><strong>Out</strong>: The inputs with an introduced dead band.</li>
+<li><strong>CV Mix</strong>: The four CV inputs that are mixed together, useful as an additional mixer or to use further on with other modules.</li>
+<li><strong>Mult</strong>: 6 passive mult patchpoints that are connected.</li>
+</ul>
+<h2>Controls</h2>
+<ul>
+<li>
+<p><strong>Location</strong>: The location of the dead band, ranging from 0V to 5V. Any input CV amount gets 'added' to this fixed voltage.</p>
+</li>
+<li>
+<p><strong>Size</strong>: The range or width of this dead band, centered around the location. If you turn it full left, there should be barely any effect. Fully to the right, audio should be gone or almost gone, depending on the input volume.</p>
+</li>
+<li>
+<p><strong>CV</strong>: An attenuation knob for the input CV, much likes the knobs found on AE Filters. It determines how much the CV input influences the 'Location' parameter.</p>
+</li>
+<li>
+<p><strong>Gain</strong>: This knob acts as a final gain after the dead band is introduced. However, it should be noted, that it does not act like your usual 'gain' or amplification. Depending on where you deadbanded your input, this parameter will act differently. It will work as a classic gain (ie volume boost) only when your circuit is deadbanded around 2.5V, so with the 'Location' knob in its central setting. This knob is particularly useful when you feed eg an envelope as input to the module. Tweaking this parameter will make sure that the 'start' of your envelope is at 0V, and not at eg 1V (which would otherwise give you a slight sustain when you drive a VCA with your envelope). Experimenting is key with this parameter, it is a dangerous one to tweak in the middle of a live performance!</p>
+</li>
+<li>
+<p>The switch allows you to change the dead band from a horizontal to a vertical dead band. A horizontal dead band introduces a horizontal 'pause' in the waveform, while a vertical dead band introduces a sudden 'bump' in voltage.</p>
+</li>
+</ul>
+<h2>Patch Suggestions</h2>
+<p>The Dead Band module is very much a 'building block' module. Depending on what you feed it, it can give very different results, so experimenting and trying different out of the box stuff is the way to go! But some basic ideas to get you going:</p>
+<p>You can patch a simple VCO into the module, and use a slow LFO as CV input to get some subtle timbral changes in your waveform. It works best with the &quot;Size&quot; parameter at lower values, and the 'Location' parameter somewhere between one quarter and three quarters. This should give you some phaser like results. Tweak the CV attenuation knob to determine the amount of FX.</p>
+<p>If you swap the LFO from the previous patch with another VCO, you will modulate the location parameter at audio rates, which also gives very interesting results! Now you can try patching different CV inputs at the same time, which mixes them together. Or you can check out the different timbre when using the vertical setting.</p>
+<p>If you input a more complex waveform, like a mix of some VCO's and white noise, or a complex oscillator like the Algodrone, you will find that the Dead Band can have some filter like qualities. If you now input an envelope in the CV input, you will find that it can act like a strange kind of VCA depending on how you tweak the settings!</p>
+
+            </section>
+        </article>
+    </main>
+
+        
+            
+        
+        
+            
+<footer>
+  
+  <p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Common | CC-by-SA</a>  — 2023-2023 </p>
+  
+</footer>
+
+        
+        
+            
+            
+        
+    </body>
+</html>

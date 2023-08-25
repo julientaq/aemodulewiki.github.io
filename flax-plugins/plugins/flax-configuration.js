@@ -2,7 +2,7 @@
 
 const yaml = require("js-yaml");
 
-const PORT = 8100; // use a port you are reasonably sure is not in use elsewhere
+// const PORT = 8100; // use a port you are reasonably sure is not in use elsewhere
 
 module.exports = function(eleventyConfig) {
   // accept data as yaml
@@ -26,12 +26,12 @@ module.exports = function(eleventyConfig) {
   if (process.env.ELEVENTY_RUN_MODE != "serve") {
     eleventyConfig.on("eleventy.after", async () => {
       // Run me after the build ends
-      require("out-url").open(`http://localhost:${PORT}`);
+      // require("out-url").open(`http://localhost:${PORT}`);
     });
 
-    eleventyConfig.setServerOptions({
-      port: PORT,
-    });
+    // eleventyConfig.setServerOptions({
+    //   port: PORT,
+    // });
   }
 
   // passthrough file copy //

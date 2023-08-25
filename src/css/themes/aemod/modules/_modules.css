@@ -48,7 +48,7 @@
       object-fit: contain;
       margin: 0 auto;
       position: sticky;
-      top: 4em;
+      top: 10em;
     }
   }
   & .catalog-index .catalog-entries {

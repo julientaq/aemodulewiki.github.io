@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
 
   console.log(process.env.ELEVENTY_RUN_MODE);
   // quiet
-  eleventyConfig.setQuietMode(true);
+  // eleventyConfig.setQuietMode(true);
 
   //server
   // only copy file on build. otherwise fake the copy

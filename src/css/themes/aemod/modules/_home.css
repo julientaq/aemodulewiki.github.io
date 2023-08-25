@@ -3,6 +3,10 @@
     max-width: 70ch;
     background: var(--color-background);
     padding: 1em 2ch;
+
+    & nav {
+
+    }
   }
   & .background {
     background: url("/images/cover.webp");

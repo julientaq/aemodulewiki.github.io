@@ -3,7 +3,6 @@ backend:
   repo: julientaq/aemodulewiki.github.io
   site_domain: "aemodularwiki.lesvoisinsdustudio.ch"
   branch: main
-  auth_endpoint: api/auth
 
 # local_backend:
 #   url: http://localhost:8082/api/v1

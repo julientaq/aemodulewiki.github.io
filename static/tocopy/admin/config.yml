@@ -1,6 +1,8 @@
 backend:
   name: github
   repo: julientaq/aemodulewiki.github.io
+  base_url: "https://api.netlify.com"
+  auth_endpoint: "auth"
 # local_backend:
 #   url: http://localhost:8082/api/v1
 #   allowed_hosts: ['192.168.0.1']

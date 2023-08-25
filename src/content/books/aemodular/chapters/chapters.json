@@ -1,5 +1,5 @@
 {
-  "permalink": "aemod/{{chapternumber}}/{{title | slugify }}",
+  "permalink": "aemod/{{chapternumber}}/{{title | slugify }}/",
   "layout": "book/chapter.njk",
   "book": "aemodular"
 }

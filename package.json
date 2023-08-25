@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Flax in use for the AE modular system",
   "main": "eleventy.config.js",
+  "homepage": "aemodularwiki.lesvoisinsdustudio.ch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "local:cms": "npx @staticcms/proxy-server",

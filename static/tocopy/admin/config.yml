@@ -1,5 +1,6 @@
 backend:
   name: github
+  branch: main
   repo: julientaq/aemodulewiki.github.io
   site_domain: "aemodularwiki.netlify.app"
 # local_backend:

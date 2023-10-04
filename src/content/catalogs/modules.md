@@ -3,7 +3,7 @@ title: Modules
 permalink: /modules/
 menutitle: Modules
 catalog: modules
-layout: catalog/catalog-index-alt.njk
+layout: user/aemodules-list.njk
 order: 2
 ---
 

@@ -2,7 +2,11 @@
 id: 4attmixfader
 title: "4ATTMIX FADER"
 link: "https://www.tangiblewaves.com/store/p107/4ATTMIX_FADER.html"
-imglink: 4ATTMIXFDR.png
+imglink: 4attmixfader.png
+
+filters: 
+  - cv manipulation
+  - utility
 ---
 
 

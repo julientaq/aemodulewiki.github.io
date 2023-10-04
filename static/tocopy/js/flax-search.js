@@ -1,19 +1,33 @@
 // listing of the available entries
 
 let cards = document.querySelectorAll(".catalog-entry");
+let cardsList = document.querySelector(".catalog-entries");
 
 function liveSearch() {
   let search_query = document.querySelector("#searchbox").value;
 
+  if (search_query.length < 1) {
+    cardsList.classList.remove("searchmode")
+    
+    document.querySelectorAll(".found").forEach((el) => {
+      el.classList.remove("found");
+    });
+    return;
+  }
+  else {
+    
+    cardsList.classList.add("searchmode")
+  }
   //Use innerText if all contents are visible
   //Use textContent for including hidden elements
   for (var i = 0; i < cards.length; i++) {
+
     if (
       cards[i].textContent.toLowerCase().includes(search_query.toLowerCase())
     ) {
-      cards[i].classList.remove("found");
+      cards[i].classList.add("is-found");
     } else {
-      cards[i].classList.add("found");
+      cards[i].classList.remove("is-found");
     }
   }
 }
@@ -46,14 +60,14 @@ function updateFilteredItems() {
   const listItems = document.querySelectorAll(".catalog-entry");
 
   // check if any filter is there
-  console.log(selectedFilters.length)
+  console.log(selectedFilters.length);
   if (selectedFilters.length < 1) {
     listItems.forEach((el) => {
       el.classList.add("is-selected");
     });
-    return
+    // dont check for anything we’re good then.
+    return;
   }
-
 
   // for each entry
   listItems.forEach((item) => {

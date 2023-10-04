@@ -62,7 +62,7 @@
     <ul class="catalog-entries">
         {% for item in collections[catalog] | orderBy("data.title", "asc") %}
             {% if catalog == item.data.catalog and item.data.type == "entry" %}
-                <li class="catalog-entry"  data-filters="{{ item.data.filters }}">
+                <li style="order:1;" class="catalog-entry"  data-filters="{{ item.data.filters }}">
                     <a data-img="img-{{ item.data.id }}"
                        class="module"
                        href="#{{ item.data.id }}">

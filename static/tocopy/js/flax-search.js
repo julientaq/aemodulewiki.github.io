@@ -42,17 +42,18 @@ function updateFilteredItems() {
     document.querySelectorAll(".filter-checkbox:checked")
   ).map((checkbox) => checkbox.value);
 
-  console.log(selectedFilters);
-
   //all the available items
   const listItems = document.querySelectorAll(".catalog-entry");
 
   // check if any filter is there
+  console.log(selectedFilters.length)
   if (selectedFilters.length < 1) {
     listItems.forEach((el) => {
       el.classList.add("is-selected");
     });
+    return
   }
+
 
   // for each entry
   listItems.forEach((item) => {

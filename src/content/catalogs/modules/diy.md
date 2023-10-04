@@ -1,9 +1,10 @@
 ---
-
 id: diy
 title: "DIY Kit"
 link: "https://www.tangiblewaves.com/store/p91/DIY_kit.html"
 picture: diy.jpg
+filters:
+  - diy
 ---
 
 

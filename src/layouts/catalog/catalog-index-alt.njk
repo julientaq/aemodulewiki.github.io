@@ -1,0 +1,102 @@
+{% extends "base.njk" %}
+{% block htmlclass %}
+    noscroll
+{% endblock htmlclass %}
+{% block bodyclass %}
+    modules-index-alt
+{% endblock bodyclass %}
+{% block content %}
+    <section class="menu">
+        <h1>{{ title }}</h1>
+        <div id="flax-search">
+            <h3>Filter by name</h3>
+            <label for="searchFilter">Search:</label>
+            <input id="searchbox" name="searchFilter">
+            <button id="flax-search-reset"
+                    onclick="document.querySelector(`#searchbox`).value = ``; livesearch() ">reset</button>
+        </div>
+        <div id="flax-filters">
+            <h3>filters</h3>
+            {# <li id="filtername">filter name</li> #}
+            {#  create something here find the name you wanna use #}
+            {#  should we have that from each module or generate a list in the config? #}
+            {# for label in collections labels #}
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="filter">
+                <span class="filter-name">filter</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="micro">
+                <span class="name">micro</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="sound-generation">
+                <span class="filter-name">sound generation</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="effects">
+                <span class="filter-name">effects</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="cv generation">
+                <span class="filter-name">cv generation / manipulation</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="trigger manipulation">
+                <span class="filter-name">trigger generation / manipulation</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="interface">
+                <span class="filter-name">interface</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="utility">
+                <span class="filter-name">utility</span>
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="diy">
+                <span class="filter-name">diy</span>
+            </label>
+        </div>
+    </section>
+    <ul class="catalog-entries">
+        {% for item in collections[catalog] | orderBy("data.title", "asc") %}
+            {% if catalog == item.data.catalog and item.data.type == "entry" %}
+                <li class="catalog-entry"  data-filters="{{ item.data.filters }}">
+                    <a data-img="img-{{ item.data.id }}"
+                       class="module"
+                       href="#{{ item.data.id }}">
+                        <img src="/images/{{ item.data.imglink }}" alt="">
+                        <span class="module-title">{{ item.data.title }}</span>
+                        {% if item.data.manufacturer %}
+                            <span class="module-manufacturer">{{ item.data.manufacturer | markdownifyInline }}</span>
+                        {% endif %}
+                        {% if item.data.replacedby %}
+                            <span>(discontinued replaced by <a href="/modules/{{ replacedby }}/">{{ replacedby }})</a></span>
+                        {% endif %}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <article id="entry-show">
+        {% for item in collections[catalog] %}
+            <section class="catalog-entry-content" id="{{ item.data.id }}">
+                <figure>
+                    <img src="/images/{{ item.data.imglink }}" alt="">
+                    {# <figcaption>{{item.data.intro}}</figcaption> #}
+                </figure>
+                <div class="module-content">
+                    <header>
+                        <h1>{{ item.data.title }}</h1>
+                        <p class="subtitle">{{ item.data.subtitle }}</p>
+                    </header>
+                    {{ item.templateContent | safe }}
+                </div>
+            </section>
+        {% endfor %}
+    </article>
+{% endblock content %}
+{% block endscripts %}
+    <script src="/js/flax-search.js"></script>
+{% endblock endscripts %}

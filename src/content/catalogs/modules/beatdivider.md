@@ -1,6 +1,6 @@
 ---
 id: beatdivider
-title: "BEAT DIVIDER/ (Midiclock Divider)"
+title: "Beat Divider/ Midiclock Divider"
 link: "https://www.tangiblewaves.com/store/p12/BEAT_DIVIDER.html"
 imglink: beatdivider.png
 power: 6 mA

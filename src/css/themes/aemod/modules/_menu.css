@@ -10,19 +10,17 @@
   gap: 5ch;
   justify-content: space-between;
   position: sticky;
+  padding: 0.8em 2em .5em;
+  border-bottom: 2px solid var(--color-main);
   top: 0;
   background: var(--color-background);
   z-index: 200;
-  /* margin-bottom: 6em; */
 }
 
 .topbar .logo {
   /* width: 100px; */
   /* background: orange; */
-} 
-
-
-
+}
 
 .topbar nav ul {
   align-items: last-baseline;
@@ -69,11 +67,11 @@ nav a:hover {
 .site-title {
   position: absolute;
   left: 0;
-  line-height:1;
+  line-height: 1;
   margin: 0;
   padding: 0;
   bottom: 0;
-  padding-left:.3ch;
+  padding-left: 0.3ch;
   /* background: url(/assets/images/neuroscience.jpg); */
   background-size: cover;
   color: var(--color-reverse);

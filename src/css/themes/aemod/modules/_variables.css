@@ -8,7 +8,6 @@
   --color-grey: #ddd;
   --color-grey-text: #888;
   --color-grey-lighter: #f7f7f7;
-  
 
   /* set usable fonts names */
   --font-sans: "jost", sans-serif;
@@ -28,10 +27,9 @@
 
   /* set semantic fonts */
   --font-title: var(--font-sans);
-  --font-body: var(--font-sans);
+  --font-body: var(--font-serif);
   --font-meta: var(--font-sans);
 }
-
 
 .blackpanel {
   --color-black: white;

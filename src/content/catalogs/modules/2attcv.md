@@ -1,8 +1,10 @@
 ---
 id: 2attcv
 title: 2ATT/CV
+filters:
+  - "cv generation"
 link: https://www.tangiblewaves.com/store/p15/2ATT%2FCV_.html
-imglink: 2attcv2.png
+imglink: 2attcv.png
 power: 4 mA
 width: "1"
 intro: >
@@ -38,4 +40,4 @@ Attenuating CV can be very useful in a lot of situations. A simple example is to
 
 This video describes how to use the [SAMPLE&HOLD](https://wiki.aemodular.com/pmwiki.php/AeManual/SAMPLEHOLD) module and makes use of the 2ATT/CV module for controlling pitch:
 
-[[https://youtu.be/NZVme2SNxXU](https://youtu.be/NZVme2SNxXU)](https://youtu.be/NZVme2SNxXU)
+[https://youtu.be/NZVme2SNxXU](https://youtu.be/NZVme2SNxXU)

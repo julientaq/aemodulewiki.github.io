@@ -25,9 +25,8 @@ h6 {
 
 h2 {
   /* border-bottom: 1px solid red; */
-  margin-top:3em;
-  text-decoration: underline; 
-
+  margin-top: 3em;
+  text-decoration: underline;
 }
 
 a {
@@ -39,7 +38,6 @@ a {
   text-decoration-thickness: 2px;
 }
 
-
 .underline {
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -49,7 +47,6 @@ a:hover {
   background: var(--color-main-lighter);
 }
 
-main :is(p,li) {
+main :is(p, li) {
   max-width: 50ch;
 }
-

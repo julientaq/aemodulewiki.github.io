@@ -6,6 +6,47 @@
   font-style: normal italic;
 }
 
+@font-face {
+  font-family: "Inria Serif";
+  src: url("/fonts/InriaSerif-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inria Serif";
+  src: url("/fonts/InriaSerif-LightItalic.woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Inria Serif";
+  src: url("/fonts/InriaSerif-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inria Serif";
+  src: url("/fonts/InriaSerif-Italic.woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "Inria Serif";
+  src: url("/fonts/InriaSerif-Bold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inria Serif";
+  src: url("/fonts/InriaSerif-BoldItalic.woff2");
+  font-weight: 600;
+  font-style: italic;
+}
+
+
 /* // font for the body,  */
 /* // font for the title */
 /* // font for all the modules in/out */

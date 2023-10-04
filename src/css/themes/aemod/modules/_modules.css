@@ -108,7 +108,3 @@
   color: var(--color-main);
 }
 
-/* //show hide on search */
-.is-hidden {
-  display: none;
-}

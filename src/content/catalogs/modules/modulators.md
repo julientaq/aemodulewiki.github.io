@@ -15,7 +15,7 @@ It includes a simple EG, an LFO, a random CV generator and a VCA.
 
 Module power consumption: 13 mA
 
-### Inputs
+## Inputs
 
 *   **ENV GT** - The trigger input for the Envelope section.
 *   **VCA IN** - For the audio/CV that you want to control with the VCA
@@ -23,7 +23,7 @@ Module power consumption: 13 mA
 *   **LFO PWM** - CV input to change the shape of the LFO waveform, this could affect gate time (triggering envelopes), complexity of filter modulation amongst many other things.
 *   **LFO SYNC** - a CV pulse here will reset the LFO waveform to the beginning of the cycle; this is most useful where you want the sound to be the same for each key press/sequencer note.
 
-### Outputs
+## Outputs
 
 *   **ENV** (x2) - CV output from the envelope section
 *   **VCA** (x2) - Audio/CV output from the VCA
@@ -32,7 +32,7 @@ Module power consumption: 13 mA
 *   This means the LFO can modulate 2 things separately without the use of a **MULT**.
 *   **RND** (x2) - CV output from the random section
 
-### Controls
+## Controls
 
 *   **ENV | ATTACK** (knob) - Controls how quickly the CV rises when triggered. Please note that, in trigger mode, a slow attack could mean the envelope will not "play"; this is usually when the knob is over the 8 o'cock position.
 *   **ENV | RELEASE** (knob) - Controls how quickly the CV descends when the attack or sustain ends.
@@ -54,7 +54,7 @@ The LED in the random section will then flash. You select between the three mode
 *   **2 flashes** Random (stepped) - CV between 0 and 4 volts.
 *   **3 flashes** Smoothed - As random, but the voltage changes more slowly between CVs.
 
-### Patch Suggestions
+## Patch Suggestions
 
 If you want more than one input to the VCA, you will need to use a mixer module such as the [2ATTCV](https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV). You can use a **MULT** if necessary however.
 

@@ -19,32 +19,32 @@ Finally, the ENVFOLLOWER module provides a gate signal, indicating that the leve
 
 Power Consumption: 7 mA
 
-### Inputs
+## Inputs
 
 *   **IN** - This patch point at the top left of the module accepts audio input coming from within the AE system, eg. from a VCA.
 *   **UNBAL. IN** - 3.5mm mono input for line level signals, eg. from audio players, recorders, PC or other synths
 *   **BAL. IN** - 3.5mm mono input for microphones, dynamic or self powered condenser mics. Does NOT provide phantom power.
 *   **Mult** - a passive mixer/splitter completely separate to the module circuits.
 
-### Outputs
+## Outputs
 
 *   **ENV** (x3) - CV signal which follows the amplitude of the incoming signal.
 *   **GATE** (x3) - Gate which is on when the audio level is above a certain threshold
 *   **SIGNAL** (x2)- Duplication of the incoming audio signal. If coming via the balanced input, the signal has been raised to AE level.
 
-### Controls
+## Controls
 
 *   **GAIN** - controls the level of the incoming signal before processing, in general it is best to be as loud as possible without distortion, (Clipping).
 *   **SMOOTH** - controls how smooth or jagged the resulting env signal is from the audio, in the same manner as a slew generator.
 *   **GATE THRESH** - controls the threshold at which the GATE output is on.
 
-### Display
+## Display
 
 *   **CLIP** - lights if the incoming signal is (getting) too much for the module circuitry.
 *   **ENV** - lit when there is a CV at the ENV output
 *   **GATE** - lit when the gate output is high/activated.
 
-### Patch Suggestions
+## Patch Suggestions
 
 
 

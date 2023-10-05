@@ -6,10 +6,9 @@ const markdownify = require("./plugins/flax-markdown.js");
 const flaxaudio = require("./plugins/flax-audio.js");
 const flaxsearch = require("./plugins/flax-search.js");
 
-const embed = require("eleventy-plugin-embed-everything")
+const embed = require("eleventy-plugin-embed-everything");
 
-
-// plugins specific to elife things. 
+// plugins specific to elife things.
 const limitData = require("./plugins/limitData.js");
 const dateWrangler = require("./plugins/dateWrangler.js");
 const markdownifying = require("./plugins/markdownify.js");
@@ -19,9 +18,7 @@ const groupby = require("./plugins/groupby.js");
 const dev = require("./plugins/flax-dev-tools.js");
 const allmeta = require("./plugins/flax-get-all-meta.js");
 
-
 module.exports = function(eleventyConfig, options) {
-
   // embed everything
   eleventyConfig.addPlugin(embed);
 
@@ -49,11 +46,8 @@ module.exports = function(eleventyConfig, options) {
   // set collections
   eleventyConfig.addPlugin(collections);
 
-
-// set search with pagefind
+  // set search with pagefind
   eleventyConfig.addPlugin(flaxsearch);
-
-
 
   // modules from elife thingy
 

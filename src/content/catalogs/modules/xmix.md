@@ -15,7 +15,7 @@ One 3 channel mixer has level controls, the others are passive mixers but two of
 
 Module power consumption: 5 mA
 
-### Inputs
+## Inputs
 
 **(Top left)**
 
@@ -31,7 +31,7 @@ Module power consumption: 5 mA
 
 *   **1.00, 0.8, ... 0.05** (x7) - The inputs for the Attentuator from no effect (1.0) to almost silent/stopped (5% of the input volume/signal). The bottom socket is the output. Do try using more than one input at once...
 
-### Outputs
+## Outputs
 
 **(Top right)**
 
@@ -46,7 +46,7 @@ Each column is a separate attenuator, and are identical.
 
 *   **Out** - The output from any of the 7 inputs used in the column above, their level depending on which input(s) are used.
 
-### Controls
+## Controls
 
 *   **A1** (knob) - controls the level of input A1 in the A outputs.
 *   **A2** (knob) - controls the level of input A2 in the A outputs.
@@ -54,7 +54,7 @@ Each column is a separate attenuator, and are identical.
     
 *   **Audio/DC** (switch) - there are 3 of these, Mixer A's is at the bottom of the module, Mixers C & Ds' are in their respective sections. This switch optimises the circuit for use with either audio (rotates around 2.5V) or CVs (0-5 volts); this is generally to get the best audio quality but you may prefer the switch in the "wrong" position sometimes!
 
-### Patch Suggestions
+## Patch Suggestions
 
 You can use the 2 attenuators to help set the level(s) in the B, C & D mixers.
 

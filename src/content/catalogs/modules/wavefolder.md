@@ -15,7 +15,7 @@ The module is based on a design also used by Ken Stone for his CGS modular. The 
 
 Module power consumption: 3 mA
 
-### Inputs
+## Inputs
 
 *   **IN** - Audio or CV signal input
 *   **CV SHP.** - Wave folding CV control through the SHAPE CV attenuator
@@ -23,11 +23,11 @@ Module power consumption: 3 mA
 *   **BUS CTRL** - MIDI CC20 CV from the MASTER I/O bus
 *   **BUS GATE** - MIDI Gate CV from the MASTER I/O bus
 
-### Outputs
+## Outputs
 
 *   **OUT** - Processed input signal
 
-### Controls
+## Controls
 
 *   **DRIVE** - Amplifies the input signal
 *   **SHAPE CV** - Folds the top of the input signal waveform down, if the amplification is strong enough. Folding increases by turning the pot clockwise.
@@ -37,7 +37,7 @@ A tutorial video by The Tuesday Night Machines:
 
 [https://www.youtube.com/watch?v=k2nVM6SzMEQ](https://www.youtube.com/watch?v=k2nVM6SzMEQ)
 
-### Patch Suggestions
+## Patch Suggestions
 
 The Wavefolder can be used to boost any signal level, e.g. Triangle wave on the VCO.
 
@@ -53,7 +53,7 @@ This video by TTMs gives an excellent demo of what the Wavefolder can do:-
 
 [https://www.youtube.com/watch?v=g9CE\_nP9KZA](https://www.youtube.com/watch?v=g9CE_nP9KZA)
 
-### Sound Examples
+## Sound Examples
 
 WAVEFOLDER-focused jam session with patch notes: [https://www.youtube.com/watch?v=9BOl5g6HDqg](https://www.youtube.com/watch?v=9BOl5g6HDqg)
 

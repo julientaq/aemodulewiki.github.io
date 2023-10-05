@@ -13,27 +13,27 @@ Lo-Fi Delay is a analogue, old fashioned bucket brigade style of delay
 
 Module power consumption: 18 mA
 
-### Inputs
+## Inputs
 
 *   **In** - Main incoming audio signal
 *   **CV** - CV control of delay time so can do Flanger/Phaser type sounds (with LFO).
 *   **In 2** - for 2nd signal in, this will be mixed in without attenuation
 *   **In 3** - for 3rd signal in, this will be mixed in without attenuation
 
-### Outputs
+## Outputs
 
 *   **Outs** (2) - (mixed signal)
 *   **Wet**\- (delay sound only)
 *   **Dry** - (original signal(s) only)
 *   **Thru** - passive mixing/splitting nothing to do with the delay.
 
-### Controls
+## Controls
 
 *   **Delay** - Set delay time, further impacted by CV control above.
 *   **Feedback** - This controls the amount of the output signal that is send back to the input, so you can get reverb type sounds, repeated echoes etc.
 *   **Dry/Wet** - This controls the amount of dry (original signal) and wet (the delayed sound) in the output.
 
-### Patch Suggestions
+## Patch Suggestions
 
 **Dynamic Control** If you want dynamic control of the dry/wet mix, you can use the separate outs and then combine in the [4ATT/Mix](https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX) or [4VCA](https://wiki.aemodular.com/pmwiki.php/AeManual/4VCA).
 

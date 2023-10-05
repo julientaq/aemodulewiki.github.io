@@ -15,24 +15,24 @@ There are 2 independent Sample & Hold circuits within this module.
 
 Module power consumption: 2 mA
 
-### Inputs
+## Inputs
 
 *   **In 1** - The source for where the voltage will be selected from.
 *   **Trig 1** - For a pulse to tell the module to take the voltage reading of input 1 and send that value to output 1.
 *   **In 2** - The source for where voltage will be selected from.
 *   **Trig 2** - For a pulse to tell the module to take a reading from input 2 and send that value to output 2.
 
-### Outputs
+## Outputs
 
 *   **Out 1** (2) - The voltage selected by In/Trig 1 is available here.
 *   **Out 2** (2) - The voltage selected by In/Trig 2 is available here.
 *   **Thru** (4) - On older modules marked **Mult** as a passive mixing/signal splitter as per many other AE Modules.
 
-### Controls
+## Controls
 
 This module has no performance controls.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This video describes how to use the SAMPLE&HOLD module and makes use of the [2ATTCV](https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV) module for generating CVs:-
 

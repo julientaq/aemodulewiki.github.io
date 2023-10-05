@@ -16,12 +16,12 @@ The new (2023) module is a chord generator. It is available via M4vrick on the A
 
 ## Outputs
 
-### Bottom left
+## Bottom left
 
 - **Bus Gate** - on early modules this is actually the bus CV derived from the midi input on the master module, usually for the pitch.
 - **Bus CV** - on early modules this is actually the bus CV derived from the midi input on the master module, usually key on/off.
 
-### Top Right
+## Top Right
 
 - **Out 1** - Main output.
 - **Out 2** - duplicate output, quite useful for using a different filter &/or FX on.

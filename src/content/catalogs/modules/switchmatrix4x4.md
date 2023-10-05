@@ -15,31 +15,31 @@ A performance mode makes it possible to switch between 16 presets by simply pres
 
 
 
-### Inputs
+## Inputs
 
 *   **IN 1..4** - Incoming signal, either trigger, gates or audio
 *   **CV PRESET** - Incoming CV from 0-5V selects one from 64 presets
 *   **PRESET UP** - incoming trigger selects next preset up
 *   **PRESET DOWN** - incoming trigger selects next preset down
 
-### Outputs
+## Outputs
 
 *   **OUT 1..4** - The outgoing signal depends on the button which connects an incoming signal with this outgoing one.
 *   **Midi CTRL** (on left hand side) - Midi Control Message from bus via Master module
 *   **MULT** - passive multiple
 
-### Controls
+## Controls
 
 *   **16x LED Buttons** - These are arranged in a 4x4 grid and where a button is lit, that's where the incoming signal is routed to an outgoing one. In Performance mode, each of the 16 buttons selects one of presets 1-16. In Edit mode you can change connections by just toggling the buttons.
 *   **PRESET +** - this button selects the next preset.
 *   **PRESET -** - this button selects the previous preset
 *   **SAVE/MODE** - Pressing short once asks to save the current button combination to the preset that shows in the display, You can then select the preset and save with a second short press. Long press changes from Edit to Performance mode. In performance mode, pressing any of the 16 switches selects one of the first 16 presets. Long press again to return to edit mode.
 
-### Display
+## Display
 
 The LED display shows the current preset and mode.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This module has many uses:
 

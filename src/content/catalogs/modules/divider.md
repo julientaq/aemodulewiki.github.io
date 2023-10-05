@@ -11,12 +11,12 @@ imglink: divider.png
 
 This module is discontinued. The Beat Divider does a similar role. The MM Divider is its more versatile direct replacement in a lot of ways, but this divider is well worth keeping, as it is a simpler device for beats, and also can be used on audio signals with great results.
 
-### Inputs
+## Inputs
 
 *   **CLK** - the clock signal you want to reduce with this module.
 *   **Reset** - this input is used to reset the divider module to keep in sync with the provided clock.
 
-### Outputs
+## Outputs
 
 These 4 are on the left, usually input side of the module.
 
@@ -36,11 +36,11 @@ On the right side of the module:-
 *   **64** - output is a 64th the speed of the input.
 *   **128** - output is a pulse for every 128 pulses of the input.
 
-### Controls
+## Controls
 
 None.
 
-### Patch Suggestions
+## Patch Suggestions
 
 The most obvious is to reduce the 24 pulses per quarter note of the midi clock signal down to something more useful for triggers within the AE modular. You will need the Midi clock from an external source via the Master module.
 

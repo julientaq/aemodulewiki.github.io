@@ -17,14 +17,14 @@ The CVSHIFTER module controls 4 outputs from one CV input; what the outputs do d
 
 Power Consumption: 12 mA
 
-### Inputs
+## Inputs
 
 *   **CV** - the input CV which is sampled with each trigger pulse
 *   **TRIG** - the trigger input which samples the input CV and sends the output to one of the outputs
 *   **TRIG SLOW** - ?
 *   **RESET** - reset the sequence
 
-### Outputs
+## Outputs
 
 *   **CV1** - The first output of the sequence
 *   **CV2** - The second output of the sequence
@@ -35,17 +35,17 @@ Power Consumption: 12 mA
 *   **TRIG3** - When in CYCLE mode this sends a trigger on the third step of the sequence, in RANDOM mode, when output 3 is selected.
 *   **TRIG4** - When in CYCLE mode this sends a trigger on the fourth step of the sequence, in RANDOM mode, when output 4 is selected.
 
-### Controls
+## Controls
 
 *   **MODE** - cycles through the 3 modes explained above.
 *   **RESET** - performs a manual reset of the sequence, so the next CV will be on output 1 only.
 *   **MAN TRIG** - manual trigger for a CV sample/next step in the sequence.
 
-### Display
+## Display
 
 The 4 leds light when the relevent output has a CV present.
 
-### Patch Suggestions
+## Patch Suggestions
 
 Compared to the "classic" circuits, this module is digital based and therefore doesn't suffer from drift as some analogue ASRs and S&Hs do. The result is, that you can control the pitch of up to four oscillators which can be a move into polyphony. The first step is to do a paraphonic synth, which means the four oscillators go through one filter and VCA. If you have a keyboard connected to your AE, the Key CV (BUS CV if using a midi keyboard) and trigger (BUS GATE if using midi) need to go to the CVShifter inputs; experiment from there!
 

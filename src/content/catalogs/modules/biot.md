@@ -18,8 +18,7 @@ Wonkystuff has done a video about the building of the kit - [https://www.youtube
 
 Each input/output pairing refers to the touch plate with the same symbol; usually you will do one connection to 2 (or more) different touch plates so your finger(s) make the electrical connection. Experiment!
 
-Patch Suggestions
-=================
+## Patch Suggestions
 
 It is great to add a bit of variation to any modulation as you move/press your finger (or whatever else you fancy running over the touch plates!); can be nice on filter cut off too.
 

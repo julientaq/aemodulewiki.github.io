@@ -1,9 +1,9 @@
 ---
-
 id: compactmixer
 title: "COMPACT MIXER"
 link: "https://www.tangiblewaves.com/store/p156/COMPACTMIXER.html"
-imglink: COMPACTMIXER_VMIX10.png
+imglink: compactmixer.png
+picture: compactmixer.png
 ---
 
 
@@ -16,7 +16,7 @@ A useful 10/2 mixer with FX send/return. With both AE and 3.5mm jacks for most c
 *   Power Consumption: 18mA
 *   Module Width: 8U
 
-### Inputs
+## Inputs
 
 Top left of module for AE patch cables inputs, mono 3.5mm socket above each channel column of knobs.
 
@@ -41,7 +41,7 @@ On the right side of the module. AE Patch sockets, and 3.5mm stereo sockets avai
 *   **FX RETURN 2L** - left side of stereo with 2R for the right side, or if you want a sound just on the left side of stereo it could be an general input...
 *   **FX RETURN 2R** Right side of stereo with 2L for the left side, or if you want a sound just on the right side of stereo it could be an general input...
 
-### Outputs
+## Outputs
 
 All are available as AE patch sockets, or 3.5mm sockets.
 
@@ -54,7 +54,7 @@ Headphone Section
 
 *   **n** - 3.5mmm amplified stereo out for headphones, the volume is set by the knob mentioned below. It is not recommended to use it as another output for your recorder etc. but it could be!
 
-### Controls
+## Controls
 
 On channels 1-6 the column of knobs do the same thing for each individual channel:-
 
@@ -79,13 +79,13 @@ Headphone section
 
 *   '''Level" - this controls the volume of headphones independently of the main volume mentioned above.
 
-### Display
+## Display
 
 Below each **MUTE** button is an led, when this light is on that channel is excluded from the main mix.
 
 In the Mixer section there are 2 columns of LEDs, green, yellow and red. This shows the level of the main outputs left and right. In general you want the yellow LEDs to be flickering, possibly even the red flickering to be as loud as possible without distortion.
 
-### Patch Suggestions
+## Patch Suggestions
 
 As mentioned in the descriptions above, the FX return inputs can be used to bring in more stereo sources to the overall mix.
 

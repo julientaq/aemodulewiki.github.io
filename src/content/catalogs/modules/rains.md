@@ -17,7 +17,7 @@ There are also some hidden modes; see the patch suggestion section for more info
 
 Module power consumption:
 
-### Inputs
+## Inputs
 
 *   **IN** - For an audio source you want to affect with the rains; this is optional for the Rains module to make noise. Can also be a trigger in.
 *   **V/OCT** - Use this to change the frequency/pitch(es) of the resonator.
@@ -28,7 +28,7 @@ Module power consumption:
 *   **Damping CV** - For use in conjunction with the Damping Knob below.
 *   **Position CV** - For use in conjunction with the Position Knob below.
 
-### Outputs
+## Outputs
 
 *   **Out** (x2) - Main signal and all harmonics etc mixed together.
 *   **Odd Out** - In Mono mode (see below), Odd numbered harmonics only - useful for adding "grit"/dirtiness to the sound quite often. In Poly mode, does the 1st, or 1st & 3rd voices only.
@@ -38,7 +38,7 @@ These "individual outs" are useful for changing the sound further just by mixing
 
 *   **Mult** - a non-buffered mixer/divider circuit seperate to the module electronics.
 
-### Controls
+## Controls
 
 *   **Poly** Button - this sets whether the Rains is in mono, duo or polyphonic mode. The latter is 4 voices. What this essentially means is that the sound gets more complex as you add more voices.
 
@@ -62,7 +62,7 @@ This control can be an increase to the knob position (+ side of the dial) or ded
     
 *   **Position** - This emulates where, if this was a physical object, it was hit. All drummers know the sound is affected by where you hit the pad for instance. It is somewhat like a comb filter in action, (though less boring than that sounds!) and changes the harmonics in the signal more subtely as a rule (which can be broken).
 
-### Patch Suggestions
+## Patch Suggestions
 
 This is not a normal filter module! I highly recomend starting off quite simple; use 2 LFOs and put one in **IN** or **STRUM** and move the other around to see what each parameter does.
 

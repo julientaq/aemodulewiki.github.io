@@ -19,14 +19,14 @@ You can download a printable manual for offline reading: [seq16\_manual.pdf](htt
 
 Module power consumption: 7 mA
 
-### Inputs
+## Inputs
 
 *   **CLK** - Clock, each +5V pulse moves the sequence to the next step.
 *   **RESET** - Puts the sequence being played back to step 1; this means any sequence length up to 16 steps can be generated.
 
 The other sockets on the "input" side of the module are actually outputs so will be listed below.
 
-### Outputs
+## Outputs
 
 On the left side of the module:
 
@@ -45,7 +45,7 @@ On the right side of the module:
 *   **GATE** (x3) - this generates a +5V signal for each step, unless the step is set to P (pause) or ACC (accent, more below)
 *   **ACCENT** (x2) - this generates a +5V signal for each step where it is set to ACC (accent, more below)
 
-### Controls
+## Controls
 
 *   **Knobs 1-16** - One for each step of the sequence; it can be set to positions 1 to 5 (in Roman numerals), which correspond with the relevant CV knob at the bottom of the module. In these positions a gate signal is also sent to the gate outputs. There is also **P** (pause, no trigger is sent to the gate output although the CV of the previous step will still be provided on the CV out), and **ACC** (accent) which will be covered under that control knob.
 *   **CV 2 to 5** - CV 1 is 0 volts, so the CV will leave the pitch of your VCO (for instance) alone. CVs 2 to 5 are set by the relevant knob on the module.
@@ -54,7 +54,7 @@ On the right side of the module:
 *   **8 16 Steps** switch - you could do this with a patch wire from step 8 individual out to the reset input, but this is a more elegant solution. 8 and 16 steps are the 2 most common sequence lengths for most modern western music as they fit 4/4 time easily.
 *   **CV Range** switch - This controls whether the SEQ16 goes from 0 to 2.5V or 0 to 5 volts at the CV out. This can be useful for controlling pitch when going to VCOs, or if being used a a modulation source.
 
-### LED Indicators
+## LED Indicators
 
 *   **1 - 16** - one for each step of the sequence, lit when that step is "playing"
     
@@ -66,7 +66,7 @@ On the right side of the module:
     
 *   **CV ACC** - lit when that CV has been selected by the current step in the sequence.
 
-### Patch Suggestions
+## Patch Suggestions
 
 Unless you have a non-Midi system, you will need either the Beat divider or MM Divider module to step down the very fast MIDI clock to a usable clock; the former is simpler but the latter gives you many more options....
 

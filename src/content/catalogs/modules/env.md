@@ -13,12 +13,12 @@ This module is discontinued, replaced by the 2ENV module.
 
 An attack/decay envelope generator with a sustain on/off switch.
 
-### Inputs
+## Inputs
 
 *   **GT1** - Main trigger input, +5V pulse will trigger the Envelope cycle.
 *   **GT2** - Secondary trigger input, +5V pulse will trigger the envelope cycle.
 
-### Outputs
+## Outputs
 
 The first two are on the usual input side of an AE module.
 
@@ -29,14 +29,14 @@ The first two are on the usual input side of an AE module.
     
 *   **Mult** (4) - a passive mixer/splitter with no connection to the module's circuits.
 
-### Controls
+## Controls
 
 *   **Gate Hold** On/Off switch - when on, +5V will be at the output until the trigger is released. When off the envelope will go through its attack/decay cycle without pause, holding a trigger will not affect the envelope.
 *   **Fast/Slow** switch - Affects the rate at which the envelope changes over time, fast is best for percussion.
 *   **Attack** knob - sets the rate at which the CV rises from zero when the module is triggered.
 *   **Decay** - sets the rate at which the CV drops to zero when the trigger stops, would be called release on a standard ADSR tyre envelope.
 
-### Patch Suggestions
+## Patch Suggestions
 
 Though the new 2ENV module is superior, this is still a useful module. It is very good for percussion, or putting a "brightness" on a sound when triggered (by modulating the filter in addition to whatever modulation you are using).
 

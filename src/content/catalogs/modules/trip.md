@@ -22,7 +22,7 @@ The module is "polyphonic" in a sense, that consecutive triggers at the input do
 
 Module power consumption: 8 mA
 
-### Inputs
+## Inputs
 
 *   **TR IN** - trigger input
 *   **DELAY** - accept CV for the delay time (value from knob DELAY TIME will be added)
@@ -31,11 +31,11 @@ Module power consumption: 8 mA
 *   **GATE** - accept CV for gate time (value from knob GATETIME will be added)
 *   **MUTE** - silences all outputs
 
-### Outputs
+## Outputs
 
 *   **1...8** - trigger outputs;depending of seleted operation mode
 
-### Controls
+## Controls
 
 *   **DELAY TIME** Knob - change the delay time from 0.02 to either 1 or 5 seconds depending on FAST/SLOW operation mode
 *   **REPEATS** Knob - change the number of trigger repeats from 1 to 32
@@ -44,7 +44,7 @@ Module power consumption: 8 mA
 *   **PROBABL./ACCEL.** Switch - switch between PROBABILITY or ACCELERATION mode. When in ACCELERATION mode, the outputput triggers will fire faster / slower with every step; when in PROBABILITY mode the output triggers are fired/supressed randomly.
 *   **MAN TRIG** Button - sends a trigger signal to start the triggers manually, additionally to the TR IN.
 
-### Configuration
+## Configuration
 
 Pressing the MAN TRIG button for one second enters the configuration mode; here:
 

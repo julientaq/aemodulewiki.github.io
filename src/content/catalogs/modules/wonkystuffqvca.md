@@ -13,17 +13,17 @@ This is quad VCA which is designed only for audio use (unlike the standard Tangi
 
 [https://wonkystuff.net/product/qvca-black/](https://wonkystuff.net/product/qvca-black/) The current model with a black front panel. Functionally they are the same.
 
-### Inputs
+## Inputs
 
 *   **CV 1-4** - accepts an incoming control voltage, 0 volts is no signal to the output(s), +5V is the loudest signal.
 *   **VCA 1-4** - accepts the CV or audio signal you want to control
 
-### Outputs
+## Outputs
 
 *   **CV 1-4** - the CV is inverted (i.e "rotated" around 2.5V); if input is 0, the output will be 5V. If the input is 3.5V the output will be 1.5V
 *   **VCA 1-4** - Individual outputs of the 4 channels, the level set by the relevant CV input.
 
-### Controls
+## Controls
 
 *   There are none!
 

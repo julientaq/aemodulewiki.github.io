@@ -19,21 +19,21 @@ This module needs to be installed on the [µBASE](https://wiki.aemodular.com/pmw
 
 Module power consumption: ? mA
 
-### Inputs
+## Inputs
 
 *   **IN 1** - the audio to be "sampled" on channel 1.
 *   **TRG 1** - when activated the module takes a voltage measurement from input 1.
 *   **IN 2** - the audio to be "sampled" on channel 2.
 *   **TRG 2/CLK** - when activated the module takes a voltage measurement from input 2 and can also act as clock for the random CV output.
 
-### Outputs
+## Outputs
 
 *   **1** - S&H output channel 1
 *   **2** - S&H output channel 2
 *   **R** - Noise
 *   **CLK** - Random Clock
 
-### Controls
+## Controls
 
 *   **T&H / S&H** Switch - changes the behaviour of either sampling the input and holding that voltage at the trigger point, or tracking the input when the trigger is positive; these cause very different CVs to be produced by the module from the same input.
     
@@ -53,7 +53,7 @@ Holding the button displays the currently set mode:
 
 To change the mode: Hold the button longer until the desired mode (= number of LED flashes) is displayed, then release the button. The mode and selected speed is saved when powered off.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This module is very similar to the combination of [NOISE](https://wiki.aemodular.com/pmwiki.php/AeManual/NOISE) and [SAMPLEHOLD](https://wiki.aemodular.com/pmwiki.php/AeManual/SAMPLEHOLD) and all the patch suggestions for those modules apply here as well.
 

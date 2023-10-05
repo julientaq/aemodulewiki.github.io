@@ -61,35 +61,5 @@
     })
     </script>
     {# script for the search/filter #}
-    <script>
-let cards = document.querySelectorAll('.catalog-entry')
-    
-function liveSearch() {
-    let search_query = document.querySelector("#searchbox").value;
-    
-    //Use innerText if all contents are visible
-    //Use textContent for including hidden elements
-    for (var i = 0; i < cards.length; i++) {
-        if(cards[i].textContent.toLowerCase()
-                .includes(search_query.toLowerCase())) {
-            cards[i].classList.remove("is-hidden");
-        } else {
-            cards[i].classList.add("is-hidden");
-        }
-    }
-}
-
-//A little delay
-let typingTimer;               
-let typeInterval = 100;  
-let searchInput = document.querySelector('#searchbox');
-
-searchInput.addEventListener('keyup', () => {
-    console.log("letter")
-    clearTimeout(typingTimer);
-    typingTimer = setTimeout(liveSearch, typeInterval);
-});
-
-
-    </script>
+    <script src="/js/flax-filters.js"></script>
 {% endblock endscripts %}

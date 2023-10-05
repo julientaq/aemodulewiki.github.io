@@ -19,17 +19,17 @@ If you wish to get some signals out of the module, they’re available all aroun
 
 ​For more info, [https://www.olegtron.com/olegtron-r2r-1](https://www.olegtron.com/olegtron-r2r-1)
 
-### Inputs/Outputs
+## Inputs/Outputs
 
 The left side is circuit one, The right side is circuit two. They are not connected unless you put a patch lead from one side to the other. **All sockets can be inputs or outputs.**
 
 The only difference is that circuit two lacks the "1" socket, and circuit one lacks the "128" socket, otherwise they are functionally the same.
 
-### Controls
+## Controls
 
 What the module does is affected by what sockets you put the input(s) and take the output(s) from. The resistors in the module will cause a voltage drop and, in general, the further apart the input and outputs are plugged in the more variation/change you will get.
 
-### Patch Suggestions
+## Patch Suggestions
 
 It is excellent producing multiple triggers from one input, which can be syncopated, or not....
 

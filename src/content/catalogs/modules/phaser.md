@@ -15,19 +15,19 @@ The PHASER module runs the signal through a chain of all pass filters, which bri
 
 Module power consumption: 4 mA
 
-### Inputs
+## Inputs
 
 *   **IN** - incoming audio signal
 *   **CV1** - external modulation CV source input
 *   **CV2** - additional external modulation CV source input
 
-### Outputs
+## Outputs
 
 *   **Out** - output of the phaser sound with dry/wet mix
 *   **WET** - only the wet output
 *   **STAGE 1-7** - outputs of the individual phaser stages
 
-### Controls
+## Controls
 
 *   **LFO RATE** - speed of the internal triangle LFO
 *   **LFO DEPTH** - amount of internal LFO phase shif modulation
@@ -38,13 +38,13 @@ Module power consumption: 4 mA
 *   **NEG/POS** Switch - positive or negative feedback mode produce different sounds
 *   **8/4 STAGES** Switch - choose wether 4 or 8 phaser stages are used. 4 are more subtle, 8 produce a stronger effect.
 
-### Demo
+## Demo
 
 Thanks to Felix from The Tuesday Night Machines for this excellent demo video:
 
 [https://youtu.be/x18TLKruUM0](https://youtu.be/x18TLKruUM0)
 
-### Patch Suggestions
+## Patch Suggestions
 
 If you want to voltage control the dry/wet mix; set the mix to dry and use the main out and the wet out to two separate channels of a VC mixer - e.g. [4VCA](https://wiki.aemodular.com/pmwiki.php/AeManual/4VCA) or [Mixconsole](https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE). The main out need not be completely "dry" just set a minimum level with the dry/wet knob, then the CV adds more wet signal.
 

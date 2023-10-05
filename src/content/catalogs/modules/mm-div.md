@@ -23,13 +23,13 @@ The module has eight outputs which - depending on the selected division mode - p
 
 Module power consumption: 10 mA
 
-### Inputs
+## Inputs
 
 *   **CLK** - clock input either triggers,square waves or audio signals
 *   **RESET** - CV gate or trigger to reset all output signals; in case of audio signals this can get quite unique, ringmodulator-like sounds.
 *   **SHIFT** - CV gate or trigger to shift/rotate the outputs; usually, the fastest output is on output 1, but with shift the entire output pattern is shifted so the fastest output can be set to any position 1...8.
 
-### Outputs
+## Outputs
 
 *   **1..8** - 8 trigger out puts for the different clock divisions
 *   **BUS GATE** - MIDI Gate signal from the internal bus
@@ -37,18 +37,18 @@ Module power consumption: 10 mA
 *   **BUS START** - sends a trigger when the MIDI start message is sent from a connected MIDI device
 *   **BUS STOP** - sends a trigger when the MIDI stop message is sent from a connected MIDI device
 
-### LED Indicators
+## LED Indicators
 
 *   **1..8** - each of the 8 LEDs will light up when the associated trigger is active
 *   **MODE** - LED lights to the left of the selected division mode
 
-### Controls
+## Controls
 
 *   **RESET** - resets all output signals; in case of audio signals this can get quite unique, ringmodulator-like sounds.
 *   **MODE** - select the division mode.
 *   **SHIFT** - shifts/rotates the outputs; usually, the fastest output is on output 1, but with shift the entire output pattern is shifted so the fastest output can be set to any position 1...8.
 
-### Patch Suggestions
+## Patch Suggestions
 
 A clock divider can be used in many different ways. The most common use is to use it for rhythmical applications to trigger percussive sounds or advance the clock of a [step sequencer](https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ8). The different division modes can lead to interesting and uncommon rhythmical patterns. Using the shift knob, the pattern can be varied for dramatic effect.
 

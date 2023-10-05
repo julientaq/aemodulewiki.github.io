@@ -13,7 +13,7 @@ A 4 input, 1 output audio mono mixer (i.e. not stereo), with individual channel 
 
 Module power consumption: 5 mA
 
-### Inputs
+## Inputs
 
 *   **A1** - Channel 1 of the A mixer.
 *   **A2** - Channel 2 of the A mixer.
@@ -21,20 +21,20 @@ Module power consumption: 5 mA
 *   **A4** - Channel 4 of the A mixer.
 *   **B1** - **B4** - 4 inputs for the mixer without any level control within the module.
 
-### Outputs
+## Outputs
 
 *   **A** (2x) - Output of Mixer A.
 *   **B** (2x) - Output of mixer B
 *   **Mult** - labelled **Thru** on some modules. A passive mixer/ splitter not connected to the module circuits.
 
-### Controls
+## Controls
 
 *   **Level 1** knob - The level of input A1 in output A.
 *   **Level 2** knob - The level of input A2 in output A.
 *   **Level 3** knob - The level of input A3 in output A.
 *   **Level 4** knob - The level of input A4 in output A.
 
-### Patch Suggestions
+## Patch Suggestions
 
 The most obvious use is to patch the [oscillator(s)](https://wiki.aemodular.com/pmwiki.php/AeManual/2OSCD) and [noise module](https://wiki.aemodular.com/pmwiki.php/AeManual/NOISE) to the Mixer 4/4 to have a complex sound before it even gets to the Filter etc.
 

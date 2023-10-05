@@ -11,7 +11,7 @@ The envelope is also loop-able by patching the end output into the gate input, b
 
 Module power consumption: 10 mA
 
-### Inputs
+## Inputs
 
 *   **GATE** - gate or trigger for envelope
 *   **A CV** - accept CV for attack stage of envelope
@@ -19,14 +19,14 @@ Module power consumption: 10 mA
 *   **S CV** - accept CV for sustain stage of envelope (value from knob will be added!)
 *   **R CV** - accept CV for release stage of envelope
 
-### Outputs
+## Outputs
 
 *   **OUT** - CV from envelope
 *   **END** - a trigger CV generated when the envelope has finished
 *   **MULT** - unbuffered multiple, unconnected from the module's circuitry
 *   **B. GATE** - Gate signal from MIDI via the Master module
 
-### Controls
+## Controls
 
 *   **ATTACK** Knob - change the attack time from 0 (percussive) to either 2 or 16 seconds depending on FAST/SLOW switch
 *   **DECAY** Knob - change the decay time from 0 to either 3 or 24 seconds depending on FAST/SLOW switch
@@ -36,7 +36,7 @@ Module power consumption: 10 mA
 *   **SLOW/FAST** Switch - In slow mode the attack, decay and release times are longer than in fast mode.
 *   **MAN TRIG** Button - sends a trigger signal to start the envelope. Always acts like a trigger even when GT mode is active. **(note: the picture above does not show the trigger button)**
 
-### Patch Suggestions
+## Patch Suggestions
 
 Envelopes are one of the basic modulation sources in subtractive synthesis. They are usually used to modulate amplitude, pitch or a filter.
 

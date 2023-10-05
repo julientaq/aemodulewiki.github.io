@@ -15,31 +15,31 @@ Module power consumption: 80 mA
 
 
 
-### Plugin Documentation
+## Plugin Documentation
 
 There are over 30 plugins built in, these are effects, simple and complex sound generators. Some of these have over 20 parameters which you can control via the web interface. Here are the two main sources of documentation for these:
 
 *   [Quick overview page with links to sections in the full documentation](https://tinyurl.com/tbd-overview)
 *   [Full documentation of all included plugins](https://tinyurl.com/tbd-full-documentation)
 
-### Inputs
+## Inputs
 
 *   **IN1, IN2, IN3** - All three inputs are being mixed together before passed into to the currently active plugin. This is used for audio input for FX plugins.
 *   **CV IN 0, 1** - first and second CV input. These can be freely assigned to any plugin parameter via the web interface.
 *   **TRIG IN 0, 1** - first and second trigger inputs. These can also be freely assigned to plugin triggers.
 
-### Outputs
+## Outputs
 
 *   **OUT** - Audio output of the currently active plugin
 
-### Controls
+## Controls
 
 *   **GAIN** - Control the gain that is added to the incoming signal
 *   **PAR 0, 1** - Potentiometer which can be freely assigned to any parameter of the currently active plugin via the web interface. These are independent from the incoming CV parameters.
 *   **TRIG 0,1** - Trigger buttons which can be assigned to events of the currently active plugin via the web interface. These are independent from the other trigger inputs.
 *   **CONFIG** - allows the selection of a stored plugin. These are stored as "favorites" via the web interface and persist in the module even without a connection to a PC.
 
-### The Web Interface
+## The Web Interface
 
 You will need a computer (or Android device) which is connected to the TBD via USB to make the most of this module. The connection is made via a "terminal application"-program which you run on your computer and which opens a web interface on your default web browser. You can then control the TBD via this web interface.
 
@@ -66,7 +66,7 @@ User @betaboon has kindly developed an Android application which works mostly li
 
 You can download the app from Google Play Store here: [https://play.google.com/store/apps/details?id=com.aemodular.tbd](https://play.google.com/store/apps/details?id=com.aemodular.tbd)
 
-### Patch Ideas
+## Patch Ideas
 
 The 5th Volt has made this introductory video which will help you to get started with this complex module: [https://youtu.be/tEKvm1mL8Fc](https://youtu.be/tEKvm1mL8Fc)
 

@@ -15,7 +15,7 @@ Module power consumption: 11 mA
 
 
 
-### Inputs
+## Inputs
 
 *   **CV** - CV input for chord selection
 *   **CH. VAR CV** - CV input to select the chord variants (inversions, raised thirds, etc.)
@@ -23,14 +23,14 @@ Module power consumption: 11 mA
 *   **CHORD -** - Trigger input to play the previous chord in the progression preset
 *   **4th GATE** - Gate input. switching the 4th note on (high) or off (low)
 
-### Outputs
+## Outputs
 
 *   **BUS CV** - (positioned on the left side) Pitch signal from the MIDI bus
 *   **BUS GATE** - (positioned on the left side) Gate signal from the MIDI bus
 *   **OUT** - Audio output
 *   **MULT** - Unbuffered multiple
 
-### Controls
+## Controls
 
 Chord generation and playback:
 
@@ -52,7 +52,7 @@ Sound shaping:
 *   **PITCH MOD** knob - adjusts the vibrato amount
 *   **ENSEMBLE MIX** knob - blends in a phaser effect
 
-### Patch Suggestions
+## Patch Suggestions
 
 For authentic 70s strings, (or just great sound sin general), the [PHASER](https://wiki.aemodular.com/pmwiki.php/AeManual/PHASER) module is a great partner for the Solina.
 

@@ -17,7 +17,7 @@ Module power consumption: 42 mA
 
 
 
-### Inputs
+## Inputs
 
 *   **IN1** to **IN6** Channels 1 to 6 for the mixer, level controlled by the relevant vertical fader (below)
     
@@ -25,12 +25,12 @@ Module power consumption: 42 mA
     
 *   **TIME2 CV** this combined with the time 2 knob controls parameter 2 of the in built FX chosen.
 
-### Outputs
+## Outputs
 
 *   **OUT** (x3) - mono output of the Dronx module.
 *   **MULT** - a passive splitter/mixer separate to the module electronics.
 
-### Controls
+## Controls
 
 *   **Bass** - alters the level of lower frequencies in the mixed signal
 *   **Treble** - alters the level of higher frequencies in the mixed signal
@@ -42,7 +42,7 @@ Module power consumption: 42 mA
 *   **DRY - WET** - A fully dry signal has none of the FX sound in it. A fully wet signal is just the FX sound. Again, we usually want somewhere in the middle which is controlled by this knob.
 *   **Level 1** to **Level 6** - controls the amount of the signal from that numbered input in the output signal.
 
-### Delay Effect Programs
+## Delay Effect Programs
 
 The delay FX unit of the DRONX has 9 unique programs that are described below:
 
@@ -56,7 +56,7 @@ The delay FX unit of the DRONX has 9 unique programs that are described below:
 8.  wonky (like 3 but random modulation delay time, depth with LFO DEPTH)
 9.  glitch (like 8 but at the beginning and end of the delay times the delay chip is being "abused" to generate weird and unexpected effects)
 
-### Patch Examples
+## Patch Examples
 
 Even if you do not have 6 sound sources in your AE system this still is a useful module, if you can spare the real estate!
 

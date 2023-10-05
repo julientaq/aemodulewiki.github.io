@@ -26,7 +26,7 @@ Each operator combines two inputs by different logical rules (AND, NAND, XOR). T
 
 The outputs are grouped in two identical groups marked with number 1 and 2 for each individual LOGIC operator. We only describe the outputs of one group as they work exactly the same for the other group.
 
-### **NAND** - (Not AND) outputs a LOW signal when **both** input signals are HIGH. Otherwise outputs HIGH. This is the truth table:
+## **NAND** - (Not AND) outputs a LOW signal when **both** input signals are HIGH. Otherwise outputs HIGH. This is the truth table:
 
 | input A | input B | output |
 | ------- | ------- | ------ |
@@ -56,12 +56,12 @@ The outputs are grouped in two identical groups marked with number 1 and 2 for e
 - **INV3** - Inverts the signal of IN3 input. If IN3 is HIGH, it outputs LOW. If IN3 is LOW, it outputs HIGH.
 - **INV4** - Inverts the signal of IN4 input. If IN4 is HIGH, it outputs LOW. If IN4 is LOW, it outputs HIGH.
 
-### Display
+## Display
 
 - **AND 1** - Visual reference for the first logic gate AND output. When AND output is HIGH, the LED turns on. When the AND output is LOW, the LED turns of.
 - **AND 2** - Visual reference for the second logic gate AND output. When AND output is HIGH, the LED turns on. When the AND output is LOW, the LED turns of.
 
-### Patch Suggestions
+## Patch Suggestions
 
 - The very basic patch is to connect one Pulse [LFO](https://wiki.aemodular.com/pmwiki.php/AeManual/2LFO) into 1A and another one into 1B. Then connect any of the outputs of group 1 to the a VCA's CV input.
 - Patching an LFO to input 1A and an audio signal to 1B (or vice versa), converts the logic gate into a signal gate (through AND or NAND outputs), letting the audio signal through when the LFO is HIGH and cutting it when LOW.

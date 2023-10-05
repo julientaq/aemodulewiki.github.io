@@ -13,16 +13,15 @@ let options = {
 let md = markdownIt(options).use(markdownItPandoc);
 
 module.exports = function(eleventyConfig, options) {
-
   eleventyConfig.setLibrary("md", markdownIt(options));
 
   eleventyConfig.addFilter("markdownify", function(value) {
-    if (!value) return "";
+    if (!value || value.length < 1) return "";
     return md.render(value);
   });
 
   eleventyConfig.addFilter("markdownifyInline", function(value) {
-    if (!value) return "";
+    if (!value || value.length < 1) return "";
     return md.renderInline(value);
   });
 };

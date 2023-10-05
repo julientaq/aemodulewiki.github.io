@@ -15,21 +15,21 @@ This module needs to be installed on the [µBASE](https://wiki.aemodular.com/pmw
 
 Module power consumption: ? mA
 
-### Inputs
+## Inputs
 
 *   **GT IN** - this is the incoming gate signal
 *   **PRB CV** - controls the probability of the signal being routed one way or another
 
-### Outputs
+## Outputs
 
 *   **OUT 1, 2, 3** - either one or more will output the incoming gate signal based on the probability function.
 
-### Controls
+## Controls
 
 *   **PROBABILITY** Pot - changes the probability of the gate being routed one way or another.
 *   **SINGLE / PAR** Switch - In single mode, only one output will be triggered at a time. In Parallel mode, 2 or more outputs can be triggered at once, which can be really interesting with pitched sounds on each trigger.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This module is perfect for generative patches where events are driven by chance. For instance it can be used to kick off one of 3 different Envelopes which could introduce variation in sound events.
 

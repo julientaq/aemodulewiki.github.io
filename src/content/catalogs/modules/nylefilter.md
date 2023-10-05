@@ -17,7 +17,7 @@ The sound goes from quite soft filtering with low resonance setting to a quite i
 
 Module power consumption: 2 mA
 
-### Inputs
+## Inputs
 
 *   **LP IN** - audio signal going through the Lowpass curve of the filter
 *   **BP IN** - audio signal going through the Bandpass curve of the filter
@@ -26,14 +26,14 @@ Module power consumption: 2 mA
 *   **CV 2** - additional CV control for cutoff frequency, this will also affect all three filter curves
 *   **CV Resonance** - CV control for the resonance
 
-### Outputs
+## Outputs
 
 *   **OUT** (3) - the combined and mixed output of the filtered input signals
 *   **MULT** (5) - a multiple which is disconnected from the filter circuitry
 *   **BUS CV** - this sits below the input jacks on the left side and will output CV pitch from a connected MIDI device
 *   **BUS CTRL** - this sits below the input jacks on the left side and will output the MIDI control message from a connected MIDI device (CC20).
 
-### Controls
+## Controls
 
 *   **LOWPASS IN** - attenuator for the level of the signal from **LP IN** before it gets passed into the lowpass signal path.
 *   **BANDPASS IN** - attenuator for the level of the signal from **BP IN** before it gets passed into the bandpass signal path.
@@ -44,7 +44,7 @@ Module power consumption: 2 mA
 *   **RESONANCE** - controls the resonance of the filters
 *   **WILD/TAME** - on newer models this switch controls the resonance behaviour
 
-### Patch Suggestions
+## Patch Suggestions
 
 Put a LFO through an attenuator so you can control the amount (e.g. 2CVTOOL), to the resonance CV input is great for creating variations on the sound, subtle or mad....
 
@@ -54,7 +54,7 @@ Here is a video by [The 5th Volt](https://wiki.aemodular.com/pmwiki.php/User/The
 
 [https://youtu.be/0Pr2oRu\_BCo](https://youtu.be/0Pr2oRu_BCo)
 
-### Sound Examples
+## Sound Examples
 
 AE Modular filter comparison: [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 

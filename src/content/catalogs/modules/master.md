@@ -25,7 +25,7 @@ The descriptions here are for the current Master module, the original Kickstarte
 
 Module power consumption: 30 mA
 
-### Inputs
+## Inputs
 
 Anything marked I/O can be an input or output.
 
@@ -46,7 +46,7 @@ AE Patchbay
 *   **A1/ CTRL 1 I/O** - the left socket is connect to the audio 1 I/O listed above. The right socket is connected to the Crtl 1 socket listed above.
 *   **A2/ CTRL 2 I/O** - the left socket is connect to the audio 2 I/O listed above. The right socket is connected to the Crtl 2 socket listed above.
 
-### Outputs
+## Outputs
 
 *   **Bus CV** (2) - a CV derived from the midi note number from attached device.
 *   **Bus Gate** (2) - +5 volts when a key is pressed/held on attached midi device.
@@ -61,11 +61,11 @@ Also see items marked I/O above, as can be inputs or outputs.
 
 Although you can use the above Bus outputs to feed a signal **into** the relevant buss, it may not be 100% reliable, and definitely will not be if you mix it with incoming midi - but you won't break anything and it could be interesting!
 
-### Controls
+## Controls
 
 None.
 
-### Eurorack Power Supply
+## Eurorack Power Supply
 
 The Master module also can be used to supply AE modules and interface to eurorack modules when used with an AE Modular eurorack adapter frame. Eurorack adapter frames are available with 8, 12 or 16 units.
 
@@ -81,7 +81,7 @@ With the adapterframe comes an eurorack power-cable for the Master module:
 
 The 10-pin connector plugs to the Master module, red cable facing downwards, the other connector plugs into one of your Eurorack bus sockets.
 
-### Patch Suggestions
+## Patch Suggestions
 
 The most obvious use of the Master module is the midi (bus) CV being used to control the pitch of the [oscillators](https://wiki.aemodular.com/pmwiki.php/AeManual/2OSCD). The Bus CV needs to go to the CV in on your VCO, this can be done on the Oscillator module itself rather than a patch lead trailing across from the Master module.
 
@@ -91,7 +91,7 @@ The Bus clock, start and stop can be used to control the AE Modular's sequencer 
 
 The use of a Midi controller such as the Arturia Keystep, Beatstep (pro) or synth with sequencer built in is highly recommended to control the AE Modular as the Master module provides a lot of options and the system is geared to work this really well with, for instance, the bus CVs.
 
-### Connecting MIDI from a computer
+## Connecting MIDI from a computer
 
 You can also connect MIDI from a PC/Mac so that you can sequence the AE Modular from a DAW (Digital Audio Workstation) like Ableton or Reaper. For this to work you need to purchase a converter cable that converts USB to MIDI Din. Here is an example:
 

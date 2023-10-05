@@ -15,7 +15,7 @@ There are 2 sizes of micro module - 1/2 and 1/3. As you may expect, 2 1/2 module
 
 Module power consumption: none
 
-### Patch Suggestions
+## Patch Suggestions
 
 Fill this module with any combination of 1/3 or 1/2 micro modules as you like!
 

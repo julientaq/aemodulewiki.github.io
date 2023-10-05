@@ -15,15 +15,15 @@ This module needs to be installed on the [µBASE](https://wiki.aemodular.com/pmw
 
 Module power consumption: ? mA
 
-### Inputs
+## Inputs
 
 *   **IN 1, 2, 3, 4** - Inputs for each of the 4 buffer channels
 
-### Outputs
+## Outputs
 
 *   **OUT 1, 2, 3, 4** - Two outputs for each of the 4 channels.
 
-### Patch Suggestions
+## Patch Suggestions
 
 While this module seems to provide similar functionality as the [4BUFFER](https://wiki.aemodular.com/pmwiki.php/AeManual/4BUFFER) module, it is missing the linking feature. So if you want to multiply one input signal to many outputs, then you need to patch it internally, eg.:
 

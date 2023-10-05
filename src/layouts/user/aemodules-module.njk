@@ -4,43 +4,38 @@
 {% endblock bodyclass %}
 {% block content %}
     <main>
-        {# <nav class="catalog-index"> #}
-        {#     <ul class="catalog-entries-toc"> #}
-        {#         {% for item in collections[catalog] | orderBy("data.title", "asc") %} #}
-        {#             {% if catalog == item.data.catalog and item.data.type == "entry" %} #}
-        {#                 <li class="{{ item.data.type }}"> #}
-        {#                     <a href="{{ item.url }}">{{ item.data.title }}</a> #}
-        {#                     {% if item.data.replacedby %} #}
-        {#                         (discontinued, replaced by <a href="/modules/{{ item.data.replacedby }}">{{ item.data.replacedby }}</a>) #}
-        {#                     {% endif %} #}
-        {#                 </li> #}
-        {#             {% endif %} #}
-        {#         {% endfor %} #}
-        {#     </ul> #}
-        {# </nav> #}
-        {% if picture %}
-            <img src="/images/{{ picture }}" alt="" class="module-picture">
-        {% else %}
-            <img src="/images/{{id}}.png" alt="" class="module-picture">
-        {% endif %}
+        <figure>
+            {% if picture %}
+                <img src="/images/{{ picture }}" alt="">
+            {% else %}
+                <img src="/images/{{id}}.png" alt="" class="module-picture">
+            {% endif %}
+            <figcaption>{{ title | lower }}</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    {% for tag in tags  %}
-                        <li>
-                            <a href="/tags/{{ tag }}">{{ tag }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-                <h1>{{ title }}</h1>
-                <p class="subtitle">{{ subtitle }}</p>
-            </header>
-            <section class="catalog-content">
-                {{ content | safe }}
-            </section>
+            <div class="module-content">
+                <header>
+                    <h1>{{ title }}</h1>
+                    <p class="subtitle">{{ subtitle }}</p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="{{ url }}">Website</a>
+                    </p>
+                    <div class="shops">
+                        {% for shop in shop  %}
+                            <p class="shop">
+                                <a href="{{ shop.url }}">Shop {{ shop.place }}</a>
+                            </p>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% if introduction %}<div class="entry-content-introduction">{{ introduction | markdownify | safe }}</div>{% endif %}
+                <div class="entry-content-text">{{content | safe}}</div>
+            </div>
         </article>
     </main>
 {% endblock content %}

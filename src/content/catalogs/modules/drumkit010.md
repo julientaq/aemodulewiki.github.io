@@ -13,7 +13,7 @@ The DRUMKIT 010 consists of 11 8-bit drum sound samples; 6 of them can be trigge
 
 Module power consumption: 3 mA
 
-### Inputs
+## Inputs
 
 *   **BD** - trigger for bass drum
 *   **SD** - trigger for snare drum
@@ -24,19 +24,19 @@ Module power consumption: 3 mA
 *   **PITCH CV** - cv control of pitch for all sounds
 *   **ACCENT** - trigger for accent
 
-### Outputs
+## Outputs
 
 *   **OUT** - audio output of mix of all sounds
 *   **MULT** - unbuffered multiple
 
-### Controls
+## Controls
 
 *   **BANK** Knob - select a bank of sounds, this selects different sounds for the 6 channels. Because there are only 11 sounds in total, each bank is a different mix of 6 of those sounds.
 *   **PITCH** Knob - select the pitch of all sound samples
 *   **REVERSE** Button - while pressed, all samples will play in reverse
 *   **TRIG MODE** Switch - if set to A any rising signal will trigger, if set to D a short pulse is expected.
 
-### Patch Suggestions
+## Patch Suggestions
 
 The DRUMKIT works best when triggered by either the [TOPOGRAF](https://wiki.aemodular.com/pmwiki.php/AeManual/TOPOGRAF), [TRIQ 164](https://wiki.aemodular.com/pmwiki.php/AeManual/TRIQ164) or [MM-DIV](https://wiki.aemodular.com/pmwiki.php/AeManual/MM-DIV) modules.
 

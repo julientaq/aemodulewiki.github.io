@@ -20,20 +20,20 @@ This is a 4 channel Euclidean step sequencer with a colourful animated display a
 | C | Yellow |
 | D | Green |
 
-### Inputs
+## Inputs
 
 - **Clk** - External clock input
 - **Rst** - When you apply a high level signal it pauses all signals for as long as the level is high
 - **A | B | C | D** - Applying a high level signal to any of these inputs will activate the additional fill steps for the respective sequence for as long as the signal level is high
 
-### Outputs
+## Outputs
 
 - **B. Clk** - On the left hand side - outputs the bus MIDI clock signal
 - **B. Stop** - On the left hand side - outputs the bus MIDI stop signal
 - **A | B | C | D** - On the right hand side - (x2 each), outputs the triggers for each respective sequence
 - "Column" **Sockets** (x8) - above the display. These will produce a trigger when a step of **any** sequence is in that output's column on the display, as marked by the lines below the sockets.
 
-### Controls
+## Controls
 
 In this section the use of the encoder, (select knob) is designated by the ↻ symbol.
 
@@ -89,7 +89,7 @@ All sequences will reset after three seconds of no clock being applied (internal
 - **Mem** Loads the last saved state from memory.
 - **Mem + Shift** Saves the current state to memory.
 
-### Patch Suggestions
+## Patch Suggestions
 
 Combining different sequences of different lengths can result in polymeter, (polyrhythms) especially odd and prime numbers (i.e. 5/8, 4/13). Highly recommended!
 

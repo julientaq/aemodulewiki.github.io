@@ -17,14 +17,14 @@ The module comes with the WAVEGRAINS firmware pre-installed which is a wavetable
 
 Module power consumption: 12 mA
 
-### Inputs
+## Inputs
 
 *   **IN1** - accepts a CV signal
 *   **2** - accepts a CV signal
 *   **3** - accepts a CV signal
 *   **A** - accepts an audio signal (this is a new feature of the AE Grains and isn't available on the original Eurorack module)
 
-### Outputs
+## Outputs
 
 *   **OUT** - This is an audio signal direct from the PWM output pin of the Atmega chip running through a lowpass filter
 *   **D** - This is a digital signal that can be used for triggers, etc. (this is also a new feature and does not exist on the original Eurorack module)
@@ -36,7 +36,7 @@ Bus outputs on the left hand bank of sockets.
 *   **Bus CTRL** - Gate signal from MIDI
 *   **Bus Gate** - Gate signal from MIDI
 
-### Controls
+## Controls
 
 *   **Pot Level 1** - depending on switch 1 attenuate signal from IN1 or select CV level between 0-5V
 *   **Switch IN1/MAN** - switch between attenuating signal from IN1 or issue CV between 0-5V (the original Eurorack module does not have this switch)
@@ -46,13 +46,13 @@ Bus outputs on the left hand bank of sockets.
 
 **Please note: IN 3 and Pot 3 are not related to each other, they are completely independent!**
 
-### Mode-Switch
+## Mode-Switch
 
 *   **Switch M/G** - Selects the internal audio-out pin, use 'M' for 'Mozzi mode' or 'G' for 'Ginkosynthese / original Grains mode' - Depending on the Firmware used, GRAINS may use the one or the other output option! (If you should experience silence at the output, when not expecting it, please make sure to try out the other option as well.)
 
 **Please note: With the first revision of GRAINS this switch is missing, the setting there is equivalent to 'G'!**
 
-### How to install other Firmwares
+## How to install other Firmwares
 
 You can easily install different firmwares on to the GRAINS module or even develop your own programs!
 
@@ -88,7 +88,7 @@ Once you have the file open in the Arduino IDE you can upload them to the GRAINS
 
 Once the IDE shows that upload is complete you can disconnect the USB cable and use the GRAINS module with the new firmware.
 
-### Developing your own Firmware
+## Developing your own Firmware
 
 Using the existing codes as example you can either make changes to them or develop your own firmware from scratch. The following diagram shows how you can access the various inputs, outputs and controls from within your code:
 
@@ -96,7 +96,7 @@ Using the existing codes as example you can either make changes to them or devel
 
 **WARNING** It is possible to "brick" your GRAINS with certain operations when you develop and test your own firmware programs! This has happened once and you can find how that happened and how it was resolved in this [thread on the forum](https://forum.aemodular.com/thread/1858/serialport-show-anymore-brick-grains).
 
-### Patch examples
+## Patch examples
 
 This video explains the module in more detail and has some patch examples for various firmwares. [https://youtu.be/qpniMuq--M8](https://youtu.be/qpniMuq--M8)
 

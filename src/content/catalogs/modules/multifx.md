@@ -17,21 +17,21 @@ The video at the bottom of this page gives an excellent demo of what this module
 
 
 
-### Inputs
+## Inputs
 
 *   **In** - Signal for processing
 *   **CV PAR 1** - CV which affects parameter 1 of the selected program in conjunction with the Par 1 knob.
 *   **CV PAR 2** - CV which affects parameter 2 of the selected program in conjunction with the Par 2 knob.
 *   **CV PAR 3** - CV which affects parameter 3 of the selected program in conjunction with the Par 3 knob.
 
-### Outputs
+## Outputs
 
 *   **L** - left stereo output
 *   **R** - right stereo output
 *   **MONO** - mono output
 *   **Mult** (5) - a mixer/splitter separate to the main module electronics.
 
-### Controls
+## Controls
 
 *   **Input Level** knob - a useful attenuator/ boost for the signal being input to the module.
 *   **Feedback** Knob
@@ -42,7 +42,7 @@ The video at the bottom of this page gives an excellent demo of what this module
 *   **Par 2** Knob - sets the amount of Parameter 2 for the selected program, usually Reflections/repeats level
 *   **Par 3** Knob - sets the amount of Parameter 3 for the selected program, usually Brightness/LPF cut off.
 
-### Effects Parameters
+## Effects Parameters
 
 Program
 
@@ -172,7 +172,7 @@ Crusher mix
 
 Reverb mix
 
-### Patch Suggestions
+## Patch Suggestions
 
 This module is useful to create a stereo output from the AE modular, and can be sent out via the 2 I/Os on the Master module, or 2 of the [4 I/O module](https://wiki.aemodular.com/pmwiki.php/AeManual/4IO) routes.
 

@@ -14,16 +14,16 @@ Module power consumption: 60 mA
 
 
 
-### Inputs
+## Inputs
 
 *   **CV 1, 2, 3, 4** - Input channels for CV signals. It depends on the currently active mode what these are for.
 *   **TRIG 1, 2, 3, 4** - Input channels for trigger signals. It depends on the currently active mode what these do.
 
-### Outputs
+## Outputs
 
 *   **OUT A, B, C, D** - CV or trigger outputs depending on the currently active mode.
 
-### Controls
+## Controls
 
 These controls are generic and do different things depending on which firmware is installed and which mode is currently active.
 
@@ -32,7 +32,7 @@ These controls are generic and do different things depending on which firmware i
 *   **Left Knob**
 *   **Right Knob**
 
-### Original Firmware
+## Original Firmware
 
 The original firmware can be found here: [https://github.com/mxmxmx/O\_C](https://github.com/mxmxmx/O_C)
 
@@ -54,7 +54,7 @@ The following modes are available with the original firmware:
 *   [Acid Curds](https://ornament-and-cri.me/user-manual-v1_3/#anchor-acid-curds) - is both a chord quantiser (sometimes called a “harmonic quantiser” for external pitch voltages), and a chord progression sequencer.
 *   [References](https://ornament-and-cri.me/user-manual-v1_3/#anchor-references) - is a utility app that outputs specific reference voltages on each channel to help tune or calibrate VCOs and other modules. It also includes a high-precision frequency meter and note tuner, a high-precision BPM (beats per minute) tempo meter, and a closed-loop calibration mode.
 
-### Alternative Firmware - Hemispheres Suit
+## Alternative Firmware - Hemispheres Suit
 
 This is an alternative firmware which you can install instead of the original. Just follow the instructions in this manual: [https://github.com/Chysn/O\_C-HemisphereSuite/wiki](https://github.com/Chysn/O_C-HemisphereSuite/wiki)
 
@@ -64,7 +64,7 @@ The following video is a great overview of the different applets in the Hemisphe
 
 Here is the manual for all applets: [https://synthmodes.com/modules/o\_c\_hemisphere/](https://synthmodes.com/modules/o_c_hemisphere/)
 
-### Patch Suggestions
+## Patch Suggestions
 
 If you have problems wiht the output CVs being too high, try calibrating the module, as per this thread on the forum:-
 

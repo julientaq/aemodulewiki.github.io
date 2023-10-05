@@ -15,22 +15,22 @@ This module needs to be installed on the [µBASE](https://wiki.aemodular.com/pmw
 
 Module power consumption: ? mA
 
-### Inputs
+## Inputs
 
 *   **IN** - the incoming audio signal
 
-### Outputs
+## Outputs
 
 *   **OUT** - the distorted output audio signal
 
-### Controls
+## Controls
 
 *   **DRIVE** Knob - this knob controls the "drive" of the signal, basically it amplifies the signal and overloads the circuits to get the distorted effect.
 *   **CLIP** Switch - in the upper position it will clip the edges off the distorted signal for further degradation
 *   **SYMM** - ?
 *   **HARD** - ?
 
-### Patch Suggestions
+## Patch Suggestions
 
 This can be used for adding "grit" to a clean sound source. This can be very good on bass or lead sounds.
 

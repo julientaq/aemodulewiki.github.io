@@ -13,7 +13,7 @@ The 2OSC/d module contains two 1V/octave hybrid oscillators. It is designed as a
 
 Module power consumption: 25 mA
 
-### Inputs
+## Inputs
 
 *   **CV1** - Frequency CV for OSC 1
 *   **PWM1** - CV for Pulse Width Modulation for OSC 1
@@ -22,7 +22,7 @@ Module power consumption: 25 mA
 *   **PWM2** - CV for Pulse Width Modulation for OSC 2
 *   **SYNC2** - Sync control for OSC 2
 
-### Outputs
+## Outputs
 
 *   **BUS CV** (2x) - located on the left patch bay it outputs the MIDI CV from the Bus.
 *   **Saw 1** (2x) - Sawtooth wave output for OSC 1
@@ -32,7 +32,7 @@ Module power consumption: 25 mA
 *   **Square 2** - Square wave output for OSC 2
 *   **Sub Square 2** - Square Sub Oscillator for OSC 2, this is almost one octave down from the square output.
 
-### Controls
+## Controls
 
 *   **FREQ 1 knob** - Frequency for OSC 1
 *   **HIGH / LOW switch 1** - switch between two frequency ranges for OSC 1
@@ -41,7 +41,7 @@ Module power consumption: 25 mA
 *   **PULSEWIDTH knob** - set the pulse width of the output for OSC 2
 *   **PW FIX switch** – in upper position the pulse width is fixed for OSC 2
 
-### Patch Suggestions
+## Patch Suggestions
 
 The usual patch would be either direct to the filter, or via the [4ATT/Mix](https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX) if you are combining more than one oscillator, noise etc.
 

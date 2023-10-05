@@ -13,7 +13,7 @@ This module provides an OR logic, where if a signal is at least one of the input
 
 Module power consumption: 2 mA
 
-### Inputs
+## Inputs
 
 There are two separate 4 input OR circuits, **A** & **B**. Both have the same inputs/outputs.
 
@@ -25,17 +25,17 @@ There are two separate 4 input OR circuits, **A** & **B**. Both have the same in
 
 This is duplicated for the **B** circuit.
 
-### Outputs
+## Outputs
 
 *   **OUT A** (2) - Circuit A output.
 *   **OUT B** (2) - Circuit B output.
 *   **Mult** - A passive mixer/splitter separate to the main module circuits.
 
-### Controls
+## Controls
 
 *   **Link A-B** Switch - This makes the module 2 separate 4 input Or circuits, or one 8 input circuit.
 
-### Patch Suggestions
+## Patch Suggestions
 
 If you use all 4 inputs on a circuit, be aware you will have no output if all 4 inputs have a signal. That would be an AND logic out.
 

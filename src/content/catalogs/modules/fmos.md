@@ -13,20 +13,20 @@ The FMOS brings FM synthesis to the AE modular. It offers the basic FM synthesis
 
 Module power consumption: 30 mA
 
-### Inputs
+## Inputs
 
 *   **CV1** - CV control over the pitch of the oscillator.
 *   **CV2** - CV control added the CV1 to control the pitch.
 *   **MLT CV** - CV control over the FM frequency ratio of the modulator.
 *   **DPT CV** - CV control over the depth of the modulator's depth.
 
-### Outputs
+## Outputs
 
 *   **OUT** - audio output signal
 *   **B.CTRL** - CTRL signal from MIDI bus
 *   **B.CV** - CV signal from MIDI bus
 
-### Controls
+## Controls
 
 *   **Switch triangle/sine** - switch between triangle or sine waves of both carrier and modulator.
 *   **PITCH** - Potentiometer for changing the pitch of the oscillator. When CV is sent, then that will be added to this setting.
@@ -34,7 +34,7 @@ Module power consumption: 30 mA
 *   **MULTIPLIER** - Potentiometer to select the FM frequency ratio. Any CV control will be added to this setting.
 *   **MOD DEPTH** - Potentiometer to select the depth of the modulation. Any CV control will be added to this setting. Turn it all the way to the left (set to 0) for pure sine wave.
 
-### Patch Suggestions
+## Patch Suggestions
 
 FM synthesis lends itself to bell sounds in particular, and brings a whole different colour palette to regular oscillators. Very useful for percussion also.
 

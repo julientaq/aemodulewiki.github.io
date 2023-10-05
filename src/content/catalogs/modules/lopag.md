@@ -15,7 +15,7 @@ This doesn't mean it isn't useful however....
 
 Module power consumption: 1 mA
 
-### Inputs
+## Inputs
 
 *   **IN** - the audio signal input. This module will not make any sound without this.
 *   **TRIG** - A +5V pulse will activate a short opening of the gate.
@@ -23,7 +23,7 @@ Module power consumption: 1 mA
 *   **CV** - The module will sound to the volume (voltage) and length of the signal provided, e.g. an ENV module will let you do full attack, decay, sustain and release shaping.
 *   **BUS GATE** - This is actually an output generated from the Master module from Midi, it will be zero or +5V when a relevant key is pressed on a connected keyboard.
 
-### Outputs
+## Outputs
 
 also see Bus Gate above.
 
@@ -31,12 +31,12 @@ also see Bus Gate above.
 *   **TRIG** - the trigger from trig in is output here,
 *   **MULT** - a passive mixer/splitter completely separate to the module circuits.
 
-### Controls
+## Controls
 
 *   **VCA/LP GATE** switch - this turns the filter circuit on or off. Useful for seeing what is actually being done to the sound, or if you are short of VCAs.
 *   **CV LEVEL** knob - This controls to amount the CV input affects the volume of the sound, too far anticlockwise and there will be no sound unless one of the other inputs is used as well.
 
-### Patch Suggestions
+## Patch Suggestions
 
 It can be used as a straight VCA triggered by the gate, CV and/or trig inputs in any combination or singly; this can be very useful for polyrhythmic effects. One more CV/trigger input than the regular AE VCAs. This works in either LP or VCA mode.
 
@@ -48,7 +48,7 @@ The classic running a held chord, ([SOLINA](https://wiki.aemodular.com/pmwiki.ph
 
 This module does not have CV control of resonance, but it can be created by putting one of the outputs through a VCA whose level is controlled by the CV modulation source (e.g. LFO or envelope), then feeding the VCA output back into this module - you will need a mixer module, or use a **mult** if necessary as there is only one input. Be aware you will not be able to adjust the frequency like on a regular filter but it can still be useful/ interesting.... Process the sound further before feeding it to the VCA?
 
-### Sound Examples
+## Sound Examples
 
 AE Modular filter comparison: [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 

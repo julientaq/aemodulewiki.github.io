@@ -17,7 +17,7 @@ Width: 2U
 
 Module power consumption: 6 mA
 
-### Inputs
+## Inputs
 
 *   **CLK** - accepts trigger to advance one step
 *   **RESET** - go back to step 1
@@ -25,7 +25,7 @@ Module power consumption: 6 mA
 *   **MUTE2** - accept gate to mute OUT 2. Mutes signal when input is HIGH.
 *   **REPEAT CV** - control voltage for adding repeated triggers within one step, please see **repeat** knob below.
 
-### Outputs
+## Outputs
 
 *   **OUT \[1-4\]** - outputs for each track. The value is given by the current step of the corresponding track.
 *   **\[1-16\]** - trigger output for each step of the **currently selected track only**. _NOTE: Repeats are not available through these outputs_
@@ -33,14 +33,14 @@ Module power consumption: 6 mA
 *   **B. START** - +5V trigger pulse when MIDI START is sent from external equipment, via the Master module.
 *   **B. STOP** - +5V trigger pulse when MIDI STOP is sent from external equipment, via the Master module.
 
-### Controls
+## Controls
 
 *   **TRACK Buttons \[1-4\]** - select the track to be edited. The LED by each track button represents the output signal of that track, i.e. steady on LED means that track is selected. When that numbered track has a trigger on that step of the sequence, it will flash. Also makes the individual step outputs available
 *   **STEP Buttons \[1-16\]** - activate/deactivate steps in the **current track only**. The LED by each step button indicates if the step is active (ON) or inactive (OFF) in the **current track only**. _NOTICE: The same step my have different values in different tracks_
 *   **RESET Button** - resets the sequences (jump to step 1)
 *   **REPEAT Knob** - select the number of repeated triggers within one step, (i.e. ratcheting). From no repeats (turned all the way to the left) to 8 repeats (turned all the way to the right). To assign a step to repeat, hold the track button and push the step(s) you want to have in repeat mode. You must turn the knob to the right to get repeats on the assigned step(s), or put a voltage on the repeat CV in. If the knob is at zero position and you have no CV you will not get any repeats.
 
-### Patch Suggestions
+## Patch Suggestions
 
 For sequences shorter than 16 steps, connect a step output to RESET. For example, if you want a 4-step sequence, connect STEP OUTPUT PIN 5 to RESET.
 

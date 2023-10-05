@@ -22,21 +22,21 @@ Beyond the basic design, this filter offers some additional features:
 *   Power Consumption: 2mA
 *   Module width: 1U
 
-### Inputs
+## Inputs
 
 *   **IN H** - this input is for higher level signals.
 *   **IN L** - this input adds some gain to give a higher signal level of the module circuitry, (i.e. low input signals).
 *   **CV 1** - accepts CV control for cutoff frequency
 *   **CV 2** - additional CV control for cutoff frequency
 
-### Outputs
+## Outputs
 
 *   **OUT** - the signal after being filtered.
 *   **MULT** - an unbuffered multiple (a passive bi-directional circuit for mixing/splitting signals).
 *   **BUS CV** - this sits below the input jacks on the left side and will output CV pitch from a connected MIDI device
 *   **BUS CTRL** - this sits below the input jacks on the left side and will output a volatge dervied from MIDI control message (CC20) from a connected MIDI device.
 
-### Controls
+## Controls
 
 *   **FREQ Knob** - Sets the cuttoff frequency of the filter.
 *   **CV 1 Knob** - controls the amount CV1 input affects the Cutoff frequency.
@@ -46,7 +46,7 @@ Beyond the basic design, this filter offers some additional features:
 *   **FM** switch - adds some of the main input signal to the modulation of the cutoff point.
 *   **HARD/SOFT** switch - changes the overall sound/character of the filter so you get two for the price of one.
 
-### Patch Suggestions
+## Patch Suggestions
 
 With its great sonic character it is highly recommended for bass and lead sounds.
 

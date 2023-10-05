@@ -21,22 +21,22 @@ Other reverb tanks and sizes are available at various places online and offer di
 
 Module power consumption: 5 mA, 14 mA as complete set with spring-tank [SPRINGREVERB (complete set)](https://www.tangiblewaves.com/store/p39/SPRINGREVERB_%28complete_set%29.html)
 
-### Inputs
+## Inputs
 
 *   **IN** - audio signal input
 
-### Outputs
+## Outputs
 
 *   **OUT** - dry/wet mix audio signal output
 *   **WET** - wet-only audio signal output
 
-### Controls
+## Controls
 
 *   **INPUT** - audio signal input volume
 *   **FEEDBACK** - dials in audio feedback for additional reverb time and distortion
 *   **DRY / WET** - mix between the dry (unaffected) input signal and the wet (fully affected) reverb signal
 
-### Patch Suggestions
+## Patch Suggestions
 
 \- The WET output can be used to further process the reverb signal. For example you can send it through a [filter module](https://wiki.aemodular.com/pmwiki.php/AeManual/NYLEFILTER) to reduce high or low frequencies, or you can route it through a VCA (modulated by an envelope) to reduce the reverb time. Since different reverb tanks can also sound very different, having this option is important to fine tune or even radically change the audio effect. Afterwards you need to mix the processed reverb signal back with the audio input signal using a mixer module.
 

@@ -15,19 +15,19 @@ Module power consumption: ? mA
 
 
 
-### Inputs
+## Inputs
 
 *   **IN** -
 
-### Outputs
+## Outputs
 
 *   **OUT** - output
 
-### Controls
+## Controls
 
 *   **LEVEL** knob -
 
-### Patch Suggestions
+## Patch Suggestions
 
 
 

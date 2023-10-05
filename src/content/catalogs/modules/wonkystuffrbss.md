@@ -14,26 +14,26 @@ When it is in stock, you can buy this module at [Wonkystuff](https://wonkystuff.
 
 **NOTE**: if you have an older rbss module of serial number lower than 130, then you might have issues using it with the QUANTIZER module from tangible waves. This is due to some noise that is output by the module which the digital QUANTIZER module can't quite process. If you have this problem, then you can easily fix this yourself if you know how to use a soldering iron. Please follow the instructions on this page: [https://wonkystuff.net/rbss-quantizer-issue/](https://wonkystuff.net/rbss-quantizer-issue/)
 
-### Inputs
+## Inputs
 
 *   **clk in** - Every time there is a rising edge on the voltage in this input, the sequence shifts one step. This can be driven up to audio rates for some interesting noises!
 *   **len cv** - The control voltage on this input is added to the control voltage from the front panel length control (so if the knob is fully clockwise, this voltage will have no effect)
 *   **chance cv** - The control voltage on this input is added to the control voltage from the front panel chance control (so if the knob is fully clockwise, this voltage will have no effect)
 *   **bus clk** - MIDI clock signal, via the master module.
 
-### Outputs
+## Outputs
 
 *   **a out** (x3) - an audio-coupled output which will generate a pulse proportional to the difference in voltage between adjacent sequence steps;
 *   **cv out** (x3) - a control voltage representing the current bit-shifted binary pattern;
 *   **clk out** - a simple square clock signal
 
-### Controls
+## Controls
 
 *   **rate** - This changes the frequency of the clock pulse appearing at the clk out pin. (In order to trigger the rbss, the clk out must be connected to the clk in).
 *   **chance** - this specifies the probability that the next step in the sequence will change voltage, from 0 (never) to 1 (always).
 *   **length** - this is the number of steps that will be present in the sequence, from 1 to 16.
 
-### Patch Suggestions
+## Patch Suggestions
 
 You the clk out to trigger other modules, e.g. [SEQ8](https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ8) or [TRIP](https://wiki.aemodular.com/pmwiki.php/AeManual/TRIP) modules).
 

@@ -13,7 +13,7 @@ The voltage-controlled oscillator (VCO) is a typical analog audio oscillator wit
 
 Module power consumption: 16 mA
 
-### Inputs
+## Inputs
 
 *   **CV1** - control voltage input for pitch frequency (1V/Oct)
 *   **CV2** - another control voltage input for pitch frequency (1V/Oct)
@@ -21,14 +21,14 @@ Module power consumption: 16 mA
 *   **PW** - dedicated pulse width modulation control voltage input
 *   **SYNC** - resets the waveform when a trigger signal is received
 
-### Outputs
+## Outputs
 
 *   2x **RAMP** - ramp/sawtooth wave output
 *   2x **TRI** - triangle wave output, quieter than the other outputs so it might need amplification via the [2SIGNALAMP](http://wiki.aemodular.com/pmwiki.php/AeManual/2SIGNALAMP) module for example
 *   2x **SQUARE** - square wave output
 *   **BUS CV** - pitch control voltage form the [MASTER I/O](http://wiki.aemodular.com/pmwiki.php/AeManual/MASTER) module's MIDI-CV converter
 
-### Controls
+## Controls
 
 *   **MOD DEPTH** Potentiometer - attenuator for the MOD input control voltage
 *   **MOD DEPTH** Switch - switches the MOD control voltage target between frequency and pulse width
@@ -36,7 +36,7 @@ Module power consumption: 16 mA
 *   **FINE** - fine tuning of the VCO frequency
 *   **PULSEWIDTH** - manual control over the square wave's pulse width, control voltage modulation is added to this potentiometer setting
 
-### Patch Suggestions
+## Patch Suggestions
 
 This video by Synths & Things explains the ins and outs of this module really well: [https://youtu.be/vBKg-7lSAus](https://youtu.be/vBKg-7lSAus)
 

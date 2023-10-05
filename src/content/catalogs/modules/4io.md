@@ -9,7 +9,7 @@ power: 0.2 mA
 An extremely useful module to have if you want to interface other equipment with your AE modular. The most important job is to prevent a CV outside the 0 to +5 volts range from entering the AE system as this would damage it.
 
 
-### Inputs
+## Inputs
 
 *   **I/O 1** - 3.5mm jack socket - mono signal sent to I/O patch socket 1
 *   **I/O 2** - 3.5mm jack socket - signal sent to I/O patch socket 2
@@ -20,7 +20,7 @@ They are labelled I/O as you can also send the signal input into the AE patch in
 
 If a stereo 3.5mm plug is used into sockets 1 or 3, the signals are output on patch in/outs 1/2 and 3/4 respectively.
 
-### Outputs
+## Outputs
 
 *   **I/O 1** - This will output the signal from the I/O 1 3.5mm socket above, or send one to it.
 *   **I/O 2** -This will output the signal from the I/O 2 3.5mm socket above, or send one to it.
@@ -29,11 +29,11 @@ If a stereo 3.5mm plug is used into sockets 1 or 3, the signals are output on pa
     
 *   **Mult** - A passive mixing/ splitter with no connections to main module circuits.
 
-### Controls
+## Controls
 
 *   **AUD/DC Switch** - 1 for each 3.5mm socket - selects audio signal or CV type signal. For the AE this means a CV is 0 volts to 5V, with 0 as the base, for audio it "rotates" around 2.5 volts but still is 0 to 5 volts. If things are quite as expected, try the switch in the other position.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This module is great for bringing in other synth's modulation CVs, (especially envelopes where you can do more complex things than the AE currently can). By using 2 or more of the 4 channels, you can bring in an external Gate/CV from a sequencer or keyboard.
 

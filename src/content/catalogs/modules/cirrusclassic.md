@@ -15,7 +15,7 @@ Module power consumption: ? mA
 
 
 
-### Inputs
+## Inputs
 
 *   **IN L** -
 *   **IN R** -
@@ -28,14 +28,14 @@ Module power consumption: ? mA
 *   **V/OCT CV** -
 *   **BLEND CV** -
 
-### Outputs
+## Outputs
 
 *   **OUT L** - left output of the stereo signal
 *   **OUT R** - right output of the stereo signal
 *   **BUS Ctrl** - Midi CC20 CV from Master I/O module
 *   **BUS CV** - MIDI pitch signal from the Master I/O MIDI to CV converter
 
-### Controls
+## Controls
 
 *   **FREEZE** button -
 *   **PARAM** button -
@@ -45,7 +45,7 @@ Module power consumption: ? mA
 *   **TEXTURE** -
 *   **BLEND** -
 
-### Patch Suggestions
+## Patch Suggestions
 
 
 

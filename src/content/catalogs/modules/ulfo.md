@@ -15,23 +15,23 @@ This module needs to be installed on the [µBASE](https://wiki.aemodular.com/pmw
 
 Module power consumption: ? mA
 
-### Inputs
+## Inputs
 
 *   **PW CV** - CV control for pulse width of the square wave
 *   **SYNC** - input another LFO or clock source to synchronise waves
 
-### Outputs
+## Outputs
 
 *   **OUT** (top) - outputs either a triangle or sawtooth wave depending on the position of the wave switch
 *   **OUT** (bottom) - always outputs a square wave
 
-### Controls
+## Controls
 
 *   **PULSE WIDTH** Pot - controls the pulse width of the square wave output
 *   **RATE** Pot - controls the frequency of the LFO
 *   **Wave** switch - select the output waves, either triangle or sawtooth.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This can be used like any other LFO, see suggestions at [2LFO](https://wiki.aemodular.com/pmwiki.php/AeManual/2LFO).
 

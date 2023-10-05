@@ -15,7 +15,7 @@ TOPOGRAF is the AE modular version of the Grids module by Mutable Instruments. I
 
 Module power consumption: 20 mA
 
-### Inputs
+## Inputs
 
 *   **CLK** - this is a trigger input, you will need a divider module to control via midi clock and the Master module, see also advanced settings/modes below.
 *   **Reset** - Sets back to step 1 of the trigger sequence being played, and keeps sync with other triggered items if needed.
@@ -28,7 +28,7 @@ Module power consumption: 20 mA
 
 To understand these inputs more clearly the Grids manual is recommended.
 
-### Outputs
+## Outputs
 
 *   **TR 1** - Track 1's output, the pattern is dependent on the X,Y setting, and the amount of triggers in the pattern are set by the CH1 CV and Knob 1.
 *   **TR 2** -Track 1's output, the pattern is dependent on the X,Y setting, and the amount of triggers in the pattern are set by the CH2 CV and Knob 2.
@@ -37,7 +37,7 @@ To understand these inputs more clearly the Grids manual is recommended.
 *   **ACC2** - Extra trigger(s) on track 2 dependent on the pattern being used, (X,Y setting).
 *   **ACC3** - Extra trigger(s) on track 3 dependent on the pattern being used, (X,Y setting).
 
-### Controls
+## Controls
 
 Detailed explanations of the various controls are given in this video.
 
@@ -49,11 +49,11 @@ Detailed explanations of the various controls are given in this video.
 *   **CHAOS** - adds randomness to the pattern. Turn right for more randomness.
 *   **FILL 1 - 3** these control the fill of triggers for each track. Turned completely anti-clockwise will mute that track.
 
-### Advanced Settings and Modes
+## Advanced Settings and Modes
 
 The Topograf has the exact same program as MI Grids and the manual for Grids (see above) can be used. However here is a detailed explanation of the different advanced settings and modes.
 
-#### Changing the clock resolution
+### Changing the clock resolution
 
 You can change the clock resolution on the Topograf like this:
 
@@ -69,7 +69,7 @@ You can experiment with 4 or 8 ppqn, but 24 ppqn is usually only useful if you w
 
 The following video explains the advanced configuration options. [https://youtu.be/GLRYptx4Zmg](https://youtu.be/GLRYptx4Zmg)
 
-### Patch Suggestions
+## Patch Suggestions
 
 Gaetan from the forum [suggests](http://forum.aemodular.com/post/3554/thread):
 

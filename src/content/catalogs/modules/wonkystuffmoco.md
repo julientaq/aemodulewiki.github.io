@@ -14,13 +14,13 @@ The concept behind the morph controller is that a series of 4 overlapping triang
 
 Module power consumption: 20mA
 
-### Inputs
+## Inputs
 
 *   **CV** - This takes a zero to 5V signal and sets the "mix" of the outputs accordingly, in the same manner as the **POS** knob, please see below.
 *   **Mixer in** - the next 4 sockets down the left hand side, marked going to a triangle pointing right with a plus sign in it. To save needing external VCAs in certain applications &/or for use with CVs from other modules, these 4 inputs are combined to a signal issued at:-
 *   **MIX** (x3) - **Outputs** from the combination of whatever is plugged into the 4 sockets above.
 
-### Outputs
+## Outputs
 
 When an output is not active, it's level is 0V. The maximum voltage is around 4.5V when it is that output being active **on its own**.
 
@@ -31,7 +31,7 @@ When an output is not active, it's level is 0V. The maximum voltage is around 4.
 
 The markings to left of the outputs give a graphic representation of this delay/pattern.
 
-### Controls
+## Controls
 
 *   **CV** - this is an attenuator for the CV input so you can set the amount of morphing/sweep between the outputs.
 *   **POS** - This gives manual control of the morphing/"mix" from just output A, A&B, B only, B&C, C only, C&D, D only.

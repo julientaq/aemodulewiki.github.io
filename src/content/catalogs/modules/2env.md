@@ -13,7 +13,7 @@ imglink: 2env.png
 
 Module power consumption: 8 mA
 
-### Inputs
+## Inputs
 
 *   **GT1** - gate or trigger for envelope 1
 *   **ACV1** - accept CV for attack stage for envelope 1
@@ -22,7 +22,7 @@ Module power consumption: 8 mA
 *   **ACV2** - accept CV for attack stage for envelope 2
 *   **DCV2** - accept CV for decay stage for envelope 2
 
-### Outputs
+## Outputs
 
 *   **BUS GATE** (2) - Gate signal from MIDI
 *   **OUT1** (3) - CV from envelope 1
@@ -30,7 +30,7 @@ Module power consumption: 8 mA
 *   **OUT2** (3) - CV from envelope 2
 *   **END2** - a trigger CV for when envelope 2 has finished
 
-### Controls
+## Controls
 
 The controls are grouped into 2 identical groups marked with the number 1 and 2 for each of the individual envelopes. We only describe the controls for one group as they work exactly the same for the other group.
 
@@ -40,7 +40,7 @@ The controls are grouped into 2 identical groups marked with the number 1 and 2 
 *   **FAST/SLOW** Switch - changes time multiplier for attack and decay times. See above.
 *   **Trigger** Button - sends a trigger signal to start the envelope. Always acts like a trigger even when GT mode is active. Unmarked on front panel.
 
-### Patch Suggestions
+## Patch Suggestions
 
 Envelopes are one of the basic modulation sources in subtractive synthesis. They are usually used to modulate amplitude, pitch or a filter. Often you would trigger the envelope from the BUS GATE which means that if a key is pressed on a MIDI keyboard the envelope would activate and open a VCA for instance and then slowly (or fast) close it once the key is released. The envelope can also be triggered from an [LFO](https://wiki.aemodular.com/pmwiki.php/AeManual/2LFO) or [TRIQ164](https://wiki.aemodular.com/pmwiki.php/AeManual/TRIQ164) for rhythmic or percussive uses.
 

@@ -11,21 +11,21 @@ Kurt's Sloth comes as a complete kit with everything you need included. The buil
 
 There are three, slowly moving outputs which are perfect for modulating parameters to bring movement to your patches. One large cycle usually takes about 15 seconds. Each output can 'orbit' around two different CV points, and can change from the one center to the other, seemingly at random, with little user control.
 
-### Inputs
+## Inputs
 
 *   None!
 
-### Outputs
+## Outputs
 
 *   **X** (x3) - Output swinging over a large voltage range
 *   **Y** (x3) - A different output swinging over a smaller voltage range
 *   **Z** (x2) - The inverted output of y
 
-### Controls
+## Controls
 
 *   **Torpor** - 'Influences' the outputs (you have no direct control).
 
-### Patch Suggestions
+## Patch Suggestions
 
 Great on filter cutoff and resonance (via attentuators). The [Nyle Filter](https://wiki.aemodular.com/pmwiki.php/AeManual/NYLEFILTER) is the only AE filter with CV control of resonance.
 

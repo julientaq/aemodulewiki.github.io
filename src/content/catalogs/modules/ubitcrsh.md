@@ -15,23 +15,23 @@ This module needs to be installed on the [µBASE](https://wiki.aemodular.com/pmw
 
 Module power consumption: ? mA
 
-### Inputs
+## Inputs
 
 *   **IN** - Audio in for signal to be bit crushed.
 *   **SR CV** - CV control that works in conjunction with the "SMP Rate" knob below.
 *   **BIT CV** - CV control that works in conjunction with the "Bits" knob below.
 *   **SHFL CV** - This alters the order the bits of the signal are played in, to provide more sonic mayhem!
 
-### Outputs
+## Outputs
 
 *   **OUT** - the output of the bit crusher effect.
 
-### Controls
+## Controls
 
 *   **SMP RATE** - control the sample rate, turning the knob to the left, will reduce the sample rate and degrade the signal more.
 *   **BITS** - control the number of bits which are being used to carry the signal, turning the knob to the left will reduce the number of bits and destroy more of the signal.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This is a great effect especially for very clean sound sources to add "grit" to them.
 

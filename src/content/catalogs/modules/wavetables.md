@@ -17,18 +17,18 @@ There are 7 different tables each with their own unique sound, from very gentle,
 
 Module power consumption: 40 mA
 
-### Inputs
+## Inputs
 
 *   **CV1** - base pitch of the oscillator
 *   **CV2** - base pitch of the oscillator (added to the first)
 *   **FM** - Modulating the pitch
 *   **WAVE** - modulate the wave position within a table
 
-### Outputs
+## Outputs
 
 *   **Out** - output of the wavetable sound
 
-### Controls
+## Controls
 
 *   **Coarse Frequency** - Coarse selection of base frequency
 *   **Fine Frequency** - Fine control of base frequency
@@ -40,7 +40,7 @@ Module power consumption: 40 mA
 *   **Wave Bipolar** - When on the wave CV will be centered around the chosen wave, so an incoming triangle will move both up and down through the table. In the off position the incoming CV will only move up through the table.
 *   **Wave** - Selects the waveform from within that table
 
-### Patch Suggestions
+## Patch Suggestions
 
 The output of this module obviously can be run through the rest of the AE system, a hybrid digital/analogue synth at a very good price! The [Nyle filter](https://wiki.aemodular.com/pmwiki.php/AeManual/NYLEFILTER) with its CV adjustable resonance is recommended...
 
@@ -50,7 +50,7 @@ In a similar vein, using an LFO square wave and the wave mod knob, you can set t
 
 If you want something a bit more experimental, you can use a [Sample-and-Hold](https://wiki.aemodular.com/pmwiki.php/AeManual/SAMPLEHOLD) to randomly select the waveform, and if you put that through the [SLEW LIMITER](https://wiki.aemodular.com/pmwiki.php/AeManual/SLEWEDGE) first you can control how smoothly it jumps between waveforms.
 
-### Demo
+## Demo
 
 Thanks to Felix from The Tuesday Night Machines for this excellent demo video:
 

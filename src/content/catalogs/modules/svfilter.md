@@ -17,14 +17,14 @@ Compared to the wasp filter this filter has a significant self resonance and als
 
 Module power consumption: 2 mA
 
-### Inputs
+## Inputs
 
 *   **IN H** - this input is for higher level signals.
 *   **IN L** - this input adds some gain to give a higher signal level of the module circuitry, (i.e. low input signals).
 *   **CV 1** - control voltage for cutoff frequency, this will affect all three filter curves
 *   **CV 2** - control voltage for cutoff frequency, this will also affect all three filter curves
 
-### Outputs
+## Outputs
 
 *   **LP** - low pass filter output
 *   **BP** - band pass filter output
@@ -32,13 +32,13 @@ Module power consumption: 2 mA
 *   **BUS CV** - this sits below the input jacks on the left side and will output CV pitch from a connected MIDI device
 *   **BUS CTRL** - this sits below the input jacks on the left side and will output the MIDI control message from a connected MIDI device (CH1 - CC20)
 
-### Controls
+## Controls
 
 *   **FREQ Knob** - cuttoff frequency
 *   **CV 1 Knob** - control voltage attenuator
 *   **RESONANCE Knob**
 
-### Patch Suggestions
+## Patch Suggestions
 
 Here's a patch for a low pass gate:
 
@@ -51,7 +51,7 @@ This module does not have CV control of resonance, but it can be created by putt
 
 It can be interesting to combine the different outputs from the filter as they each create different sonic variation with the cutoff/resonance etc. This can be taken further by the different outs getting different treatment before being combined again. A good use for this is the [Lo-Fi delay](https://wiki.aemodular.com/pmwiki.php/AeManual/DELAY) on the high pass &/or Bandpass filters to have a less "muddy" bottom end.
 
-### Sound Examples
+## Sound Examples
 
 AE Modular filter comparison: [https://www.youtube.com/watch?v=ZY9VkSyMrik](https://www.youtube.com/watch?v=ZY9VkSyMrik)
 

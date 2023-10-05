@@ -12,20 +12,20 @@ This is a touch sensative knob movement recorder which generates CVs. The signal
 
 Module power consumption:
 
-### Inputs
+## Inputs
 
 *   **Trig A** - A trigger signal activates the recorded CV of circuit A,unless in loop mode.
 *   **Trig B** - A trigger signal activates the recorded CV of circuit A, unless in loop mode.
 *   **Clock in** - unlabeled but the arrow to the bus/ext switch gives it away! This input does not need to be used if you are using a midi clock (e.g. drum machine, sequencer) into the master module.
 
-### Outputs
+## Outputs
 
 *   **A** (3) - Output from knob A's noodlings....
 *   **Trig A** - The gate signal from input A is duplicated here, or a trigger gate will be generated at the begininng of each loop.
 *   **B** (3) - Output from knob B's noodlings....
 *   **Trig B** - The gate signal from input B is duplicated here, or a trigger gate will be generated at the begininng of each loop.
 
-### Controls
+## Controls
 
 *   **EXT/Bus** - This switch sets where the 2Auto uses the bus clock (usually derived from the midi clock input into the master module) or an signal plugged into the socket at the other end of the arrow.
 
@@ -39,7 +39,7 @@ Switches -
 *   **Loop** - this turns on/off loop mode. In loop mode the 2Auto becomes, in effect, a customisable LFO where any pattern can be repeated upto a length of 30 seconds. When not in loop mode it is like a (very) complex shape envelope generator, again up to 30 seconds long.
 *   **Lock** - When this switch is on the recorded pattern is protected, and touching the knob does not erase the recording, this is excellent for use live in particular so you have less accidents...
 
-### Patch Suggestions.
+## Patch Suggestions.
 
 *   There is an active thread for this module on the forum:- [https://forum.aemodular.com/thread/2083/2auto](https://forum.aemodular.com/thread/2083/2auto)
     

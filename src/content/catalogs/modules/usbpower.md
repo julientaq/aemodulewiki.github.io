@@ -11,21 +11,21 @@ imglink: usbpower.png
 
 This module provides 3 standard USB connections for powering external equipment. Take care not to draw more power than your AE Modular power supply offers. Check the milliampere (mA) value on the power supply and your attached devices.
 
-### Inputs
+## Inputs
 
 None.
 
-### Outputs
+## Outputs
 
 *   3 x **USB** connections - power supply only.
 *   4 x **+5V** - +5 volt output
 *   4 x **Ground** - earth for completing circuit for DIY modules etc.in conjunction with +5 volt output.
 
-### Controls
+## Controls
 
 None.
 
-### Patch Suggestions
+## Patch Suggestions
 
 The +5 volt out can be used as a modulation source, although other modules provide a constant voltage as well. Use a [4ATTMIX](https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX) or [2ATTCV](https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV) to attenuate as needed.
 

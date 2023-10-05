@@ -1,5 +1,6 @@
 // listing of the available entries
 
+// filter by name
 let cards = document.querySelectorAll(".catalog-entry");
 let cardsList = document.querySelector(".catalog-entries");
 
@@ -7,21 +8,18 @@ function liveSearch() {
   let search_query = document.querySelector("#searchbox").value;
 
   if (search_query.length < 1) {
-    cardsList.classList.remove("searchmode")
-    
+    cardsList.classList.remove("searchmode");
     document.querySelectorAll(".found").forEach((el) => {
       el.classList.remove("found");
     });
     return;
+  } else {
+    cardsList.classList.add("searchmode");
   }
-  else {
-    
-    cardsList.classList.add("searchmode")
-  }
+
   //Use innerText if all contents are visible
   //Use textContent for including hidden elements
   for (var i = 0; i < cards.length; i++) {
-
     if (
       cards[i].textContent.toLowerCase().includes(search_query.toLowerCase())
     ) {
@@ -43,7 +41,7 @@ searchInput.addEventListener("keyup", () => {
   typingTimer = setTimeout(liveSearch, typeInterval);
 });
 
-// show the activated module
+// filters
 let contents = document.querySelectorAll(".catalog-entry-content");
 
 // list all filters

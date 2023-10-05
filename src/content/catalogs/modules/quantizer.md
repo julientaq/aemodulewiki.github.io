@@ -15,14 +15,14 @@ There are 4 independent channels that are quantized to the same selected scale.
 
 Module power consumption: 15 mA
 
-### Inputs
+## Inputs
 
 *   **CV 1** - accept CV for channel 1 of the quantizer
 *   **CV 2** - accept CV for channel 2 of the quantizer
 *   **CV 3** - accept CV for channel 3 of the quantizer
 *   **CV 4** - accept CV for channel 4 of the quantizer
 
-### Outputs
+## Outputs
 
 *   **CV 1** - Quantized CV from channel 1 of the quantizer
 *   **CV 2** - Quantized CV from channel 2 of the quantizer
@@ -39,7 +39,7 @@ Module power consumption: 15 mA
 
 The notation of the outputs is slightly different on the panel than indicated here. There are two rows of identical outputs, side by side. For each output-trigger there is an activity LED, indicating a change in quantized CV.
 
-### Controls
+## Controls
 
 *   **SCALE Knob** - selects the current scale. 16 scales are available, the selected scale will be displayed in the small display to the right of this knob
 *   **LOCK Switch** - prevents accidental changes of the selected scale when activated
@@ -68,7 +68,7 @@ Scale selection directly takes place when the SCALE Knob is turned, clicking it 
 *   **Octave** (e.g. equivalent to C in ‘C’)
 *   **Chromat** (The 12 welltempered notes of the chromatic scale)
 
-### Patch Suggestions
+## Patch Suggestions
 
 The most obvious use is to transform any CVs to fit the scale you are using, to then control the pitch of VCOs and the Solina module. It can also be interesting on LFOs and filters.
 

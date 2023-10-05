@@ -17,13 +17,13 @@ The pulse output of the second LFO can be shaped with the pulsewidth knob for di
 
 Module power consumption: 5 mA
 
-### Inputs
+## Inputs
 
 *   **SYNC 1** - resets the LFO 1 waveform when a trigger pulse is received
 *   **SYNC 2** - resets the LFO 2 waveform when a trigger pulse is received
 *   **PWM 2** - control voltage input for pulse width modulation of PULSE wave output of LFO 2
 
-### Outputs
+## Outputs
 
 *   **SQUARE 1** - low frequency square wave with fixed width (half cycle)
 *   **TRIANGLE / SAWTOOTH 1** - low frequency triangle or sawtooth wave
@@ -32,7 +32,7 @@ Module power consumption: 5 mA
 *   **BUS CV** - control voltage signal from MIDI
 *   **BUS CTRL** - CTRL signal from MIDI (CH1 - CC20)
 
-### Controls
+## Controls
 
 *   **RATE 1 knob** - frequency control for LFO 1
 *   **SHAPE knob** - controls a smooth transition from rising saw to triangle to falling saw waveforms for LFO 1
@@ -44,7 +44,7 @@ Module power consumption: 5 mA
 *   **PULSEWIDTH knob** - set the pulse width of the output for LFO 2
 *   **PULSE LED** - visual reference for the PULSE output for LFO 2
 
-### Patch Suggestions
+## Patch Suggestions
 
 LFO can be used for modulating other oscillators (FM), VCAs (AM), filters, etc. But may also be used as clock or gate.
 

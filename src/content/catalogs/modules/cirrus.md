@@ -17,7 +17,7 @@ This module has been discontinued due to the Chip Shortage
 
 
 
-### Pitch Tracking Modes
+## Pitch Tracking Modes
 
 The CIRRUS was sold with the original Superparasites firmware installed which was programmed for Eurorack hardware. There seemed to be some issue with pitch tracking with this version in conjunction with the AE Modular hardware and the adaption of the module/Firmware for this format. This lead to random pitch modulation of the grains which some people found undesirable.
 
@@ -33,7 +33,7 @@ The5thVolt has also created a video showing how to install the firmware and some
 
 [https://youtu.be/gqtdyhIsb8A](https://youtu.be/gqtdyhIsb8A)
 
-### Saving audio and presets
+## Saving audio and presets
 
 You can save up to 4 presets using the BANK button. These presets will persist even after the module has been powered down. The length of the saved audio depends on the current position of the TIME parameter (see below).
 
@@ -49,7 +49,7 @@ To load a saved preset:
 *   Tap the BANK switch to step through the four memory banks. Note that a brand new module (or a module that has just received a firmware upgrade) will have four empty banks.
 *   To reload the current preset bank without cycling through the other three banks first, press BANK while pressing TRIG at the same time.
 
-### Selecting the Audio quality
+## Selecting the Audio quality
 
 Pressing the TIME button quickly lets you cycle through the following modes for the length of the recorded samples. A longer sample time leads to reduced quality:
 
@@ -60,7 +60,7 @@ Pressing the TIME button quickly lets you cycle through the following modes for 
 
 Note that Clouds’ 8-bit is a lovely flavour of 8-bit: µ-law compounding. It sounds like a Cassette, or a Fairlight - less hiss, more distortion.
 
-### Reverb
+## Reverb
 
 The post-processing reverb COMES after dry/wet MIX, so that it also affects the dry signal (so you can use Clouds as a simple reverb plus its main function)
 
@@ -69,7 +69,7 @@ Operating Modes
 
 This module is very complex and each of the 8 algorithms changes how each knob and CV input behaves. Below is a comprehensive guide compiled by Matt Wand which explains all of this.
 
-### Downloads
+## Downloads
 
 You can also **download** the below guide as a PDF for printing and offline reading:  
 [CIRRUS-manualBYmattwand.pdf](https://wiki.aemodular.com/uploads/AeManual/CIRRUS/CIRRUS-manualBYmattwand.pdf)
@@ -85,7 +85,7 @@ Word wrangled by Matt Wand (Rocky Smalls), all due credit to Emilie & all the ad
 
 In its tumultuous teenage years, Clouds tried to be everything, including a delay/pitch-shifter, a spectral processor, a projectionist and a cab driver in Rouen. as an adult cloud CIRRUS not only holds down those jobs but also indulges in Clairvoyance, Zeppelin Hangar management and Carbon neutral Rain Dancing!
 
-### HOW TO CHANGE THE MODE
+## HOW TO CHANGE THE MODE
 
 Hold down TIME button for over 1 second the LEDs will flash, short press TIME button whilst flashing will move between modes thus:
 
@@ -102,7 +102,7 @@ _(you can click on each link to jump straight to the mode description below)_
 
 leave on desired mode for a second and it will settle in.
 
-### Mode 1: GRANULAR CLOUDS \[●○○○\]
+## Mode 1: GRANULAR CLOUDS \[●○○○\]
 
 Home sweet home. The Cumulous Nimbus original mode. Clouds continuously records the incoming audio into a short amount of sample memory. While recording time can reach up to 8s by reducing the audio quality setting, you ought to feel very guilty every time you think of this as “tape” - think of it as a space, a room. Using this recorded audio data, the module synthesizes a sonic texture by playing back short (overlapping) segments of audio (also known as “grains”) extracted from it.
 
@@ -118,7 +118,7 @@ The module plays grains continuously, at a rate determined by the DENSITY and SI
 
 It is possible, at any time, to HOLD (ie: Freeze) the audio buffer from which the grains are taken - In this case, the incoming audio is no longer recorded. Somehow, Clouds is the exact opposite of a sampler: by default, the module always samples the audio it receives, except when it is in the frozen state.
 
-#### Front Panel Controls
+### Front Panel Controls
 
 *   **INPUT** - gain from -18dB to +6dB. applies for ALL modes.
 *   **HOLD** - This latching button stops the recording of incoming audio. Granularization is now performed on the last few seconds of audio kept in memory in the module. long press HOLD will reverse playback of the buffer.
@@ -132,7 +132,7 @@ It is possible, at any time, to HOLD (ie: Freeze) the audio buffer from which th
 *   **PAN** - Stereo spread of grains.
 *   **REVERB** - Amount and size of reverb applied to outgoing signal.
 
-#### Inputs and Outputs
+### Inputs and Outputs
 
 All CV inputs are calibrated for a range of +/- 5V (?? check with Robert) Voltages outside of this range are tolerated, but will be clamped.
 
@@ -155,13 +155,13 @@ In the Mono quality modes in eg: Oliverb which is mono in only , PAN crossfades 
 
 _[Back to top of page](#top)_
 
-### Mode 2: PITCH-SHIFTER/TIME-STRETCHER \[○●○○\]
+## Mode 2: PITCH-SHIFTER/TIME-STRETCHER \[○●○○\]
 
 This mode is quite similar to the granular mode, except that it uses two overlapping grains synchronized with the most salient period of the sound. The grains are carefully spliced so that they mesh well with each other (a technique similar to the “deglitching” of early pitch-shifters).
 
 Modulating POSITION when recording is HELD will “scrub” through the audio buffer. Clouds’ uses classic time-domain methods which are not suitable for polyphonic or percussive material (unless this percussive material is breakbeats and you liked Akai samplers.
 
-#### Front Panel Controls
+### Front Panel Controls
 
 *   **HOLD** - Loops the buffer, long press should reverse the audio held in the buffer?
 *   **DENSITY** - creates a granular diffusion effect based on all-pass filters.
@@ -172,17 +172,17 @@ Modulating POSITION when recording is HELD will “scrub” through the audio bu
 *   **PAN** - Stereo spread.
 *   **REVERB** - Amount and size of reverb applied to outgoing signal.
 
-#### Inputs and Outputs
+### Inputs and Outputs
 
 These work exactly like Mode 1: Granular Clouds.
 
 _[Back to top of page](#top)_
 
-### Mode 3: LOOPING DELAY \[○○●○\]
+## Mode 3: LOOPING DELAY \[○○●○\]
 
 The looping delay mode continuously plays back audio from the buffer without any kind of granularization.
 
-#### Front Panel Controls
+### Front Panel Controls
 
 *   **HOLD** - When HOLD is activated, the content of the audio buffer is looped (stutter effect).
 *   **POSITION** - controls the distance between the playback head and the recording head (in other words, the delay time). Modulating POSITION will create effects similar to vinyl scratching or manual manipulation of tape.
@@ -195,7 +195,7 @@ The looping delay mode continuously plays back audio from the buffer without any
 *   **PAN** - Stereo spread of grains.
 *   **REVERB** - Amount and size of reverb applied to outgoing signal
 
-#### Inputs and Outputs
+### Inputs and Outputs
 
 Mostly like the modes before but:
 
@@ -203,11 +203,11 @@ Mostly like the modes before but:
 
 _[Back to top of page](#top)_
 
-### Mode 4: SPECTRAL PROCESSOR\[○○○●\]
+## Mode 4: SPECTRAL PROCESSOR\[○○○●\]
 
 In this mode, the incoming signal is converted into “frames” of spectral data, that are stored, transformed, recombined, and resynthesized as a time-domain signal.
 
-#### Front Panel Controls
+### Front Panel Controls
 
 *   **HOLD** - freezes the audio buffer. see POSITION -
 *   **POSITION** - selects into which buffer the audio is poured (when HOLD is not active), or from which buffer the audio is synthesised (when HOLD is active). For example, set POSITION to its minimum value. Press HOLD. You get a first texture. Set POSITION to its maximum value. Release HOLD. Wait for something else to happen in the incoming audio. Press HOLD again. By moving POSITION you interpolate between the two textures which had been captured at the press of HOLD. Depending on the quality settings there are 2 to 7 buffers laid out over the course of the POSITION knob. What the module does is crossfade between a “wavetable” of FFT slices.
@@ -222,7 +222,7 @@ In this mode, the incoming signal is converted into “frames” of spectral dat
 
 _[Back to top of page](#top)_
 
-### Mode 5: OLIVERB \[○●●●\]
+## Mode 5: OLIVERB \[○●●●\]
 
 This mode is mono-in, stereo-out.
 
@@ -237,7 +237,7 @@ This mode is mono-in, stereo-out.
 *   **REVERB** - ( modulation amount ) Each delay in the reverb can be individually modulated by 9 smoothed random LFOs. The Reverb knob controls the amount of modulation applied by the LFOs to the delay time. Small modulations result in subtle chorus and ghost tones, large modulations in random pitch shifts.
 *   **FEEDBACK** - (Modulation speed) The feedback knob controls the speed of the 9 random LFOs. It ranges from ~1/100Hz to ~100Hz. It has no effect if modulation amount is null.
 
-#### Inputs and Outputs
+### Inputs and Outputs
 
 These work just like in the other modes, but:
 
@@ -245,13 +245,13 @@ These work just like in the other modes, but:
 
 _[Back to top of page](#top)_
 
-### Mode 6: RESONESTOR \[●○●●\]
+## Mode 6: RESONESTOR \[●○●●\]
 
 It is a dual-voice, four-parts resonator (or comb filter) effect with built-in capability for polyphonic Karplus-Strong plucked string synthesis, and more. Each input feeds one of the two voices/resonators, which decay is controlled by the Density knob. Remember that In L is normalized to In R, so with nothing patched in In R, the In L signal is fed to both voices. The pitch of the resonator is controlled by the Pitch knob and the V/Oct input, so you can "play" the resonator like an oscillator. In fact, each voice consists of four "parts" (four resonators), which can be set to different pitches to form chords. The Size knob sets the chord, borrowed from Braids: unison, detuned, fifth etc. The resonators can sound very metallic; the SHAPE knob helps attenuating the high/low frequencies each time sound passes through the resonator. At 12 o'clock, no filtering is applied; CCW is a low-pass filter; CW is a band-pass filter. This way, a short sound impulse passing through the resonator will have a long decay with less and less high (and possibly low) frequency.
 
 This technique, sending a short noise burst to "excite" a resonator, is the so-called Karplus-Strong algorithm to synthesize the sound of plucked strings instruments like guitars. Here, no need for additional modules: sending a trigger to the Trig input will send a short burst of noise to one of the voices. The Position knob controls the timbre and duration of this burst, roughly modelling the position on which the string is struck. Up to now, we only discussed one voice. Actually, each time a Trig is received, the module switches the active voice; therefore, you can get duophony. At any time, the knobs (pitch, chord, feedback, damping) control only the parameters of the resonators of the active voice; the other voice keeps the last parameters it was on. If you are satisfied with the sound of the current voice and want to keep it running (maybe as a drone, using the other voice for melody), press Freeze: it will instantly switch voice, and prevent Trig from automatically switching voice.
 
-#### Front Panel Controls
+### Front Panel Controls
 
 *   **DENSITY** - (Decay) Decay time of the current voice. Beyond approx. 3 o'clock, decay is infinite and the sound sustains forever (you can use it as a traditional
 
@@ -267,7 +267,7 @@ oscillator).
 *   **FEEDBACK** - (Harmonics)Simulates striking the harmonics on a string. Fully CCW, it has no effect. Fully CW, the second harmonic will ring; at 12 o'clock, the third, at 10 the fourth etc. Scatter (fourth function of Blend knob and CV) Controls the random delay times before the sound (input or burst) hits each resonator of the current voice. Used for K-S synthesis with a chord, this will give the impression that strings are struck sloppily. The delay times are randomized at each voice switch.
 *   **REVERB** - SCATTER
 
-#### Inputs and Outputs
+### Inputs and Outputs
 
 The are like the other modes except:
 
@@ -275,13 +275,13 @@ The are like the other modes except:
 
 _[Back to top of page](#top)_
 
-### Mode 7: BEAT REPEAT \[●●○●\]
+## Mode 7: BEAT REPEAT \[●●○●\]
 
 Note: This mode requires a clock signal plugged into the Trigger input. Without a clock signal, it holds the most recent slice (or outputs silence if no clock signal has been previously provided)
 
 The Kammerl Beat-Repeat mode analyzes the incoming clock signal to enable real-time slicing of the audio input. It manages multiple slices in real-time which can be individually selected. Each slice can be played back with different loop, pitch and distortion settings.
 
-#### Front Panel Controls
+### Front Panel Controls
 
 *   **HOLD** - Enables slice processing / beat-repeating. If not enabled, slice processing is randomly enabled based on the Mix knob setting for Slice Probability.
 *   **POSITION** - (Loop Start)Defines the beginning of the loop interval relative to the total slice duration. To support in-sync beat repetitions, it is quantized as follows: \[0-1/64\] free/unquantized, 1/64, 1/32, 1/16, 1/8, 1/4, 1/3, 1/2, 1.
@@ -308,7 +308,7 @@ The Kammerl Beat-Repeat mode analyzes the incoming clock signal to enable real-t
     *   (full right position) Simulated vinyl scratching - sinusoidal pitch modulation - the Pitch Knob defines the intensity.
 *   **REVERB** - (Feedback, counterintuitively! :\]) Controls the contribution to Cloud's feedback path. Combined with lower pitch playback, this leads to “trevor horn” style laser gun effects on drums ![](/images/happy.gif)
 
-#### Inputs and Outputs
+### Inputs and Outputs
 
 *   **Shape CV** - Selects one of the eight most recently recorded slices. 0V corresponds to
 
@@ -316,11 +316,11 @@ the most recent slice (real-time / no delay!). Note that slices are continuously
 
 _[Back to top of page](#top)_
 
-### Mode 8: SPECTRAL CLOUDS \[●●●○\]
+## Mode 8: SPECTRAL CLOUDS \[●●●○\]
 
 The Spectral Clouds mode creates cloud-like frequency spectra. It is a high-resolution multiband filter with randomly modulated frequency bands. The logarithmic divisions of the frequency spectrum result in a continuously morphing but musical sounding filter. This mode is inspired by this FFT Randomizer project.
 
-#### Front Panel Controls
+### Front Panel Controls
 
 *   **HOLD** - freezes the buffer.
 *   **PITCH** - Frequency(?) amount(?) of Pitch shifting applied to the Spectral Clouds output.
@@ -339,7 +339,7 @@ reconfigurations only happen during high trigger input gates.
 *   **FEEDBACK** - (warm distortion) Adds a warm sounding distortion effect (applied post dry/wet).
 *   **REVERB** - (exactly what it says) Controls the contribution to Cloud's reverb (applied post dry/wet).
 
-#### Inputs and Outputs
+### Inputs and Outputs
 
 Are mostly like the other modes, except:
 

@@ -15,12 +15,12 @@ The low frequency oscillator (LFO) module generates modulation voltages mostly b
 
 Module power consumption: 3 mA
 
-### Inputs
+## Inputs
 
 *   **SYNC** - resets the LFO waveform when a trigger pulse is received
 *   **PWM** - control voltage input for pulse width modulation of PULSE wave output
 
-### Outputs
+## Outputs
 
 *   **SQUARE** - low frequency square wave with fixed width (half cycle)
 *   **TRIANGLE / SAWTOOTH** - low frequency triangle or sawtooth wave
@@ -28,7 +28,7 @@ Module power consumption: 3 mA
 *   **BUS CV** - control voltage signal from MIDI
 *   **BUS CTRL** - CTRL signal from MIDI (CH1 - CC20)
 
-### Controls
+## Controls
 
 *   **RATE knob** - frequency control
 *   **PULSEWIDTH knob** - set the pulse width of the output
@@ -37,7 +37,7 @@ Module power consumption: 3 mA
 *   **TRIANGLE LED** - visual reference for the TRIANGLE / SAWTOOTH output
 *   **PULSE LED** - visual reference for the PULSE output
 
-### Patch Suggestions
+## Patch Suggestions
 
 LFO can be used for modulating other oscillators (FM), VCAs (AM), filters, etc. But may also be used as clock or gate.
 

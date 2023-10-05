@@ -14,21 +14,21 @@ The 4VCA has four separate Amplifier circuits within; all switchable DC/CV and a
 There is also a 2VCA module available, but this does not have the mix output..
 
 
-### Inputs
+## Inputs
 
 *   **IN 1-4** - accepts the CV or audio signal you want to control
 *   **CV 1-4** - accepts an incoming control voltage, 0 volts is no signal to the output(s), +5V is the loudest signal.
 
-### Outputs
+## Outputs
 
 *   **Out 1-4** - Individual outputs of the 4 channels
 *   **Mix** - the mix of all channels
 
-### Controls
+## Controls
 
 There are 4 switches that allow you to switch the channel voltage between audio and control voltage (DC). The difference is that there is some filtering of the signal when put into audio mode to prevent crackling or popping noises from voltage differences.
 
-### Patch Suggestions
+## Patch Suggestions
 
 By using 2 channels and an LFO you can have panning over stereo, the signal will need inverting for 1 side by, for example, the [2ATTCV](https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV) module. The Mix output will still be mono....
 

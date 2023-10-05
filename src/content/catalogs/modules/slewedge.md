@@ -15,7 +15,7 @@ The other function is edge detection, which can generate various gate / trigger 
 
 Module power consumption: 5 mA
 
-### Inputs
+## Inputs
 
 *   **IN** - accepts the CV or audio signal which will be shaped
 *   **↑ GATE** - gate signal (+5V) that activates slew on rising input CV, if the slew ↑ switch is off.
@@ -24,7 +24,7 @@ Module power consumption: 5 mA
 *   **B.CV** - MIDI CV signal from bus (from Midi keyboard via Master module)
 *   **B.GATE** - MIDI Gate signal from bus (from Midi keyboard via Master module)
 
-### Outputs
+## Outputs
 
 *   **SLEW OUT** - The slew processed input signal
 *   **⇅** - this output is high (+5V) if the last input change was a rising voltage and low (0V) if the input was falling
@@ -32,20 +32,20 @@ Module power consumption: 5 mA
 *   **PULSE ↓** - this sends a short pulse each time the input voltage is falling
 *   **PULSE ⇅** - this sends a short pulse each time the input voltage is rising or falling
 
-### LED Indicators
+## LED Indicators
 
 *   **LAST ↑** - this LED lights up if the last input voltage change was rising
 *   **LAST ↓** - this LED lights up if the last input voltage change was falling
 *   **PULSE ↑, PULSE ↓** - this LED reflects the PULSE ↑ / PULSE ↓ outputs
 
-### Controls
+## Controls
 
 *   **SLEW ON ↑** - activates slew on rising input voltages, if this switch is on the gate input has no effect.
 *   **SLEW ON ↓** - activates slew on falling input voltages, if this switch is no the gate input has no effect.
 *   **LOG/LIN** - changes the characteristic of the voltage change between linear and logarithmic, the latter gives bigger changes as a rule.
 *   **SLEW TIME** - this knob sets the rate the CV will change, from almost instant to some changes will not have time to show at the output!
 
-### Patch Suggestions
+## Patch Suggestions
 
 If the CV is used e.g. for controlling an [oscillator](https://wiki.aemodular.com/pmwiki.php/AeManual/2OSCD), you can get portamento between pitch CV changes. With the two switches (or the Gate ins), it can be controlled to be only on rising or falling CVs or both. Just patch the cable that was going to the oscillator to this module's input, and the Slew Out to the Oscillator.
 

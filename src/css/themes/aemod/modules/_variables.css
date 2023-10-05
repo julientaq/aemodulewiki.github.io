@@ -12,7 +12,7 @@
   /* set usable fonts names */
   --font-sans: "jost", sans-serif;
   --font-module: "jost", sans-serif;
-  --font-serif: "Inria Serif", serif;
+  --font-serif: "Inria Sans", serif;
 
   /* set semantic variables */
   --color-main: var(--color-blue);

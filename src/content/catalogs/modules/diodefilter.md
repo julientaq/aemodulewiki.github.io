@@ -13,7 +13,7 @@ The DIODEFILTER is an adaption of the well-known diode ladder filter that became
 
 Module power consumption: 3 mA
 
-### Inputs
+## Inputs
 
 *   **In H** - Input for lower level signals
 *   **In L** - Input for higher level signals
@@ -22,19 +22,19 @@ Module power consumption: 3 mA
 *   **Accnt1** - Boosts the filter cutoff/volume when a voltage is applied.
 *   **Accnt2** - Boosts the filter cutoff/volume when a voltage is applied.
 
-### Outputs
+## Outputs
 
 *   **LP OUT** (x2) - The audio signal after being filtered.
 *   **Bus CV** - Voltage produced via a midi keyboard connected to the master module.
 *   **Bus CTRL** - Voltage produced via a midi keyboard connected to the master module.
 
-### Controls
+## Controls
 
 *   **FREQ** - Sets the Cutoff Frequency of the filter
 *   **CV1** - Controls the amount the CV1 input affects the cutoff frequency of the filter.
 *   **RESONANCE** - the more this level is increased the more the frequencies around the cutoff frequency are enhanced/ amplified.
 
-### Patch Suggestions
+## Patch Suggestions
 
 It shouldn't really need saying that this is a great filter for bass lines! Try Sawtooth and PWM waveforms for the most obvious effect....
 

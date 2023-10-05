@@ -15,11 +15,11 @@ It is supplied complete with some electronic components to get you started, thes
 
 
 
-### Inputs
+## Inputs
 
 There are no dedicated inputs at the top of the module. If your circuit needs input either from one or more of the onboard bus signals or from another module, you should patch it straight into the breadboard area.
 
-### Outputs (on the left hand side)
+## Outputs (on the left hand side)
 
 The left hand side offers convenient outputs to get access to the bus signals.
 
@@ -31,7 +31,7 @@ The left hand side offers convenient outputs to get access to the bus signals.
 *   **BUS STOP** - +5V pulse when stop button is pressed on attached Midi device.
 *   **GND (2)** - what it says!
 
-### Outputs (on the right hand side)
+## Outputs (on the right hand side)
 
 The outputs on the right hand side are "protected" by a 1k resistor so you can patch the output from your circuit into the resistor symbol and then take the "protected" signal from OUT1 or OUT2.
 
@@ -41,19 +41,19 @@ The outputs on the right hand side are "protected" by a 1k resistor so you can p
 *   **Resistor-Symbol2** – connect the breadboard's output for OUT2 to the usual 1k output resistor here
 *   **+5V (2)** - what it says!
 
-### Upper / Red breadboard
+## Upper / Red breadboard
 
 The leftmost row of the breadboard is connected to +5V.
 
-### Lower / Black breadboard
+## Lower / Black breadboard
 
 The leftmost row of the breadboard is connected to ground.
 
-### Controls
+## Controls
 
 There are no controls per default on this module, but it comes with a pre-soldered PCB with two potentiometers which you can incorporate into your circuit.
 
-### Patch Suggestions
+## Patch Suggestions
 
 Please see a (growing) number of projects in the [DIY section of the Wiki](https://wiki.aemodular.com/pmwiki.php/AeDiy/EasyProjectsForTheBRAEDBOARDModule).
 

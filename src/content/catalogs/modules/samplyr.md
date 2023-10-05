@@ -13,7 +13,7 @@ This module plays back audio files from an SD card.
 
 Module power consumption: 25 mA
 
-### Inputs
+## Inputs
 
 *   **CV** - Control Voltage for the pitch
 *   **GATE** - Gate control for the length of the sample playback when in loop mode, trigger when in one-shot mode. In loop mode the sample will only play while the gate is high.
@@ -24,19 +24,19 @@ Module power consumption: 25 mA
 *   **LP ON** - Gate control for playing the looping part of the sample, independently from any per sample settings. As long as the Gate is high the loop will play.
 *   **SMP SEL** - Voltage to select a sample from the current folder, eg. if the currently playing sample is in folder D then this voltage will select any of the 10 samples in folder D.
 
-### Outputs (on the left)
+## Outputs (on the left)
 
 *   **B. CV** - MIDI pitch as transported through the bus.
 *   **B. GATE** - MIDI gate as transported through the bus.
 
-### Outputs (on the right)
+## Outputs (on the right)
 
 *   **OUT** - The audio of the sample playback
 *   **LP STRT** - A trigger signal when the loop starts (Please note: this mainly is intended to detect the very first loop-start, for continuous looping it will typically trigger at the same time as LP END)
 *   **LP END** - A trigger signal when the loop ends (this repeats for as long as the loop repeats)
 *   **SMP END** - A trigger when the sample playback ends
 
-### Controls
+## Controls
 
 *   **FREQ** Knob - Changes the pitch of the sample playback in addition to the CV control. Pitching of a sample is achieved by changing the sample playback speed, so the higher the pitch, the shorter the playback and vice versa for lower pitch.
 *   **SELECT/EDIT** Knob/Button - Multi function select knob and push button. When in playback mode, turning the knob will select the next/previous sample. Pushing the button opens a menu on the display (more info below).
@@ -47,7 +47,7 @@ Module power consumption: 25 mA
 *   **4** / **LP LEN** - As above. In edit mode shortcut to change the loop length
 *   **5** / **LP MODE** - As above. In edit mode shortcut to change the looping mode (loop or one-shot)
 
-### Display
+## Display
 
 The display shows the folder and file number of the currently selected sample at the top. Below it shows the waveform of the sample (amplitude over time) rotated 270 degrees into vertical and the following markers:
 
@@ -66,18 +66,18 @@ When in Edit mode, the display can also display information about the currently 
 *   cross fade (xfade)
 *   loop mode
 
-### Edit Mode
+## Edit Mode
 
 To enter the edit mode, click the encoder; then, the program number is replaced with the menu options. Turning the encoder scrolls through the menu options; a further click selects the editing of the according value, like start/endpoints, loop points etc. Turning the encoder changes the value, another click on the encoder returns to menu selection. The leftmost menu option is "Save"; clicking here stores the defined settings. The menu item WAVEFRM rebuilds the waveform graphics; this is useful when the actual WAV file on the card has been replaced. (The graphics is only generated once and stored then.) The menu item WAV INFO shows the full filename and other file related info.
 
-### Global settings
+## Global settings
 
 In the menu, the rightmost menu items are stored globally:
 
 *   CV tracking calibration
 *   Hot change mode - When ON then on a sample change the playback will start roughly where the other sample was when the change was initiated, or if this doesn't work at the loop start. This makes the module behave like a radio when scanning through the stations.
 
-### Micro SD Slot
+## Micro SD Slot
 
 You can insert any Micro SD card which is formatted with FAT32.
 
@@ -98,7 +98,7 @@ HOWEVER: When loading a sample for the first time its waveform is calculating fo
 
 **SD Card file fragmentation** - SAMPLYR plays samples directly from the SD card and expects all files in byte order. If you encounter issues with playback this could be the result of a fragmented file system. It would be best if you copied all files from the SD card to your computer and then format the SD card (**not** quick formatting) and then transfer the files back onto the card. This will ensure that the files are stored in order and can be read from the SAMPLYR software.
 
-### How to organize Samples on the SD Card
+## How to organize Samples on the SD Card
 
 To keep things simple, the files on the SD card are organized in a fixed structure:
 
@@ -106,7 +106,7 @@ To keep things simple, the files on the SD card are organized in a fixed structu
 *   The files are named beginning with a number from "0" to "9"; the full filename can be longer and be descriptive, but the SAMPLYR only checks for the first letter. Only 10 files per folder are allowed.
 *   The extension is always ".WAV".
 
-### How to prepare Samples
+## How to prepare Samples
 
 The samples must be WAV files, with a resolution of 8 bits and mono. The encoding can be either PCM (simple, straight 8bit audio), or being encoded as uLaw or aLaw. These are encodings that allow a little higher bit depth, in case of the SAMPLYR this is 10 bits effectively.
 
@@ -126,7 +126,7 @@ Samplerates of 16000, 22050 or 32000 are recommended (and are usually stored for
 
 Especially when using samples with low volumes / higher dynamic-ranges the usage of U-Law (or A-Law) is recommended, U-Law typically also was used with vintage samplers from the early 80th. U-Law has a higher dynamic range (14 bit), but more distortion with low volumes than A-Law (12 bit). Because of the 10bit DAC of SAMPLYR, thus you may find A-Law preferrable. Experimentation may be needed to find the best possible results! Also compression/limiting of the material prior to exporting for a specific format can increase the quality. Of course, you can apply all the processing methods Audacity offers (which is quite a lot!); check the documentation for this. In any case, it's recommended to do all processing on a file with the highest resolution and sample rate, and reduce it to the 8-bit WAV only as the last step.
 
-### Patch Suggestions
+## Patch Suggestions
 
 This video shows some demo sounds and rough overview of the module's features:
 

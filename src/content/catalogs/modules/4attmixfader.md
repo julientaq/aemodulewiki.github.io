@@ -16,11 +16,11 @@ Module power consumption: 2 mA
 
 
 
-### Inputs
+## Inputs
 
 *   **IN 1-4** - signal inputs for each attenuator
 
-### Outputs
+## Outputs
 
 *   **OUT 1-4** - individual outputs for the relevant signal in.
 *   **MIX** - Signals from inputs 1 to 4 combined as set by controls below.
@@ -28,13 +28,13 @@ Module power consumption: 2 mA
 *   **Bus Ctrl** - Midi CC20 CV from Master I/O module
 *   **Bus Gate** - gate signal from the Master I/O MIDI to CV converter
 
-### Controls
+## Controls
 
 *   **LEVEL 1-4** faders - reduce the strength of the incoming signals 1-4
 *   **MIX** switches - adds/ removes the input signals from the mix output
 *   **DC AUDIO** switch - switches the module between DC-coupled (0-5V) and AC-coupled (signal centered around 2.5V, sometimes useful for audio signals) operation
 
-### Patch Suggestions
+## Patch Suggestions
 
 Please see the [4ATTMIX module](https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX) page.
 

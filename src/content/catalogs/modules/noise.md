@@ -13,11 +13,11 @@ The NOISE module generates ... yes ... noise!
 
 There are three types of noise in the module: analog, digital and crackle. See **outputs** below for details.
 
-### Inputs
+## Inputs
 
 *   **CV** - control voltage input for RATE (see below)
 
-### Outputs
+## Outputs
 
 *   **A OUT** (2x) - analog noise: a fluctuating voltage between about 1v and 4V
 *   **D OUT** - digital noise: a random changing 0V / 5V
@@ -26,11 +26,11 @@ There are three types of noise in the module: analog, digital and crackle. See *
 *   **BUS CV** - MIDI pitch signal from the bus
 *   **BUS CTRL** - MIDI control signal from the bus (CH1 - CC20)
 
-### Controls
+## Controls
 
 *   **RATE Knob** - controls the color of the noise, which goes from almost white noise on A output and knob fully clockwise to a rather harsh and digital sound on D output and RATE counter-clockwise.​ It also controls the density of the crackle on CR output.
 
-### Patch Suggestions
+## Patch Suggestions
 
 A popular patch is to connect A OUT to a VCA (IN) controled by an envelope to get percusive sounds.
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>HEARTBEAT</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=85698">
+              href="/css/themes/aemod/main.css?v=13428">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,40 +88,35 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/heartbeat.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/heartbeat.png" alt="" class="module-picture">
+            
+            <figcaption>heartbeat</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>HEARTBEAT</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <ul>
+            <div class="module-content">
+                <header>
+                    <h1>HEARTBEAT</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><ul>
 <li>Power consumption: 14 mA</li>
 <li>Module width: 1U</li>
 </ul>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>CLK</strong> - Used to input an external clock source, (e.g. midi from BUS CLK) if needed.</li>
 <li><strong>Reset</strong> - ?</li>
@@ -122,31 +126,31 @@
 <li><strong>Trig 2</strong> - Assignable input for a trigger pulse.</li>
 </ul>
 <p>The assignable inputs are set by their page in the menu.</p>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>BUS GATE</strong> - this output gives a +5V signal as long as a key on Midi keyboard, attached via the master module, is held down.</li>
 <li><strong>1</strong> (x2) - Envisaged as the main clock out, the clock division is set in the menu.</li>
 <li><strong>2</strong> (x2) - With 2 sockets, 2 is envisaged as the next most used output. The clock division is set in the menu.</li>
 <li><strong>3</strong> to <strong>6</strong> inclusive - Each is a separate clock out that can be individually set to what clock division in the menu.</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>TEMPO</strong> (Encoder) - press and hold to access the menu, and adjust parmeters. Otherwise can be used to alter the tempo of the master clock.</li>
 <li><strong>START/STOP</strong> (button) - controls the master clock.</li>
 <li><strong>TAP</strong> (button) - this can set the desired tempo by repeated quick presses, (taps); useful for matching to non-midi music.</li>
 </ul>
-<h3>Display</h3>
+<h2>Display</h2>
 <ul>
 <li><strong>1</strong> to <strong>6</strong> inclusive - these leds pulse in time of the relevant clock signal being output.</li>
 </ul>
 <p>The main OLED display shows the temp on normal operation, and also displays the menu parameters when the <strong>Tempo</strong> knob is held down.</p>
-<h3>Patch Ideas</h3>
+<h2>Patch Ideas</h2>
 <p>Via the use of the external input, this module could be used to divide the midi clock into something more useful for the AE. There is a specific module for this however, the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/BEATDIVIDER">Midiclock Divider</a>. This frees up the Heartbeat to be the master clock for any attached sequencers etc. You may want to take an output from the Midiclock divider into the Heartbeat as well.</p>
 <p>The use of a master clock that gives up to 6 different outputs means you could have up to 6 different rhythms/patterns in your drum sounds, sequencers etc.</p>
 <p>There is an extender module which gives the use more possibilities:-</p>
 <p><a href="https://wiki.aemodular.com/pmwiki.php/AeManual/HEARTBEATEXTENDER">https://wiki.aemodular.com/pmwiki.php/AeManual/HEARTBEATEXTENDER</a></p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

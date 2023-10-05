@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>TRIQ164</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=61154">
+              href="/css/themes/aemod/main.css?v=15344">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,40 +88,35 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/triq164.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/triq164.png" alt="" class="module-picture">
+            
+            <figcaption>triq164</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>TRIQ164</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>TRIQ164 is designed as improved replacement for the STEP10.</p>
+            <div class="module-content">
+                <header>
+                    <h1>TRIQ164</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>TRIQ164 is designed as improved replacement for the STEP10.</p>
 <p>TRIQ164 is a 4-track trigger sequencer. It can have a maximum of 16 steps and all tracks have to be the same length. All 4 run in sync but a single track is on the front panel at any one time, switched by the Track buttons. A trigger sequence means it cannot generate CVs for, e.g., pitch but does a +5V pulse when a step is selected to be active. Excellent for controlling percussion sounds, e.g. Drumkit 010 module.</p>
 <p>Width: 2U</p>
 <p>Module power consumption: 6 mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>CLK</strong> - accepts trigger to advance one step</li>
 <li><strong>RESET</strong> - go back to step 1</li>
@@ -120,7 +124,7 @@
 <li><strong>MUTE2</strong> - accept gate to mute OUT 2. Mutes signal when input is HIGH.</li>
 <li><strong>REPEAT CV</strong> - control voltage for adding repeated triggers within one step, please see <strong>repeat</strong> knob below.</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>OUT [1-4]</strong> - outputs for each track. The value is given by the current step of the corresponding track.</li>
 <li><strong>[1-16]</strong> - trigger output for each step of the <strong>currently selected track only</strong>. <em>NOTE: Repeats are not available through these outputs</em></li>
@@ -128,21 +132,21 @@
 <li><strong>B. START</strong> - +5V trigger pulse when MIDI START is sent from external equipment, via the Master module.</li>
 <li><strong>B. STOP</strong> - +5V trigger pulse when MIDI STOP is sent from external equipment, via the Master module.</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>TRACK Buttons [1-4]</strong> - select the track to be edited. The LED by each track button represents the output signal of that track, i.e. steady on LED means that track is selected. When that numbered track has a trigger on that step of the sequence, it will flash. Also makes the individual step outputs available</li>
 <li><strong>STEP Buttons [1-16]</strong> - activate/deactivate steps in the <strong>current track only</strong>. The LED by each step button indicates if the step is active (ON) or inactive (OFF) in the <strong>current track only</strong>. <em>NOTICE: The same step my have different values in different tracks</em></li>
 <li><strong>RESET Button</strong> - resets the sequences (jump to step 1)</li>
 <li><strong>REPEAT Knob</strong> - select the number of repeated triggers within one step, (i.e. ratcheting). From no repeats (turned all the way to the left) to 8 repeats (turned all the way to the right). To assign a step to repeat, hold the track button and push the step(s) you want to have in repeat mode. You must turn the knob to the right to get repeats on the assigned step(s), or put a voltage on the repeat CV in. If the knob is at zero position and you have no CV you will not get any repeats.</li>
 </ul>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>For sequences shorter than 16 steps, connect a step output to RESET. For example, if you want a 4-step sequence, connect STEP OUTPUT PIN 5 to RESET.</p>
 <p>You can use a TRIQ164 channel to trigger the clock on the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ16">SEQ16</a> or <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ8">SEQ8</a> modules so you can do different rhythms/ time signatures with them around your master tempo clock going into the TRIQ164.</p>
 <p>As with all AE modules, it can be &quot;abused&quot; - (AE does stand for Abused electronics!), with a high clock rate it can become an audio FX generator or processor. please see the thread on the forum</p>
 <p><a href="https://forum.aemodular.com/thread/1595/triq164-module?page=1&amp;scrollTo=13144">https://forum.aemodular.com/thread/1595/triq164-module?page=1&amp;scrollTo=13144</a></p>
 <p>Here is a video by <a href="https://wiki.aemodular.com/pmwiki.php/User/The5thVolt">The 5th Volt</a> which explains how to use the TRIQ164: <a href="https://youtu.be/HrwxXI29Ack">https://youtu.be/HrwxXI29Ack</a></p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

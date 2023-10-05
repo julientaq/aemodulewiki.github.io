@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
-        <title>BEAT DIVIDER/ (Midiclock Divider)</title>
+        <title>Beat Divider/ Midiclock Divider</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=27576">
+              href="/css/themes/aemod/main.css?v=89519">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,40 +88,35 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/beatdivider.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/beatdivider.png" alt="" class="module-picture">
+            
+            <figcaption>beat divider/ midiclock divider</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>BEAT DIVIDER/ (Midiclock Divider)</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>This module is designed to break the 24 pulses per quarter note from Midi into more musically useful intervals for the modular synthesist. The Midi usually comes via the master module on the <strong>Bus CLK</strong> output on the module.</p>
+            <div class="module-content">
+                <header>
+                    <h1>Beat Divider/ Midiclock Divider</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>This module is designed to break the 24 pulses per quarter note from Midi into more musically useful intervals for the modular synthesist. The Midi usually comes via the master module on the <strong>Bus CLK</strong> output on the module.</p>
 <p>It can be used to divide other clocks, e.g. an LFO or even a VCO.</p>
 <p>If you need more complex division, there is the Multi Mode Divider module:-</p>
 <p><a href="https://wiki.aemodular.com/pmwiki.php/AeManual/MM-DIV">https://wiki.aemodular.com/pmwiki.php/AeManual/MM-DIV</a></p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>Clock</strong> - the signal to be divided by this module.</li>
 <li><strong>Reset</strong> - If things are not in sync, try triggering this input, e.g. with Midi Start signal from below.</li>
@@ -122,23 +126,23 @@
 <li><strong>Bus CLK</strong> - Midi clock via the Master module</li>
 <li><strong>Bus Start</strong> - +5V trigger pulse when midi start is pressed on external equipment, via the Master module.</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>Out A</strong> (2) - main output of the module, set by controls below.</li>
 <li><strong>Out B</strong> (2) - secondary output, set as dotted or triplet pattern of output A, i.e. a longer pulse per beat (dotted), or every other pulse being on the middle of the gap between the A pulses, (triplet) via switch below.</li>
 <li><strong>Thru</strong> - Labelled <strong>Mult</strong> on older modules. A Passive mixer/splitter completely separate to the module circuits.</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>Dotted/Triplet</strong> Switch - sets style of output B, as per above.</li>
 <li><strong>Div</strong> knob - marked from 1/2 to 1/32, this set how many triggers you get per bar, 1/2 being the slowest and 1/32 the fastest and it varies in between so can be quite hard to sync to external sequences/drum patterns etc. until you get your ear tuned in. Use of the reset input helps with this.</li>
 </ul>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>The most obvious use for this module is to sync the AE modular's sequencer modules, (e.g. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ16">SEQ16</a>), but it can also be used to created general triggers or modulation in tempo with the midi clock.</p>
 <p>Using an LFO as a clock it gives use several different triggers which can be really good for self playing modular improvisations.</p>
 <p>If you use the A output as your <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/KICK">Kick drum</a> trigger, the B output can be really good for Snare or hi-hat type sounds.</p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

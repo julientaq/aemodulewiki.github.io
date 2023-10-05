@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>2LFO</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=26813">
+              href="/css/themes/aemod/main.css?v=18386">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,46 +88,41 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/2lfo.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/2lfo.png" alt="" class="module-picture">
+            
+            <figcaption>2lfo</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>2LFO</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>The 2LFO module has two LFO units with different features and generates modulation voltages mostly below the audio range.</p>
+            <div class="module-content">
+                <header>
+                    <h1>2LFO</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>The 2LFO module has two LFO units with different features and generates modulation voltages mostly below the audio range.</p>
 <p>The waveform of the first LFO can be continuously morphed from rising saw to triangle to falling saw by turning a knob.</p>
 <p>The pulse output of the second LFO can be shaped with the pulsewidth knob for different pulse lengths.</p>
 <p>Module power consumption: 5 mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>SYNC 1</strong> - resets the LFO 1 waveform when a trigger pulse is received</li>
 <li><strong>SYNC 2</strong> - resets the LFO 2 waveform when a trigger pulse is received</li>
 <li><strong>PWM 2</strong> - control voltage input for pulse width modulation of PULSE wave output of LFO 2</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>SQUARE 1</strong> - low frequency square wave with fixed width (half cycle)</li>
 <li><strong>TRIANGLE / SAWTOOTH 1</strong> - low frequency triangle or sawtooth wave</li>
@@ -127,7 +131,7 @@
 <li><strong>BUS CV</strong> - control voltage signal from MIDI</li>
 <li><strong>BUS CTRL</strong> - CTRL signal from MIDI (CH1 - CC20)</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>RATE 1 knob</strong> - frequency control for LFO 1</li>
 <li><strong>SHAPE knob</strong> - controls a smooth transition from rising saw to triangle to falling saw waveforms for LFO 1</li>
@@ -139,14 +143,14 @@
 <li><strong>PULSEWIDTH knob</strong> - set the pulse width of the output for LFO 2</li>
 <li><strong>PULSE LED</strong> - visual reference for the PULSE output for LFO 2</li>
 </ul>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>LFO can be used for modulating other oscillators (FM), VCAs (AM), filters, etc. But may also be used as clock or gate.</p>
 <p>Patching two unsynched LFOs through a <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/LOGIC">logic module</a> then to a sequencer creates interesting uneven rhythms. Changing their pulsewidth creates new rhythms.</p>
 <p>Combined LFOs connected to <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/3VCSWITCH">CV switches</a> or a <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/TRIP">multiplexer</a> results in a simple and versatile trigger sequencer.</p>
 <p>When cranked up to audio range (RANGE knob all the way to the right in FAST mode) may be used as audio oscillator.</p>
 <p>This module is very similar to the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/LFO">single LFO module.</a> Please see a video for further info about LFOs on that page.</p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

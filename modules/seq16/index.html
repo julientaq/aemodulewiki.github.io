@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>SEQ16</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=25115">
+              href="/css/themes/aemod/main.css?v=45411">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,46 +88,41 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/seq16.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/seq16.png" alt="" class="module-picture">
+            
+            <figcaption>seq16</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>SEQ16</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>There is a user guide for this module on the Tangible Waves shop SEQ16 page which contains some of the information as found here. This is a complex module; if an explanation here isn't working for you, it is worth giving it a try.</p>
+            <div class="module-content">
+                <header>
+                    <h1>SEQ16</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>There is a user guide for this module on the Tangible Waves shop SEQ16 page which contains some of the information as found here. This is a complex module; if an explanation here isn't working for you, it is worth giving it a try.</p>
 <p>A 16 step sequence suits many styles of music, and is needed for &quot;Berlin School &quot; EM. If you only need 8 steps usually, you can consider the SEQ16's little brother, the SEQ8. There are slight differences too, in general the SEQ16 has more possibilities. There could be reasons to have both in a larger AE system!</p>
 <p>You can download a printable manual for offline reading: <a href="https://wiki.aemodular.com/uploads/AeManual/SEQ16/seq16_manual.pdf">seq16_manual.pdf</a></p>
 <p>Module power consumption: 7 mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>CLK</strong> - Clock, each +5V pulse moves the sequence to the next step.</li>
 <li><strong>RESET</strong> - Puts the sequence being played back to step 1; this means any sequence length up to 16 steps can be generated.</li>
 </ul>
 <p>The other sockets on the &quot;input&quot; side of the module are actually outputs so will be listed below.</p>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <p>On the left side of the module:</p>
 <ul>
 <li><strong>B. GATE</strong> - This is +5V as long as a key is pressed on a midi keyboard connected via the Master module.</li>
@@ -136,7 +140,7 @@
 <li><strong>GATE</strong> (x3) - this generates a +5V signal for each step, unless the step is set to P (pause) or ACC (accent, more below)</li>
 <li><strong>ACCENT</strong> (x2) - this generates a +5V signal for each step where it is set to ACC (accent, more below)</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>Knobs 1-16</strong> - One for each step of the sequence; it can be set to positions 1 to 5 (in Roman numerals), which correspond with the relevant CV knob at the bottom of the module. In these positions a gate signal is also sent to the gate outputs. There is also <strong>P</strong> (pause, no trigger is sent to the gate output although the CV of the previous step will still be provided on the CV out), and <strong>ACC</strong> (accent) which will be covered under that control knob.</li>
 <li><strong>CV 2 to 5</strong> - CV 1 is 0 volts, so the CV will leave the pitch of your VCO (for instance) alone. CVs 2 to 5 are set by the relevant knob on the module.</li>
@@ -145,7 +149,7 @@
 <li><strong>8 16 Steps</strong> switch - you could do this with a patch wire from step 8 individual out to the reset input, but this is a more elegant solution. 8 and 16 steps are the 2 most common sequence lengths for most modern western music as they fit 4/4 time easily.</li>
 <li><strong>CV Range</strong> switch - This controls whether the SEQ16 goes from 0 to 2.5V or 0 to 5 volts at the CV out. This can be useful for controlling pitch when going to VCOs, or if being used a a modulation source.</li>
 </ul>
-<h3>LED Indicators</h3>
+<h2>LED Indicators</h2>
 <ul>
 <li>
 <p><strong>1 - 16</strong> - one for each step of the sequence, lit when that step is &quot;playing&quot;</p>
@@ -163,7 +167,7 @@
 <p><strong>CV ACC</strong> - lit when that CV has been selected by the current step in the sequence.</p>
 </li>
 </ul>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>Unless you have a non-Midi system, you will need either the Beat divider or MM Divider module to step down the very fast MIDI clock to a usable clock; the former is simpler but the latter gives you many more options....</p>
 <p><a href="https://wiki.aemodular.com/pmwiki.php/AeManual/BEATDIVIDER">https://wiki.aemodular.com/pmwiki.php/AeManual/BEATDIVIDER</a></p>
 <p><a href="https://wiki.aemodular.com/pmwiki.php/AeManual/MM-DIV">https://wiki.aemodular.com/pmwiki.php/AeManual/MM-DIV</a></p>
@@ -174,8 +178,8 @@
 <p>If you are using an LFO to clock the SEQ16, it can be really interesting to feed a CV back to the LFO rate, again an attenuator will give you fine control.</p>
 <p>For the more experimental among you, using a <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/LOGIC">LOGIC</a> module, or other trigger manipulation into the reset input can be interesting. Doing the same in to the clock input can be excellent as long as it all stays in time with the rest of the music!</p>
 <p>Here is a tutorial video made by The 5th Volt: <a href="https://youtu.be/xK-1NDD-RyQ">https://youtu.be/xK-1NDD-RyQ</a></p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

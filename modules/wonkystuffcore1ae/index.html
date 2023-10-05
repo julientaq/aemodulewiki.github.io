@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>Core1.ae</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=23574">
+              href="/css/themes/aemod/main.css?v=75747">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,54 +88,49 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/wonkystuffcore1ae.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/wonkystuffcore1ae.png" alt="" class="module-picture">
+            
+            <figcaption>core1.ae</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>Core1.ae</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>This is a programmable sound generator from Wonkystuff. The Core series are small, reprogrammable devices, based around a particularly limited microprocessor (as used by Bastl in their Kastle) having a mere 8kB of code space and 512 bytes of RAM! We find that with these limitations, some interesting algorithms can still be programmed and new and interesting sound generators and modulators can be constructed.</p>
+            <div class="module-content">
+                <header>
+                    <h1>Core1.ae</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>This is a programmable sound generator from Wonkystuff. The Core series are small, reprogrammable devices, based around a particularly limited microprocessor (as used by Bastl in their Kastle) having a mere 8kB of code space and 512 bytes of RAM! We find that with these limitations, some interesting algorithms can still be programmed and new and interesting sound generators and modulators can be constructed.</p>
 <p>It comes with dr1 firmware already loaded to be a complex oscillator. However you can find and download many other firmwares directly from this page:</p>
 <p><a href="https://wonkystuff.net/tag/examplecore/">https://wonkystuff.net/tag/examplecore/</a></p>
 <p>Module power consumption: 25mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>cv-b</strong> - CV control for the <strong>b</strong> parameter</li>
 <li><strong>cv-c</strong> - CV control for the <strong>c</strong> parameter</li>
 <li><strong>cv-d</strong> - CV control for the <strong>d</strong> parameter</li>
 <li><strong>a-in</strong> - Audio input for effects and also to upload new firmware</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>m-a</strong> - PWM produced output which is AC coupled (for audio signals)</li>
 <li><strong>m-c</strong> - PWM produced output which is DC coupled (for control signals)</li>
 <li><strong>s-a</strong> - digital output which is AC coupled (for audio signals)</li>
 <li><strong>s-c</strong> - digital output which is DC coupled (for control signals)</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>a</strong> potentiometer - control for parameter <strong>a</strong></li>
 <li><strong>b</strong> potentiometer - control for parameter <strong>b</strong></li>
@@ -135,7 +139,7 @@
 <li><strong>rst</strong> button - used for uploading new firmwares, see below for instructions.</li>
 <li><strong>led</strong> - this LED can be programmed to flash. It also indicates the upload progress when uploading a new firmware.</li>
 </ul>
-<h3>Controls of the default dr1 firmware</h3>
+<h2>Controls of the default dr1 firmware</h2>
 <p>The core1.ae module comes with the dr1 firmware pre-installed. This is a complex oscillator which is really fun to play with and also gives you a selection of different waveforms.</p>
 <p><strong>Outputs</strong></p>
 <ul>
@@ -151,15 +155,15 @@
 </ul>
 <p><strong>Inputs</strong></p>
 <p>As per the normal operation of the core1.ae the inputs for b, c, d can be used to CV control the parameters which are otherwise controlled by the corresponding knobs. The knob position provides an offset to which the input CV is added.</p>
-<h3>How to program the Core1.ae module</h3>
+<h2>How to program the Core1.ae module</h2>
 <p>This is very old school in that you load new programs in to the module via the audio input. This page describes everything you need to know:</p>
 <p><a href="https://wonkystuff.github.io/arduino/">https://wonkystuff.github.io/arduino/</a></p>
 <p>Some very easy to follow examples are available in this Github repository:</p>
 <p><a href="https://github.com/wonkystuff/coreExamples">https://github.com/wonkystuff/coreExamples</a></p>
 <p>There is a section on the AE Modular forum to discuss programming this module:</p>
 <p><a href="https://forum.aemodular.com/board/25/programming-core1-ae">https://forum.aemodular.com/board/25/programming-core1-ae</a></p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

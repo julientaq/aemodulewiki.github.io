@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>STEP10</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=49827">
+              href="/css/themes/aemod/main.css?v=61966">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,37 +88,32 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/step10.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/step10.png" alt="" class="module-picture">
+            
+            <figcaption>step10</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>STEP10</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>This is a discontinued module and is no longer in production. It was replaced with the TRIQ164 Trigger Sequencer module.</p>
-<h3>Inputs</h3>
+            <div class="module-content">
+                <header>
+                    <h1>STEP10</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>This is a discontinued module and is no longer in production. It was replaced with the TRIQ164 Trigger Sequencer module.</p>
+<h2>Inputs</h2>
 <ul>
 <li><strong>Clock</strong> - trigger in to move the Step 10 to the next step. This can be from the Midi Clock, an LFO or any other +5V pulse (e.g. external sequencer)</li>
 <li><strong>Reset</strong> - This puts the step count back to the first one regardless of previous position. Use for sequences other than 8 or 10 steps.</li>
@@ -118,13 +122,13 @@
 <li><strong>B STRT</strong> - +5V pulse when Midi start is pressed (external device via Master module).*</li>
 <li><strong>B STP</strong> - +5V pulse when Midi Stop is pressed (external device via Master module)</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>Trig</strong> (2) - +5V pulse with each switch that is on below.</li>
 <li><strong>T. INV</strong> - +5V pulse with each switch that is off below.</li>
 <li><strong>Thru</strong> (4) - Marked <strong>Mult</strong> on the original modules, passive signal splitter/mixer</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>(10) 8</strong> Switch - 8 or 10 steps in the sequence.</li>
 <li><strong>1-4</strong> Switches - Steps 1 to 4 of sequence, trigger or rest depending on position and which output used.</li>
@@ -136,10 +140,10 @@
 <li><strong>10</strong> - Step 10 of a 10 step sequence</li>
 </ul>
 <p>This seems untidy on paper, but works well as bottom 2 switches are ignored in an 8 step sequence, rather than last 2 switches in right hand column if numbering was the same.</p>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>As a 10 step sequence it is useful to provide variation to the usual 8 or 16 step sequences, whether triggering percussion, providing volume or filter modulation (direct or by triggering an envelope module), or even another sound/pitch. Its set output can be varied via attenuation in the 4ATT/Mix, 2ATT/CV modules etc.</p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

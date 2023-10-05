@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>CVSHIFTER</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=24423">
+              href="/css/themes/aemod/main.css?v=35997">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,50 +88,45 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/cvshifter.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/cvshifter.png" alt="" class="module-picture">
+            
+            <figcaption>cvshifter</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>CVSHIFTER</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>The CVSHIFTER module controls 4 outputs from one CV input; what the outputs do depend on the mode the user chooses.</p>
+            <div class="module-content">
+                <header>
+                    <h1>CVSHIFTER</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>The CVSHIFTER module controls 4 outputs from one CV input; what the outputs do depend on the mode the user chooses.</p>
 <ul>
 <li><strong>Classic</strong> - Each trigger in shifts the CV out by one position, the new CV goes to output CV 1. The CV that was at output 1 goes to output 2 and so on. This means you need to have 4 triggers before there is a CV at output 4. This mode will not produce triggers at the TRIG 1-4 outputs. This mode means you can generate chords within your AE modular.</li>
 <li><strong>Cycle</strong> - Each trigger sends the CV to the next output channel with a gate signal at the relevant output, after output 4 it cycles back to output 1. This can be excellent for percussion tracks.</li>
 <li><strong>Random</strong> - The CVs are sent in random order to one of the four outputs, with a gate at the relevant output.</li>
 </ul>
 <p>Power Consumption: 12 mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>CV</strong> - the input CV which is sampled with each trigger pulse</li>
 <li><strong>TRIG</strong> - the trigger input which samples the input CV and sends the output to one of the outputs</li>
 <li><strong>TRIG SLOW</strong> - ?</li>
 <li><strong>RESET</strong> - reset the sequence</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>CV1</strong> - The first output of the sequence</li>
 <li><strong>CV2</strong> - The second output of the sequence</li>
@@ -133,19 +137,19 @@
 <li><strong>TRIG3</strong> - When in CYCLE mode this sends a trigger on the third step of the sequence, in RANDOM mode, when output 3 is selected.</li>
 <li><strong>TRIG4</strong> - When in CYCLE mode this sends a trigger on the fourth step of the sequence, in RANDOM mode, when output 4 is selected.</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>MODE</strong> - cycles through the 3 modes explained above.</li>
 <li><strong>RESET</strong> - performs a manual reset of the sequence, so the next CV will be on output 1 only.</li>
 <li><strong>MAN TRIG</strong> - manual trigger for a CV sample/next step in the sequence.</li>
 </ul>
-<h3>Display</h3>
+<h2>Display</h2>
 <p>The 4 leds light when the relevent output has a CV present.</p>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>Compared to the &quot;classic&quot; circuits, this module is digital based and therefore doesn't suffer from drift as some analogue ASRs and S&amp;Hs do. The result is, that you can control the pitch of up to four oscillators which can be a move into polyphony. The first step is to do a paraphonic synth, which means the four oscillators go through one filter and VCA. If you have a keyboard connected to your AE, the Key CV (BUS CV if using a midi keyboard) and trigger (BUS GATE if using midi) need to go to the CVShifter inputs; experiment from there!</p>
 <p>This module can be excellent for producing CVs that are used to modulate a sequence; you can run the triggers so that they are triggered every step of the sequence (e.g. using the out on the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/SEQ8">SEQ8</a>), a specific step using the numbered outs or, where it can get really interesting, is using one of the 4 sequences in the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/TRIQ164">TRIQ164</a> or <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/KyaaEuclid">Euclid Grid</a>....</p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

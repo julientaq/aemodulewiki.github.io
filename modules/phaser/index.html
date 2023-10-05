@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>PHASER</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=29936">
+              href="/css/themes/aemod/main.css?v=95318">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,50 +88,45 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/phaser.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/phaser.png" alt="" class="module-picture">
+            
+            <figcaption>phaser</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>PHASER</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>The PHASER module runs the signal through a chain of all pass filters, which brings a very distinctive sound when the filter stages are modulated. Well known is this sound by many pieces of electronic music in the 70's and 80's; especially with the SOLINA as audio source you get this unique spacey sound known from these days. With a switch you can select 4 or 8 stages; more stages make the modulation more deep and intense.</p>
+            <div class="module-content">
+                <header>
+                    <h1>PHASER</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>The PHASER module runs the signal through a chain of all pass filters, which brings a very distinctive sound when the filter stages are modulated. Well known is this sound by many pieces of electronic music in the 70's and 80's; especially with the SOLINA as audio source you get this unique spacey sound known from these days. With a switch you can select 4 or 8 stages; more stages make the modulation more deep and intense.</p>
 <p>Module power consumption: 4 mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>IN</strong> - incoming audio signal</li>
 <li><strong>CV1</strong> - external modulation CV source input</li>
 <li><strong>CV2</strong> - additional external modulation CV source input</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>Out</strong> - output of the phaser sound with dry/wet mix</li>
 <li><strong>WET</strong> - only the wet output</li>
 <li><strong>STAGE 1-7</strong> - outputs of the individual phaser stages</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>LFO RATE</strong> - speed of the internal triangle LFO</li>
 <li><strong>LFO DEPTH</strong> - amount of internal LFO phase shif modulation</li>
@@ -133,17 +137,17 @@
 <li><strong>NEG/POS</strong> Switch - positive or negative feedback mode produce different sounds</li>
 <li><strong>8/4 STAGES</strong> Switch - choose wether 4 or 8 phaser stages are used. 4 are more subtle, 8 produce a stronger effect.</li>
 </ul>
-<h3>Demo</h3>
+<h2>Demo</h2>
 <p>Thanks to Felix from The Tuesday Night Machines for this excellent demo video:</p>
 <div id="x18TLKruUM0" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/x18TLKruUM0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>If you want to voltage control the dry/wet mix; set the mix to dry and use the main out and the wet out to two separate channels of a VC mixer - e.g. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/4VCA">4VCA</a> or <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE">Mixconsole</a>. The main out need not be completely &quot;dry&quot; just set a minimum level with the dry/wet knob, then the CV adds more wet signal.</p>
 <p>The Phaser works superbly with the Solina module, but any sounds can be put through it, percussion can be really interesting, as shown to some degree in Felix's video above.</p>
 <p>The separate stage outputs can be used to give you separately triggerable sounds via VCAs, again can be really good for percussion. Feeding these outs into different inputs of a mixer, (e.g. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/DRONX">Dronx</a>, <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX">4ATTMix</a>) give you more control over the sound, excellent for live use/jams.</p>
 <p>The internal LFO is perfect for livening up the sound but CV1 with its accompanying knob to set the level is great for adding other modulation, an envelope is highly recommended, especially on string type sounds, lovely. Can be filter sweep like with varying degrees of subtlety. CV2 can be used as you can set the FX level via the envelope settings.</p>
 <p>CV2 has no level control but, of course, this can be done outside this module by the CV going through an attenuator before the input - this could be a VCA with a knob or CV controlling the level. If you just want a knob to control the level the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2ATTCV">2ATTCV</a> module can do this perfectly.</p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>SAWVOX</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=47584">
+              href="/css/themes/aemod/main.css?v=91189">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,39 +88,34 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/sawvox.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/sawvox.png" alt="" class="module-picture">
+            
+            <figcaption>sawvox</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>SAWVOX</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>The SAWVOX module is a “complete” synth voice with two sawtooth oscillators, a filter and a VCA, all realized digitally with a tiny 8-bit microcontroller. The oscillators are detuned by a fixed rate to get a fatter sound, and can be switched to a single oscillator. Of course, due to the limited resources of the processor, the sound has the typical 8-bit lofi char, but the CV tracking is quite fine, and it can find its place in a lot of patches. All parameters can be CV controlled, eg. filter frequency and resonance.</p>
+            <div class="module-content">
+                <header>
+                    <h1>SAWVOX</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>The SAWVOX module is a “complete” synth voice with two sawtooth oscillators, a filter and a VCA, all realized digitally with a tiny 8-bit microcontroller. The oscillators are detuned by a fixed rate to get a fatter sound, and can be switched to a single oscillator. Of course, due to the limited resources of the processor, the sound has the typical 8-bit lofi char, but the CV tracking is quite fine, and it can find its place in a lot of patches. All parameters can be CV controlled, eg. filter frequency and resonance.</p>
 <p>The module is based on a simple 8-bit microcontroller and an adapted design of Jan Ostman.</p>
 <p>Module power consumption: 30 mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>CV1</strong> - CV frequency control</li>
 <li><strong>CV2</strong> - additional frequency control which is added to CV1</li>
@@ -119,14 +123,14 @@
 <li><strong>RES CV</strong> - filter resonance control</li>
 <li><strong>AMP CV</strong> - VCA amplitude control</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>OUT</strong> - audio output signal</li>
 <li><strong>MULT</strong> - multiple disconnected from module circuitry</li>
 <li><strong>B.CV</strong> - CV signal from MIDI bus</li>
 <li><strong>B.CTRL</strong> - MIDI CTRL signal from the bus</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>PITCH</strong> (pot) - select the base frequency of the oscillator</li>
 <li><strong>FILTER</strong> (pot) - select the cutoff frequency of the built-in filter</li>
@@ -134,13 +138,13 @@
 <li><strong>OSCILLATORS</strong> (switch) - select 1 or 2 oscillators. If 2 is selected the second oscillator is detuned to the first one at a fixed rate.</li>
 <li><strong>+2 OCT</strong> (switch) - if set to the top position the frequency is shifted up 2 octaves</li>
 </ul>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>Though technically a &quot;complete&quot; voice it obviously can be processed further within the AE system. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/PHASER">PHASER</a> and <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/DELAY">Lofi Delay</a> are particularly recommended....</p>
 <p>If you haven't got the fine control you desire for a particular patch then, as an example, if you leave the Sawvox filter fully open you can patch the output to another AE filter to have more parameters/adjustments available.</p>
 <p>Here is a video by The 5th Volt which features this module.</p>
 <div id="J5syne2sP6I" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/J5syne2sP6I" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

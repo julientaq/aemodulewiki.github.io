@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>JOYSTICK</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=83596">
+              href="/css/themes/aemod/main.css?v=56143">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,37 +88,32 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/joystick.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/joystick.png" alt="" class="module-picture">
+            
+            <figcaption>joystick</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>JOYSTICK</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>The JOYSTICK module can mix up to 4 CVs, these are provided at its inputs. It can also generate its own CVs so can easily provide basic mod wheel type control of pitch (vibrato) through to complex, live mixing of audio (with other modules).</p>
-<h3>Inputs</h3>
+            <div class="module-content">
+                <header>
+                    <h1>JOYSTICK</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>The JOYSTICK module can mix up to 4 CVs, these are provided at its inputs. It can also generate its own CVs so can easily provide basic mod wheel type control of pitch (vibrato) through to complex, live mixing of audio (with other modules).</p>
+<h2>Inputs</h2>
 <ul>
 <li><strong>CV1</strong> - input for Q1 of the joystick.</li>
 <li><strong>CV2</strong> - input for Q2 of the joystick.</li>
@@ -117,7 +121,7 @@
 <li><strong>CV4</strong> - input for Q4 of the joystick.</li>
 <li><strong>MULT</strong> - a passive mixer/splitter. This is very useful on this module if you are wanting the same signal in more than one input; put the signal in here, then then (short) leads to the inputs you want to feed.</li>
 </ul>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>Q1</strong> - Either the output from input 1, or CV voltage, controlled by how close the joystick is to Q1 on the front panel.</li>
 <li><strong>Q2</strong> - Either the output from input 2, or CV voltage, controlled by how close the joystick is to Q2 on the front panel.</li>
@@ -128,20 +132,20 @@
 <li><strong>CV MIX</strong> - the 4 inputs combined into one CV signal, controllable with the joystick.</li>
 <li><strong>Gate</strong> - A gate signal is proved when the joystick is pushed</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
 <li><strong>Overlap</strong> switch - If overlap is selected, the relevant CV is controlled over the whole movement of the joystick from its side (quadrant) to the other. If overlap is off, then zero/no volume is when the joystick is in the centre position.</li>
 <li><strong>Input Mix/CV Source</strong> switch - Input mix means the joystick controls whatever is being fed into the 4 inputs. CV source means the joystick produces voltages dependent on its position, each one of the 4 outputs being different most of the time!</li>
 <li>The <strong>Joystick</strong> itself!</li>
 </ul>
 <p>It is important to remember it remains in each position - there is no automatic &quot;return to centre&quot;. Also it can generate a gate signal (own output) by being pressed.</p>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>For audio mixing with the joystick, select CV source, then patch the 4 outputs to separate VCAs (e.g. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/4VCA">4VCA</a>), you have 4 individual controllable signals which you can mix together with any of the mixer modules (e.g. <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/4ATTMIX">4ATTMIX</a>). The <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/MIXCONSOLE">MIXCONSOLE</a> module can have the signal straight from the Joystick module to control channel levels.</p>
 <p>The joystick can be just like a normal mod or pitch wheel; by taking the Y output to what you want to control by the up/down movement. If this goes to the CV in of a VCA, then the signal level of what is input to the VCA will be controlled - e.g. input a LFO with the output going to a VCO the joystick will control vibrato.</p>
 <p>You can do this with the side to side movement (x axis) as well, controlling 2 parameters at once - this could be filter cutoff, an oscillator level, LFO speed etc etc etc...</p>
 <p>The trigger can be used for a modulation envelope (e.g. pressing the button triggers a slow ENV which varies the filter cutoff), can be good for the <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/ALGODRONE">Algodrone</a> module and for manual triggering of percussion sounds.</p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

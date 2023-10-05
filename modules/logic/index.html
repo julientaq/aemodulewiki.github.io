@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>Logic</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=61375">
+              href="/css/themes/aemod/main.css?v=93885">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,36 +88,31 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/logic.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/logic.png" alt="" class="module-picture">
+            
+            <figcaption>logic</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>Logic</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>The LOGIC module contains two separate logic operators and two signal inverters.</p>
+            <div class="module-content">
+                <header>
+                    <h1>Logic</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>The LOGIC module contains two separate logic operators and two signal inverters.</p>
 <p>Each operator combines two inputs by different logical rules (AND, NAND, XOR). This can be used</p>
 <ul>
 <li>either for operations on trigger / gate signals (let gate signals pass depending on other signals, invert them depending on the other input etc.)</li>
@@ -125,7 +129,7 @@
 </ul>
 <h2>Outputs</h2>
 <p>The outputs are grouped in two identical groups marked with number 1 and 2 for each individual LOGIC operator. We only describe the outputs of one group as they work exactly the same for the other group.</p>
-<h3><strong>NAND</strong> - (Not AND) outputs a LOW signal when <strong>both</strong> input signals are HIGH. Otherwise outputs HIGH. This is the truth table:</h3>
+<h2><strong>NAND</strong> - (Not AND) outputs a LOW signal when <strong>both</strong> input signals are HIGH. Otherwise outputs HIGH. This is the truth table:</h2>
 <table>
 <thead>
 <tr>
@@ -229,12 +233,12 @@
 <li><strong>INV3</strong> - Inverts the signal of IN3 input. If IN3 is HIGH, it outputs LOW. If IN3 is LOW, it outputs HIGH.</li>
 <li><strong>INV4</strong> - Inverts the signal of IN4 input. If IN4 is HIGH, it outputs LOW. If IN4 is LOW, it outputs HIGH.</li>
 </ul>
-<h3>Display</h3>
+<h2>Display</h2>
 <ul>
 <li><strong>AND 1</strong> - Visual reference for the first logic gate AND output. When AND output is HIGH, the LED turns on. When the AND output is LOW, the LED turns of.</li>
 <li><strong>AND 2</strong> - Visual reference for the second logic gate AND output. When AND output is HIGH, the LED turns on. When the AND output is LOW, the LED turns of.</li>
 </ul>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <ul>
 <li>The very basic patch is to connect one Pulse <a href="https://wiki.aemodular.com/pmwiki.php/AeManual/2LFO">LFO</a> into 1A and another one into 1B. Then connect any of the outputs of group 1 to the a VCA's CV input.</li>
 <li>Patching an LFO to input 1A and an audio signal to 1B (or vice versa), converts the logic gate into a signal gate (through AND or NAND outputs), letting the audio signal through when the LFO is HIGH and cutting it when LOW.</li>
@@ -279,8 +283,8 @@
 </table>
 <p>Combine a number of these modules and you get a crazy GATE / TRIGGER sequencer.</p>
 <p>You also may find this link useful. <a href="https://doudoroff.com/logic/">https://doudoroff.com/logic/</a></p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 

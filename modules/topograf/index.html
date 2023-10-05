@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class=""
+      lang="en">
     <head>
         <title>TOPOGRAF</title>
         <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
         
         <link rel="stylesheet"
-              href="/css/themes/aemod/main.css?v=52855">
+              href="/css/themes/aemod/main.css?v=73951">
     
 
 
@@ -51,6 +52,14 @@
                 </li>
             
                 <li>
+                    <a href="/modules-alt/">
+                        
+                            Modules alternative
+                        
+                    </a>
+                </li>
+            
+                <li>
                     <a href="/modules/">
                         
                             Modules
@@ -79,39 +88,34 @@
         
         
     <main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            <img src="/images/topograf.png" alt="" class="module-picture">
-        
+        <figure>
+            
+                <img src="/images/topograf.png" alt="" class="module-picture">
+            
+            <figcaption>topograf</figcaption>
+        </figure>
         <section class="backlink">
             Back to <a href="/modules/">modules</a>
         </section>
         <article>
-            <header>
-                <ul class="tags-list">
-                    
-                </ul>
-                <h1>TOPOGRAF</h1>
-                <p class="subtitle"></p>
-            </header>
-            <section class="catalog-content">
-                <p>TOPOGRAF is a drum sequencer with three tracks, that works with a &quot;topographic&quot; principle; it contains a number of drum patterns arranged in a &quot;virtual map&quot;; and with two knobs MAP X and MAP Y you can set a position in this map. With one knob per channel the density is defined; and a CHAOS knob brings some randomness into the whole process. All in all a few knobs for a lot of drum patterns you probably wouldn't make this way by yourself - a nice source of inspiration and alo great for playing live.</p>
+            <div class="module-content">
+                <header>
+                    <h1>TOPOGRAF</h1>
+                    <p class="subtitle"></p>
+                </header>
+                <div class="metadata">
+                    <p class="url">
+                        <a href="">Website</a>
+                    </p>
+                    <div class="shops">
+                        
+                    </div>
+                </div>
+                
+                <div class="entry-content-text"><p>TOPOGRAF is a drum sequencer with three tracks, that works with a &quot;topographic&quot; principle; it contains a number of drum patterns arranged in a &quot;virtual map&quot;; and with two knobs MAP X and MAP Y you can set a position in this map. With one knob per channel the density is defined; and a CHAOS knob brings some randomness into the whole process. All in all a few knobs for a lot of drum patterns you probably wouldn't make this way by yourself - a nice source of inspiration and alo great for playing live.</p>
 <p>TOPOGRAF is the AE modular version of the Grids module by Mutable Instruments. It is 100% identical to Grids. The user manual for that module can be found here. <a href="https://mutable-instruments.net/modules/grids/manual/">https://mutable-instruments.net/modules/grids/manual/</a></p>
 <p>Module power consumption: 20 mA</p>
-<h3>Inputs</h3>
+<h2>Inputs</h2>
 <ul>
 <li><strong>CLK</strong> - this is a trigger input, you will need a divider module to control via midi clock and the Master module, see also advanced settings/modes below.</li>
 <li><strong>Reset</strong> - Sets back to step 1 of the trigger sequence being played, and keeps sync with other triggered items if needed.</li>
@@ -123,7 +127,7 @@
 <li><strong>CH3 CV</strong> - This is combined with the Knob 3 position for the amount Output 3 will be triggered in the pattern.</li>
 </ul>
 <p>To understand these inputs more clearly the Grids manual is recommended.</p>
-<h3>Outputs</h3>
+<h2>Outputs</h2>
 <ul>
 <li><strong>TR 1</strong> - Track 1's output, the pattern is dependent on the X,Y setting, and the amount of triggers in the pattern are set by the CH1 CV and Knob 1.</li>
 <li><strong>TR 2</strong> -Track 1's output, the pattern is dependent on the X,Y setting, and the amount of triggers in the pattern are set by the CH2 CV and Knob 2.</li>
@@ -132,7 +136,7 @@
 <li><strong>ACC2</strong> - Extra trigger(s) on track 2 dependent on the pattern being used, (X,Y setting).</li>
 <li><strong>ACC3</strong> - Extra trigger(s) on track 3 dependent on the pattern being used, (X,Y setting).</li>
 </ul>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <p>Detailed explanations of the various controls are given in this video.</p>
 <div id="BpRVdteMbfc" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/BpRVdteMbfc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <ul>
@@ -142,9 +146,9 @@
 <li><strong>CHAOS</strong> - adds randomness to the pattern. Turn right for more randomness.</li>
 <li><strong>FILL 1 - 3</strong> these control the fill of triggers for each track. Turned completely anti-clockwise will mute that track.</li>
 </ul>
-<h3>Advanced Settings and Modes</h3>
+<h2>Advanced Settings and Modes</h2>
 <p>The Topograf has the exact same program as MI Grids and the manual for Grids (see above) can be used. However here is a detailed explanation of the different advanced settings and modes.</p>
-<h4>Changing the clock resolution</h4>
+<h3>Changing the clock resolution</h3>
 <p>You can change the clock resolution on the Topograf like this:</p>
 <ul>
 <li>unplug all CV and hold the TAP (RESET) button for a second to put the Topograph into advanced settings mode</li>
@@ -157,7 +161,7 @@
 </ul>
 <p>You can experiment with 4 or 8 ppqn, but 24 ppqn is usually only useful if you want to clock the TOPOGRAPH directly from the MIDI bus.</p>
 <p>The following video explains the advanced configuration options. <a href="https://youtu.be/GLRYptx4Zmg">https://youtu.be/GLRYptx4Zmg</a></p>
-<h3>Patch Suggestions</h3>
+<h2>Patch Suggestions</h2>
 <p>Gaetan from the forum <a href="http://forum.aemodular.com/post/3554/thread">suggests</a>:</p>
 <p><strong>Example for a bass line</strong></p>
 <ul>
@@ -179,8 +183,8 @@
 <li>Use the output of the S&amp;H as you voice's pitch</li>
 </ul>
 <p>You'll have a stable melody that will skip steps according to the state of the Topograf</p>
-
-            </section>
+</div>
+            </div>
         </article>
     </main>
 
